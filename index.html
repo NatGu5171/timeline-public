@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frise chronologique — École de guerre</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #16181c;
+      --surface: #1f2228;
+      --border: #2e3138;
+      --text: #e4e6ea;
+      --text-muted: #6b7280;
+      --accent: #0f1923;
+      --accent-light: #1a2b3c;
+      --filter-w: 260px;
+      --detail-w: 400px;
+      --header-h: 54px;
+      --radius: 5px;
+      --band-usa:    #3b82f6;
+      --band-urss:   #ef4444;
+      --band-france: #f59e0b;
+    }
+
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+
+    /* ── Header ─────────────────────────────────────── */
+    header {
+      height: var(--header-h);
+      background: var(--accent);
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 0 1.25rem;
+      gap: 1rem;
+      flex-shrink: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.25);
+      z-index: 200;
+    }
+
+    header h1 {
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0.02em;
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    header h1 span {
+      opacity: 0.55;
+      font-size: 0.82rem;
+      font-style: italic;
+    }
+
+    #eventCount {
+      font-size: 0.78rem;
+      opacity: 0.6;
+      white-space: nowrap;
+    }
+
+    #saveStatus {
+      font-size: 0.75rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity 0.3s;
+      padding: 0.22rem 0.6rem;
+      border-radius: var(--radius);
+    }
+
+    #saveStatus.visible { opacity: 1; }
+    #saveStatus.saving  { background: rgba(255,255,255,0.12); color: rgba(255,255,255,0.75); }
+    #saveStatus.saved   { background: rgba(39,174,96,0.35);   color: #a8f0c0; }
+    #saveStatus.error   { background: rgba(192,57,43,0.4);    color: #ffc9c3; }
+
+    .header-btn {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: white;
+      padding: 0.35rem 0.85rem;
+      cursor: pointer;
+      border-radius: var(--radius);
+      font-size: 0.8rem;
+      font-family: inherit;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .header-btn:hover { background: rgba(255,255,255,0.22); }
+
+    /* ── App layout ──────────────────────────────────── */
+    .app {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── Filters sidebar ─────────────────────────────── */
+    .filters {
+      width: var(--filter-w);
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      overflow-y: auto;
+      flex-shrink: 0;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .filter-block h3 {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--border);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .filter-group {
+      border: 1px solid color-mix(in srgb, var(--group-color) 45%, var(--border));
+      border-left: 3px solid var(--group-color);
+      border-radius: var(--radius);
+      padding: 0.75rem 0.65rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      background: color-mix(in srgb, var(--group-color) 5%, transparent);
+    }
+
+    .filter-group-title {
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--group-color);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-weight: bold;
+      margin-bottom: -0.2rem;
+    }
+
+    /* Search */
+    #searchInput {
+      width: 100%;
+      padding: 0.45rem 0.65rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.88rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      transition: border-color 0.2s;
+    }
+
+    #searchInput:focus {
+      outline: none;
+      border-color: #4a90a4;
+      background: var(--surface);
+    }
+
+    /* Type toggle */
+    .type-row {
+      display: flex;
+      gap: 0.4rem;
+    }
+
+    .type-btn {
+      flex: 1;
+      padding: 0.35rem 0.5rem;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      cursor: pointer;
+      border-radius: var(--radius);
+      font-size: 0.78rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text-muted);
+      transition: all 0.18s;
+      text-align: center;
+    }
+
+    .type-btn.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    /* Year range */
+    .year-display {
+      font-size: 0.82rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: #4a90a4;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.03em;
+    }
+
+    .range-row {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .range-row label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      width: 28px;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      flex-shrink: 0;
+    }
+
+    input[type="range"] {
+      flex: 1;
+      -webkit-appearance: none;
+      height: 4px;
+      border-radius: 2px;
+      outline: none;
+      cursor: pointer;
+      background: var(--border);
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: var(--accent);
+      border: 2px solid white;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+      cursor: pointer;
+    }
+
+    /* Themes list */
+    .filter-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      max-height: 180px;
+      overflow-y: auto;
+      padding-right: 2px;
+    }
+
+    .filter-list.compact {
+      max-height: 130px;
+    }
+
+    .theme-item {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.8rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      cursor: pointer;
+      padding: 0.1rem 0;
+    }
+
+    .theme-item input[type="checkbox"] {
+      cursor: pointer;
+      accent-color: var(--accent);
+      width: 13px;
+      height: 13px;
+      flex-shrink: 0;
+    }
+
+    .theme-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .theme-label {
+      color: var(--text);
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .theme-count {
+      color: var(--text-muted);
+      font-size: 0.7rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      flex-shrink: 0;
+    }
+
+    /* Filter block header */
+    .filter-block-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .filter-block-header h3 {
+      margin: 0;
+    }
+
+    .filter-mini-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 0.72rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text-muted);
+      padding: 0;
+      transition: color 0.18s;
+    }
+
+    .filter-mini-btn:hover {
+      color: var(--accent);
+    }
+
+    .mandate-country-list {
+      margin-top: 0.55rem;
+      display: grid;
+      gap: 0.35rem;
+    }
+
+    .mandate-country-item {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.72rem;
+      cursor: pointer;
+      color: var(--text);
+    }
+
+    .mandate-country-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      flex: 0 0 7px;
+    }
+
+    /* Reset button */
+    #resetBtn {
+      width: 100%;
+      padding: 0.45rem;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text-muted);
+      transition: all 0.18s;
+    }
+
+    #resetBtn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* ── 3-column layout ─────────────────────────────── */
+    .tl-row {
+      display: grid;
+      grid-template-columns: 180px 1fr 280px;
+      gap: 0 1rem;
+      align-items: stretch;
+      padding: 0.3rem 0 0.5rem;
+      position: relative;
+      z-index: auto;
+    }
+
+    .tl-row.no-mandats {
+      grid-template-columns: 1fr 280px;
+    }
+
+    .tl-col-left {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      padding-right: 0.5rem;
+      border-right: 1px solid var(--border);
+    }
+
+    .tl-col-center,
+    .tl-col-right {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .tl-col-right {
+      border-left: 1px solid var(--border);
+      padding-left: 0.5rem;
+    }
+
+    .tl-col-empty { min-height: 36px; }
+
+    /* Mandate band lane */
+    .tl-band-lane {
+      flex: 1;
+      min-height: 28px;
+    }
+
+    .tl-band {
+      height: 100%;
+      min-height: 28px;
+      background: color-mix(in srgb, var(--band-color) 15%, transparent);
+      border-left: 3px solid var(--band-color);
+      padding: 0.2rem 0.4rem;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      overflow: hidden;
+      transition: background 0.15s;
+      box-sizing: border-box;
+      position: relative;
+      z-index: 3;
+    }
+
+    .tl-band.mandate-card {
+      min-height: 54px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--band-color);
+      border-radius: var(--radius);
+      padding: 0.45rem 0.55rem;
+      justify-content: center;
+      gap: 0.18rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    }
+
+    .tl-band.mandate-card:hover {
+      border-color: var(--band-color);
+      background: color-mix(in srgb, var(--band-color) 12%, var(--surface));
+    }
+
+    .tl-band.mandate-card.active {
+      border-color: var(--band-color);
+      background: color-mix(in srgb, var(--band-color) 20%, var(--surface));
+      outline: none;
+    }
+
+    .tl-band:hover {
+      background: color-mix(in srgb, var(--band-color) 28%, transparent);
+    }
+
+    .tl-band.active {
+      background: color-mix(in srgb, var(--band-color) 38%, transparent);
+      outline: 1px solid var(--band-color);
+    }
+
+    .tl-band.band-start   { border-radius: 3px 3px 0 0; }
+    .tl-band.band-start.band-end { border-radius: 3px; }
+
+    /* Les bandes middle/end sont rendues invisibles — les barres overlay prennent le relais */
+    .tl-band.band-middle,
+    .tl-band.band-end {
+      background: none !important;
+      border-left: none;
+      padding: 0;
+      pointer-events: none;
+    }
+    .tl-band.band-middle:hover,
+    .tl-band.band-end:hover { background: none !important; }
+    .tl-band.band-middle.active,
+    .tl-band.band-end.active { background: none !important; outline: none; }
+
+    /* Barres overlay absolument positionnées */
+    .bar-overlay {
+      position: absolute;
+      width: 3px;
+      border-radius: 0 0 3px 3px;
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .bar-overlay.period-bar {
+      width: 4px;
+      border-radius: 2px;
+      opacity: 0.88;
+      box-shadow: 0 0 0 1px color-mix(in srgb, var(--bar-color, #888) 40%, transparent);
+    }
+
+    .bar-overlay.period-bar::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: -8px;
+      width: 4px;
+      height: 8px;
+      border-radius: 2px 2px 0 0;
+      background: var(--bar-color, #888);
+    }
+
+    .bar-overlay.period-bar.continued::before {
+      display: none;
+    }
+
+    .bar-overlay.clickable {
+      pointer-events: auto;
+      cursor: pointer;
+    }
+    .bar-overlay.active {
+      box-shadow: 0 0 0 2px var(--bar-color, #888);
+    }
+
+    .band-country {
+      font-size: 0.56rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--band-color);
+      opacity: 0.85;
+      line-height: 1;
+    }
+
+    .band-leader {
+      font-size: 0.67rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-weight: bold;
+      color: var(--text);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: 1.3;
+      margin-top: 1px;
+    }
+
+    .band-date {
+      font-size: 0.6rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text-muted);
+      line-height: 1.15;
+    }
+
+    .tl-band-empty {
+      height: 100%;
+      min-height: 28px;
+      border-left: 1px dashed var(--border);
+      opacity: 0.35;
+    }
+
+    /* Column headers */
+    .tl-col-headers {
+      display: grid;
+      grid-template-columns: 180px 1fr 280px;
+      gap: 0 1rem;
+      margin-bottom: 0.2rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      z-index: 2;
+    }
+
+    .tl-col-headers.no-mandats {
+      grid-template-columns: 1fr 280px;
+    }
+
+    .tl-col-header {
+      font-size: 0.62rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      padding: 0 0.2rem;
+    }
+
+    .tl-col-header.center { padding-left: 0; }
+    .tl-col-header.right  { padding-left: 0.7rem; }
+
+    /* ── Timeline main ────────────────────────────────── */
+    .timeline-main {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1.5rem 2rem 3rem;
+      min-width: 0;
+    }
+
+    .timeline-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    /* Year separator */
+    .year-sep {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 1.75rem 0 0.4rem 0;
+      padding-left: 0;
+      position: relative;
+      z-index: 3;
+    }
+
+    .year-sep:first-child {
+      margin-top: 0;
+    }
+
+    .year-label {
+      font-size: 0.7rem;
+      font-weight: bold;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      background: var(--bg);
+      padding: 0.18rem 0.45rem;
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      white-space: nowrap;
+      position: relative;
+      left: -2.35rem;
+      margin-right: -2.35rem;
+      z-index: 3;
+    }
+
+    .year-line {
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    /* Event card */
+    .event-card {
+      position: relative;
+      margin-bottom: 0.6rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 0.7rem 0.9rem;
+      cursor: pointer;
+      transition: box-shadow 0.2s, border-color 0.18s, transform 0.12s;
+      z-index: 3;
+    }
+
+    .event-card:hover {
+      box-shadow: 0 3px 14px rgba(0,0,0,0.09);
+      border-color: var(--card-color, var(--border));
+    }
+
+    .event-card.active {
+      border-color: var(--card-color, var(--accent));
+      box-shadow: 0 3px 16px rgba(0,0,0,0.4);
+      background: #252830;
+    }
+
+    .event-card.period {
+      border-left: 3px solid var(--card-color, #aaa);
+    }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .card-title {
+      font-size: 0.93rem;
+      font-weight: bold;
+      line-height: 1.35;
+      flex: 1;
+    }
+
+    .card-badge {
+      font-size: 0.62rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 0.1rem 0.38rem;
+      border-radius: 2px;
+      background: var(--card-color, #aaa);
+      color: white;
+      white-space: nowrap;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .card-date {
+      font-size: 0.76rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+    }
+
+    .card-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 0.4rem;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+
+    .tag {
+      font-size: 0.68rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      padding: 0.08rem 0.38rem;
+      border-radius: 2px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+
+    /* Empty / loading state */
+    .state-msg {
+      text-align: center;
+      padding: 4rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    /* ── Detail panel ─────────────────────────────────── */
+    .detail-panel {
+      width: 0;
+      overflow: hidden;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      transition: width 0.28s ease;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .detail-panel.open {
+      width: var(--detail-w);
+    }
+
+    .detail-inner {
+      width: var(--detail-w);
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .detail-header {
+      padding: 0.85rem 1rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    .detail-header-label {
+      font-size: 0.65rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      flex: 1;
+    }
+
+    .detail-close {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      line-height: 1;
+      padding: 0.2rem;
+      border-radius: 3px;
+      transition: color 0.15s, background 0.15s;
+    }
+
+    .detail-close:hover {
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    .detail-body {
+      padding: 1rem;
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    .detail-image {
+      width: 100%;
+      max-height: 170px;
+      object-fit: cover;
+      border-radius: var(--radius);
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .detail-field {
+      margin-bottom: 0.9rem;
+    }
+
+    .detail-lbl {
+      font-size: 0.65rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 0.25rem;
+    }
+
+    .detail-val {
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .detail-val.is-title {
+      font-size: 1.08rem;
+      font-weight: bold;
+      line-height: 1.35;
+    }
+
+    .detail-val.is-desc {
+      font-size: 0.85rem;
+      line-height: 1.65;
+      color: #9aa0aa;
+    }
+
+    .detail-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+
+    .chip {
+      font-size: 0.75rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      padding: 0.18rem 0.5rem;
+      border-radius: 3px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    .chip.colored {
+      border-color: var(--chip-color);
+      color: var(--chip-color);
+    }
+
+    .detail-image-url {
+      font-size: 0.72rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      word-break: break-all;
+      color: var(--text-muted);
+    }
+
+    /* ── Edit mode ────────────────────────────────────── */
+    .detail-field input[type="text"],
+    .detail-field input[type="date"],
+    .detail-field select,
+    .detail-field textarea {
+      width: 100%;
+      padding: 0.4rem 0.6rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: 0.88rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      transition: border-color 0.18s;
+    }
+
+    .detail-field select {
+      cursor: pointer;
+    }
+
+    .detail-field input:focus,
+    .detail-field select:focus,
+    .detail-field textarea:focus {
+      outline: none;
+      border-color: #4a90a4;
+      background: var(--surface);
+    }
+
+    .detail-field textarea {
+      resize: vertical;
+      min-height: 85px;
+      line-height: 1.55;
+    }
+
+    /* Tag chip editor */
+    .tag-editor {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      padding: 0.4rem 0.5rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--bg);
+      min-height: 38px;
+      cursor: text;
+      transition: border-color 0.18s;
+    }
+
+    .tag-editor:focus-within {
+      border-color: #4a90a4;
+      background: var(--surface);
+    }
+
+    .tag-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 0.08rem 0.35rem;
+      font-size: 0.76rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .tag-chip-del {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      padding: 0;
+      line-height: 1;
+      margin-left: 1px;
+    }
+
+    .tag-chip-del:hover { color: #c0392b; }
+
+    .tag-input {
+      border: none !important;
+      background: transparent !important;
+      padding: 0.08rem 0.2rem !important;
+      min-width: 70px;
+      font-size: 0.76rem !important;
+      font-family: 'Helvetica Neue', Arial, sans-serif !important;
+      flex: 1;
+    }
+
+    .tag-input:focus {
+      outline: none;
+      border: none !important;
+    }
+
+    .edit-hint {
+      font-size: 0.7rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* ── Detail footer buttons ─────────────────────────── */
+    .detail-footer {
+      padding: 0.85rem 1rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 0.5rem;
+      flex-shrink: 0;
+    }
+
+    .btn-primary {
+      flex: 1;
+      padding: 0.48rem 0.75rem;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      transition: background 0.18s;
+    }
+
+    .btn-primary:hover { background: var(--accent-light); }
+
+    .btn-secondary {
+      padding: 0.48rem 0.85rem;
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      color: var(--text);
+      transition: border-color 0.18s;
+    }
+
+    .btn-secondary:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── Scrollbar ─────────────────────────────────────── */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #c0bdb8; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Frise chronologique <span>— École de guerre · Guerre froide 1943–1975</span></h1>
+  <span id="eventCount"></span>
+  <span id="saveStatus"></span>
+  <button id="exportJsonBtn" class="header-btn" onclick="exportJSON()">Exporter JSON</button>
+</header>
+
+<div class="app">
+
+  <!-- ── Filters ── -->
+  <aside class="filters">
+
+    <div class="filter-block">
+      <h3>Recherche</h3>
+      <input type="text" id="searchInput" placeholder="Titre, acteur, lieu…" oninput="applyFilters()">
+    </div>
+
+    <div class="filter-block">
+      <h3>Affichage</h3>
+      <div class="type-row">
+        <button id="eventTypeToggleBtn" class="type-btn active" data-filter-type="event" onclick="toggleTimelineType('event')">Événements</button>
+        <button id="periodTypeToggleBtn" class="type-btn active" data-filter-type="period" onclick="toggleTimelineType('period')">Périodes</button>
+      </div>
+    </div>
+
+    <div class="filter-block">
+      <h3>Mandats politiques</h3>
+      <div class="type-row">
+        <button id="mandatToggleBtn" class="type-btn active" onclick="toggleMandatColumn()">Afficher colonne</button>
+      </div>
+      <div id="mandateCountryList" class="mandate-country-list">
+        <label class="mandate-country-item">
+          <input type="checkbox" value="usa" checked onchange="applyFilters()">
+          <span class="mandate-country-dot" style="background:#3b82f6"></span>
+          <span>USA</span>
+        </label>
+        <label class="mandate-country-item">
+          <input type="checkbox" value="urss" checked onchange="applyFilters()">
+          <span class="mandate-country-dot" style="background:#ef4444"></span>
+          <span>URSS</span>
+        </label>
+        <label class="mandate-country-item">
+          <input type="checkbox" value="france" checked onchange="applyFilters()">
+          <span class="mandate-country-dot" style="background:#f59e0b"></span>
+          <span>France</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="filter-block">
+      <h3>Période</h3>
+      <div class="year-display" id="yearDisplay">1943 – 1975</div>
+      <div class="range-row">
+        <label>De</label>
+        <input type="range" id="rangeMin" min="1943" max="1975" value="1943" oninput="handleRangeMin(event)">
+      </div>
+      <div class="range-row">
+        <label>À</label>
+        <input type="range" id="rangeMax" min="1943" max="1975" value="1975" oninput="handleRangeMax(event)">
+      </div>
+    </div>
+
+    <div class="filter-group" style="--group-color:#3b82f6">
+      <div class="filter-group-title">Filtres événements</div>
+
+      <div class="filter-block">
+        <div class="filter-block-header">
+          <h3>Catégories</h3>
+          <button id="eventCategoryToggleBtn" class="filter-mini-btn" onclick="toggleFilterList('eventCategoryList')">Tout décocher</button>
+        </div>
+        <div id="eventCategoryList" class="filter-list compact"></div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-block-header">
+          <h3>Thèmes</h3>
+          <button id="eventThemeToggleBtn" class="filter-mini-btn" onclick="toggleFilterList('eventThemeList')">Tout décocher</button>
+        </div>
+        <div id="eventThemeList" class="filter-list"></div>
+      </div>
+
+    </div>
+
+    <div class="filter-group" style="--group-color:#14b8a6">
+      <div class="filter-group-title">Filtres périodes</div>
+
+      <div class="filter-block">
+        <div class="filter-block-header">
+          <h3>Catégories</h3>
+          <button id="periodCategoryToggleBtn" class="filter-mini-btn" onclick="toggleFilterList('periodCategoryList')">Tout décocher</button>
+        </div>
+        <div id="periodCategoryList" class="filter-list compact"></div>
+      </div>
+
+      <div class="filter-block">
+        <div class="filter-block-header">
+          <h3>Thèmes</h3>
+          <button id="periodThemeToggleBtn" class="filter-mini-btn" onclick="toggleFilterList('periodThemeList')">Tout décocher</button>
+        </div>
+        <div id="periodThemeList" class="filter-list"></div>
+      </div>
+
+    </div>
+
+    <button id="resetBtn" onclick="resetFilters()">Réinitialiser les filtres</button>
+
+  </aside>
+
+  <!-- ── Timeline ── -->
+  <main class="timeline-main" id="timelineMain">
+    <div class="timeline-inner" id="timelineInner">
+      <div class="state-msg">Chargement…</div>
+    </div>
+  </main>
+
+  <!-- ── Detail panel ── -->
+  <aside class="detail-panel" id="detailPanel">
+    <div class="detail-inner">
+      <div class="detail-header">
+        <span class="detail-header-label" id="detailHeaderLabel">Détail</span>
+        <button class="detail-close" onclick="closeDetail()" title="Fermer">✕</button>
+      </div>
+      <div class="detail-body" id="detailBody"></div>
+      <div class="detail-footer" id="detailFooter"></div>
+    </div>
+  </aside>
+
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════
+//  State
+// ══════════════════════════════════════════════════════════
+const PUBLIC_MODE = true;
+let allEvents = [];
+let metadata = {};
+let activeEventId = null;
+let editMode = false;
+let editingData = null;
+
+let filterYearMin = 1943;
+let filterYearMax = 1975;
+
+// ══════════════════════════════════════════════════════════
+//  Category system
+// ══════════════════════════════════════════════════════════
+const CATEGORY_COLORS = {
+  'Conférence':          '#6366f1',
+  'Traité / Accord':     '#0ea5e9',
+  'Conflit armé':        '#ef4444',
+  'Crise':               '#f97316',
+  'Doctrine / Discours': '#8b5cf6',
+  'Institution':         '#10b981',
+  'Rupture politique':   '#ec4899',
+  'Décolonisation':      '#84cc16',
+  'Capacité militaire':  '#64748b',
+  'Innovation technologique': '#06b6d4',
+  'Période historique':  '#14b8a6',
+  'Mandat':              '#94a3b8',
+};
+
+const ALL_CATEGORIES = [
+  'Conférence', 'Traité / Accord', 'Conflit armé', 'Crise',
+  'Doctrine / Discours', 'Institution', 'Rupture politique',
+  'Décolonisation', 'Capacité militaire', 'Innovation technologique',
+  'Période historique', 'Mandat'
+];
+
+function categoryColor(cat) {
+  return CATEGORY_COLORS[cat] || '#aaa';
+}
+
+// ══════════════════════════════════════════════════════════
+//  Mandate system
+// ══════════════════════════════════════════════════════════
+const MANDATE_COUNTRIES = {
+  'presidence_roosevelt_us':  'usa',
+  'presidence_truman_us':     'usa',
+  'presidence_eisenhower_us': 'usa',
+  'presidence_kennedy_us':    'usa',
+  'presidence_johnson_us':    'usa',
+  'presidence_nixon_us':      'usa',
+  'presidence_ford_us':       'usa',
+  'presidence_carter_us':     'usa',
+  'presidence_reagan_us':     'usa',
+  'presidence_bush_sr_us':    'usa',
+  'presidence_clinton_us':    'usa',
+  'presidence_bush_jr_us':    'usa',
+  'presidence_obama_us':      'usa',
+  'staline_ps_pcus':          'urss',
+  'khrouchtchev_ps_pcus':     'urss',
+  'brejnev_ps_pcus':          'urss',
+  'andropov_ps_pcus':         'urss',
+  'tchernenko_ps_pcus':       'urss',
+  'gorbatchev_ps_pcus':       'urss',
+  'eltsin_president_russie':  'urss',
+  'poutine_president_russie': 'urss',
+  'medvedev_president_russie':'urss',
+  'vincent_auriol_pr':        'france',
+  'rene_coty_pr':             'france',
+  'degaulle_president_5e':    'france',
+  'pompidou_president':       'france',
+  'giscard_president':        'france',
+  'mitterrand_president':     'france',
+  'chirac_president':         'france',
+  'sarkozy_president':        'france',
+};
+
+const COUNTRY_COLORS = { usa: '#3b82f6', urss: '#ef4444', france: '#f59e0b' };
+const COUNTRY_LABELS = { usa: 'USA', urss: 'URSS', france: 'France' };
+const COUNTRY_ORDER  = ['usa', 'urss', 'france'];
+
+let mandateMap = {};
+let periodTrackData = { tracks: {}, maxTracks: 0 };
+let showMandatColumn = true;
+let selectedMandateCountries = new Set(COUNTRY_ORDER);
+
+function buildMandateMap() {
+  mandateMap = {};
+  const mandates = allEvents.filter(e => e.category === 'Mandat');
+  const allYears = [...new Set(allEvents.map(e => +e.date_start.slice(0,4)))].sort((a,b)=>a-b);
+  allYears.forEach(year => {
+    mandateMap[year] = { usa: null, urss: null, france: null };
+    mandates.forEach(m => {
+      const country = MANDATE_COUNTRIES[m.id];
+      if (!country) return;
+      const yStart = +m.date_start.slice(0,4);
+      const yEnd   = m.date_end ? +m.date_end.slice(0,4) : yStart;
+      if (year >= yStart && year <= yEnd) mandateMap[year][country] = m;
+    });
+  });
+}
+
+function buildPeriodTracks(periods) {
+  const sorted = [...periods].sort((a, b) => a.date_start.localeCompare(b.date_start));
+  const tracks = {};    // period.id → track index
+  const trackEnds = []; // trackEnds[i] = yEnd of period currently occupying track i
+
+  for (const p of sorted) {
+    const yStart = +p.date_start.slice(0, 4);
+    const yEnd   = p.date_end ? +p.date_end.slice(0, 4) : yStart;
+    let t = trackEnds.findIndex(end => end < yStart);
+    if (t === -1) t = trackEnds.length;
+    trackEnds[t] = yEnd;
+    tracks[p.id] = t;
+  }
+
+  periodTrackData = { tracks, maxTracks: trackEnds.length };
+}
+
+function toggleMandatColumn() {
+  showMandatColumn = !showMandatColumn;
+  document.getElementById('mandatToggleBtn').classList.toggle('active', showMandatColumn);
+  applyFilters();
+}
+
+function readSelectedMandateCountries() {
+  const inputs = [...document.querySelectorAll('#mandateCountryList input:checked')];
+  selectedMandateCountries = new Set(inputs.map(i => i.value));
+}
+
+function visibleMandateCountries() {
+  if (!showMandatColumn) return [];
+  return COUNTRY_ORDER.filter(country => selectedMandateCountries.has(country));
+}
+
+function mandateStartYears(countries) {
+  if (!countries.length) return [];
+  return allEvents
+    .filter(e => e.category === 'Mandat' && countries.includes(MANDATE_COUNTRIES[e.id]))
+    .map(e => +e.date_start.slice(0, 4))
+    .filter(y => y >= filterYearMin && y <= filterYearMax);
+}
+
+// ══════════════════════════════════════════════════════════
+//  Color system
+// ══════════════════════════════════════════════════════════
+const PALETTE = [
+  '#3b7dd8', '#c0392b', '#27ae60', '#8e44ad', '#e67e22',
+  '#16a085', '#d4ac0d', '#2980b9', '#a04000', '#1a5276',
+  '#7d3c98', '#117a65', '#b7950b', '#784212', '#6c3483',
+  '#0e6655', '#9c640c', '#1f618d', '#922b21', '#196f3d'
+];
+const themeColors = {};
+let colorIdx = 0;
+
+function getThemeColor(theme) {
+  if (!themeColors[theme]) {
+    themeColors[theme] = PALETTE[colorIdx % PALETTE.length];
+    colorIdx++;
+  }
+  return themeColors[theme];
+}
+
+function eventColor(ev) {
+  return ev.themes && ev.themes.length ? getThemeColor(ev.themes[0]) : '#888';
+}
+
+// ══════════════════════════════════════════════════════════
+//  Init
+// ══════════════════════════════════════════════════════════
+async function init() {
+  applyPublicMode();
+
+  try {
+    const res = await fetch('./ecole_de_guerre_timeline_v4.json');
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    allEvents = data.events || [];
+    metadata = data.metadata || {};
+    buildMandateMap();
+    buildFilters();
+    applyFilters();
+  } catch (err) {
+    document.getElementById('timelineInner').innerHTML =
+      `<div class="state-msg">
+        <strong>Impossible de charger le fichier JSON.</strong><br><br>
+        Ce fichier doit être servi via un serveur local.<br>
+        Lancez <code style="background:#eee;padding:0.1rem 0.3rem;border-radius:2px">python3 server.py</code>
+        dans le dossier <code style="background:#eee;padding:0.1rem 0.3rem;border-radius:2px">Timeline/</code>
+        puis ouvrez <strong>http://localhost:8080/timeline.html</strong>
+      </div>`;
+  }
+}
+
+function applyPublicMode() {
+  if (!PUBLIC_MODE) return;
+  document.body.classList.add('public-mode');
+  document.title = 'Frise chronologique - Ecole de guerre';
+  const exportBtn = document.getElementById('exportJsonBtn');
+  const saveStatus = document.getElementById('saveStatus');
+  if (exportBtn) exportBtn.style.display = 'none';
+  if (saveStatus) saveStatus.style.display = 'none';
+}
+
+// ══════════════════════════════════════════════════════════
+//  Build filter UI
+// ══════════════════════════════════════════════════════════
+function buildFilters() {
+  const timelineEvents = allEvents.filter(e => e.category !== 'Mandat');
+  const punctualEvents = timelineEvents.filter(e => e.type === 'event');
+  const periodEvents = timelineEvents.filter(e => e.type === 'period');
+  const eventThemeRanks = rankedThemeValues(punctualEvents);
+  const periodThemeRanks = rankedThemeValues(periodEvents);
+
+  // collect & sort all themes, assigning colors in alphabetical order
+  const allThemes = [...new Set(timelineEvents.flatMap(e => e.themes || []))].sort();
+  allThemes.forEach(t => getThemeColor(t));
+
+  buildCheckboxList(
+    'eventCategoryList',
+    [...new Set(punctualEvents.map(e => e.category).filter(Boolean))].sort(),
+    categoryColor
+  );
+  buildCheckboxList(
+    'periodCategoryList',
+    [...new Set(periodEvents.map(e => e.category).filter(Boolean))].sort(),
+    categoryColor
+  );
+  buildCheckboxList(
+    'eventThemeList',
+    eventThemeRanks,
+    getThemeColor
+  );
+  buildCheckboxList(
+    'periodThemeList',
+    periodThemeRanks,
+    getThemeColor
+  );
+
+  // Year range
+  const years = allEvents.map(e => +e.date_start.slice(0,4)).filter(Boolean);
+  const minY = Math.min(...years);
+  const maxY = Math.max(...years);
+  filterYearMin = minY;
+  filterYearMax = maxY;
+  const rMin = document.getElementById('rangeMin');
+  const rMax = document.getElementById('rangeMax');
+  rMin.min = rMax.min = minY;
+  rMin.max = rMax.max = maxY;
+  rMin.value = minY;
+  rMax.value = maxY;
+  updateYearDisplay();
+}
+
+function rankedThemeValues(events) {
+  const counts = new Map();
+  events.forEach(ev => (ev.themes || []).forEach(theme => {
+    counts.set(theme, (counts.get(theme) || 0) + 1);
+  }));
+  return [...counts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'fr'))
+    .map(([value, count]) => ({ value, count }));
+}
+
+function buildCheckboxList(containerId, values, colorFn) {
+  const list = document.getElementById(containerId);
+  list.innerHTML = '';
+  const normalizedValues = values.map(item =>
+    typeof item === 'string' ? { value: item, count: null } : item
+  );
+  normalizedValues.forEach(({ value, count }) => {
+    const item = document.createElement('label');
+    item.className = 'theme-item';
+    item.innerHTML = `
+      <input type="checkbox" value="${escAttr(value)}" checked onchange="applyFilters()">
+      <span class="theme-dot" style="background:${colorFn(value)}"></span>
+      <span class="theme-label" title="${escAttr(value)}">${escHtml(value)}</span>
+      ${count !== null ? `<span class="theme-count">${count}</span>` : ''}
+    `;
+    list.appendChild(item);
+  });
+}
+
+// ══════════════════════════════════════════════════════════
+//  Filters
+// ══════════════════════════════════════════════════════════
+function applyFilters() {
+  const text = document.getElementById('searchInput').value.toLowerCase().trim();
+  const eventEnabled = document.getElementById('eventTypeToggleBtn').classList.contains('active');
+  const periodEnabled = document.getElementById('periodTypeToggleBtn').classList.contains('active');
+  const eventThemes = checkedValues('#eventThemeList input:checked');
+  const periodThemes = checkedValues('#periodThemeList input:checked');
+  const eventCategories = checkedValues('#eventCategoryList input:checked');
+  const periodCategories = checkedValues('#periodCategoryList input:checked');
+  filterYearMin = +document.getElementById('rangeMin').value;
+  filterYearMax = +document.getElementById('rangeMax').value;
+  readSelectedMandateCountries();
+  updateYearDisplay();
+
+  const filtered = allEvents.filter(ev => {
+    if (ev.category === 'Mandat') return false;
+
+    // text
+    if (text) {
+      const hay = [ev.title, ev.description, ...(ev.actors||[]), ...(ev.geo||[]), ...(ev.themes||[])]
+        .join(' ').toLowerCase();
+      if (!hay.includes(text)) return false;
+    }
+
+    // type
+    if (ev.type === 'event' && !eventEnabled) return false;
+    if (ev.type === 'period' && !periodEnabled) return false;
+
+    // category
+    const categorySet = ev.type === 'event' ? eventCategories : periodCategories;
+    if (!categorySet.has(ev.category)) return false;
+
+    // themes: untagged items remain visible; tagged items need at least one checked theme.
+    const themeSet = ev.type === 'event' ? eventThemes : periodThemes;
+    if (ev.themes && ev.themes.length && !ev.themes.some(t => themeSet.has(t))) return false;
+
+    // year
+    const y = +ev.date_start.slice(0,4);
+    if (y < filterYearMin || y > filterYearMax) return false;
+    return true;
+  });
+
+  renderTimeline(filtered);
+
+  const total = allEvents.filter(e => e.category !== 'Mandat').length;
+  const shown = filtered.length;
+  document.getElementById('eventCount').textContent =
+    shown === total ? `${total} événements` : `${shown} / ${total} événements`;
+  updateFilterToggleButtons();
+}
+
+function checkedValues(selector) {
+  return new Set([...document.querySelectorAll(selector)].map(i => i.value));
+}
+
+function toggleTimelineType(type) {
+  document.querySelector(`[data-filter-type="${type}"]`).classList.toggle('active');
+  applyFilters();
+}
+
+function handleRangeMin(e) {
+  const val = +e.target.value;
+  const max = +document.getElementById('rangeMax').value;
+  if (val > max) { e.target.value = max; }
+  applyFilters();
+}
+
+function handleRangeMax(e) {
+  const val = +e.target.value;
+  const min = +document.getElementById('rangeMin').value;
+  if (val < min) { e.target.value = min; }
+  applyFilters();
+}
+
+function updateYearDisplay() {
+  document.getElementById('yearDisplay').textContent = `${filterYearMin} – ${filterYearMax}`;
+}
+
+function toggleFilterList(listId) {
+  const inputs = [...document.querySelectorAll(`#${listId} input`)];
+  if (!inputs.length) return;
+  const shouldCheck = inputs.some(i => !i.checked);
+  inputs.forEach(i => i.checked = shouldCheck);
+  applyFilters();
+}
+
+function updateFilterToggleButtons() {
+  [
+    ['eventCategoryList', 'eventCategoryToggleBtn'],
+    ['eventThemeList', 'eventThemeToggleBtn'],
+    ['periodCategoryList', 'periodCategoryToggleBtn'],
+    ['periodThemeList', 'periodThemeToggleBtn'],
+  ].forEach(([listId, btnId]) => {
+    const btn = document.getElementById(btnId);
+    if (!btn) return;
+    const inputs = [...document.querySelectorAll(`#${listId} input`)];
+    const allChecked = inputs.length > 0 && inputs.every(i => i.checked);
+    btn.textContent = allChecked ? 'Tout décocher' : 'Tout cocher';
+  });
+}
+
+function resetFilters() {
+  document.getElementById('searchInput').value = '';
+  document.querySelectorAll('.filter-list input').forEach(i => i.checked = true);
+  document.querySelectorAll('#mandateCountryList input').forEach(i => i.checked = true);
+  document.querySelectorAll('.type-btn').forEach(b => b.classList.add('active'));
+  showMandatColumn = true;
+  selectedMandateCountries = new Set(COUNTRY_ORDER);
+  document.getElementById('mandatToggleBtn').classList.add('active');
+  const rMin = document.getElementById('rangeMin');
+  const rMax = document.getElementById('rangeMax');
+  rMin.value = rMin.min;
+  rMax.value = rMax.max;
+  filterYearMin = +rMin.min;
+  filterYearMax = +rMax.max;
+  applyFilters();
+}
+
+// ══════════════════════════════════════════════════════════
+//  Render timeline
+// ══════════════════════════════════════════════════════════
+function buildEventCardHtml(ev) {
+  const color = eventColor(ev);
+  const isActive = ev.id === activeEventId;
+  const isPeriod = ev.type === 'period';
+  const dateStr = fmtDateRange(ev.date_start, ev.date_end);
+  const themeTags = (ev.themes || []).slice(0, 4)
+    .map(t => `<span class="tag">${escHtml(t)}</span>`).join('');
+  const actorTags = (ev.actors || []).slice(0, 3)
+    .map(a => `<span class="tag">${escHtml(a)}</span>`).join('');
+  const cat = ev.category || '';
+  const catColor = categoryColor(cat);
+
+  return `<div class="event-card${isPeriod ? ' period' : ''}${isActive ? ' active' : ''}"
+       data-id="${escAttr(ev.id)}"
+       style="--card-color:${color}"
+       onclick="openDetail('${escAttr(ev.id)}')">
+    <div class="card-top">
+      <div class="card-title">${escHtml(ev.title)}</div>
+      ${cat ? `<span class="card-badge" style="background:${catColor}">${escHtml(cat)}</span>` : ''}
+    </div>
+    <div class="card-date">${dateStr}</div>
+    ${ev.description ? `<div class="card-desc">${escHtml(ev.description)}</div>` : ''}
+    <div class="card-tags">${themeTags}${actorTags}</div>
+  </div>`;
+}
+
+function bandSegmentHtml(mandate, country, year) {
+  if (!mandate) {
+    return `<div class="tl-band-empty"></div>`;
+  }
+  const yStart = +mandate.date_start.slice(0,4);
+  const yEnd   = mandate.date_end ? +mandate.date_end.slice(0,4) : yStart;
+  const isStart = (year === yStart);
+  const isEnd   = (year === yEnd);
+  let cls = 'tl-band';
+  if (isStart && isEnd) cls += ' band-start band-end';
+  else if (isStart)     cls += ' band-start';
+  else if (isEnd)       cls += ' band-end';
+  else                  cls += ' band-middle';
+  if (isStart) cls += ' mandate-card';
+  if (mandate.id === activeEventId) cls += ' active';
+
+  const color = COUNTRY_COLORS[country];
+  const label = COUNTRY_LABELS[country];
+  const leaderName = (mandate.actors || [])[0] || '';
+  const dateStr = fmtDateRange(mandate.date_start, mandate.date_end);
+
+  if (!isStart) {
+    return `<div class="${cls}"
+     style="--band-color:${color}"
+     data-id="${escAttr(mandate.id)}"
+     aria-label="${escAttr(label)} ${escAttr(leaderName)}"></div>`;
+  }
+
+  return `<div class="${cls}"
+     style="--band-color:${color}"
+     data-id="${escAttr(mandate.id)}"
+     onclick="openDetail('${escAttr(mandate.id)}')">
+    <span class="band-country">${escHtml(label)}</span>
+    ${leaderName ? `<span class="band-leader">${escHtml(leaderName)}</span>` : ''}
+    <span class="band-date">${escHtml(dateStr)}</span>
+  </div>`;
+}
+
+function renderTimeline(events) {
+  const container = document.getElementById('timelineInner');
+
+  // Always exclude mandates from card columns — they live in the band column
+  const nonMandateEvents = events.filter(e => e.category !== 'Mandat');
+
+  const sorted = [...nonMandateEvents].sort((a, b) => a.date_start.localeCompare(b.date_start));
+
+  // Group by year
+  const byYear = {};
+  for (const ev of sorted) {
+    const y = +ev.date_start.slice(0,4);
+    if (!byYear[y]) byYear[y] = { events: [], periods: [] };
+    if (ev.type === 'event') byYear[y].events.push(ev);
+    else byYear[y].periods.push(ev);
+  }
+
+  const countries = visibleMandateCountries();
+  const hasMandatColumn = countries.length > 0;
+  const years = [...new Set([
+    ...Object.keys(byYear).map(Number),
+    ...mandateStartYears(countries),
+  ])].sort((a,b)=>a-b);
+
+  if (years.length === 0) {
+    container.innerHTML =
+      '<div class="state-msg">Aucun événement ne correspond aux filtres sélectionnés.</div>';
+    return;
+  }
+
+  // Calcul des tracks pour les périodes (nécessaire avant le rendu)
+  const allPeriods = nonMandateEvents.filter(e => e.type === 'period');
+  buildPeriodTracks(allPeriods);
+
+  const rowCls = hasMandatColumn ? 'tl-row' : 'tl-row no-mandats';
+  const headerCls = hasMandatColumn ? 'tl-col-headers' : 'tl-col-headers no-mandats';
+
+  let html = `<div class="${headerCls}">`;
+  if (hasMandatColumn) html += `<div class="tl-col-header">Mandats</div>`;
+  html += `<div class="tl-col-header center">Événements</div>`;
+  html += `<div class="tl-col-header right">Périodes</div>`;
+  html += `</div>`;
+
+  for (const year of years) {
+    html += `<div class="year-sep"><span class="year-label">${year}</span><div class="year-line"></div></div>`;
+
+    html += `<div class="${rowCls}" data-year="${year}">`;
+
+    // Left column: mandate bands
+    if (hasMandatColumn) {
+      html += `<div class="tl-col-left">`;
+      const yearMandates = mandateMap[year] || { usa: null, urss: null, france: null };
+      for (const country of countries) {
+        html += `<div class="tl-band-lane">${bandSegmentHtml(yearMandates[country], country, year)}</div>`;
+      }
+      html += `</div>`;
+    }
+
+    // Center column: punctual events
+    const yearItems = byYear[year] || { events: [], periods: [] };
+    html += `<div class="tl-col-center">`;
+    const evs = yearItems.events;
+    if (evs.length) evs.forEach(ev => { html += buildEventCardHtml(ev); });
+    else html += `<div class="tl-col-empty"></div>`;
+    html += `</div>`;
+
+    // Right column: non-mandate periods
+    html += `<div class="tl-col-right">`;
+    const periods = yearItems.periods;
+    if (periods.length) periods.forEach(ev => { html += buildEventCardHtml(ev); });
+    else html += `<div class="tl-col-empty"></div>`;
+    html += `</div>`;
+
+    html += `</div>`; // .tl-row
+  }
+
+  container.innerHTML = html;
+  requestAnimationFrame(drawBars);
+}
+
+// ══════════════════════════════════════════════════════════
+//  Barres overlay (mandats + périodes)
+// ══════════════════════════════════════════════════════════
+function drawBars() {
+  const container = document.getElementById('timelineInner');
+  if (!container) return;
+  container.style.position = 'relative';
+
+  // Supprimer les anciennes barres
+  container.querySelectorAll('.bar-overlay').forEach(b => b.remove());
+
+  // Géométrie de chaque année
+  const rowGeom = {};
+  container.querySelectorAll('.tl-row[data-year]').forEach(row => {
+    const year = +row.dataset.year;
+    rowGeom[year] = {
+      top:    row.offsetTop,
+      bottom: row.offsetTop + row.offsetHeight,
+    };
+  });
+  const visibleYears = Object.keys(rowGeom).map(Number).sort((a, b) => a - b);
+  if (!visibleYears.length) return;
+
+  // Position X des colonnes (mesurée sur la 1ère row)
+  const firstRow = container.querySelector('.tl-row[data-year]');
+  const leftCol  = firstRow?.querySelector('.tl-col-left');
+  const rightCol = firstRow?.querySelector('.tl-col-right');
+  const leftColX  = leftCol  ? leftCol.offsetLeft  : 0;
+  const rightColX = rightCol ? rightCol.offsetLeft : 0;
+  const mandateCountries = visibleMandateCountries();
+  const laneW = leftCol && mandateCountries.length ? leftCol.offsetWidth / mandateCountries.length : 60;
+
+  const fragment = document.createDocumentFragment();
+  const MANDATE_BAR_GAP = 8;
+
+  // ── Barres de mandats ──────────────────────────────────────
+  if (mandateCountries.length) {
+    for (const country of mandateCountries) {
+      const seenMandates = new Set();
+      visibleYears.forEach(y => {
+        const m = mandateMap[y]?.[country];
+        if (m) seenMandates.add(m.id);
+      });
+
+      for (const mid of seenMandates) {
+        const mandate = allEvents.find(e => e.id === mid);
+        if (!mandate) continue;
+        const yStart = +mandate.date_start.slice(0, 4);
+        const yEnd   = mandate.date_end ? +mandate.date_end.slice(0, 4) : yStart;
+        if (yStart === yEnd) continue; // rectangle seul, pas de barre
+
+        const trackIdx = mandateCountries.indexOf(country);
+        const barX = leftColX + trackIdx * laneW + laneW / 2 - 1.5;
+
+        // Début : bas du rectangle de départ, ou haut de la 1ère row visible
+        const startBand = container.querySelector(`.tl-band.band-start[data-id="${CSS.escape(mid)}"]`);
+        let barTop;
+        if (startBand) {
+          let top = startBand.offsetTop + startBand.offsetHeight;
+          let el = startBand.offsetParent;
+          while (el && el !== container) { top += el.offsetTop; el = el.offsetParent; }
+          barTop = top + MANDATE_BAR_GAP;
+        } else {
+          const firstY = visibleYears.find(y => y >= yStart && y <= yEnd);
+          if (!firstY) continue;
+          barTop = rowGeom[firstY].top + MANDATE_BAR_GAP;
+        }
+
+        // Fin : bas de la dernière row visible dans la plage
+        const lastY = [...visibleYears].reverse().find(y => y >= yStart && y <= yEnd);
+        if (!lastY) continue;
+        const barBottom = rowGeom[lastY].bottom - MANDATE_BAR_GAP;
+        if (barBottom <= barTop) continue;
+
+        const color = COUNTRY_COLORS[country];
+        const bar = document.createElement('div');
+        bar.className = 'bar-overlay clickable' + (mid === activeEventId ? ' active' : '');
+        bar.style.cssText = `left:${barX}px; top:${barTop}px; height:${barBottom - barTop}px; background:${color}; --bar-color:${color};`;
+        bar.dataset.id = mid;
+        bar.onclick = () => openDetail(mid);
+        fragment.appendChild(bar);
+      }
+    }
+  }
+
+  // ── Barres de périodes ─────────────────────────────────────
+  const { tracks } = periodTrackData;
+  const PERIOD_BAR_GAP = 8;
+  const PERIOD_TRACK_W = 9;
+
+  for (const pid of Object.keys(tracks)) {
+    const period = allEvents.find(e => e.id === pid);
+    if (!period) continue;
+    const yStart = +period.date_start.slice(0, 4);
+    const yEnd   = period.date_end ? +period.date_end.slice(0, 4) : yStart;
+    if (yStart === yEnd) continue;
+
+    // Début : bas de la carte de départ, ou haut de la 1ère row visible
+    const startCard = container.querySelector(`.event-card[data-id="${CSS.escape(pid)}"]`);
+    let barTop;
+    let barX = null;
+    let startsFromCard = false;
+    if (startCard) {
+      let top = startCard.offsetTop + startCard.offsetHeight;
+      let left = startCard.offsetLeft;
+      let el = startCard.offsetParent;
+      while (el && el !== container) {
+        top += el.offsetTop;
+        left += el.offsetLeft;
+        el = el.offsetParent;
+      }
+      startsFromCard = true;
+      barTop = top + PERIOD_BAR_GAP;
+      // The period bar hugs the period card's left border, then uses track offsets
+      // so simultaneous periods stay visibly distinct.
+      barX = left + 1;
+    } else {
+      const firstY = visibleYears.find(y => y >= yStart && y <= yEnd);
+      if (!firstY) continue;
+      barTop = rowGeom[firstY].top + PERIOD_BAR_GAP;
+    }
+
+    const lastY = [...visibleYears].reverse().find(y => y >= yStart && y <= yEnd);
+    if (!lastY) continue;
+    const barBottom = rowGeom[lastY].bottom - PERIOD_BAR_GAP;
+    if (barBottom <= barTop) continue;
+
+    const trackIdx = tracks[pid] || 0;
+    const startX = barX ?? rightColX + 2;
+    barX = startX + trackIdx * PERIOD_TRACK_W;
+    const color = eventColor(period);
+
+    const bar = document.createElement('div');
+    bar.className = 'bar-overlay period-bar clickable' + (startsFromCard ? '' : ' continued') + (pid === activeEventId ? ' active' : '');
+    bar.style.cssText = `left:${barX}px; top:${barTop}px; height:${barBottom - barTop}px; background:${color}; --bar-color:${color};`;
+    bar.dataset.id = pid;
+    bar.onclick = () => openDetail(pid);
+    fragment.appendChild(bar);
+  }
+
+  container.appendChild(fragment);
+}
+
+// ══════════════════════════════════════════════════════════
+//  Detail panel
+// ══════════════════════════════════════════════════════════
+function openDetail(id) {
+  activeEventId = id;
+  editMode = false;
+  editingData = null;
+
+  document.querySelectorAll('.event-card').forEach(c =>
+    c.classList.toggle('active', c.dataset.id === id));
+  document.querySelectorAll('.tl-band').forEach(b =>
+    b.classList.toggle('active', b.dataset.id === id));
+  document.querySelectorAll('.bar-overlay').forEach(b =>
+    b.classList.toggle('active', b.dataset.id === id));
+
+  const ev = allEvents.find(e => e.id === id);
+  if (!ev) return;
+
+  document.getElementById('detailPanel').classList.add('open');
+  renderDetail(ev, false);
+}
+
+function closeDetail() {
+  activeEventId = null;
+  editMode = false;
+  editingData = null;
+  document.getElementById('detailPanel').classList.remove('open');
+  document.querySelectorAll('.event-card.active').forEach(c => c.classList.remove('active'));
+  document.querySelectorAll('.tl-band.active').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.bar-overlay.active').forEach(b => b.classList.remove('active'));
+}
+
+function renderDetail(ev, editing) {
+  document.getElementById('detailHeaderLabel').textContent = editing ? 'Modifier' : 'Détail';
+
+  if (!editing) {
+    renderDetailView(ev);
+  } else {
+    renderDetailEdit(ev);
+  }
+}
+
+function renderDetailView(ev) {
+  const color = eventColor(ev);
+
+  const imgHtml = ev.image_url
+    ? `<img src="${escAttr(ev.image_url)}" class="detail-image" alt="" onerror="this.style.display='none'">`
+    : '';
+
+  const themeChips = (ev.themes || []).map(t => {
+    const c = getThemeColor(t);
+    return `<span class="chip colored" style="--chip-color:${c}">${escHtml(t)}</span>`;
+  }).join('');
+
+  const actorChips = (ev.actors || []).map(a =>
+    `<span class="chip">${escHtml(a)}</span>`).join('');
+
+  const geoChips = (ev.geo || []).map(g =>
+    `<span class="chip">${escHtml(g)}</span>`).join('');
+
+  document.getElementById('detailBody').innerHTML = `
+    ${imgHtml}
+    <div class="detail-field">
+      <div class="detail-lbl">Titre</div>
+      <div class="detail-val is-title">${escHtml(ev.title)}</div>
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Type</div>
+      <div class="detail-val">
+        <span style="background:${color};color:white;padding:0.12rem 0.45rem;border-radius:3px;font-size:0.76rem;font-family:sans-serif">
+          ${ev.type === 'period' ? 'Période' : 'Événement'}
+        </span>
+      </div>
+    </div>
+    ${ev.category ? `
+    <div class="detail-field">
+      <div class="detail-lbl">Catégorie</div>
+      <div class="detail-val">
+        <span style="background:${categoryColor(ev.category)};color:white;padding:0.12rem 0.45rem;border-radius:3px;font-size:0.76rem;font-family:sans-serif">
+          ${escHtml(ev.category)}
+        </span>
+      </div>
+    </div>` : ''}
+    <div class="detail-field">
+      <div class="detail-lbl">Date${ev.date_end && ev.date_end !== ev.date_start ? 's' : ''}</div>
+      <div class="detail-val">${fmtDateRange(ev.date_start, ev.date_end)}</div>
+    </div>
+    ${ev.description ? `
+    <div class="detail-field">
+      <div class="detail-lbl">Description</div>
+      <div class="detail-val is-desc">${escHtml(ev.description)}</div>
+    </div>` : ''}
+    ${ev.themes && ev.themes.length ? `
+    <div class="detail-field">
+      <div class="detail-lbl">Thèmes</div>
+      <div class="detail-chips">${themeChips}</div>
+    </div>` : ''}
+    ${ev.actors && ev.actors.length ? `
+    <div class="detail-field">
+      <div class="detail-lbl">Acteurs</div>
+      <div class="detail-chips">${actorChips}</div>
+    </div>` : ''}
+    ${ev.geo && ev.geo.length ? `
+    <div class="detail-field">
+      <div class="detail-lbl">Lieux</div>
+      <div class="detail-chips">${geoChips}</div>
+    </div>` : ''}
+    ${ev.image_url ? `
+    <div class="detail-field">
+      <div class="detail-lbl">URL image</div>
+      <div class="detail-image-url">${escHtml(ev.image_url)}</div>
+    </div>` : ''}
+  `;
+
+  document.getElementById('detailFooter').innerHTML = `
+    ${PUBLIC_MODE ? '' : '<button class="btn-primary" onclick="enableEdit()">Modifier</button>'}
+    <button class="btn-secondary" onclick="closeDetail()">Fermer</button>
+  `;
+}
+
+// ── Edit ────────────────────────────────────────────────
+function enableEdit() {
+  if (PUBLIC_MODE) return;
+  editMode = true;
+  const ev = allEvents.find(e => e.id === activeEventId);
+  editingData = JSON.parse(JSON.stringify(ev));
+  renderDetail(ev, true);
+}
+
+function cancelEdit() {
+  editMode = false;
+  editingData = null;
+  const ev = allEvents.find(e => e.id === activeEventId);
+  renderDetail(ev, false);
+}
+
+function renderDetailEdit(ev) {
+  const d = editingData;
+
+  document.getElementById('detailBody').innerHTML = `
+    <div class="detail-field">
+      <div class="detail-lbl">Titre *</div>
+      <input type="text" id="ei_title" value="${escAttr(d.title || '')}">
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Type *</div>
+      <select id="ei_type">
+        <option value="event"${d.type==='event'?' selected':''}>Événement</option>
+        <option value="period"${d.type==='period'?' selected':''}>Période</option>
+      </select>
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Catégorie</div>
+      <select id="ei_category">
+        <option value="">— Non classé —</option>
+        ${ALL_CATEGORIES.map(c => `<option value="${escAttr(c)}"${d.category===c?' selected':''}>${escHtml(c)}</option>`).join('')}
+      </select>
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Date de début *</div>
+      <input type="date" id="ei_date_start" value="${escAttr(d.date_start || '')}">
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Date de fin</div>
+      <input type="date" id="ei_date_end" value="${escAttr(d.date_end || '')}">
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Description</div>
+      <textarea id="ei_description">${escHtml(d.description || '')}</textarea>
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Thèmes</div>
+      ${buildTagEditor('themes', d.themes || [])}
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Acteurs</div>
+      ${buildTagEditor('actors', d.actors || [])}
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">Lieux (geo)</div>
+      ${buildTagEditor('geo', d.geo || [])}
+    </div>
+    <div class="detail-field">
+      <div class="detail-lbl">URL image</div>
+      <input type="text" id="ei_image_url" value="${escAttr(d.image_url || '')}">
+    </div>
+  `;
+
+  document.getElementById('detailFooter').innerHTML = `
+    <button class="btn-primary" onclick="saveEdit()">Enregistrer</button>
+    <button class="btn-secondary" onclick="cancelEdit()">Annuler</button>
+  `;
+
+  ['themes', 'actors', 'geo'].forEach(f => bindTagInput(f));
+}
+
+// ── Tag editor ──────────────────────────────────────────
+function buildTagEditor(field, tags) {
+  const chips = tags.map((tag, i) =>
+    `<span class="tag-chip">
+      ${escHtml(tag)}
+      <button class="tag-chip-del" onclick="removeTag('${field}',${i})" title="Supprimer">×</button>
+    </span>`
+  ).join('');
+  return `
+    <div class="tag-editor" id="te_${field}" onclick="document.getElementById('ti_${field}').focus()">
+      ${chips}
+      <input class="tag-input" id="ti_${field}" type="text" placeholder="Ajouter, valider avec Entrée…">
+    </div>
+    <div class="edit-hint">Appuyez sur Entrée ou virgule pour ajouter.</div>
+  `;
+}
+
+function bindTagInput(field) {
+  const input = document.getElementById(`ti_${field}`);
+  if (!input) return;
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ',') {
+      e.preventDefault();
+      const val = input.value.trim().replace(/,$/, '');
+      if (val) { addTag(field, val); input.value = ''; }
+    } else if (e.key === 'Backspace' && input.value === '') {
+      if (editingData[field] && editingData[field].length) {
+        removeTag(field, editingData[field].length - 1);
+      }
+    }
+  });
+}
+
+function addTag(field, value) {
+  if (!editingData[field]) editingData[field] = [];
+  editingData[field].push(value);
+  refreshTagEditor(field);
+}
+
+function removeTag(field, index) {
+  if (!editingData[field]) return;
+  editingData[field].splice(index, 1);
+  refreshTagEditor(field);
+}
+
+function refreshTagEditor(field) {
+  const el = document.getElementById(`te_${field}`);
+  if (!el) return;
+  const parent = el.parentNode;
+  const hint = el.nextElementSibling;
+  // Rebuild just the tag editor div
+  const newHtml = buildTagEditor(field, editingData[field] || []);
+  const tmp = document.createElement('div');
+  tmp.innerHTML = newHtml;
+  parent.replaceChild(tmp.firstElementChild, el);
+  // Re-bind
+  bindTagInput(field);
+  document.getElementById(`ti_${field}`).focus();
+}
+
+function saveEdit() {
+  if (PUBLIC_MODE) return;
+  if (!editingData) return;
+
+  editingData.title = (document.getElementById('ei_title').value || '').trim();
+  editingData.type = document.getElementById('ei_type').value;
+  editingData.category = document.getElementById('ei_category').value || null;
+  editingData.date_start = document.getElementById('ei_date_start').value;
+  editingData.date_end = document.getElementById('ei_date_end').value || null;
+  editingData.description = (document.getElementById('ei_description').value || '').trim() || null;
+  editingData.image_url = (document.getElementById('ei_image_url').value || '').trim() || null;
+
+  if (!editingData.title) { alert('Le titre est obligatoire.'); return; }
+  if (!editingData.date_start) { alert('La date de début est obligatoire.'); return; }
+
+  const idx = allEvents.findIndex(e => e.id === activeEventId);
+  if (idx !== -1) allEvents[idx] = editingData;
+
+  editMode = false;
+  const saved = editingData;
+  editingData = null;
+
+  applyFilters();
+
+  // Restore active class after re-render
+  document.querySelectorAll('.event-card').forEach(c =>
+    c.classList.toggle('active', c.dataset.id === saved.id));
+  document.querySelectorAll('.tl-band').forEach(b =>
+    b.classList.toggle('active', b.dataset.id === saved.id));
+
+  renderDetail(saved, false);
+  autoSave();
+}
+
+// ══════════════════════════════════════════════════════════
+//  Auto-save (POST /save)
+// ══════════════════════════════════════════════════════════
+let saveStatusTimer = null;
+
+function showSaveStatus(state, text) {
+  if (PUBLIC_MODE) return;
+  const el = document.getElementById('saveStatus');
+  el.textContent = text;
+  el.className = `visible ${state}`;
+  clearTimeout(saveStatusTimer);
+  if (state === 'saved') {
+    saveStatusTimer = setTimeout(() => { el.className = ''; }, 3000);
+  }
+}
+
+async function autoSave() {
+  if (PUBLIC_MODE) return;
+  showSaveStatus('saving', 'Enregistrement…');
+  const payload = { ...metadata, total_events: allEvents.length, events: allEvents };
+  // Rebuild proper structure
+  const out = {
+    metadata: {
+      ...metadata,
+      total_events: allEvents.length
+    },
+    events: allEvents
+  };
+  try {
+    const res = await fetch('/save', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(out, null, 2)
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    showSaveStatus('saved', 'Sauvegardé ✓');
+  } catch (err) {
+    showSaveStatus('error', `Erreur : ${err.message}`);
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+//  Export
+// ══════════════════════════════════════════════════════════
+function exportJSON() {
+  if (PUBLIC_MODE) return;
+  const out = {
+    metadata: {
+      title: "École de guerre – Frise chronologique Guerre froide",
+      description: "Base de données des événements clés de la Guerre froide et du contexte international (1943–1975)",
+      source: "https://www.timetoast.com/timelines/3038054",
+      total_events: allEvents.length,
+      date_range: { start: "1943", end: "1975" }
+    },
+    events: allEvents
+  };
+  const blob = new Blob([JSON.stringify(out, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'ecole_de_guerre_timeline_v4.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// ══════════════════════════════════════════════════════════
+//  Utils
+// ══════════════════════════════════════════════════════════
+const MONTHS = ['jan.','fév.','mar.','avr.','mai','juin','juil.','août','sep.','oct.','nov.','déc.'];
+
+function fmtDate(d) {
+  if (!d) return '';
+  const p = d.split('-');
+  if (p.length < 3) return d;
+  const day = +p[2], mon = +p[1], year = p[0];
+  return `${day} ${MONTHS[mon-1]} ${year}`;
+}
+
+function fmtDateRange(start, end) {
+  const s = fmtDate(start);
+  if (!end || end === start) return s;
+  const e = fmtDate(end);
+  return s === e ? s : `${s} → ${e}`;
+}
+
+function escHtml(s) {
+  if (!s) return '';
+  return String(s)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function escAttr(s) {
+  if (!s) return '';
+  return String(s).replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// ── Boot ────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>
