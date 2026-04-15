@@ -1003,6 +1003,224 @@
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: #c0bdb8; }
+
+    /* ── Base rules for mobile-only elements ─────────────── */
+    #mobileFilterBtn     { display: none; }
+    #mobileFilterValidate { display: none; }
+    /* On desktop the wrapper is transparent to the flex layout */
+    .filters-scroll-area { display: contents; }
+
+    /* ── Mobile: max-width 768px ─────────────────────────── */
+    @media (max-width: 768px) {
+
+      /* Body: allow full-page scroll */
+      body {
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+      }
+
+      /* App container: no inner scroll */
+      .app { overflow: visible; flex: none; }
+
+      /* Header: sticky + wraps on small screens */
+      header {
+        position: sticky;
+        top: 0;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 0.55rem 0.75rem;
+        gap: 0.4rem 0.5rem;
+        z-index: 200;
+      }
+
+      header h1 {
+        width: 100%;
+        font-size: 0.85rem;
+        white-space: normal;
+        order: -1;
+      }
+
+      header h1 span { font-size: 0.72rem; }
+
+      #eventCount { font-size: 0.7rem; flex: 1; }
+
+      #mobileFilterBtn {
+        display: flex !important;
+        align-items: center;
+        min-height: 44px;
+      }
+
+      .header-btn { min-height: 44px; padding: 0 0.85rem; }
+
+      /* ── Filter sidebar: fullscreen overlay ── */
+      .filters {
+        position: fixed;
+        inset: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 400;
+        border: none;
+        display: none;
+        flex-direction: column;
+        overflow: hidden;
+        padding: 0;
+        gap: 0;
+      }
+
+      .filters.mobile-open { display: flex; }
+
+      /* Scrollable content area inside the overlay */
+      .filters-scroll-area {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        flex: 1;
+        overflow-y: auto;
+        padding: 1rem;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      /* Valider button pinned at bottom of overlay */
+      #mobileFilterValidate {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 100%;
+        min-height: 52px;
+        padding: 0;
+        background: #1a2b3c;
+        color: white;
+        border: none;
+        border-top: 2px solid var(--border);
+        font-size: 1rem;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        transition: background 0.18s;
+      }
+
+      #mobileFilterValidate:active { background: #253d52; }
+
+      /* Filter items: larger touch targets */
+      .theme-item {
+        min-height: 38px;
+        padding: 0.25rem 0;
+        align-items: center;
+      }
+
+      .theme-item input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+      }
+
+      .type-btn { min-height: 44px; font-size: 0.82rem; }
+
+      #resetBtn {
+        min-height: 44px;
+        font-size: 0.82rem;
+        padding: 0.5rem;
+      }
+
+      /* Expand filter lists fully in overlay */
+      .filter-list,
+      .filter-list.compact { max-height: none; }
+
+      input[type="range"] { height: 6px; }
+      input[type="range"]::-webkit-slider-thumb { width: 22px; height: 22px; }
+
+      /* ── Detail panel: fullscreen on mobile ── */
+      .detail-panel.open {
+        position: fixed;
+        inset: 0;
+        width: 100vw !important;
+        height: 100vh;
+        z-index: 300;
+        border: none;
+        overflow: hidden;
+      }
+
+      .detail-inner { width: 100% !important; }
+
+      /* ── Timeline main: full-page scroll ── */
+      .timeline-main {
+        overflow-y: visible;
+        padding: 0.6rem 0.65rem 3rem;
+        flex: none;
+      }
+
+      /* Year label: remove desktop negative-offset positioning */
+      .year-label {
+        left: 0;
+        margin-right: 0;
+        font-size: 0.6rem;
+      }
+
+      /* Hide column headers */
+      .tl-col-headers { display: none !important; }
+
+      /* ── Single-column layout ── */
+      .tl-row,
+      .tl-row.no-mandats {
+        display: flex !important;
+        flex-direction: column;
+        gap: 0.3rem;
+        padding: 0.15rem 0 0.35rem;
+      }
+
+      .tl-col-left,
+      .tl-col-center,
+      .tl-col-right {
+        border: none !important;
+        padding: 0 !important;
+        width: 100%;
+      }
+
+      /* Hide year-row empty placeholders */
+      .tl-col-empty { display: none; }
+
+      /* Hide absolute-positioned overlay bars (only work in multi-column layout) */
+      .bar-overlay { display: none !important; }
+
+      /* Hide mandate lanes that have no start card (continuation / empty) */
+      .tl-band-lane:not(:has(.tl-band.mandate-card)) { display: none; }
+
+      /* Mandate start cards: full width */
+      .tl-band.mandate-card { width: 100%; }
+
+      /* ── Event cards: ~85% of desktop sizes ── */
+      .event-card {
+        padding: 0.5rem 0.6rem;
+        margin-bottom: 0.3rem;
+      }
+
+      .card-title { font-size: 0.79rem; }
+      .card-date  { font-size: 0.65rem; }
+      .card-desc  { font-size: 0.68rem; }
+      .card-badge { font-size: 0.53rem; padding: 0.08rem 0.3rem; }
+      .tag        { font-size: 0.58rem; }
+
+      .band-leader { font-size: 0.57rem; }
+      .band-date   { font-size: 0.51rem; }
+    }
+
+    /* ── Tablet: 769px – 1024px ──────────────────────────── */
+    @media (min-width: 769px) and (max-width: 1024px) {
+      :root {
+        --filter-w: 220px;
+        --detail-w: 340px;
+      }
+
+      .tl-row                      { grid-template-columns: 150px 1fr 240px; }
+      .tl-col-headers              { grid-template-columns: 150px 1fr 240px; }
+      .tl-row.no-mandats           { grid-template-columns: 1fr 240px; }
+      .tl-col-headers.no-mandats   { grid-template-columns: 1fr 240px; }
+
+      .timeline-main { padding: 1rem 1.25rem 2rem; }
+    }
   </style>
 </head>
 <body>
@@ -1012,12 +1230,14 @@
   <span id="eventCount"></span>
   <span id="saveStatus"></span>
   <button id="exportJsonBtn" class="header-btn" onclick="exportJSON()">Exporter JSON</button>
+  <button id="mobileFilterBtn" class="header-btn" onclick="openMobileFilters()">☰ Filtres</button>
 </header>
 
 <div class="app">
 
   <!-- ── Filters ── -->
   <aside class="filters">
+  <div class="filters-scroll-area">
 
     <div class="filter-block">
       <h3>Recherche</h3>
@@ -1112,6 +1332,9 @@
     </div>
 
     <button id="resetBtn" onclick="resetFilters()">Réinitialiser les filtres</button>
+
+  </div><!-- /.filters-scroll-area -->
+  <button id="mobileFilterValidate" onclick="closeMobileFilters()">Valider</button>
 
   </aside>
 
@@ -1692,6 +1915,7 @@ function renderTimeline(events) {
 //  Barres overlay (mandats + périodes)
 // ══════════════════════════════════════════════════════════
 function drawBars() {
+  if (window.innerWidth <= 768) return; // bars are hidden on mobile; skip computation
   const container = document.getElementById('timelineInner');
   if (!container) return;
   container.style.position = 'relative';
@@ -2217,6 +2441,19 @@ function escHtml(s) {
 function escAttr(s) {
   if (!s) return '';
   return String(s).replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// ══════════════════════════════════════════════════════════
+//  Mobile filter overlay
+// ══════════════════════════════════════════════════════════
+function openMobileFilters() {
+  document.querySelector('.filters').classList.add('mobile-open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeMobileFilters() {
+  document.querySelector('.filters').classList.remove('mobile-open');
+  document.body.style.overflow = '';
 }
 
 // ── Boot ────────────────────────────────────────────────
