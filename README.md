@@ -25,3 +25,22 @@ Sur écran mobile (≤ 768 px) :
 - Le layout multi-colonnes (mandats / événements / périodes) est remplacé par une colonne unique chronologique
 - Les tailles de police, marges et paddings sont réduits (~85 % des valeurs desktop)
 - Le header est sticky et toutes les cibles tactiles font au minimum 44 px
+
+## Publier une mise à jour
+
+Le dépôt est configuré avec une clé SSH Deploy Key (accès en écriture). Claude Code peut pousser directement sans intervention manuelle.
+
+```bash
+cd "Documents/Claude Code/Timeline/public"
+
+# Vérifier les changements
+git status
+git diff
+
+# Committer et pousser
+git add <fichier>
+git commit -m "Description du changement"
+git push origin main
+```
+
+GitHub Pages se redéploie automatiquement après chaque push sur `main` (délai ~30 secondes).
