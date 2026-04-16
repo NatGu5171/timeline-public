@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Frise chronologique fusionnée — Relations internationales 1943–2011",
-    "description": "Chronologie fusionnée intégrant la frise École de guerre (v2), les chronologies Chine, URSS, France-OTAN, conflit israélo-arabe / question palestinienne, et question allemande durant la Guerre froide.",
+    "title": "Frise chronologique fusionnée — Relations internationales 1939–2011",
+    "description": "Chronologie fusionnée intégrant la frise École de guerre (v2), les chronologies Chine, URSS, France-OTAN, conflit israélo-arabe / question palestinienne, question allemande durant la Guerre froide, et les événements opérationnels mentionnés dans les plans d'histoire.",
     "source_url": null,
-    "total_events": 327,
+    "total_events": 498,
     "date_range": {
-      "start": "1943",
+      "start": "1939",
       "end": "2011"
     },
     "schema": {
@@ -13,6 +13,362 @@
     }
   },
   "events": [
+    {
+      "id": "sabordage_du_graf_spee_apres_la_bataille_du_rio_de_la_plata_1939",
+      "title": "Sabordage du Graf Spee après la bataille du Rio de la Plata",
+      "date_start": "1939",
+      "date_end": null,
+      "type": "event",
+      "description": "Sabordage du Graf Spee après la bataille du Rio de la Plata. Mentionné dans les plans comme jalon opérationnel de la période 1939, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "Allemagne"
+      ],
+      "geo": [
+        "Atlantique Sud",
+        "Uruguay"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "torpillage_du_hms_courageous_1939_09",
+      "title": "Torpillage du HMS Courageous",
+      "date_start": "1939-09",
+      "date_end": null,
+      "type": "event",
+      "description": "Torpillage du HMS Courageous. Mentionné dans les plans comme jalon opérationnel de la période 1939-09, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Allemagne",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Atlantique Nord"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "raid_de_prien_a_scapa_flow_1939_10",
+      "title": "Raid de Prien à Scapa Flow",
+      "date_start": "1939-10",
+      "date_end": null,
+      "type": "event",
+      "description": "Raid de Prien à Scapa Flow. Mentionné dans les plans comme jalon opérationnel de la période 1939-10, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "Allemagne",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Écosse"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "invasion_allemande_de_la_norvege_1940_04",
+      "title": "Invasion allemande de la Norvège",
+      "date_start": "1940-04",
+      "date_end": null,
+      "type": "event",
+      "description": "Invasion allemande de la Norvège. Mentionné dans les plans comme jalon opérationnel de la période 1940-04, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "Allemagne"
+      ],
+      "geo": [
+        "Norvège"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_de_punta_stilo_1940_07",
+      "title": "Bataille de Punta Stilo",
+      "date_start": "1940-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Bataille de Punta Stilo. Mentionné dans les plans comme jalon opérationnel de la période 1940-07, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "Italie"
+      ],
+      "geo": [
+        "Méditerranée"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "ralliement_de_la_polynesie_des_nouvelles_hebrides_et_de_la_nouvelle_caledonie_a",
+      "title": "Ralliement de la Polynésie, des Nouvelles-Hébrides et de la Nouvelle-Calédonie à la France libre",
+      "date_start": "1940-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Ralliement de la Polynésie, des Nouvelles-Hébrides et de la Nouvelle-Calédonie à la France libre. Mentionné dans les plans comme jalon de décolonisation ou de recomposition impériale de la période 1940-07, il éclaire le recul des empires et la redéfinition des souverainetés.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "décolonisation",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique",
+        "Vanuatu",
+        "Nouvelle-Calédonie"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
+    },
+    {
+      "id": "operation_catapult_et_attaque_de_mers_el_kebir_1940_07_03",
+      "title": "Opération Catapult et attaque de Mers el-Kébir",
+      "date_start": "1940-07-03",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Catapult et attaque de Mers el-Kébir. Mentionné dans les plans comme jalon opérationnel de la période 1940-07-03, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Mers el-Kébir",
+        "Algérie"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "neutralisation_de_la_force_x_francaise_a_alexandrie_1940_07_07",
+      "title": "Neutralisation de la Force X française à Alexandrie",
+      "date_start": "1940-07-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Neutralisation de la Force X française à Alexandrie. Mentionné dans les plans comme jalon de la période 1940-07-07, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Alexandrie",
+        "Égypte"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "attaque_britannique_du_richelieu_a_dakar_1940_07_08",
+      "title": "Attaque britannique du Richelieu à Dakar",
+      "date_start": "1940-07-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Attaque britannique du Richelieu à Dakar. Mentionné dans les plans comme jalon opérationnel de la période 1940-07-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Dakar",
+        "Afrique-Occidentale française"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "echec_de_l_operation_menace_a_dakar_1940_09",
+      "title": "Échec de l'opération Menace à Dakar",
+      "date_start": "1940-09",
+      "date_end": null,
+      "type": "event",
+      "description": "Échec de l'opération Menace à Dakar. Mentionné dans les plans comme jalon opérationnel de la période 1940-09, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Dakar",
+        "Afrique-Occidentale française"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "combats_de_libreville_au_gabon_1940_11",
+      "title": "Combats de Libreville au Gabon",
+      "date_start": "1940-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Combats de Libreville au Gabon. Mentionné dans les plans comme jalon opérationnel de la période 1940-11, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Gabon"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "raid_aeronaval_britannique_sur_tarente_1940_11_11",
+      "title": "Raid aéronaval britannique sur Tarente",
+      "date_start": "1940-11-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Raid aéronaval britannique sur Tarente. Mentionné dans les plans comme jalon opérationnel de la période 1940-11-11, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Italie"
+      ],
+      "geo": [
+        "Méditerranée"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_de_koh_chang_1941_01_17",
+      "title": "Bataille de Koh Chang",
+      "date_start": "1941-01-17",
+      "date_end": null,
+      "type": "event",
+      "description": "Bataille de Koh Chang. Mentionné dans les plans comme jalon opérationnel de la période 1941-01-17, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "Japon"
+      ],
+      "geo": [
+        "Indochine"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "adoption_du_lend_lease_act_americain_1941_03",
+      "title": "Adoption du Lend-Lease Act américain",
+      "date_start": "1941-03",
+      "date_end": null,
+      "type": "event",
+      "description": "Adoption du Lend-Lease Act américain. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1941-03, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "droit international"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
+    },
+    {
+      "id": "bataille_du_cap_matapan_1941_03",
+      "title": "Bataille du cap Matapan",
+      "date_start": "1941-03",
+      "date_end": null,
+      "type": "event",
+      "description": "Bataille du cap Matapan. Mentionné dans les plans comme jalon opérationnel de la période 1941-03, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Italie"
+      ],
+      "geo": [
+        "Méditerranée"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "sortie_et_destruction_du_bismarck_1941_05",
+      "title": "Sortie et destruction du Bismarck",
+      "date_start": "1941-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Sortie et destruction du Bismarck. Mentionné dans les plans comme jalon opérationnel de la période 1941-05, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Allemagne"
+      ],
+      "geo": [
+        "Atlantique Nord"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
     {
       "id": "campagne_levant_liban_1941",
       "title": "Campagne du Levant et occupation alliée du Liban",
@@ -40,25 +396,451 @@
       "category": "Conflit armé"
     },
     {
-      "id": "presidence_roosevelt_us",
-      "title": "US - Présidence Roosevelt",
-      "date_start": "1943-01-01",
-      "date_end": "1945-04-12",
-      "type": "period",
-      "description": "Franklin D. Roosevelt, 32e président des États-Unis, est au pouvoir depuis 1933. Commandant en chef lors de la Seconde Guerre mondiale, il participe aux conférences de Téhéran et Yalta. Il meurt en fonction le 12 avril 1945, à la veille de la victoire alliée.",
+      "id": "prise_de_controle_japonaise_de_l_indochine_francaise_1941_07",
+      "title": "Prise de contrôle japonaise de l'Indochine française",
+      "date_start": "1941-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Prise de contrôle japonaise de l'Indochine française. Mentionné dans les plans comme jalon de la période 1941-07, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
       "image_url": null,
       "themes": [
-        "politique américaine",
-        "WWII"
+        "Seconde Guerre mondiale",
+        "politique française"
       ],
       "actors": [
-        "Roosevelt"
+        "France",
+        "Japon"
       ],
       "geo": [
+        "Indochine"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "attaque_italienne_contre_la_flotte_britannique_a_alexandrie_1941_12",
+      "title": "Attaque italienne contre la flotte britannique à Alexandrie",
+      "date_start": "1941-12",
+      "date_end": null,
+      "type": "event",
+      "description": "Attaque italienne contre la flotte britannique à Alexandrie. Mentionné dans les plans comme jalon opérationnel de la période 1941-12, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Italie"
+      ],
+      "geo": [
+        "Alexandrie",
+        "Égypte"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "destruction_de_la_force_z_britannique_1941_12",
+      "title": "Destruction de la Force Z britannique",
+      "date_start": "1941-12",
+      "date_end": null,
+      "type": "event",
+      "description": "Destruction de la Force Z britannique. Mentionné dans les plans comme jalon opérationnel de la période 1941-12, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Mer de Chine méridionale",
+        "Malaisie"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "offensive_japonaise_initiale_en_asie_pacifique_1941_12",
+      "title": "Offensive japonaise initiale en Asie-Pacifique",
+      "date_start": "1941-12",
+      "date_end": "1942-04",
+      "type": "period",
+      "description": "Offensive japonaise initiale en Asie-Pacifique. Mentionné dans les plans comme jalon opérationnel de la période 1941-12-1942-04, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "Japon"
+      ],
+      "geo": [
+        "Pacifique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "attaque_de_pearl_harbor_1941_12_07",
+      "title": "Attaque de Pearl Harbor",
+      "date_start": "1941-12-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Le 7 décembre 1941, l'aéronavale japonaise frappe la flotte américaine à Pearl Harbor. Le raid ouvre la guerre du Pacifique, démontre la puissance du porte-avions, mais laisse intacts les porte-avions américains et une partie des infrastructures décisives.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Japon"
+      ],
+      "geo": [
+        "Hawaï"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_paukenschlag_contre_le_trafic_allie_premier_semestre_1942",
+      "title": "Opération Paukenschlag contre le trafic allié",
+      "date_start": "1942-01",
+      "date_end": "1942-06",
+      "type": "period",
+      "description": "Opération Paukenschlag contre le trafic allié. Mentionné dans les plans comme jalon opérationnel de la période premier semestre 1942, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Allemagne",
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Atlantique Ouest",
+        "Côtes américaines"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_de_la_mer_de_java_1942_02",
+      "title": "Bataille de la mer de Java",
+      "date_start": "1942-02",
+      "date_end": null,
+      "type": "event",
+      "description": "Bataille de la mer de Java. Mentionné dans les plans comme jalon opérationnel de la période 1942-02, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Japon",
+        "Forces ABDA",
+        "États-Unis",
+        "Royaume-Uni",
+        "Pays-Bas",
+        "Australie"
+      ],
+      "geo": [
+        "Mer de Java",
+        "Indes néerlandaises"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "chute_de_singapour_1942_02_15",
+      "title": "Chute de Singapour",
+      "date_start": "1942-02-15",
+      "date_end": null,
+      "type": "event",
+      "description": "Chute de Singapour. Mentionné dans les plans comme jalon de la période 1942-02-15, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "crise politique",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Japon"
+      ],
+      "geo": [
+        "Singapour"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "raid_doolittle_sur_tokyo_1942_04",
+      "title": "Raid Doolittle sur Tokyo",
+      "date_start": "1942-04",
+      "date_end": null,
+      "type": "event",
+      "description": "Raid Doolittle sur Tokyo. Mentionné dans les plans comme jalon opérationnel de la période 1942-04, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
         "États-Unis"
       ],
-      "category": "Mandat",
-      "enriched": false
+      "geo": [
+        "Japon"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_ironclad_a_madagascar_1942_05",
+      "title": "Opération Ironclad à Madagascar",
+      "date_start": "1942-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Ironclad à Madagascar. Mentionné dans les plans comme jalon opérationnel de la période 1942-05, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "France de Vichy"
+      ],
+      "geo": [
+        "Madagascar"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_de_la_mer_de_corail_1942_05_04",
+      "title": "Bataille de la mer de Corail",
+      "date_start": "1942-05-04",
+      "date_end": "1942-05-08",
+      "type": "period",
+      "description": "Bataille de la mer de Corail. Mentionné dans les plans comme jalon opérationnel de la période 1942-05-04-1942-05-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Japon",
+        "Australie"
+      ],
+      "geo": [
+        "Mer de Corail",
+        "Pacifique Sud"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_de_midway_1942_06",
+      "title": "Bataille de Midway",
+      "date_start": "1942-06",
+      "date_end": null,
+      "type": "event",
+      "description": "En juin 1942, l'US Navy détruit quatre porte-avions japonais à Midway. Cette victoire arrête l'expansion japonaise dans le Pacifique central et marque un tournant majeur de la guerre aéronavale.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Japon"
+      ],
+      "geo": [
+        "Midway",
+        "Pacifique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "destruction_du_convoi_pq_17_1942_07",
+      "title": "Destruction du convoi PQ 17",
+      "date_start": "1942-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Destruction du convoi PQ 17. Mentionné dans les plans comme jalon opérationnel de la période 1942-07, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Allemagne",
+        "Royaume-Uni",
+        "URSS",
+        "États-Unis"
+      ],
+      "geo": [
+        "Arctique",
+        "Mer de Barents"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "debut_de_la_bataille_de_guadalcanal_1942_08",
+      "title": "Début de la bataille de Guadalcanal",
+      "date_start": "1942-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de la bataille de Guadalcanal. Mentionné dans les plans comme jalon opérationnel de la période 1942-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Japon"
+      ],
+      "geo": [
+        "Îles Salomon"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_pedestal_vers_malte_1942_08",
+      "title": "Opération Pedestal vers Malte",
+      "date_start": "1942-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Pedestal vers Malte. Mentionné dans les plans comme jalon opérationnel de la période 1942-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Italie",
+        "Allemagne"
+      ],
+      "geo": [
+        "Malte",
+        "Méditerranée"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_des_iles_santa_cruz_1942_10",
+      "title": "Bataille des îles Santa Cruz",
+      "date_start": "1942-10",
+      "date_end": null,
+      "type": "event",
+      "description": "Bataille des îles Santa Cruz. Mentionné dans les plans comme jalon opérationnel de la période 1942-10, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "États-Unis",
+        "Japon"
+      ],
+      "geo": [
+        "Îles Santa Cruz",
+        "Îles Salomon"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_torch_en_afrique_du_nord_1942_11",
+      "title": "Opération Torch en Afrique du Nord",
+      "date_start": "1942-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Torch en Afrique du Nord. Mentionné dans les plans comme jalon opérationnel de la période 1942-11, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Royaume-Uni",
+        "France de Vichy"
+      ],
+      "geo": [
+        "Maroc",
+        "Algérie",
+        "Afrique du Nord"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "pic_des_destructions_de_tonnage_allie_dans_l_atlantique_1942_11",
+      "title": "Pic des destructions de tonnage allié dans l'Atlantique",
+      "date_start": "1942-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Pic des destructions de tonnage allié dans l'Atlantique. Mentionné dans les plans comme jalon opérationnel de la période 1942-11, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "bataille de l'Atlantique",
+        "histoire navale"
+      ],
+      "actors": [
+        "Allemagne",
+        "Royaume-Uni",
+        "États-Unis",
+        "Canada"
+      ],
+      "geo": [
+        "Atlantique Nord"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "conference_de_casablanca_et_accords_d_anfa_1943_01",
+      "title": "Conférence de Casablanca et accords d'Anfa",
+      "date_start": "1943-01",
+      "date_end": null,
+      "type": "event",
+      "description": "Conférence de Casablanca et accords d'Anfa. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1943-01, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "diplomatie",
+        "droit international"
+      ],
+      "actors": [
+        "Roosevelt",
+        "Churchill",
+        "De Gaulle",
+        "Giraud",
+        "États-Unis",
+        "Royaume-Uni",
+        "France libre"
+      ],
+      "geo": [
+        "Casablanca",
+        "Maroc"
+      ],
+      "category": "Conférence",
+      "enriched": true
     },
     {
       "id": "staline_ps_pcus",
@@ -81,6 +863,169 @@
       ],
       "category": "Mandat",
       "enriched": false
+    },
+    {
+      "id": "presidence_roosevelt_us",
+      "title": "US - Présidence Roosevelt",
+      "date_start": "1943-01-01",
+      "date_end": "1945-04-12",
+      "type": "period",
+      "description": "Franklin D. Roosevelt, 32e président des États-Unis, est au pouvoir depuis 1933. Commandant en chef lors de la Seconde Guerre mondiale, il participe aux conférences de Téhéran et Yalta. Il meurt en fonction le 12 avril 1945, à la veille de la victoire alliée.",
+      "image_url": null,
+      "themes": [
+        "politique américaine",
+        "WWII"
+      ],
+      "actors": [
+        "Roosevelt"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Mandat",
+      "enriched": false
+    },
+    {
+      "id": "mai_noir_des_u_boote_1943_05",
+      "title": "\"Mai noir\" des U-Boote",
+      "date_start": "1943-05",
+      "date_end": null,
+      "type": "event",
+      "description": "\"Mai noir\" des U-Boote. Mentionné dans les plans comme jalon de la période 1943-05, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "histoire navale"
+      ],
+      "actors": [
+        "Allemagne"
+      ],
+      "geo": [
+        "Atlantique Nord"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "operation_husky_en_sicile_1943_07",
+      "title": "Opération Husky en Sicile",
+      "date_start": "1943-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Husky en Sicile. Mentionné dans les plans comme jalon opérationnel de la période 1943-07, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Royaume-Uni",
+        "Italie",
+        "Allemagne"
+      ],
+      "geo": [
+        "Sicile",
+        "Méditerranée"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "fusion_des_fnfl_et_de_la_marine_nationale_1943_08",
+      "title": "Fusion des FNFL et de la Marine nationale",
+      "date_start": "1943-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Fusion des FNFL et de la Marine nationale. Mentionné dans les plans comme jalon institutionnel de la période 1943-08, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "institution",
+        "histoire navale",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Alger",
+        "Afrique du Nord"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "liberation_de_la_corse_1943_09",
+      "title": "Libération de la Corse",
+      "date_start": "1943-09",
+      "date_end": null,
+      "type": "event",
+      "description": "Libération de la Corse. Mentionné dans les plans comme jalon de la période 1943-09, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "relations internationales"
+      ],
+      "actors": [
+        "France libre",
+        "Résistance corse",
+        "Italie",
+        "Allemagne"
+      ],
+      "geo": [
+        "Corse"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_avalanche_en_italie_1943_09",
+      "title": "Opération Avalanche en Italie",
+      "date_start": "1943-09",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Avalanche en Italie. Mentionné dans les plans comme jalon opérationnel de la période 1943-09, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Royaume-Uni",
+        "Allemagne",
+        "Italie"
+      ],
+      "geo": [
+        "Salerne",
+        "Italie"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "debarquement_americain_a_tarawa_1943_11",
+      "title": "Débarquement américain à Tarawa",
+      "date_start": "1943-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Débarquement américain à Tarawa. Mentionné dans les plans comme jalon opérationnel de la période 1943-11, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "Tarawa",
+        "Îles Gilbert",
+        "Pacifique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "abolition_mandat_liban_1943",
@@ -158,6 +1103,55 @@
       "category": "Conférence"
     },
     {
+      "id": "bataille_de_la_mer_des_philippines_1944_06",
+      "title": "Bataille de la mer des Philippines",
+      "date_start": "1944-06",
+      "date_end": null,
+      "type": "event",
+      "description": "Bataille de la mer des Philippines. Mentionné dans les plans comme jalon opérationnel de la période 1944-06, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires"
+      ],
+      "actors": [
+        "États-Unis",
+        "Japon"
+      ],
+      "geo": [
+        "Mer des Philippines",
+        "Pacifique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_neptune_et_debarquement_de_normandie_1944_06",
+      "title": "Opération Neptune et débarquement de Normandie",
+      "date_start": "1944-06",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Neptune et débarquement de Normandie. Mentionné dans les plans comme jalon opérationnel de la période 1944-06, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Royaume-Uni",
+        "Canada",
+        "France libre",
+        "Allemagne"
+      ],
+      "geo": [
+        "Normandie",
+        "Manche"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "bretton_woods_1944",
       "title": "Bretton Woods",
       "date_start": "1944-07-22",
@@ -179,6 +1173,78 @@
       ],
       "enriched": true,
       "category": "Traité / Accord"
+    },
+    {
+      "id": "debarquement_de_provence_operation_dragoon_1944_08",
+      "title": "Débarquement de Provence / opération Dragoon",
+      "date_start": "1944-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Débarquement de Provence / opération Dragoon. Mentionné dans les plans comme jalon opérationnel de la période 1944-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "États-Unis",
+        "France libre",
+        "Royaume-Uni",
+        "Allemagne"
+      ],
+      "geo": [
+        "Provence",
+        "Méditerranée"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_du_golfe_de_leyte_1944_10",
+      "title": "Bataille du golfe de Leyte",
+      "date_start": "1944-10",
+      "date_end": null,
+      "type": "event",
+      "description": "Bataille du golfe de Leyte. Mentionné dans les plans comme jalon opérationnel de la période 1944-10, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale",
+        "Guerre froide"
+      ],
+      "actors": [
+        "Japon",
+        "Iran",
+        "Irak",
+        "États-Unis"
+      ],
+      "geo": [
+        "Philippines",
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "bataille_d_iwo_jima_fevrier_mars_1945",
+      "title": "Bataille d'Iwo Jima",
+      "date_start": "1945-02",
+      "date_end": "1945-03",
+      "type": "period",
+      "description": "Bataille d'Iwo Jima. Mentionné dans les plans comme jalon opérationnel de la période février-mars 1945, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Japon"
+      ],
+      "geo": [
+        "Iwo Jima"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "conference_yalta_1945",
@@ -236,6 +1302,50 @@
       "category": "Traité / Accord"
     },
     {
+      "id": "bataille_d_okinawa_avril_juin_1945",
+      "title": "Bataille d'Okinawa",
+      "date_start": "1945-04",
+      "date_end": "1945-06",
+      "type": "period",
+      "description": "Bataille d'Okinawa. Mentionné dans les plans comme jalon opérationnel de la période avril-juin 1945, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Seconde Guerre mondiale"
+      ],
+      "actors": [
+        "Japon"
+      ],
+      "geo": [
+        "Okinawa"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "conference_de_san_francisco_et_adoption_de_la_charte_de_l_onu_avril_juin_1945",
+      "title": "Conférence de San Francisco et adoption de la Charte de l'ONU",
+      "date_start": "1945-04",
+      "date_end": "1945-06",
+      "type": "period",
+      "description": "Conférence de San Francisco et adoption de la Charte de l'ONU. Mentionné dans les plans comme jalon diplomatique ou juridique de la période avril-juin 1945, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "ONU",
+        "diplomatie"
+      ],
+      "actors": [
+        "États fondateurs de l'ONU"
+      ],
+      "geo": [
+        "San Francisco",
+        "États-Unis"
+      ],
+      "category": "Conférence",
+      "enriched": true
+    },
+    {
       "id": "presidence_truman_us",
       "title": "US - Présidence Truman",
       "date_start": "1945-04-12",
@@ -256,6 +1366,80 @@
       ],
       "enriched": true,
       "category": "Mandat"
+    },
+    {
+      "id": "massacres_de_setif_guelma_et_kherrata_1945_05",
+      "title": "Massacres de Sétif, Guelma et Kherrata",
+      "date_start": "1945-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Massacres de Sétif, Guelma et Kherrata. Mentionné dans les plans comme jalon de la période 1945-05, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "décolonisation",
+        "Algérie",
+        "violence coloniale"
+      ],
+      "actors": [
+        "France",
+        "Nationalistes algériens",
+        "Population algérienne"
+      ],
+      "geo": [
+        "Sétif",
+        "Guelma",
+        "Kherrata",
+        "Algérie"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "bombardements_atomiques_d_hiroshima_et_nagasaki_1945_08",
+      "title": "Bombardements atomiques d'Hiroshima et Nagasaki",
+      "date_start": "1945-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Bombardements atomiques d'Hiroshima et Nagasaki. Mentionné dans les plans comme jalon opérationnel de la période 1945-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "nucléaire",
+        "guerre du Pacifique"
+      ],
+      "actors": [
+        "États-Unis",
+        "Japon"
+      ],
+      "geo": [
+        "Japon"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "entree_en_guerre_sovietique_contre_le_japon_1945_08",
+      "title": "Entrée en guerre soviétique contre le Japon",
+      "date_start": "1945-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Entrée en guerre soviétique contre le Japon. Mentionné dans les plans comme jalon opérationnel de la période 1945-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "URSS",
+        "Japon"
+      ],
+      "geo": [
+        "Mandchourie",
+        "Asie du Nord-Est"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "conference_potsdam_1945",
@@ -286,27 +1470,50 @@
       "category": "Conférence"
     },
     {
-      "id": "depart_troupes_francaises_liban_1946",
-      "title": "Départ des dernières troupes françaises du Liban",
-      "date_start": "1946",
+      "id": "creation_du_commissariat_a_l_energie_atomique_1945_10",
+      "title": "Création du Commissariat à l'énergie atomique",
+      "date_start": "1945-10",
       "date_end": null,
       "type": "event",
-      "description": "En 1946, le dernier soldat français quitte le Liban, marquant la fin effective du mandat français et la pleine souveraineté libanaise.",
+      "description": "Création du Commissariat à l'énergie atomique. Mentionné dans les plans comme jalon institutionnel de la période 1945-10, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
       "image_url": null,
       "themes": [
-        "décolonisation",
-        "indépendance",
-        "crise libanaise"
+        "nucléaire français",
+        "institution",
+        "capacité militaire"
       ],
       "actors": [
         "France",
-        "Liban"
+        "GPRF",
+        "Frédéric Joliot-Curie"
       ],
       "geo": [
-        "Liban"
+        "France"
       ],
-      "enriched": true,
-      "category": "Rupture politique"
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "constitution_de_l_union_francaise_1946",
+      "title": "Constitution de l'Union française",
+      "date_start": "1946",
+      "date_end": null,
+      "type": "event",
+      "description": "Constitution de l'Union française. Mentionné dans les plans comme jalon institutionnel de la période 1946, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France",
+        "Empire colonial français"
+      ],
+      "category": "Institution",
+      "enriched": true
     },
     {
       "id": "doctrine_jdanov_1946",
@@ -331,6 +1538,29 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "depart_troupes_francaises_liban_1946",
+      "title": "Départ des dernières troupes françaises du Liban",
+      "date_start": "1946",
+      "date_end": null,
+      "type": "event",
+      "description": "En 1946, le dernier soldat français quitte le Liban, marquant la fin effective du mandat français et la pleine souveraineté libanaise.",
+      "image_url": null,
+      "themes": [
+        "décolonisation",
+        "indépendance",
+        "crise libanaise"
+      ],
+      "actors": [
+        "France",
+        "Liban"
+      ],
+      "geo": [
+        "Liban"
+      ],
+      "enriched": true,
+      "category": "Rupture politique"
     },
     {
       "id": "discours_fulton_1946",
@@ -437,6 +1667,51 @@
       ],
       "enriched": true,
       "category": "Période historique"
+    },
+    {
+      "id": "insurrection_de_madagascar_1947",
+      "title": "Insurrection de Madagascar",
+      "date_start": "1947",
+      "date_end": null,
+      "type": "event",
+      "description": "Insurrection de Madagascar. Mentionné dans les plans comme jalon de la période 1947, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "décolonisation",
+        "Empire colonial français"
+      ],
+      "actors": [
+        "France",
+        "Nationalistes malgaches"
+      ],
+      "geo": [
+        "Madagascar"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "rattachement_de_chandernagor_a_l_inde_1947",
+      "title": "Rattachement de Chandernagor à l'Inde",
+      "date_start": "1947",
+      "date_end": null,
+      "type": "event",
+      "description": "Rattachement de Chandernagor à l'Inde. Mentionné dans les plans comme jalon de décolonisation ou de recomposition impériale de la période 1947, il éclaire le recul des empires et la redéfinition des souverainetés.",
+      "image_url": null,
+      "themes": [
+        "décolonisation",
+        "Empire colonial français"
+      ],
+      "actors": [
+        "France",
+        "Inde"
+      ],
+      "geo": [
+        "Chandernagor",
+        "Inde"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
     },
     {
       "id": "vincent_auriol_pr",
@@ -584,6 +1859,29 @@
       ],
       "enriched": true,
       "category": "Institution"
+    },
+    {
+      "id": "divergence_de_la_pile_zoe_1948",
+      "title": "Divergence de la pile Zoé",
+      "date_start": "1948",
+      "date_end": null,
+      "type": "event",
+      "description": "Divergence de la pile Zoé. Mentionné dans les plans comme jalon de la période 1948, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "nucléaire français",
+        "recherche nucléaire"
+      ],
+      "actors": [
+        "France",
+        "CEA"
+      ],
+      "geo": [
+        "Fontenay-aux-Roses",
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "coup_prague_1948",
@@ -737,6 +2035,51 @@
       "category": "Institution"
     },
     {
+      "id": "revolte_des_amiraux_aux_etats_unis_1949",
+      "title": "Révolte des amiraux aux États-Unis",
+      "date_start": "1949",
+      "date_end": null,
+      "type": "event",
+      "description": "Révolte des amiraux aux États-Unis. Mentionné dans les plans comme jalon de la période 1949, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "crise politique"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "soutien_chinois_au_viet_minh_1949",
+      "title": "Soutien chinois au Viet Minh",
+      "date_start": "1949",
+      "date_end": null,
+      "type": "event",
+      "description": "Soutien chinois au Viet Minh. Mentionné dans les plans comme jalon de la période 1949, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "Indochine",
+        "décolonisation"
+      ],
+      "actors": [
+        "République populaire de Chine",
+        "Viet Minh",
+        "France"
+      ],
+      "geo": [
+        "Chine",
+        "Indochine"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
       "id": "traite_atlantique_nord_1949",
       "title": "Traité de l'Atlantique Nord",
       "date_start": "1949-04-04",
@@ -822,6 +2165,26 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "desastre_francais_de_la_rc4_en_indochine_1950",
+      "title": "Désastre français de la RC4 en Indochine",
+      "date_start": "1950",
+      "date_end": null,
+      "type": "event",
+      "description": "Désastre français de la RC4 en Indochine. Mentionné dans les plans comme jalon de la période 1950, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Indochine"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "traite_amitie_sino_sovietique_1950",
@@ -996,6 +2359,48 @@
       "category": "Traité / Accord"
     },
     {
+      "id": "debut_de_la_production_francaise_de_plutonium_1952",
+      "title": "Début de la production française de plutonium",
+      "date_start": "1952",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de la production française de plutonium. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1952, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "premiere_bombe_h_americaine_1952",
+      "title": "Première bombe H américaine",
+      "date_start": "1952",
+      "date_end": null,
+      "type": "event",
+      "description": "Première bombe H américaine. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1952, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis",
+        "Pacifique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "otan_sommet_lisbonne_shape_1952",
       "title": "Sommet de Lisbonne — OTAN permanente, SHAPE à Paris",
       "date_start": "1952",
@@ -1056,35 +2461,6 @@
       "category": "Traité / Accord"
     },
     {
-      "id": "mort_staline_1953",
-      "title": "Mort de Staline",
-      "date_start": "1953",
-      "date_end": null,
-      "type": "event",
-      "description": "Staline décède le 5 mars 1953, ouvrant une crise de succession au sein du PCUS. Après une période de direction collégiale, Nikita Khrouchtchev s'impose progressivement comme premier secrétaire, inaugurant une phase de dégel relatif.",
-      "image_url": null,
-      "themes": [
-        "succession politique",
-        "dégel",
-        "coexistence pacifique",
-        "Coexistence pacifique et crises"
-      ],
-      "actors": [
-        "Staline",
-        "Khrouchtchev",
-        "Beria",
-        "Malenkov",
-        "PCUS",
-        "URSS"
-      ],
-      "geo": [
-        "URSS",
-        "Moscou"
-      ],
-      "enriched": true,
-      "category": "Rupture politique"
-    },
-    {
       "id": "phase_coexistence_pacifique_crises_1953_1962",
       "title": "Coexistence pacifique et crises",
       "date_start": "1953",
@@ -1114,6 +2490,79 @@
       ],
       "enriched": true,
       "category": "Période historique"
+    },
+    {
+      "id": "independance_du_cambodge_et_du_laos_1953",
+      "title": "Indépendance du Cambodge et du Laos",
+      "date_start": "1953",
+      "date_end": null,
+      "type": "event",
+      "description": "Indépendance du Cambodge et du Laos. Mentionné dans les plans comme jalon de décolonisation ou de recomposition impériale de la période 1953, il éclaire le recul des empires et la redéfinition des souverainetés.",
+      "image_url": null,
+      "themes": [
+        "décolonisation"
+      ],
+      "actors": [
+        "Cambodge",
+        "Laos",
+        "France"
+      ],
+      "geo": [
+        "Cambodge",
+        "Laos",
+        "Indochine"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
+    },
+    {
+      "id": "mise_a_l_eau_de_l_uss_albacore_1953",
+      "title": "Mise à l'eau de l'USS Albacore",
+      "date_start": "1953",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise à l'eau de l'USS Albacore. Mentionné dans les plans comme jalon de la période 1953, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "histoire navale"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "mort_staline_1953",
+      "title": "Mort de Staline",
+      "date_start": "1953",
+      "date_end": null,
+      "type": "event",
+      "description": "Staline décède le 5 mars 1953, ouvrant une crise de succession au sein du PCUS. Après une période de direction collégiale, Nikita Khrouchtchev s'impose progressivement comme premier secrétaire, inaugurant une phase de dégel relatif.",
+      "image_url": null,
+      "themes": [
+        "succession politique",
+        "dégel",
+        "coexistence pacifique",
+        "Coexistence pacifique et crises"
+      ],
+      "actors": [
+        "Staline",
+        "Khrouchtchev",
+        "Beria",
+        "Malenkov",
+        "PCUS",
+        "URSS"
+      ],
+      "geo": [
+        "URSS",
+        "Moscou"
+      ],
+      "enriched": true,
+      "category": "Rupture politique"
     },
     {
       "id": "presidence_eisenhower_us",
@@ -1214,6 +2663,27 @@
       "category": "Mandat"
     },
     {
+      "id": "directive_mendes_france_pour_une_bombe_atomique_francaise_1954",
+      "title": "Directive Mendès-France pour une bombe atomique française",
+      "date_start": "1954",
+      "date_end": null,
+      "type": "event",
+      "description": "Directive Mendès-France pour une bombe atomique française. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1954, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "doctrine_represailles_massives",
       "title": "Doctrine des représailles massives",
       "date_start": "1954",
@@ -1238,6 +2708,26 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "integration_des_comptoirs_francais_a_l_inde_1954",
+      "title": "Intégration des comptoirs français à l'Inde",
+      "date_start": "1954",
+      "date_end": null,
+      "type": "event",
+      "description": "Intégration des comptoirs français à l'Inde. Mentionné dans les plans comme jalon de la période 1954, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Inde"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "premiere_crise_detroit_taiwan_1954",
@@ -1448,27 +2938,25 @@
       "category": "Capacité militaire"
     },
     {
-      "id": "bombe_h_sovietique_1955",
-      "title": "Première bombe H soviétique",
+      "id": "accord_d_armement_entre_l_egypte_et_la_tchecoslovaquie_1955",
+      "title": "Accord d'armement entre l'Égypte et la Tchécoslovaquie",
       "date_start": "1955",
       "date_end": null,
       "type": "event",
-      "description": "En novembre 1955, l'URSS teste sa première bombe thermonucléaire aéroportable, franchissant une étape décisive dans la course aux armements. Cette capacité renforce la crédibilité de la dissuasion soviétique face aux États-Unis.",
+      "description": "Accord d'armement entre l'Égypte et la Tchécoslovaquie. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1955, il modifie le cadre politique, stratégique ou international concerné.",
       "image_url": null,
       "themes": [
-        "nucléaire",
-        "course aux armements",
-        "dissuasion"
+        "droit international"
       ],
       "actors": [
-        "URSS",
-        "Khrouchtchev"
+        "Égypte"
       ],
       "geo": [
-        "URSS"
+        "Égypte",
+        "Tchécoslovaquie"
       ],
-      "enriched": true,
-      "category": "Capacité militaire"
+      "category": "Traité / Accord",
+      "enriched": true
     },
     {
       "id": "conference_geneve_1955",
@@ -1530,6 +3018,75 @@
       ],
       "enriched": true,
       "category": "Institution"
+    },
+    {
+      "id": "debut_de_la_surmar_en_algerie_1955",
+      "title": "Début de la SURMAR en Algérie",
+      "date_start": "1955",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de la SURMAR en Algérie. Mentionné dans les plans comme jalon de la période 1955, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "guerre d'Algérie",
+        "histoire navale"
+      ],
+      "actors": [
+        "Marine nationale",
+        "France",
+        "FLN"
+      ],
+      "geo": [
+        "Algérie",
+        "Méditerranée"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "debut_du_programme_francais_q_244_1955",
+      "title": "Début du programme français Q-244",
+      "date_start": "1955",
+      "date_end": null,
+      "type": "event",
+      "description": "Début du programme français Q-244. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1955, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "bombe_h_sovietique_1955",
+      "title": "Première bombe H soviétique",
+      "date_start": "1955",
+      "date_end": null,
+      "type": "event",
+      "description": "En novembre 1955, l'URSS teste sa première bombe thermonucléaire aéroportable, franchissant une étape décisive dans la course aux armements. Cette capacité renforce la crédibilité de la dissuasion soviétique face aux États-Unis.",
+      "image_url": null,
+      "themes": [
+        "nucléaire",
+        "course aux armements",
+        "dissuasion"
+      ],
+      "actors": [
+        "URSS",
+        "Khrouchtchev"
+      ],
+      "geo": [
+        "URSS"
+      ],
+      "enriched": true,
+      "category": "Capacité militaire"
     },
     {
       "id": "uss_nautilus_1955",
@@ -1711,6 +3268,30 @@
       "category": "Crise"
     },
     {
+      "id": "creation_de_la_dbfm_en_oranie_1956",
+      "title": "Création de la DBFM en Oranie",
+      "date_start": "1956",
+      "date_end": null,
+      "type": "event",
+      "description": "Création de la DBFM en Oranie. Mentionné dans les plans comme jalon institutionnel de la période 1956, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "guerre d'Algérie",
+        "Marine nationale"
+      ],
+      "actors": [
+        "Marine nationale",
+        "France",
+        "FLN"
+      ],
+      "geo": [
+        "Oranie",
+        "Algérie"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "xxe_congres_pcus_1956",
       "title": "XXe Congrès du PCUS — déstalinisation",
       "date_start": "1956",
@@ -1760,6 +3341,165 @@
       "category": "Décolonisation"
     },
     {
+      "id": "refus_americano_britannique_de_financer_le_barrage_d_assouan_1956_07",
+      "title": "Refus américano-britannique de financer le barrage d'Assouan",
+      "date_start": "1956-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Refus américano-britannique de financer le barrage d'Assouan. Mentionné dans les plans comme jalon doctrinal ou politique de la période 1956-07, il formalise une orientation stratégique ou diplomatique importante.",
+      "image_url": null,
+      "themes": [
+        "doctrine"
+      ],
+      "actors": [
+        "États-Unis",
+        "Royaume-Uni",
+        "Égypte"
+      ],
+      "geo": [
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
+    },
+    {
+      "id": "nationalisation_du_canal_de_suez_1956_07_26",
+      "title": "Nationalisation du canal de Suez",
+      "date_start": "1956-07-26",
+      "date_end": null,
+      "type": "event",
+      "description": "Le 26 juillet 1956, Nasser annonce la nationalisation du canal de Suez pour financer le barrage d'Assouan. La décision déclenche la crise internationale qui conduit à l'intervention franco-britannique et israélienne.",
+      "image_url": null,
+      "themes": [
+        "relations internationales"
+      ],
+      "actors": [
+        "Égypte"
+      ],
+      "geo": [
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "conference_secrete_de_sevres_1956_10",
+      "title": "Conférence secrète de Sèvres",
+      "date_start": "1956-10",
+      "date_end": null,
+      "type": "event",
+      "description": "Conférence secrète de Sèvres. Mentionnée dans les plans comme séquence diplomatique de la période 1956-10, elle contribue à structurer les équilibres politiques et stratégiques de l'après-guerre.",
+      "image_url": null,
+      "themes": [
+        "Suez",
+        "diplomatie secrète",
+        "Guerre froide"
+      ],
+      "actors": [
+        "France",
+        "Royaume-Uni",
+        "Israël"
+      ],
+      "geo": [
+        "Sèvres",
+        "France"
+      ],
+      "category": "Conférence",
+      "enriched": true
+    },
+    {
+      "id": "declenchement_de_l_operation_kadesh_1956_10_29",
+      "title": "Déclenchement de l'opération Kadesh",
+      "date_start": "1956-10-29",
+      "date_end": null,
+      "type": "event",
+      "description": "Le 29 octobre 1956, Israël lance l'opération Kadesh dans le Sinaï avec le soutien clandestin de la France. Cette attaque fournit le prétexte à l'ultimatum puis à l'intervention franco-britannique sur le canal de Suez.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires"
+      ],
+      "actors": [
+        "Israël"
+      ],
+      "geo": [
+        "Sinaï",
+        "Égypte"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "ultimatum_franco_britannique_a_l_egypte_et_a_israel_1956_10_31",
+      "title": "Ultimatum franco-britannique à l'Égypte et à Israël",
+      "date_start": "1956-10-31",
+      "date_end": null,
+      "type": "event",
+      "description": "Ultimatum franco-britannique à l'Égypte et à Israël. Mentionné dans les plans comme jalon de la période 1956-10-31, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "relations internationales"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Égypte",
+        "Israël"
+      ],
+      "geo": [
+        "Égypte",
+        "Israël",
+        "Canal de Suez"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "creation_de_la_funu_unef_1956_11",
+      "title": "Création de la FUNU / UNEF",
+      "date_start": "1956-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Création de la FUNU / UNEF. Mentionné dans les plans comme jalon institutionnel de la période 1956-11, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "ONU"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "Nations Unies",
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "assaut_franco_britannique_sur_port_said_et_port_fouad_1956_11_05",
+      "title": "Assaut franco-britannique sur Port-Saïd et Port-Fouad",
+      "date_start": "1956-11-05",
+      "date_end": "1956-11-06",
+      "type": "period",
+      "description": "Assaut franco-britannique sur Port-Saïd et Port-Fouad. Mentionné dans les plans comme jalon opérationnel de la période 1956-11-05-1956-11-06, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Égypte"
+      ],
+      "geo": [
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "doctrine_eisenhower_moyen_orient_1957",
       "title": "Doctrine Eisenhower pour le Moyen-Orient",
       "date_start": "1957",
@@ -1784,6 +3524,28 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "proclamation_indonesienne_des_eaux_archipelagiques_1957",
+      "title": "Proclamation indonésienne des eaux archipélagiques",
+      "date_start": "1957",
+      "date_end": null,
+      "type": "event",
+      "description": "Proclamation indonésienne des eaux archipélagiques. Mentionné dans les plans comme jalon de la période 1957, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "droit de la mer",
+        "détroits et canaux"
+      ],
+      "actors": [
+        "Indonésie",
+        "États maritimes"
+      ],
+      "geo": [
+        "Indonésie"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
     },
     {
       "id": "spoutnik_1957",
@@ -1946,6 +3708,30 @@
       "category": "Capacité militaire"
     },
     {
+      "id": "premiere_conference_de_geneve_sur_le_droit_de_la_mer_1958",
+      "title": "Première conférence de Genève sur le droit de la mer",
+      "date_start": "1958",
+      "date_end": null,
+      "type": "event",
+      "description": "Première conférence de Genève sur le droit de la mer. Mentionnée dans les plans comme séquence diplomatique de la période 1958, elle contribue à structurer les équilibres politiques et stratégiques de l'après-guerre.",
+      "image_url": null,
+      "themes": [
+        "droit de la mer",
+        "ONU",
+        "détroits et canaux"
+      ],
+      "actors": [
+        "États participants",
+        "ONU"
+      ],
+      "geo": [
+        "Genève",
+        "Suisse"
+      ],
+      "category": "Conférence",
+      "enriched": true
+    },
+    {
       "id": "de_gaulle_retour_pouvoir_1958",
       "title": "De Gaulle revient au pouvoir",
       "date_start": "1958-05-13",
@@ -1972,6 +3758,27 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "discours_je_vous_ai_compris_a_alger_1958_06_04",
+      "title": "Discours \"Je vous ai compris\" à Alger",
+      "date_start": "1958-06-04",
+      "date_end": null,
+      "type": "event",
+      "description": "Discours \"Je vous ai compris\" à Alger. Mentionné dans les plans comme jalon doctrinal ou politique de la période 1958-06-04, il formalise une orientation stratégique ou diplomatique importante.",
+      "image_url": null,
+      "themes": [
+        "doctrine"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "Alger",
+        "Algérie"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
     },
     {
       "id": "crise_liban_1958",
@@ -2030,6 +3837,31 @@
       "category": "Doctrine / Discours"
     },
     {
+      "id": "vedettes_komar_1959",
+      "title": "Livraison des premières vedettes lance-missiles type Komar",
+      "date_start": "1959",
+      "date_end": null,
+      "type": "event",
+      "description": "L'URSS livre à la Chine ses premières vedettes lance-missiles de type Komar (« moustique » en russe), équipées de missiles SS-N-2 Styx. Ces bâtiments constituent les premiers lanceurs de missiles antinavires de la marine chinoise et inaugurent une doctrine de déni d'accès côtier.",
+      "image_url": null,
+      "themes": [
+        "marine militaire",
+        "missiles antinavires",
+        "coopération militaire navale",
+        "déni d'accès"
+      ],
+      "actors": [
+        "République populaire de Chine",
+        "URSS",
+        "Armée populaire de libération — marine"
+      ],
+      "geo": [
+        "Chine"
+      ],
+      "enriched": true,
+      "category": "Capacité militaire"
+    },
+    {
       "id": "rupture_sino_sovietique_1959",
       "title": "Rupture sino-soviétique",
       "date_start": "1959",
@@ -2059,31 +3891,6 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
-    },
-    {
-      "id": "vedettes_komar_1959",
-      "title": "Livraison des premières vedettes lance-missiles type Komar",
-      "date_start": "1959",
-      "date_end": null,
-      "type": "event",
-      "description": "L'URSS livre à la Chine ses premières vedettes lance-missiles de type Komar (« moustique » en russe), équipées de missiles SS-N-2 Styx. Ces bâtiments constituent les premiers lanceurs de missiles antinavires de la marine chinoise et inaugurent une doctrine de déni d'accès côtier.",
-      "image_url": null,
-      "themes": [
-        "marine militaire",
-        "missiles antinavires",
-        "coopération militaire navale",
-        "déni d'accès"
-      ],
-      "actors": [
-        "République populaire de Chine",
-        "URSS",
-        "Armée populaire de libération — marine"
-      ],
-      "geo": [
-        "Chine"
-      ],
-      "enriched": true,
-      "category": "Capacité militaire"
     },
     {
       "id": "degaulle_president_5e",
@@ -2232,6 +4039,73 @@
       "category": "Décolonisation"
     },
     {
+      "id": "mission_onuc_au_congo_1960",
+      "title": "Mission ONUC au Congo",
+      "date_start": "1960",
+      "date_end": "1964",
+      "type": "period",
+      "description": "Mission ONUC au Congo. Mentionné dans les plans comme jalon de la période 1960-1964, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "ONU"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "Congo"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "resolution_1514_de_l_onu_sur_la_decolonisation_1960",
+      "title": "Résolution 1514 de l'ONU sur la décolonisation",
+      "date_start": "1960",
+      "date_end": null,
+      "type": "event",
+      "description": "Résolution 1514 de l'ONU sur la décolonisation. Mentionné dans les plans comme jalon de décolonisation ou de recomposition impériale de la période 1960, il éclaire le recul des empires et la redéfinition des souverainetés.",
+      "image_url": null,
+      "themes": [
+        "droit international",
+        "décolonisation",
+        "ONU"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "Nations Unies",
+        "New York"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
+    },
+    {
+      "id": "seconde_conference_de_geneve_sur_le_droit_de_la_mer_1960",
+      "title": "Seconde conférence de Genève sur le droit de la mer",
+      "date_start": "1960",
+      "date_end": null,
+      "type": "event",
+      "description": "Seconde conférence de Genève sur le droit de la mer. Mentionnée dans les plans comme séquence diplomatique de la période 1960, elle contribue à structurer les équilibres politiques et stratégiques de l'après-guerre.",
+      "image_url": null,
+      "themes": [
+        "droit de la mer",
+        "ONU",
+        "détroits et canaux"
+      ],
+      "actors": [
+        "États participants",
+        "ONU"
+      ],
+      "geo": [
+        "Genève",
+        "Suisse"
+      ],
+      "category": "Conférence",
+      "enriched": true
+    },
+    {
       "id": "bombe_a_francaise_1960",
       "title": "Bombe A française.",
       "date_start": "1960-02-13",
@@ -2253,6 +4127,28 @@
       ],
       "enriched": true,
       "category": "Capacité militaire"
+    },
+    {
+      "id": "tir_polaris_en_immersion_par_l_uss_george_washington_1960_07",
+      "title": "Tir Polaris en immersion par l'USS George Washington",
+      "date_start": "1960-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Tir Polaris en immersion par l'USS George Washington. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1960-07, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "histoire navale"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "Atlantique",
+        "États-Unis"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "premier_snle_1960",
@@ -2330,6 +4226,51 @@
       ],
       "enriched": true,
       "category": "Capacité militaire"
+    },
+    {
+      "id": "mise_en_service_de_la_liaison_11_ntds_1961",
+      "title": "Mise en service de la Liaison 11 / NTDS",
+      "date_start": "1961",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise en service de la Liaison 11 / NTDS. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1961, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "liaisons de données",
+        "technologie militaire",
+        "histoire navale"
+      ],
+      "actors": [
+        "US Navy",
+        "OTAN"
+      ],
+      "geo": [
+        "États-Unis",
+        "Atlantique Nord"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "mise_en_service_du_clemenceau_1961",
+      "title": "Mise en service du Clemenceau",
+      "date_start": "1961",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise en service du Clemenceau. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1961, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "gagarine_espace_1961",
@@ -2514,30 +4455,28 @@
       "category": "Doctrine / Discours"
     },
     {
-      "id": "guerre_sino_indienne_1962",
-      "title": "Guerre sino-indienne",
+      "id": "decision_de_creer_le_centre_d_experimentation_du_pacifique_1962",
+      "title": "Décision de créer le Centre d'expérimentation du Pacifique",
       "date_start": "1962",
       "date_end": null,
       "type": "event",
-      "description": "En octobre-novembre 1962, la Chine lance une offensive surprise contre l'Inde le long de la frontière himalayenne contestée. L'Armée populaire de libération inflige une défaite rapide aux forces indiennes avant de se retirer unilatéralement, conservant le contrôle de l'Aksai Chin.",
+      "description": "Décision de créer le Centre d'expérimentation du Pacifique. Mentionné dans les plans comme jalon de la période 1962, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
       "image_url": null,
       "themes": [
-        "conflit frontalier",
-        "Guerre froide",
-        "Asie"
+        "nucléaire français",
+        "Pacifique",
+        "dissuasion"
       ],
       "actors": [
-        "République populaire de Chine",
-        "Inde"
+        "France",
+        "De Gaulle"
       ],
       "geo": [
-        "Chine",
-        "Inde",
-        "Himalaya",
-        "Aksai Chin"
+        "Polynésie française",
+        "Pacifique"
       ],
-      "enriched": true,
-      "category": "Conflit armé"
+      "category": "Institution",
+      "enriched": true
     },
     {
       "id": "phase_detente_1962_1975",
@@ -2568,6 +4507,76 @@
       ],
       "enriched": true,
       "category": "Période historique"
+    },
+    {
+      "id": "guerre_sino_indienne_1962",
+      "title": "Guerre sino-indienne",
+      "date_start": "1962",
+      "date_end": null,
+      "type": "event",
+      "description": "En octobre-novembre 1962, la Chine lance une offensive surprise contre l'Inde le long de la frontière himalayenne contestée. L'Armée populaire de libération inflige une défaite rapide aux forces indiennes avant de se retirer unilatéralement, conservant le contrôle de l'Aksai Chin.",
+      "image_url": null,
+      "themes": [
+        "conflit frontalier",
+        "Guerre froide",
+        "Asie"
+      ],
+      "actors": [
+        "République populaire de Chine",
+        "Inde"
+      ],
+      "geo": [
+        "Chine",
+        "Inde",
+        "Himalaya",
+        "Aksai Chin"
+      ],
+      "enriched": true,
+      "category": "Conflit armé"
+    },
+    {
+      "id": "succes_du_prototype_francais_de_reacteur_a_uranium_enrichi_1962",
+      "title": "Succès du prototype français de réacteur à uranium enrichi",
+      "date_start": "1962",
+      "date_end": null,
+      "type": "event",
+      "description": "Succès du prototype français de réacteur à uranium enrichi. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1962, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Cadarache",
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "election_du_president_de_la_republique_au_suffrage_universel_direct_1962",
+      "title": "Élection du président de la République au suffrage universel direct",
+      "date_start": "1962",
+      "date_end": null,
+      "type": "event",
+      "description": "Élection du président de la République au suffrage universel direct. Mentionné dans les plans comme jalon de la période 1962, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Ve République",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "De Gaulle"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "accords_evian_1962",
@@ -2651,6 +4660,72 @@
       ],
       "enriched": true,
       "category": "Traité / Accord"
+    },
+    {
+      "id": "creation_du_groupe_des_77_1963",
+      "title": "Création du Groupe des 77",
+      "date_start": "1963",
+      "date_end": null,
+      "type": "event",
+      "description": "Création du Groupe des 77. Mentionné dans les plans comme jalon institutionnel de la période 1963, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "tiers-monde",
+        "ONU",
+        "relations Nord-Sud"
+      ],
+      "actors": [
+        "Pays du Sud",
+        "ONU"
+      ],
+      "geo": [
+        "Nations Unies"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "mise_en_service_du_foch_1963",
+      "title": "Mise en service du Foch",
+      "date_start": "1963",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise en service du Foch. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1963, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "premier_coup_d_etat_en_afrique_francophone_au_togo_1963",
+      "title": "Premier coup d'État en Afrique francophone au Togo",
+      "date_start": "1963",
+      "date_end": null,
+      "type": "event",
+      "description": "Premier coup d'État en Afrique francophone au Togo. Mentionné dans les plans comme jalon de la période 1963, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Afrique subsaharienne",
+        "Françafrique"
+      ],
+      "actors": [
+        "Togo",
+        "France"
+      ],
+      "geo": [
+        "Togo"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "france_refus_mlf_triade_nucleaire_1963",
@@ -2805,28 +4880,30 @@
       "category": "Mandat"
     },
     {
-      "id": "bombe_a_chine_1964",
-      "title": "Premier essai nucléaire chinois — bombe A",
+      "id": "creation_olp_1964",
+      "title": "Création de l'OLP",
       "date_start": "1964",
       "date_end": null,
       "type": "event",
-      "description": "Le 16 octobre 1964, la Chine procède à son premier essai nucléaire sur le site de Lop Nor au Xinjiang. Elle devient ainsi la cinquième puissance nucléaire mondiale, indépendamment de l'URSS avec laquelle la coopération atomique avait été interrompue en 1959.",
+      "description": "En 1964, l'Organisation de Libération de la Palestine (OLP) est fondée sous l'égide des États arabes pour représenter le peuple palestinien et coordonner la lutte pour la création d'un État. Après la guerre des Six Jours (1967), le Fatah de Yasser Arafat prend le contrôle de l'organisation et impose la lutte armée comme ligne directrice.",
       "image_url": null,
       "themes": [
-        "nucléaire",
-        "armement",
-        "puissance militaire"
+        "conflit israélo-arabe",
+        "question palestinienne",
+        "Moyen-Orient"
       ],
       "actors": [
-        "République populaire de Chine"
+        "OLP",
+        "Arafat",
+        "Fatah",
+        "États arabes"
       ],
       "geo": [
-        "Chine",
-        "Xinjiang",
-        "Lop Nor"
+        "Palestine",
+        "Moyen-Orient"
       ],
       "enriched": true,
-      "category": "Capacité militaire"
+      "category": "Institution"
     },
     {
       "id": "operation_sea_orbit_1964",
@@ -2856,30 +4933,49 @@
       "category": "Capacité militaire"
     },
     {
-      "id": "creation_olp_1964",
-      "title": "Création de l'OLP",
+      "id": "bombe_a_chine_1964",
+      "title": "Premier essai nucléaire chinois — bombe A",
       "date_start": "1964",
       "date_end": null,
       "type": "event",
-      "description": "En 1964, l'Organisation de Libération de la Palestine (OLP) est fondée sous l'égide des États arabes pour représenter le peuple palestinien et coordonner la lutte pour la création d'un État. Après la guerre des Six Jours (1967), le Fatah de Yasser Arafat prend le contrôle de l'organisation et impose la lutte armée comme ligne directrice.",
+      "description": "Le 16 octobre 1964, la Chine procède à son premier essai nucléaire sur le site de Lop Nor au Xinjiang. Elle devient ainsi la cinquième puissance nucléaire mondiale, indépendamment de l'URSS avec laquelle la coopération atomique avait été interrompue en 1959.",
       "image_url": null,
       "themes": [
-        "conflit israélo-arabe",
-        "question palestinienne",
-        "Moyen-Orient"
+        "nucléaire",
+        "armement",
+        "puissance militaire"
       ],
       "actors": [
-        "OLP",
-        "Arafat",
-        "Fatah",
-        "États arabes"
+        "République populaire de Chine"
       ],
       "geo": [
-        "Palestine",
-        "Moyen-Orient"
+        "Chine",
+        "Xinjiang",
+        "Lop Nor"
       ],
       "enriched": true,
-      "category": "Institution"
+      "category": "Capacité militaire"
+    },
+    {
+      "id": "premiere_prise_d_alerte_des_mirage_iv_1964",
+      "title": "Première prise d'alerte des Mirage IV",
+      "date_start": "1964",
+      "date_end": null,
+      "type": "event",
+      "description": "Première prise d'alerte des Mirage IV. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1964, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "reconnaissance_rpc_france_1964",
@@ -3003,6 +5099,72 @@
       "category": "Mandat"
     },
     {
+      "id": "creation_du_pnud_1965",
+      "title": "Création du PNUD",
+      "date_start": "1965",
+      "date_end": null,
+      "type": "event",
+      "description": "Création du PNUD. Mentionné dans les plans comme jalon institutionnel de la période 1965, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "ONU",
+        "développement",
+        "relations Nord-Sud"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "Nations Unies"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "debut_de_l_operation_market_time_au_vietnam_1965",
+      "title": "Début de l'opération Market Time au Vietnam",
+      "date_start": "1965",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de l'opération Market Time au Vietnam. Mentionné dans les plans comme jalon opérationnel de la période 1965, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "debut_de_l_operation_rolling_thunder_au_vietnam_1965",
+      "title": "Début de l'opération Rolling Thunder au Vietnam",
+      "date_start": "1965",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de l'opération Rolling Thunder au Vietnam. Mentionné dans les plans comme jalon opérationnel de la période 1965, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "cee_traite_fusion_1965",
       "title": "CEE - Traité de fusion",
       "date_start": "1965-04-08",
@@ -3024,6 +5186,50 @@
       ],
       "enriched": true,
       "category": "Institution"
+    },
+    {
+      "id": "debut_de_l_operation_sea_dragon_au_vietnam_1966",
+      "title": "Début de l'opération Sea Dragon au Vietnam",
+      "date_start": "1966",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de l'opération Sea Dragon au Vietnam. Mentionné dans les plans comme jalon opérationnel de la période 1966, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "debut_des_essais_nucleaires_francais_dans_le_pacifique_1966",
+      "title": "Début des essais nucléaires français dans le Pacifique",
+      "date_start": "1966",
+      "date_end": null,
+      "type": "event",
+      "description": "Début des essais nucléaires français dans le Pacifique. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1966, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "Guerre froide",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "france_distances_usa_otan_1966",
@@ -3102,6 +5308,137 @@
       ],
       "enriched": true,
       "category": "Conférence"
+    },
+    {
+      "id": "annonce_britannique_du_retrait_east_of_suez_1967",
+      "title": "Annonce britannique du retrait \"East of Suez\"",
+      "date_start": "1967",
+      "date_end": null,
+      "type": "event",
+      "description": "Annonce britannique du retrait \"East of Suez\". Mentionné dans les plans comme jalon doctrinal ou politique de la période 1967, il formalise une orientation stratégique ou diplomatique importante.",
+      "image_url": null,
+      "themes": [
+        "doctrine"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Égypte"
+      ],
+      "geo": [
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
+    },
+    {
+      "id": "creation_de_la_mobile_riverine_force_au_vietnam_1967",
+      "title": "Création de la Mobile Riverine Force au Vietnam",
+      "date_start": "1967",
+      "date_end": null,
+      "type": "event",
+      "description": "Création de la Mobile Riverine Force au Vietnam. Mentionné dans les plans comme jalon institutionnel de la période 1967, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "destruction_de_l_eilat_par_missiles_antinavires_1967",
+      "title": "Destruction de l'Eilat par missiles antinavires",
+      "date_start": "1967",
+      "date_end": null,
+      "type": "event",
+      "description": "Destruction de l'Eilat par missiles antinavires. Mentionné dans les plans comme jalon opérationnel de la période 1967, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "Israël"
+      ],
+      "geo": [
+        "Méditerranée orientale",
+        "Égypte",
+        "Israël"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "lancement_du_programme_exocet_1967",
+      "title": "Lancement du programme Exocet",
+      "date_start": "1967",
+      "date_end": null,
+      "type": "event",
+      "description": "Lancement du programme Exocet. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1967, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "mise_en_service_de_la_classe_yankee_sovietique_1967",
+      "title": "Mise en service de la classe Yankee soviétique",
+      "date_start": "1967",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise en service de la classe Yankee soviétique. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1967, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "Guerre froide"
+      ],
+      "actors": [
+        "URSS"
+      ],
+      "geo": [
+        "URSS"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "mise_en_service_du_hms_resolution_1967",
+      "title": "Mise en service du HMS Resolution",
+      "date_start": "1967",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise en service du HMS Resolution. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1967, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Royaume-Uni"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "rapport_harmel_1967",
@@ -3304,6 +5641,28 @@
       "category": "Institution"
     },
     {
+      "id": "debut_de_l_operation_sealords_au_vietnam_1968",
+      "title": "Début de l'opération SEALORDS au Vietnam",
+      "date_start": "1968",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de l'opération SEALORDS au Vietnam. Mentionné dans les plans comme jalon opérationnel de la période 1968, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "deploiement_russe_moyen_orient",
       "title": "Déploiement russe au Moyen-Orient",
       "date_start": "1968",
@@ -3326,6 +5685,26 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "deploiement_sovietique_en_ocean_indien_1968",
+      "title": "Déploiement soviétique en océan Indien",
+      "date_start": "1968",
+      "date_end": null,
+      "type": "event",
+      "description": "Déploiement soviétique en océan Indien. Mentionné dans les plans comme jalon de la période 1968, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide"
+      ],
+      "actors": [
+        "URSS"
+      ],
+      "geo": [
+        "Océan Indien"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "implantation_urss_moyen_orient_1968",
@@ -3521,6 +5900,53 @@
       "category": "Conflit armé"
     },
     {
+      "id": "creation_de_topgun_1969",
+      "title": "Création de TOPGUN",
+      "date_start": "1969",
+      "date_end": null,
+      "type": "event",
+      "description": "Création de TOPGUN. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1969, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "capacité militaire"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "naissance_arpanet_1969",
+      "title": "Naissance d'ARPANET",
+      "date_start": "1969",
+      "date_end": null,
+      "type": "event",
+      "description": "En 1969, ARPANET, premier réseau d'ordinateurs interconnectés financé par la DARPA, relie ses quatre premiers nœuds dans des universités américaines. La première connexion transatlantique suivra en 1973. Le programme illustre l'imbrication entre recherche universitaire, financement militaire et révolution numérique.",
+      "image_url": null,
+      "themes": [
+        "course technologique",
+        "révolution numérique",
+        "informatique",
+        "DARPA",
+        "Guerre froide"
+      ],
+      "actors": [
+        "DARPA",
+        "États-Unis",
+        "universités américaines"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "enriched": true,
+      "category": "Innovation technologique"
+    },
+    {
       "id": "ostpolitik_brandt_1969",
       "title": "Ostpolitik de Willy Brandt",
       "date_start": "1969",
@@ -3652,32 +6078,6 @@
       "category": "Capacité militaire"
     },
     {
-      "id": "naissance_arpanet_1969",
-      "title": "Naissance d'ARPANET",
-      "date_start": "1969",
-      "date_end": null,
-      "type": "event",
-      "description": "En 1969, ARPANET, premier réseau d'ordinateurs interconnectés financé par la DARPA, relie ses quatre premiers nœuds dans des universités américaines. La première connexion transatlantique suivra en 1973. Le programme illustre l'imbrication entre recherche universitaire, financement militaire et révolution numérique.",
-      "image_url": null,
-      "themes": [
-        "course technologique",
-        "révolution numérique",
-        "informatique",
-        "DARPA",
-        "Guerre froide"
-      ],
-      "actors": [
-        "DARPA",
-        "États-Unis",
-        "universités américaines"
-      ],
-      "geo": [
-        "États-Unis"
-      ],
-      "enriched": true,
-      "category": "Innovation technologique"
-    },
-    {
       "id": "accord_caire_liban_olp_1969",
       "title": "Accord du Caire entre le Liban et l'OLP",
       "date_start": "1969-11-03",
@@ -3732,6 +6132,51 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "deploiement_sovietique_dans_le_golfe_de_guinee_1970",
+      "title": "Déploiement soviétique dans le golfe de Guinée",
+      "date_start": "1970",
+      "date_end": null,
+      "type": "event",
+      "description": "Déploiement soviétique dans le golfe de Guinée. Mentionné dans les plans comme jalon de la période 1970, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide"
+      ],
+      "actors": [
+        "URSS",
+        "Iran",
+        "Irak",
+        "États-Unis"
+      ],
+      "geo": [
+        "Golfe de Guinée",
+        "Golfe Persique"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "exercice_naval_sovietique_okean_1970",
+      "title": "Exercice naval soviétique OKEAN",
+      "date_start": "1970",
+      "date_end": null,
+      "type": "event",
+      "description": "Exercice naval soviétique OKEAN. Mentionné dans les plans comme jalon de la période 1970, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "histoire navale"
+      ],
+      "actors": [
+        "URSS"
+      ],
+      "geo": [
+        "Océans mondiaux"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "traite_moscou_rfa_1970",
@@ -3874,6 +6319,52 @@
       "category": "Innovation technologique"
     },
     {
+      "id": "mise_en_service_des_missiles_du_plateau_d_albion_1971",
+      "title": "Mise en service des missiles du plateau d'Albion",
+      "date_start": "1971",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise en service des missiles du plateau d'Albion. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1971, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire française",
+        "nucléaire français"
+      ],
+      "actors": [
+        "France",
+        "Forces aériennes stratégiques"
+      ],
+      "geo": [
+        "Plateau d'Albion",
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "torpillage_de_l_ins_khukri_par_le_sous_marin_pakistanais_hangor_1971",
+      "title": "Torpillage de l'INS Khukri par le sous-marin pakistanais Hangor",
+      "date_start": "1971",
+      "date_end": null,
+      "type": "event",
+      "description": "Torpillage de l'INS Khukri par le sous-marin pakistanais Hangor. Mentionné dans les plans comme jalon opérationnel de la période 1971, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "guerre indo-pakistanaise"
+      ],
+      "actors": [
+        "Pakistan",
+        "Inde"
+      ],
+      "geo": [
+        "Mer d'Arabie",
+        "Océan Indien"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "independance_bangladesh_1971",
       "title": "Indépendance du Bangladesh",
       "date_start": "1971-03-26",
@@ -3954,6 +6445,95 @@
       "category": "Institution"
     },
     {
+      "id": "creation_du_pnue_1972",
+      "title": "Création du PNUE",
+      "date_start": "1972",
+      "date_end": null,
+      "type": "event",
+      "description": "Création du PNUE. Mentionné dans les plans comme jalon institutionnel de la période 1972, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "ONU"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "Nations Unies"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "offensive_de_paques_au_vietnam_1972",
+      "title": "Offensive de Pâques au Vietnam",
+      "date_start": "1972",
+      "date_end": null,
+      "type": "event",
+      "description": "Offensive de Pâques au Vietnam. Mentionné dans les plans comme jalon opérationnel de la période 1972, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_pocket_money_et_minage_de_haiphong_1972",
+      "title": "Opération Pocket Money et minage de Haïphong",
+      "date_start": "1972",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Pocket Money et minage de Haïphong. Mentionné dans les plans comme jalon opérationnel de la période 1972, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operations_linebacker_i_et_ii_1972",
+      "title": "Opérations Linebacker I et II",
+      "date_start": "1972",
+      "date_end": null,
+      "type": "event",
+      "description": "Opérations Linebacker I et II. Mentionné dans les plans comme jalon opérationnel de la période 1972, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Vietnam",
+        "US Navy",
+        "guerre aérienne"
+      ],
+      "actors": [
+        "États-Unis",
+        "Nord-Vietnam"
+      ],
+      "geo": [
+        "Vietnam",
+        "Hanoï",
+        "Haïphong"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "munich_1972",
       "title": "Prise d'otages des JO de Munich",
       "date_start": "1972",
@@ -3979,6 +6559,28 @@
       ],
       "enriched": true,
       "category": "Crise"
+    },
+    {
+      "id": "emeutes_raciales_sur_l_uss_kitty_hawk_et_l_uss_constellation_1972",
+      "title": "Émeutes raciales sur l'USS Kitty Hawk et l'USS Constellation",
+      "date_start": "1972",
+      "date_end": null,
+      "type": "event",
+      "description": "Émeutes raciales sur l'USS Kitty Hawk et l'USS Constellation. Mentionné dans les plans comme jalon de la période 1972, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "crise politique",
+        "histoire navale"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "Pacifique",
+        "États-Unis"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "premier_elargissement_cee_1972",
@@ -4113,6 +6715,30 @@
       "category": "Traité / Accord"
     },
     {
+      "id": "debut_de_l_ere_des_opex_pour_la_marine_nationale_1973",
+      "title": "Début de l'ère des OPEX pour la Marine nationale",
+      "date_start": "1973",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de l'ère des OPEX pour la Marine nationale. Mentionné dans les plans comme jalon de la période 1973, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Marine nationale",
+        "OPEX",
+        "projection de puissance"
+      ],
+      "actors": [
+        "Marine nationale",
+        "France"
+      ],
+      "geo": [
+        "Océan Indien",
+        "Méditerranée"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
+    },
+    {
       "id": "allemagnes_onu_1973",
       "title": "Entrée des deux Allemagnes à l'ONU",
       "date_start": "1973",
@@ -4139,6 +6765,28 @@
       ],
       "enriched": true,
       "category": "Institution"
+    },
+    {
+      "id": "envoi_du_hmnzs_otago_a_moruroa_1973",
+      "title": "Envoi du HMNZS Otago à Moruroa",
+      "date_start": "1973",
+      "date_end": null,
+      "type": "event",
+      "description": "Envoi du HMNZS Otago à Moruroa. Mentionné dans les plans comme jalon de la période 1973, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique",
+        "Moruroa",
+        "Polynésie française"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "guerre_kippour_1973",
@@ -4179,6 +6827,29 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "saisine_de_la_cij_contre_les_essais_nucleaires_francais_1973",
+      "title": "Saisine de la CIJ contre les essais nucléaires français",
+      "date_start": "1973",
+      "date_end": null,
+      "type": "event",
+      "description": "Saisine de la CIJ contre les essais nucléaires français. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1973, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "Guerre froide",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "La Haye",
+        "Pacifique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "accords_paris_1973",
@@ -4282,6 +6953,29 @@
       "category": "Capacité militaire"
     },
     {
+      "id": "arret_des_essais_nucleaires_atmospheriques_francais_1974",
+      "title": "Arrêt des essais nucléaires atmosphériques français",
+      "date_start": "1974",
+      "date_end": null,
+      "type": "event",
+      "description": "Arrêt des essais nucléaires atmosphériques français. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1974, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "Guerre froide",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Polynésie française",
+        "Pacifique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "declaration_ottawa_1974",
       "title": "Déclaration d'Ottawa",
       "date_start": "1974",
@@ -4307,6 +7001,27 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "deminage_du_canal_de_suez_1974",
+      "title": "Déminage du canal de Suez",
+      "date_start": "1974",
+      "date_end": "1975",
+      "type": "period",
+      "description": "Déminage du canal de Suez. Mentionné dans les plans comme jalon de la période 1974-1975, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "histoire navale"
+      ],
+      "actors": [
+        "Égypte"
+      ],
+      "geo": [
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "invasion_paracels_1974",
@@ -4524,6 +7239,49 @@
       ],
       "enriched": true,
       "category": "Période historique"
+    },
+    {
+      "id": "operation_frequent_wind_a_saigon_1975",
+      "title": "Opération Frequent Wind à Saïgon",
+      "date_start": "1975",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Frequent Wind à Saïgon. Mentionné dans les plans comme jalon opérationnel de la période 1975, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires"
+      ],
+      "actors": [
+        "États-Unis",
+        "Vietnam"
+      ],
+      "geo": [
+        "Vietnam"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "perte_de_diego_suarez_comme_point_d_appui_francais_1975",
+      "title": "Perte de Diego-Suarez comme point d'appui français",
+      "date_start": "1975",
+      "date_end": null,
+      "type": "event",
+      "description": "Perte de Diego-Suarez comme point d'appui français. Mentionné dans les plans comme jalon de la période 1975, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Diego-Suarez",
+        "Madagascar",
+        "Océan Indien"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "guerre_civile_liban",
@@ -4833,6 +7591,27 @@
       "category": "Crise"
     },
     {
+      "id": "independance_de_djibouti_1977",
+      "title": "Indépendance de Djibouti",
+      "date_start": "1977",
+      "date_end": null,
+      "type": "event",
+      "description": "Indépendance de Djibouti. Mentionné dans les plans comme jalon de décolonisation ou de recomposition impériale de la période 1977, il éclaire le recul des empires et la redéfinition des souverainetés.",
+      "image_url": null,
+      "themes": [
+        "décolonisation",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Djibouti"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
+    },
+    {
       "id": "urss_ethiopie_1977",
       "title": "Intervention soviéto-cubaine en Éthiopie",
       "date_start": "1977",
@@ -4863,6 +7642,29 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "traites_torrijos_carter_sur_le_canal_de_panama_1977",
+      "title": "Traités Torrijos-Carter sur le canal de Panama",
+      "date_start": "1977",
+      "date_end": null,
+      "type": "event",
+      "description": "Traités Torrijos-Carter sur le canal de Panama. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1977, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "détroits et canaux",
+        "droit international"
+      ],
+      "actors": [
+        "États-Unis",
+        "Panama"
+      ],
+      "geo": [
+        "Panama",
+        "Canal de Panama"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
     },
     {
       "id": "presidence_carter_us",
@@ -4913,6 +7715,28 @@
       ],
       "enriched": true,
       "category": "Conférence"
+    },
+    {
+      "id": "admission_au_service_actif_du_super_etendard_nucleaire_1978",
+      "title": "Admission au service actif du Super-Étendard nucléaire",
+      "date_start": "1978",
+      "date_end": null,
+      "type": "event",
+      "description": "Admission au service actif du Super-Étendard nucléaire. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1978, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "Guerre froide",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "deng_xiaoping_quatre_modernisations_1978",
@@ -5108,28 +7932,6 @@
       "category": "Conflit armé"
     },
     {
-      "id": "construction_europeenne_1979",
-      "title": "Poursuite de la construction européenne",
-      "date_start": "1979",
-      "date_end": null,
-      "type": "event",
-      "description": "Poursuite de la construction européenne :\no Système monétaire européen (SME) qui dote la CEE d'une unité de compte, l'ECU (European Currency Unit), dont le cours est fixé à partir d'un « panier » de monnaies européennes (les fluctuations entre deux monnaies sont limitées à un écart de 2,25%) → permet une stabilisation des taux de change ;\no Première élection du Parlement européen au suffrage universel direct.",
-      "image_url": null,
-      "themes": [
-        "construction européenne",
-        "euro",
-        "intégration européenne"
-      ],
-      "actors": [
-        "CEE"
-      ],
-      "geo": [
-        "Europe"
-      ],
-      "enriched": true,
-      "category": "Institution"
-    },
-    {
       "id": "invasion_afghanistan_1979",
       "title": "Invasion soviétique de l'Afghanistan",
       "date_start": "1979",
@@ -5190,6 +7992,28 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "construction_europeenne_1979",
+      "title": "Poursuite de la construction européenne",
+      "date_start": "1979",
+      "date_end": null,
+      "type": "event",
+      "description": "Poursuite de la construction européenne :\no Système monétaire européen (SME) qui dote la CEE d'une unité de compte, l'ECU (European Currency Unit), dont le cours est fixé à partir d'un « panier » de monnaies européennes (les fluctuations entre deux monnaies sont limitées à un écart de 2,25%) → permet une stabilisation des taux de change ;\no Première élection du Parlement européen au suffrage universel direct.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "euro",
+        "intégration européenne"
+      ],
+      "actors": [
+        "CEE"
+      ],
+      "geo": [
+        "Europe"
+      ],
+      "enriched": true,
+      "category": "Institution"
     },
     {
       "id": "salt2_1979",
@@ -5334,6 +8158,29 @@
       "category": "Crise"
     },
     {
+      "id": "independance_des_nouvelles_hebrides_vanuatu_1980",
+      "title": "Indépendance des Nouvelles-Hébrides / Vanuatu",
+      "date_start": "1980",
+      "date_end": null,
+      "type": "event",
+      "description": "Indépendance des Nouvelles-Hébrides / Vanuatu. Mentionné dans les plans comme jalon de décolonisation ou de recomposition impériale de la période 1980, il éclaire le recul des empires et la redéfinition des souverainetés.",
+      "image_url": null,
+      "themes": [
+        "décolonisation"
+      ],
+      "actors": [
+        "Vanuatu",
+        "France",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Vanuatu",
+        "Pacifique"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
+    },
+    {
       "id": "solidarnosc_1980",
       "title": "Solidarnosc en Pologne",
       "date_start": "1980",
@@ -5468,6 +8315,30 @@
       "category": "Conflit armé"
     },
     {
+      "id": "debut_des_attaques_contre_les_petroliers_dans_le_golfe_1981",
+      "title": "Début des attaques contre les pétroliers dans le Golfe",
+      "date_start": "1981",
+      "date_end": null,
+      "type": "event",
+      "description": "Début des attaques contre les pétroliers dans le Golfe. Mentionné dans les plans comme jalon opérationnel de la période 1981, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide",
+        "histoire navale"
+      ],
+      "actors": [
+        "Iran",
+        "Irak",
+        "États-Unis"
+      ],
+      "geo": [
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "emeutes_kosovo_1981",
       "title": "Émeutes albanaises au Kosovo",
       "date_start": "1981",
@@ -5588,6 +8459,29 @@
       ],
       "enriched": true,
       "category": "Traité / Accord"
+    },
+    {
+      "id": "destruction_du_sous_marin_argentin_santa_fe_1982",
+      "title": "Destruction du sous-marin argentin Santa Fe",
+      "date_start": "1982",
+      "date_end": null,
+      "type": "event",
+      "description": "Destruction du sous-marin argentin Santa Fe. Mentionné dans les plans comme jalon opérationnel de la période 1982, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Argentine",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Malouines",
+        "Atlantique Sud"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "guerre_malouines_lecons_navales_1982",
@@ -5719,6 +8613,93 @@
       ],
       "enriched": true,
       "category": "Traité / Accord"
+    },
+    {
+      "id": "debarquement_britannique_a_san_carlos_1982_05",
+      "title": "Débarquement britannique à San Carlos",
+      "date_start": "1982-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Débarquement britannique à San Carlos. Mentionné dans les plans comme jalon opérationnel de la période 1982-05, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires"
+      ],
+      "actors": [
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Malouines",
+        "Atlantique Sud"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "naufrage_du_hms_sheffield_1982_05",
+      "title": "Naufrage du HMS Sheffield",
+      "date_start": "1982-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Naufrage du HMS Sheffield. Mentionné dans les plans comme jalon opérationnel de la période 1982-05, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Malouines",
+        "Atlantique Sud"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "torpillage_du_general_belgrano_par_le_hms_conqueror_1982_05_02",
+      "title": "Torpillage du General Belgrano par le HMS Conqueror",
+      "date_start": "1982-05-02",
+      "date_end": null,
+      "type": "event",
+      "description": "Torpillage du General Belgrano par le HMS Conqueror. Mentionné dans les plans comme jalon opérationnel de la période 1982-05-02, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Argentine"
+      ],
+      "geo": [
+        "Malouines",
+        "Atlantique Sud"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "chute_de_port_stanley_1982_06",
+      "title": "Chute de Port Stanley",
+      "date_start": "1982-06",
+      "date_end": null,
+      "type": "event",
+      "description": "Chute de Port Stanley. Mentionné dans les plans comme jalon de la période 1982-06, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "crise politique"
+      ],
+      "actors": [
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "Malouines",
+        "Atlantique Sud"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "operation_paix_galilee_liban_1982",
@@ -5858,6 +8839,53 @@
       "category": "Capacité militaire"
     },
     {
+      "id": "adoption_tcp_ip_1983",
+      "title": "Adoption du protocole TCP/IP",
+      "date_start": "1983",
+      "date_end": null,
+      "type": "event",
+      "description": "En 1983, l'adoption du protocole TCP/IP par ARPANET marque une étape fondatrice de l'Internet moderne. Elle standardise l'interconnexion des réseaux et prolonge les investissements américains dans les architectures numériques issues de la recherche financée par la défense.",
+      "image_url": null,
+      "themes": [
+        "course technologique",
+        "révolution numérique",
+        "informatique",
+        "Internet",
+        "DARPA"
+      ],
+      "actors": [
+        "DARPA",
+        "ARPANET",
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "enriched": true,
+      "category": "Innovation technologique"
+    },
+    {
+      "id": "creation_du_centcom_1983",
+      "title": "Création du CENTCOM",
+      "date_start": "1983",
+      "date_end": null,
+      "type": "event",
+      "description": "Création du CENTCOM. Mentionné dans les plans comme jalon institutionnel de la période 1983, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis",
+        "Moyen-Orient"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "ids_pershing_1983",
       "title": "IDS de Reagan et déploiement des Pershing II",
       "date_start": "1983",
@@ -5891,30 +8919,25 @@
       "category": "Capacité militaire"
     },
     {
-      "id": "adoption_tcp_ip_1983",
-      "title": "Adoption du protocole TCP/IP",
+      "id": "mise_en_service_de_l_uss_ticonderoga_systeme_aegis_1983",
+      "title": "Mise en service de l'USS Ticonderoga / système AEGIS",
       "date_start": "1983",
       "date_end": null,
       "type": "event",
-      "description": "En 1983, l'adoption du protocole TCP/IP par ARPANET marque une étape fondatrice de l'Internet moderne. Elle standardise l'interconnexion des réseaux et prolonge les investissements américains dans les architectures numériques issues de la recherche financée par la défense.",
+      "description": "Mise en service de l'USS Ticonderoga / système AEGIS. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1983, il marque une évolution des moyens militaires et de leur emploi stratégique.",
       "image_url": null,
       "themes": [
-        "course technologique",
-        "révolution numérique",
-        "informatique",
-        "Internet",
-        "DARPA"
+        "capacité militaire",
+        "histoire navale"
       ],
       "actors": [
-        "DARPA",
-        "ARPANET",
         "États-Unis"
       ],
       "geo": [
         "États-Unis"
       ],
-      "enriched": true,
-      "category": "Innovation technologique"
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "operation_manta_tchad_1983",
@@ -5991,6 +9014,28 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "creation_du_flnks_en_nouvelle_caledonie_1984",
+      "title": "Création du FLNKS en Nouvelle-Calédonie",
+      "date_start": "1984",
+      "date_end": null,
+      "type": "event",
+      "description": "Création du FLNKS en Nouvelle-Calédonie. Mentionné dans les plans comme jalon institutionnel de la période 1984, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique",
+        "Nouvelle-Calédonie"
+      ],
+      "category": "Institution",
+      "enriched": true
     },
     {
       "id": "jo_sarajevo_1984",
@@ -6115,32 +9160,6 @@
       "category": "Doctrine / Discours"
     },
     {
-      "id": "gorbatchev_reformes_1985",
-      "title": "Gorbatchev — Glasnost et Perestroïka",
-      "date_start": "1985",
-      "date_end": null,
-      "type": "event",
-      "description": "En mars 1985, Mikhaïl Gorbatchev devient premier secrétaire du PCUS. Le plus jeune dirigeant soviétique depuis des décennies, il lance deux grandes réformes : la Glasnost (transparence) et la Perestroïka (restructuration économique), qui vont déstabiliser profondément le système soviétique.",
-      "image_url": null,
-      "themes": [
-        "réformes",
-        "glasnost",
-        "perestroïka",
-        "Fin de la Guerre froide"
-      ],
-      "actors": [
-        "Gorbatchev",
-        "PCUS",
-        "URSS"
-      ],
-      "geo": [
-        "URSS",
-        "Moscou"
-      ],
-      "enriched": true,
-      "category": "Rupture politique"
-    },
-    {
       "id": "phase_fin_guerre_froide_1985_1991",
       "title": "Fin de la Guerre froide",
       "date_start": "1985",
@@ -6175,6 +9194,32 @@
       "category": "Période historique"
     },
     {
+      "id": "gorbatchev_reformes_1985",
+      "title": "Gorbatchev — Glasnost et Perestroïka",
+      "date_start": "1985",
+      "date_end": null,
+      "type": "event",
+      "description": "En mars 1985, Mikhaïl Gorbatchev devient premier secrétaire du PCUS. Le plus jeune dirigeant soviétique depuis des décennies, il lance deux grandes réformes : la Glasnost (transparence) et la Perestroïka (restructuration économique), qui vont déstabiliser profondément le système soviétique.",
+      "image_url": null,
+      "themes": [
+        "réformes",
+        "glasnost",
+        "perestroïka",
+        "Fin de la Guerre froide"
+      ],
+      "actors": [
+        "Gorbatchev",
+        "PCUS",
+        "URSS"
+      ],
+      "geo": [
+        "URSS",
+        "Moscou"
+      ],
+      "enriched": true,
+      "category": "Rupture politique"
+    },
+    {
       "id": "zone_securite_sud_liban_1985",
       "title": "Retrait partiel israélien et zone de sécurité au Sud-Liban",
       "date_start": "1985",
@@ -6200,6 +9245,29 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "traite_de_rarotonga_1985",
+      "title": "Traité de Rarotonga",
+      "date_start": "1985",
+      "date_end": null,
+      "type": "event",
+      "description": "Traité de Rarotonga. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1985, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "désarmement nucléaire",
+        "Pacifique",
+        "droit international"
+      ],
+      "actors": [
+        "États du Pacifique Sud"
+      ],
+      "geo": [
+        "Pacifique Sud",
+        "Rarotonga"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
     },
     {
       "id": "gorbatchev_ps_pcus",
@@ -6247,30 +9315,6 @@
       "category": "Crise"
     },
     {
-      "id": "memorandum_academie_serbe_1986",
-      "title": "Mémorandum de l'Académie serbe des sciences et des arts",
-      "date_start": "1986",
-      "date_end": null,
-      "type": "event",
-      "description": "En 1986, le mémorandum de l'Académie serbe des sciences et des arts contribue à formuler et légitimer les revendications du nationalisme serbe dans la Yougoslavie finissante.",
-      "image_url": null,
-      "themes": [
-        "Balkans",
-        "nationalisme",
-        "crise yougoslave"
-      ],
-      "actors": [
-        "Académie serbe des sciences et des arts",
-        "Serbie"
-      ],
-      "geo": [
-        "Serbie",
-        "Yougoslavie"
-      ],
-      "enriched": true,
-      "category": "Doctrine / Discours"
-    },
-    {
       "id": "tchernobyl_1986",
       "title": "Accident nucléaire de Tchernobyl",
       "date_start": "1986",
@@ -6295,6 +9339,50 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "goldwater_nichols_department_of_defense_reorganization_act_1986",
+      "title": "Goldwater-Nichols Department of Defense Reorganization Act",
+      "date_start": "1986",
+      "date_end": null,
+      "type": "event",
+      "description": "Goldwater-Nichols Department of Defense Reorganization Act. Mentionné dans les plans comme jalon de la période 1986, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "histoire navale"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "memorandum_academie_serbe_1986",
+      "title": "Mémorandum de l'Académie serbe des sciences et des arts",
+      "date_start": "1986",
+      "date_end": null,
+      "type": "event",
+      "description": "En 1986, le mémorandum de l'Académie serbe des sciences et des arts contribue à formuler et légitimer les revendications du nationalisme serbe dans la Yougoslavie finissante.",
+      "image_url": null,
+      "themes": [
+        "Balkans",
+        "nationalisme",
+        "crise yougoslave"
+      ],
+      "actors": [
+        "Académie serbe des sciences et des arts",
+        "Serbie"
+      ],
+      "geo": [
+        "Serbie",
+        "Yougoslavie"
+      ],
+      "enriched": true,
+      "category": "Doctrine / Discours"
     },
     {
       "id": "operation_epervier_tchad_1986",
@@ -6430,6 +9518,28 @@
       "category": "Conflit armé"
     },
     {
+      "id": "incident_de_l_uss_stark_1987_05",
+      "title": "Incident de l'USS Stark",
+      "date_start": "1987-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Incident de l'USS Stark. Mentionné dans les plans comme jalon de la période 1987-05, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "histoire navale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Iran",
+        "Irak"
+      ],
+      "geo": [
+        "Golfe Persique"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
       "id": "operation_promethe_1987",
       "title": "Op. \"Prométhée\"",
       "date_start": "1987-07-30",
@@ -6535,6 +9645,28 @@
       "category": "Crise"
     },
     {
+      "id": "accords_de_matignon_sur_la_nouvelle_caledonie_1988",
+      "title": "Accords de Matignon sur la Nouvelle-Calédonie",
+      "date_start": "1988",
+      "date_end": null,
+      "type": "event",
+      "description": "Accords de Matignon sur la Nouvelle-Calédonie. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1988, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "droit international",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique",
+        "Nouvelle-Calédonie"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
+    },
+    {
       "id": "destroyer_type052_luhu_mise_sur_cale_1988",
       "title": "Mise sur cale du premier destroyer type 052 « Luhu »",
       "date_start": "1988",
@@ -6559,30 +9691,6 @@
       ],
       "enriched": true,
       "category": "Capacité militaire"
-    },
-    {
-      "id": "retrait_afghanistan_1988",
-      "title": "Retrait des troupes soviétiques d'Afghanistan",
-      "date_start": "1988",
-      "date_end": null,
-      "type": "event",
-      "description": "En vertu des accords de Genève d'avril 1988, l'URSS commence le retrait de ses troupes d'Afghanistan, achevé en février 1989. Cette retraite, après neuf ans d'enlisement et environ 15 000 soldats soviétiques tués, est perçue comme une défaite et fragilise le prestige militaire de l'URSS.",
-      "image_url": null,
-      "themes": [
-        "retrait militaire",
-        "Fin de la Guerre froide"
-      ],
-      "actors": [
-        "Gorbatchev",
-        "URSS",
-        "Afghanistan"
-      ],
-      "geo": [
-        "Afghanistan",
-        "URSS"
-      ],
-      "enriched": true,
-      "category": "Conflit armé"
     },
     {
       "id": "tir_missile_jl1_snle_1988",
@@ -6610,6 +9718,54 @@
       "category": "Capacité militaire"
     },
     {
+      "id": "prise_d_otages_d_ouvea_1988",
+      "title": "Prise d'otages d'Ouvéa",
+      "date_start": "1988",
+      "date_end": null,
+      "type": "event",
+      "description": "Prise d'otages d'Ouvéa. Mentionné dans les plans comme jalon opérationnel de la période 1988, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Nouvelle-Calédonie",
+        "crise politique"
+      ],
+      "actors": [
+        "FLNKS",
+        "France",
+        "GIGN"
+      ],
+      "geo": [
+        "Ouvéa",
+        "Nouvelle-Calédonie"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
+      "id": "retrait_afghanistan_1988",
+      "title": "Retrait des troupes soviétiques d'Afghanistan",
+      "date_start": "1988",
+      "date_end": null,
+      "type": "event",
+      "description": "En vertu des accords de Genève d'avril 1988, l'URSS commence le retrait de ses troupes d'Afghanistan, achevé en février 1989. Cette retraite, après neuf ans d'enlisement et environ 15 000 soldats soviétiques tués, est perçue comme une défaite et fragilise le prestige militaire de l'URSS.",
+      "image_url": null,
+      "themes": [
+        "retrait militaire",
+        "Fin de la Guerre froide"
+      ],
+      "actors": [
+        "Gorbatchev",
+        "URSS",
+        "Afghanistan"
+      ],
+      "geo": [
+        "Afghanistan",
+        "URSS"
+      ],
+      "enriched": true,
+      "category": "Conflit armé"
+    },
+    {
       "id": "operation_praying_mantis_1988",
       "title": "Op. \"Praying Mantis\"",
       "date_start": "1988-04-18",
@@ -6633,6 +9789,30 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "destruction_du_vol_iran_air_655_par_l_uss_vincennes_1988_07",
+      "title": "Destruction du vol Iran Air 655 par l'USS Vincennes",
+      "date_start": "1988-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Destruction du vol Iran Air 655 par l'USS Vincennes. Mentionné dans les plans comme jalon opérationnel de la période 1988-07, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide",
+        "histoire navale"
+      ],
+      "actors": [
+        "États-Unis",
+        "Iran",
+        "Irak"
+      ],
+      "geo": [
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "fin_guerre_iran_irak_gendarme_golfe_1988",
@@ -6689,6 +9869,30 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "assassinat_de_jean_marie_tjibaou_1989",
+      "title": "Assassinat de Jean-Marie Tjibaou",
+      "date_start": "1989",
+      "date_end": null,
+      "type": "event",
+      "description": "Assassinat de Jean-Marie Tjibaou. Mentionné dans les plans comme jalon de la période 1989, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Nouvelle-Calédonie",
+        "crise politique"
+      ],
+      "actors": [
+        "Jean-Marie Tjibaou",
+        "FLNKS",
+        "Nouvelle-Calédonie"
+      ],
+      "geo": [
+        "Ouvéa",
+        "Nouvelle-Calédonie"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "presidence_bush_sr_us",
@@ -6874,6 +10078,72 @@
       "category": "Rupture politique"
     },
     {
+      "id": "discours_de_la_baule_1990_06",
+      "title": "Discours de La Baule",
+      "date_start": "1990-06",
+      "date_end": null,
+      "type": "event",
+      "description": "Discours de La Baule. Mentionné dans les plans comme jalon doctrinal ou politique de la période 1990-06, il formalise une orientation stratégique ou diplomatique importante.",
+      "image_url": null,
+      "themes": [
+        "doctrine",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "La Baule",
+        "France"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
+    },
+    {
+      "id": "debut_de_l_operation_artimon_1990_08",
+      "title": "Début de l'opération Artimon",
+      "date_start": "1990-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de l'opération Artimon. Mentionné dans les plans comme jalon opérationnel de la période 1990-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Irak",
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "debut_de_l_operation_salamandre_1990_08",
+      "title": "Début de l'opération Salamandre",
+      "date_start": "1990-08",
+      "date_end": null,
+      "type": "event",
+      "description": "Début de l'opération Salamandre. Mentionné dans les plans comme jalon opérationnel de la période 1990-08, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Irak",
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "invasion_koweit_1990",
       "title": "Invasion du Koweït",
       "date_start": "1990-08-02",
@@ -6900,6 +10170,28 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "declenchement_de_l_operation_daguet_1990_09",
+      "title": "Déclenchement de l'opération Daguet",
+      "date_start": "1990-09",
+      "date_end": null,
+      "type": "event",
+      "description": "Déclenchement de l'opération Daguet. Mentionné dans les plans comme jalon opérationnel de la période 1990-09, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Irak",
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "fin_guerre_civile_liban_1990",
@@ -6959,6 +10251,31 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "resolution_678_du_conseil_de_securite_sur_l_irak_1990_11",
+      "title": "Résolution 678 du Conseil de sécurité sur l'Irak",
+      "date_start": "1990-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Résolution 678 du Conseil de sécurité sur l'Irak. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1990-11, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "droit international",
+        "Guerre froide"
+      ],
+      "actors": [
+        "Iran",
+        "Irak",
+        "États-Unis",
+        "ONU"
+      ],
+      "geo": [
+        "Irak",
+        "Golfe Persique"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
     },
     {
       "id": "traite_fce_1990",
@@ -7039,6 +10356,29 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "operations_de_deminage_des_eaux_koweitiennes_1991",
+      "title": "Opérations de déminage des eaux koweïtiennes",
+      "date_start": "1991",
+      "date_end": null,
+      "type": "event",
+      "description": "Opérations de déminage des eaux koweïtiennes. Mentionné dans les plans comme jalon opérationnel de la période 1991, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Iran",
+        "Irak",
+        "États-Unis"
+      ],
+      "geo": [
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "traite_fraternite_liban_syrie_1991",
@@ -7383,6 +10723,50 @@
       "category": "Rupture politique"
     },
     {
+      "id": "mission_onu_au_mozambique_1992",
+      "title": "Mission ONU au Mozambique",
+      "date_start": "1992",
+      "date_end": "1994",
+      "type": "period",
+      "description": "Mission ONU au Mozambique. Mentionné dans les plans comme jalon de la période 1992-1994, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "ONU"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "Mozambique"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "moratoire_francais_sur_les_essais_nucleaires_1992",
+      "title": "Moratoire français sur les essais nucléaires",
+      "date_start": "1992",
+      "date_end": null,
+      "type": "event",
+      "description": "Moratoire français sur les essais nucléaires. Mentionné dans les plans comme jalon doctrinal ou politique de la période 1992, il formalise une orientation stratégique ou diplomatique importante.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "doctrine",
+        "Guerre froide",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France",
+        "Polynésie française"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
+    },
+    {
       "id": "rafic_hariri_premier_ministre_1992",
       "title": "Rafic Hariri Premier ministre du Liban",
       "date_start": "1992",
@@ -7406,6 +10790,30 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "signature_de_l_accord_franz_dans_le_pacifique_1992",
+      "title": "Signature de l'accord FRANZ dans le Pacifique",
+      "date_start": "1992",
+      "date_end": null,
+      "type": "event",
+      "description": "Signature de l'accord FRANZ dans le Pacifique. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1992, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "Pacifique",
+        "coopération régionale",
+        "diplomatie"
+      ],
+      "actors": [
+        "France",
+        "Australie",
+        "Nouvelle-Zélande"
+      ],
+      "geo": [
+        "Pacifique Sud"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
     },
     {
       "id": "strategie_industrialisation_littoral_1992",
@@ -7590,6 +10998,27 @@
       "category": "Rupture politique"
     },
     {
+      "id": "creation_du_cpoia_1993",
+      "title": "Création du CPOIA",
+      "date_start": "1993",
+      "date_end": null,
+      "type": "event",
+      "description": "Création du CPOIA. Mentionné dans les plans comme jalon institutionnel de la période 1993, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "fin_autosuffisance_hydrocarbures_1993",
       "title": "Fin de l'autosuffisance de la Chine en hydrocarbures",
       "date_start": "1993",
@@ -7614,6 +11043,71 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "mise_en_service_du_jtids_liaison_16_1993",
+      "title": "Mise en service du JTIDS / Liaison 16",
+      "date_start": "1993",
+      "date_end": null,
+      "type": "event",
+      "description": "Mise en service du JTIDS / Liaison 16. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1993, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "liaisons de données",
+        "technologie militaire",
+        "interopérabilité"
+      ],
+      "actors": [
+        "États-Unis",
+        "OTAN"
+      ],
+      "geo": [
+        "États-Unis",
+        "Alliance atlantique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "onusom_ii_en_somalie_1993",
+      "title": "ONUSOM II en Somalie",
+      "date_start": "1993",
+      "date_end": "1995",
+      "type": "period",
+      "description": "ONUSOM II en Somalie. Mentionné dans les plans comme jalon de la période 1993-1995, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "ONU"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "Somalie"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "operation_balbuzard_en_adriatique_1993",
+      "title": "Opération Balbuzard en Adriatique",
+      "date_start": "1993",
+      "date_end": "1995",
+      "type": "period",
+      "description": "Opération Balbuzard en Adriatique. Mentionné dans les plans comme jalon opérationnel de la période 1993-1995, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Adriatique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "operation_deny_flight_1993",
@@ -7641,6 +11135,26 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "operation_sharp_guard_1993",
+      "title": "Opération Sharp Guard",
+      "date_start": "1993",
+      "date_end": "1996",
+      "type": "period",
+      "description": "Opération Sharp Guard. Mentionné dans les plans comme jalon opérationnel de la période 1993-1996, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires"
+      ],
+      "actors": [
+        "OTAN"
+      ],
+      "geo": [
+        "Adriatique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "operation_raison_etre_sud_liban_1993",
@@ -7822,6 +11336,50 @@
       "category": "Conflit armé"
     },
     {
+      "id": "plan_optimar_de_modernisation_de_la_marine_nationale_1995",
+      "title": "Plan OPTIMAR de modernisation de la Marine nationale",
+      "date_start": "1995",
+      "date_end": null,
+      "type": "event",
+      "description": "Plan OPTIMAR de modernisation de la Marine nationale. Mentionné dans les plans comme jalon de la période 1995, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Marine nationale",
+        "modernisation navale"
+      ],
+      "actors": [
+        "Marine nationale",
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Doctrine / Discours",
+      "enriched": true
+    },
+    {
+      "id": "reprise_des_essais_nucleaires_francais_dans_le_pacifique_1995",
+      "title": "Reprise des essais nucléaires français dans le Pacifique",
+      "date_start": "1995",
+      "date_end": null,
+      "type": "event",
+      "description": "Reprise des essais nucléaires français dans le Pacifique. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1995, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "capacité militaire",
+        "Guerre froide",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "france_reintegration_comite_militaire_otan_1995",
       "title": "Réintégration partielle de la France dans l'OTAN — Comité militaire",
       "date_start": "1995",
@@ -7876,6 +11434,31 @@
       ],
       "enriched": true,
       "category": "Crise"
+    },
+    {
+      "id": "reprise_du_pont_de_vrbanja_a_sarajevo_1995_05",
+      "title": "Reprise du pont de Vrbanja à Sarajevo",
+      "date_start": "1995-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Reprise du pont de Vrbanja à Sarajevo. Mentionné dans les plans comme jalon de la période 1995-05, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Bosnie",
+        "ONU",
+        "opérations militaires"
+      ],
+      "actors": [
+        "France",
+        "FORPRONU",
+        "Forces serbes de Bosnie"
+      ],
+      "geo": [
+        "Sarajevo",
+        "Bosnie-Herzégovine"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "chirac_president",
@@ -8062,32 +11645,6 @@
       "category": "Institution"
     },
     {
-      "id": "netanyahou_election_1996",
-      "title": "Élection de Benyamin Netanyahou",
-      "date_start": "1996",
-      "date_end": null,
-      "type": "event",
-      "description": "En mai 1996, Benyamin Netanyahou remporte les élections israéliennes face à Shimon Peres, sur une ligne de durcissement vis-à-vis des Palestiniens et de critique des accords d'Oslo. Son élection, survenant un an après l'assassinat de Rabin, marque un net ralentissement du processus de paix : la construction de colonies en Cisjordanie s'accélère et les négociations avec l'Autorité palestinienne se bloquent.",
-      "image_url": null,
-      "themes": [
-        "conflit israélo-arabe",
-        "question palestinienne",
-        "processus de paix",
-        "Moyen-Orient"
-      ],
-      "actors": [
-        "Netanyahou",
-        "Israël",
-        "Arafat",
-        "Autorité palestinienne"
-      ],
-      "geo": [
-        "Israël"
-      ],
-      "enriched": true,
-      "category": "Rupture politique"
-    },
-    {
       "id": "tensions_kosovo_1996_1998",
       "title": "Montée des tensions au Kosovo",
       "date_start": "1996",
@@ -8113,6 +11670,76 @@
       ],
       "enriched": true,
       "category": "Crise"
+    },
+    {
+      "id": "operation_salamandre_en_adriatique_1996",
+      "title": "Opération Salamandre en Adriatique",
+      "date_start": "1996",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Salamandre en Adriatique. Mentionné dans les plans comme jalon opérationnel de la période 1996, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Irak",
+        "Golfe Persique",
+        "Adriatique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "signature_francaise_du_traite_de_rarotonga_1996",
+      "title": "Signature française du traité de Rarotonga",
+      "date_start": "1996",
+      "date_end": null,
+      "type": "event",
+      "description": "Signature française du traité de Rarotonga. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1996, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "droit international",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
+    },
+    {
+      "id": "netanyahou_election_1996",
+      "title": "Élection de Benyamin Netanyahou",
+      "date_start": "1996",
+      "date_end": null,
+      "type": "event",
+      "description": "En mai 1996, Benyamin Netanyahou remporte les élections israéliennes face à Shimon Peres, sur une ligne de durcissement vis-à-vis des Palestiniens et de critique des accords d'Oslo. Son élection, survenant un an après l'assassinat de Rabin, marque un net ralentissement du processus de paix : la construction de colonies en Cisjordanie s'accélère et les négociations avec l'Autorité palestinienne se bloquent.",
+      "image_url": null,
+      "themes": [
+        "conflit israélo-arabe",
+        "question palestinienne",
+        "processus de paix",
+        "Moyen-Orient"
+      ],
+      "actors": [
+        "Netanyahou",
+        "Israël",
+        "Arafat",
+        "Autorité palestinienne"
+      ],
+      "geo": [
+        "Israël"
+      ],
+      "enriched": true,
+      "category": "Rupture politique"
     },
     {
       "id": "operation_raisins_colere_qana_1996",
@@ -8143,6 +11770,116 @@
       "category": "Conflit armé"
     },
     {
+      "id": "programme_recamp_1997",
+      "title": "Programme RECAMP",
+      "date_start": "1997",
+      "date_end": null,
+      "type": "event",
+      "description": "Programme RECAMP. Mentionné dans les plans comme jalon institutionnel de la période 1997, il traduit une réorganisation durable des cadres politiques, militaires ou internationaux.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France",
+        "Afrique"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "standard_sem_permettant_l_emploi_de_bombes_guidees_laser_1997",
+      "title": "Standard SEM permettant l'emploi de bombes guidées laser",
+      "date_start": "1997",
+      "date_end": null,
+      "type": "event",
+      "description": "Standard SEM permettant l'emploi de bombes guidées laser. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1997, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "aéronavale",
+        "technologie militaire",
+        "Marine nationale"
+      ],
+      "actors": [
+        "Marine nationale",
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "accords_de_noumea_1998",
+      "title": "Accords de Nouméa",
+      "date_start": "1998",
+      "date_end": null,
+      "type": "event",
+      "description": "Accords de Nouméa. Mentionné dans les plans comme jalon diplomatique ou juridique de la période 1998, il modifie le cadre politique, stratégique ou international concerné.",
+      "image_url": null,
+      "themes": [
+        "droit international",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Nouvelle-Calédonie"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
+    },
+    {
+      "id": "e_2c_operationnel_depuis_le_foch_1998",
+      "title": "E-2C opérationnel depuis le Foch",
+      "date_start": "1998",
+      "date_end": null,
+      "type": "event",
+      "description": "E-2C opérationnel depuis le Foch. Mentionné dans les plans comme jalon capacitaire ou technologique de la période 1998, il marque une évolution des moyens militaires et de leur emploi stratégique.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "capacité militaire",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "reforme_francaise_de_la_cooperation_1998",
+      "title": "Réforme française de la coopération",
+      "date_start": "1998",
+      "date_end": null,
+      "type": "event",
+      "description": "Réforme française de la coopération. Mentionné dans les plans comme jalon opérationnel de la période 1998, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "France",
+        "Afrique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "operation_infinite_reach_1998",
       "title": "Opération Infinite Reach",
       "date_start": "1998-08-20",
@@ -8167,6 +11904,96 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "operation_allied_force_1999",
+      "title": "Opération Allied Force",
+      "date_start": "1999",
+      "date_end": null,
+      "type": "event",
+      "description": "En 1999, l'OTAN conduit l'opération Allied Force contre la République fédérale de Yougoslavie afin de contraindre Belgrade à cesser la répression au Kosovo. L'opération se déroule sans mandat explicite du Conseil de sécurité.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires"
+      ],
+      "actors": [
+        "OTAN"
+      ],
+      "geo": [
+        "Kosovo",
+        "Serbie"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "operation_trident_au_kosovo_1999",
+      "title": "Opération Trident au Kosovo",
+      "date_start": "1999",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Trident au Kosovo. Mentionné dans les plans comme jalon opérationnel de la période 1999, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "Guerre froide",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "OTAN"
+      ],
+      "geo": [
+        "Kosovo",
+        "Serbie"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "premiere_integration_d_un_sna_francais_au_gan_1999",
+      "title": "Première intégration d'un SNA français au GAN",
+      "date_start": "1999",
+      "date_end": null,
+      "type": "event",
+      "description": "Première intégration d'un SNA français au GAN. Mentionné dans les plans comme jalon de la période 1999, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Marine nationale",
+        "SNA",
+        "groupe aéronaval"
+      ],
+      "actors": [
+        "Marine nationale",
+        "France"
+      ],
+      "geo": [
+        "Adriatique",
+        "Méditerranée"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "echec_de_la_mediation_de_rambouillet_sur_le_kosovo_1999",
+      "title": "Échec de la médiation de Rambouillet sur le Kosovo",
+      "date_start": "1999",
+      "date_end": null,
+      "type": "event",
+      "description": "Échec de la médiation de Rambouillet sur le Kosovo. Mentionné dans les plans comme jalon de la période 1999, cet événement contribue à la compréhension des dynamiques politiques et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide"
+      ],
+      "actors": [
+        "OTAN"
+      ],
+      "geo": [
+        "Kosovo",
+        "Serbie"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "guerre_kosovo_1999",
@@ -8372,31 +12199,6 @@
       "category": "Rupture politique"
     },
     {
-      "id": "integration_cyberdefense_doctrine_us_2001",
-      "title": "Intégration de la cyberdéfense dans la doctrine stratégique américaine",
-      "date_start": "2001",
-      "date_end": null,
-      "type": "event",
-      "description": "En 2001, la révolution de l'information conduit les États-Unis à intégrer plus nettement la cyberdéfense dans leur doctrine stratégique. La sécurité des réseaux, la supériorité informationnelle et la protection des infrastructures numériques deviennent des enjeux centraux de puissance.",
-      "image_url": null,
-      "themes": [
-        "course technologique",
-        "révolution de l'information",
-        "cyberdéfense",
-        "révolution numérique",
-        "doctrine stratégique américaine"
-      ],
-      "actors": [
-        "États-Unis",
-        "Department of Defense"
-      ],
-      "geo": [
-        "États-Unis"
-      ],
-      "enriched": true,
-      "category": "Doctrine / Discours"
-    },
-    {
       "id": "entree_chine_omc_2001",
       "title": "Entrée de la Chine dans l'OMC",
       "date_start": "2001",
@@ -8445,6 +12247,31 @@
       "category": "Crise"
     },
     {
+      "id": "integration_cyberdefense_doctrine_us_2001",
+      "title": "Intégration de la cyberdéfense dans la doctrine stratégique américaine",
+      "date_start": "2001",
+      "date_end": null,
+      "type": "event",
+      "description": "En 2001, la révolution de l'information conduit les États-Unis à intégrer plus nettement la cyberdéfense dans leur doctrine stratégique. La sécurité des réseaux, la supériorité informationnelle et la protection des infrastructures numériques deviennent des enjeux centraux de puissance.",
+      "image_url": null,
+      "themes": [
+        "course technologique",
+        "révolution de l'information",
+        "cyberdéfense",
+        "révolution numérique",
+        "doctrine stratégique américaine"
+      ],
+      "actors": [
+        "États-Unis",
+        "Department of Defense"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "enriched": true,
+      "category": "Doctrine / Discours"
+    },
+    {
       "id": "montee_puissance_hezbollah_2001",
       "title": "Montée en puissance du Hezbollah au Liban",
       "date_start": "2001",
@@ -8469,6 +12296,28 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "operation_heracles_en_ocean_indien_2001",
+      "title": "Opération Héraclès en océan Indien",
+      "date_start": "2001",
+      "date_end": null,
+      "type": "event",
+      "description": "Opération Héraclès en océan Indien. Mentionné dans les plans comme jalon opérationnel de la période 2001, cet épisode éclaire les rapports de force militaires et stratégiques du programme.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Océan Indien",
+        "Afghanistan"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "transfert_milosevic_tpiy_2001",
