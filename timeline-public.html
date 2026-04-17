@@ -1448,6 +1448,7 @@ let metadata = {};
 let activeEventId = null;
 let editMode = false;
 let editingData = null;
+let visibleDetailIds = [];
 
 let filterYearMin = 1943;
 let filterYearMax = 1975;
@@ -1766,6 +1767,10 @@ function applyFilters() {
     if (y < filterYearMin || y > filterYearMax) return false;
     return true;
   });
+
+  visibleDetailIds = [...filtered]
+    .sort((a, b) => a.date_start.localeCompare(b.date_start))
+    .map(ev => ev.id);
 
   renderTimeline(filtered);
 
@@ -2156,6 +2161,57 @@ function openDetail(id) {
   renderDetail(ev, false);
 }
 
+function openAdjacentDetail(direction) {
+  if (!activeEventId || editMode || visibleDetailIds.length < 2) return;
+  const idx = visibleDetailIds.indexOf(activeEventId);
+  if (idx === -1) return;
+  const nextIdx = idx + direction;
+  if (nextIdx < 0 || nextIdx >= visibleDetailIds.length) return;
+  openDetail(visibleDetailIds[nextIdx]);
+}
+
+function isMobileDetailSwipe() {
+  return window.matchMedia('(max-width: 768px)').matches;
+}
+
+function setupDetailSwipe() {
+  const panel = document.getElementById('detailPanel');
+  let startX = 0;
+  let startY = 0;
+  let tracking = false;
+
+  panel.addEventListener('touchstart', event => {
+    if (!panel.classList.contains('open') || !isMobileDetailSwipe() || editMode) return;
+    const touch = event.touches[0];
+    if (!touch) return;
+    startX = touch.clientX;
+    startY = touch.clientY;
+    tracking = true;
+  }, { passive: true });
+
+  panel.addEventListener('touchmove', event => {
+    if (!tracking) return;
+    const touch = event.touches[0];
+    if (!touch) return;
+    const dx = touch.clientX - startX;
+    const dy = touch.clientY - startY;
+    if (Math.abs(dx) > 24 && Math.abs(dx) > Math.abs(dy) * 1.35) {
+      event.preventDefault();
+    }
+  }, { passive: false });
+
+  panel.addEventListener('touchend', event => {
+    if (!tracking) return;
+    tracking = false;
+    const touch = event.changedTouches[0];
+    if (!touch) return;
+    const dx = touch.clientX - startX;
+    const dy = touch.clientY - startY;
+    if (Math.abs(dx) < 64 || Math.abs(dx) < Math.abs(dy) * 1.35) return;
+    openAdjacentDetail(dx < 0 ? 1 : -1);
+  }, { passive: true });
+}
+
 function closeDetail() {
   activeEventId = null;
   editMode = false;
@@ -2537,6 +2593,7 @@ function closeMobileFilters() {
 
 // ── Boot ────────────────────────────────────────────────
 init();
+setupDetailSwipe();
 </script>
 </body>
 </html>
