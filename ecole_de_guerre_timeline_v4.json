@@ -3,7 +3,7 @@
     "title": "Frise chronologique fusionnée — Relations internationales 1939–2011",
     "description": "Chronologie fusionnée intégrant la frise École de guerre (v2), les chronologies Chine, URSS, France-OTAN, conflit israélo-arabe / question palestinienne, question allemande durant la Guerre froide, et les événements opérationnels mentionnés dans les plans d'histoire.",
     "source_url": null,
-    "total_events": 573,
+    "total_events": 593,
     "date_range": {
       "start": "1939",
       "end": "2011"
@@ -1001,6 +1001,35 @@
       ]
     },
     {
+      "id": "operation_halberd_1941_09",
+      "title": "Operation HALBERD",
+      "date_start": "1941-09",
+      "date_end": null,
+      "type": "event",
+      "description": "À l'automne 1941, l'opération HALBERD permet à un important convoi allié de ravitailler Malte depuis Gibraltar malgré la pression des forces de l'Axe. Son succès temporaire confirme la valeur stratégique de l'île pour le contrôle des communications en Méditerranée et prépare les affrontements logistiques de 1942 autour de sa survie.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Royal Navy",
+        "Italie",
+        "Regia Marina",
+        "Allemagne",
+        "Kriegsmarine"
+      ],
+      "geo": [
+        "Malte",
+        "Méditerranée",
+        "Méditerranée centrale"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "bataille_de_midway_1942_06",
       "title": "Bataille de Midway",
       "date_start": "1942-06-04",
@@ -1036,6 +1065,35 @@
           "checked_at": "2026-04-16"
         }
       ]
+    },
+    {
+      "id": "operation_harpoon_malte_1942_06",
+      "title": "Operation HARPOON",
+      "date_start": "1942-06",
+      "date_end": null,
+      "type": "event",
+      "description": "Lancée à la mi-juin 1942, l'opération HARPOON tente de ravitailler Malte depuis Gibraltar dans un contexte de pression italo-allemande maximale sur l'île. Les pertes subies par le convoi illustrent la vulnérabilité des lignes logistiques alliées en Méditerranée centrale et annoncent la nécessité d'une opération de plus grande ampleur quelques semaines plus tard.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Royal Navy",
+        "Italie",
+        "Regia Marina",
+        "Allemagne",
+        "Kriegsmarine"
+      ],
+      "geo": [
+        "Malte",
+        "Méditerranée",
+        "Méditerranée centrale"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "destruction_du_convoi_pq_17_1942_07",
@@ -3132,6 +3190,33 @@
       "category": "Rupture politique"
     },
     {
+      "id": "accords_de_petersberg_1949_11",
+      "title": "Accords de Petersberg",
+      "date_start": "1949-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Conclus entre la RFA et les puissances occidentales, les accords de Petersberg allègent le statut d'occupation, autorisent le retour de Bonn dans plusieurs organisations internationales et amorcent une normalisation politique de l'Allemagne de l'Ouest. Ils constituent une étape importante du réajustement occidental de la question allemande au début de la guerre froide.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "Question allemande durant la Guerre froide",
+        "Début des tensions et bipolarisation"
+      ],
+      "actors": [
+        "RFA",
+        "France",
+        "États-Unis",
+        "Royaume-Uni",
+        "Adenauer"
+      ],
+      "geo": [
+        "Bonn",
+        "Allemagne"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
+    },
+    {
       "id": "mutual_defence_assistance_act_mdap_1949",
       "title": "Mutual Defence Assistance Act — naissance du MDAP",
       "date_start": "1949-10-06",
@@ -3354,11 +3439,11 @@
     },
     {
       "id": "debarquement_incheon_1950_09",
-      "title": "Débarquement d'Incheon",
+      "title": "Débarquement d'Incheon (opération Chromite)",
       "date_start": "1950-09-15",
       "date_end": null,
       "type": "event",
-      "description": "Les forces des Nations Unies conduites par MacArthur lancent un débarquement amphibie à Incheon, sur les arrières nord-coréens. L'opération contribue à renverser la situation initiale de la guerre de Corée et redonne une légitimité opérationnelle aux forces amphibies et aux porte-avions après les doutes nés de l'arme atomique et du bombardement stratégique. Elle montre qu'une marine peut encore produire un effet stratégique direct dans un théâtre lointain.",
+      "description": "Les forces des Nations Unies conduites par MacArthur lancent à Incheon l'opération Chromite, débarquement amphibie mené sur les arrières nord-coréens. L'opération renverse la situation initiale de la guerre de Corée et redonne une légitimité opérationnelle aux forces amphibies et aux porte-avions après les doutes nés de l'arme atomique et du bombardement stratégique. Elle montre qu'une marine peut encore produire un effet stratégique direct dans un théâtre lointain.",
       "image_url": null,
       "themes": [
         "Guerre froide",
@@ -8358,6 +8443,34 @@
       "category": "Rupture politique"
     },
     {
+      "id": "operation_ivy_bells_1971_10",
+      "title": "Opération Ivy Bells",
+      "date_start": "1971-10",
+      "date_end": null,
+      "type": "event",
+      "description": "En octobre 1971, l'US Navy lance l'opération clandestine Ivy Bells en mer d'Okhotsk afin d'intercepter les communications militaires soviétiques transitant par câble sous-marin. Cette mission de renseignement illustre l'importance croissante de la guerre sous-marine discrète et de la supériorité informationnelle dans la compétition navale de la guerre froide.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "histoire navale",
+        "Sous-marin",
+        "course technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "US Navy",
+        "URSS",
+        "NSA"
+      ],
+      "geo": [
+        "mer d'Okhotsk",
+        "Pacifique",
+        "URSS"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "admission_rpc_onu_1971",
       "title": "Admission de la RPC à l'ONU",
       "date_start": "1971-10-25",
@@ -8520,6 +8633,29 @@
         "États-Unis"
       ],
       "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "operation_mascareigne_ocean_indien_1972",
+      "title": "Opération Mascareigne en océan Indien",
+      "date_start": "1972",
+      "date_end": null,
+      "type": "event",
+      "description": "En février 1972, l'envoi du groupe Mascareigne en océan Indien marque, selon Coutau-Bégarie, la fin d'une longue quasi-absence navale française dans la zone. Chargé de montrer le pavillon, le groupe croise dans l'ouest de l'océan Indien de mars à juin, alors que la présence française est encore largement absorbée par le Centre d'expérimentations du Pacifique.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "interventions extérieures",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "Océan Indien"
+      ],
+      "category": "Capacité militaire",
       "enriched": true
     },
     {
@@ -8781,11 +8917,13 @@
       "date_start": "1973",
       "date_end": null,
       "type": "event",
-      "description": "Après le virage nucléaire, la Marine nationale entre dans une logique d'interventions extérieures régulières. Elle doit désormais conjuguer dissuasion, présence outre-mer et gestion de crise, ce qui transforme profondément son emploi opérationnel.",
+      "description": "Après le virage nucléaire, la Marine nationale entre dans une logique d'interventions extérieures régulières. Elle doit désormais conjuguer dissuasion, présence outre-mer et gestion de crise, ce qui transforme profondément son emploi opérationnel. Chez Coutau-Bégarie, Mascareigne, les missions Sargasse et Okoumé, puis Corymbe marquent cette reprise d'une présence navale française hors métropole, en océan Indien puis dans l'Atlantique Sud et le golfe de Guinée.",
       "image_url": null,
       "themes": [
         "OPEX",
-        "interventions extérieures"
+        "interventions extérieures",
+        "histoire navale",
+        "présence maritime"
       ],
       "actors": [
         "Marine nationale",
@@ -8793,7 +8931,9 @@
       ],
       "geo": [
         "Océan Indien",
-        "Méditerranée"
+        "Méditerranée",
+        "Atlantique Sud",
+        "Golfe de Guinée"
       ],
       "category": "Doctrine / Discours",
       "enriched": true
@@ -9052,15 +9192,19 @@
       "id": "deminage_du_canal_de_suez_1974",
       "title": "Déminage du canal de Suez",
       "date_start": "1974",
-      "date_end": "1975",
+      "date_end": "1978",
       "type": "period",
-      "description": "Le déminage du canal de Suez permet sa réouverture après les guerres israélo-arabes et restaure une artère majeure du commerce mondial. Il rappelle que la maîtrise maritime inclut aussi les opérations lentes et techniques de sécurisation des passages.",
+      "description": "Le déminage du canal de Suez permet sa réouverture après les guerres israélo-arabes et restaure une artère majeure du commerce mondial. Les opérations françaises DECAN I, DECAN II et DECAN III correspondent aux phases de déminage, de reconnaissance des obstructions et d'intervention autour du canal, notamment à Port-Saïd pour DECAN III. L'ensemble rappelle que la maîtrise maritime inclut aussi les opérations lentes et techniques de sécurisation des passages.",
       "image_url": null,
       "themes": [
-        "histoire navale"
+        "histoire navale",
+        "déminage",
+        "sécurité maritime"
       ],
       "actors": [
-        "Égypte"
+        "Égypte",
+        "France",
+        "Marine nationale"
       ],
       "geo": [
         "Égypte",
@@ -9088,6 +9232,33 @@
       ],
       "enriched": true,
       "category": "Capacité militaire"
+    },
+    {
+      "id": "operations_saphir_djibouti_1974_1977",
+      "title": "Opérations Saphir autour de Djibouti",
+      "date_start": "1974",
+      "date_end": "1977",
+      "type": "event",
+      "description": "Saphir I remplace la mission Mousson par un dispositif plus important autour du Clemenceau, dans la perspective de la réouverture du canal de Suez et de l'accession de Djibouti à l'indépendance. Saphir II place ensuite le Clemenceau puis le Foch sur zone pour prévenir un éventuel coup de main somalien au moment de l'indépendance de juin 1977. Coutau-Bégarie insiste sur la difficulté matérielle de ces déploiements, entre transit par le Cap pour Saphir I, longue durée de Saphir II et activité aéronavale soutenue.",
+      "image_url": null,
+      "themes": [
+        "décolonisation",
+        "histoire navale",
+        "interventions extérieures",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Djibouti"
+      ],
+      "geo": [
+        "Djibouti",
+        "Corne de l'Afrique",
+        "Mer Rouge"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
     },
     {
       "id": "invasion_paracels_1974",
@@ -9378,14 +9549,16 @@
       "date_start": "1975-04-13",
       "date_end": "1990-10-13",
       "type": "period",
-      "description": "La guerre civile libanaise, est une guerre civile qui se déroule de 1975 à 1990 au Liban. Elle fait entre 150 000 et 250 000 morts et de nombreux disparus et exilés. La guerre est complexe, marquée par des violences entre communautés (chrétiens, druzes, chiites, sunnites), des affrontements au sein même des communautés (chrétiens contre chrétiens, chiites contre chiites) ainsi que de multiples interventions étrangères (invasions par la Syrie et Israël, intervention française et Ligue arabe). La présence armée de l'OLP sur le territoire libanais est l'un des facteurs déclenchants : les factions palestiniennes, expulsées de Jordanie en 1970, ont transformé le Liban en base arrière, exacerbant les tensions communautaires et fragilisant l'État libanais.  Le conflit s'achève officiellement en octobre 1990, lorsque l'armée syrienne écrase le dernier bastion du gouvernement du général Michel Aoun ; les milices sont ensuite démantelées, à l'exception notable du Hezbollah.",
+      "description": "La guerre civile libanaise, est une guerre civile qui se déroule de 1975 à 1990 au Liban. Elle fait entre 150 000 et 250 000 morts et de nombreux disparus et exilés. La guerre est complexe, marquée par des violences entre communautés (chrétiens, druzes, chiites, sunnites), des affrontements au sein même des communautés (chrétiens contre chrétiens, chiites contre chiites) ainsi que de multiples interventions étrangères (invasions par la Syrie et Israël, intervention française et Ligue arabe). La présence armée de l'OLP sur le territoire libanais est l'un des facteurs déclenchants : les factions palestiniennes, expulsées de Jordanie en 1970, ont transformé le Liban en base arrière, exacerbant les tensions communautaires et fragilisant l'État libanais.  Le conflit s'achève officiellement en octobre 1990, lorsque l'armée syrienne écrase le dernier bastion du gouvernement du général Michel Aoun ; les milices sont ensuite démantelées, à l'exception notable du Hezbollah. La crise mobilise aussi la Marine nationale : le 14 mars 1979, un groupe naval évacue les éléments français de la force multinationale d'interposition, préfigurant l'emploi récurrent de moyens navals français dans la gestion des crises libanaises.",
       "image_url": null,
       "themes": [
         "guerre civile",
         "Moyen-Orient",
         "conflit israélo-arabe",
         "question palestinienne",
-        "crise libanaise"
+        "crise libanaise",
+        "évacuation",
+        "interventions extérieures"
       ],
       "actors": [
         "Liban",
@@ -9394,7 +9567,8 @@
         "France",
         "OLP",
         "Phalangistes",
-        "Hezbollah"
+        "Hezbollah",
+        "Marine nationale"
       ],
       "geo": [
         "Liban",
@@ -9768,6 +9942,32 @@
       "category": "Conflit armé"
     },
     {
+      "id": "missions_sargasse_okoume_golfe_guinee_1977_1985",
+      "title": "Missions Sargasse et Okoumé dans l'Atlantique Sud et le golfe de Guinée",
+      "date_start": "1977",
+      "date_end": "1985",
+      "type": "event",
+      "description": "Après la réouverture du canal de Suez, les passages du groupe aéronaval dans l'Atlantique deviennent plus rares, mais des missions de présence dénommées Sargasse se succèdent sur les côtes africaines. Coutau-Bégarie cite Sargasse 4 en 1977, Sargasse 6 en 1978 et Sargasse 7 en 1979. Les missions Okoumé prolongent cette présence dans le golfe de Guinée, notamment avec un sous-marin classique accompagné du Rhône en 1979, puis avec des bâtiments de surface en 1982-1983 et en 1985.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "Afrique",
+        "interventions extérieures",
+        "présence maritime"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "Atlantique Sud",
+        "Golfe de Guinée",
+        "Afrique occidentale"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "presidence_carter_us",
       "title": "US - Présidence Carter",
       "date_start": "1977-01-20",
@@ -9795,17 +9995,24 @@
       "date_start": "1977-06-27",
       "date_end": null,
       "type": "event",
-      "description": "L'indépendance de Djibouti met fin à la souveraineté coloniale française dans la Corne de l'Afrique tout en préservant une présence militaire majeure. Pour Paris, c'est un modèle de transition : perdre l'empire sans perdre totalement l'accès stratégique.",
+      "description": "L'indépendance de Djibouti met fin à la souveraineté coloniale française dans la Corne de l'Afrique tout en préservant une présence militaire majeure. Pour Paris, c'est un modèle de transition : perdre l'empire sans perdre totalement l'accès stratégique. Saphir I et Saphir II sont les deux grands dispositifs navals français liés à cette transition : le premier sécurise le processus dans un environnement régional troublé, le second place Clemenceau puis Foch sur zone pour prévenir un éventuel coup de main somalien au moment de l'indépendance.",
       "image_url": null,
       "themes": [
         "décolonisation",
-        "politique française"
+        "politique française",
+        "histoire navale",
+        "interventions extérieures"
       ],
       "actors": [
-        "France"
+        "France",
+        "Marine nationale",
+        "Somalie",
+        "Éthiopie"
       ],
       "geo": [
-        "Djibouti"
+        "Djibouti",
+        "Corne de l'Afrique",
+        "Mer Rouge"
       ],
       "category": "Décolonisation",
       "enriched": true
@@ -10205,6 +10412,31 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "operation_hippocampe_liban_1979",
+      "title": "Opération Hippocampe au Liban",
+      "date_start": "1979",
+      "date_end": null,
+      "type": "event",
+      "description": "Le 14 mars 1979, l'opération Hippocampe évacue les éléments français de la force multinationale d'interposition au Liban. L'Ouragan, l'Argens et la Bidassoa, assistés par le remorqueur Rhinocéros au sein du Task Group 452.9, embarquent en moins d'une journée 754 hommes, 160 véhicules et 200 tonnes de matériel.",
+      "image_url": null,
+      "themes": [
+        "interventions extérieures",
+        "histoire navale",
+        "crise libanaise"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Liban"
+      ],
+      "geo": [
+        "Liban",
+        "Méditerranée orientale"
+      ],
+      "category": "Crise",
+      "enriched": true
     },
     {
       "id": "retablissement_relations_usa_chine_1979",
@@ -10766,13 +10998,15 @@
       "date_start": "1982",
       "date_end": "1989",
       "type": "period",
-      "description": "À partir de l'invasion israélienne du Liban et du siège de Beyrouth, la Marine nationale conduit une série de missions Olifant au large du Liban. Elle évacue des ressortissants, soutient la force multinationale, maintient une présence navale de surveillance en Méditerranée orientale et fournit ponctuellement un appui aérien depuis ses porte-avions, notamment après les attentats de Beyrouth de 1983. Ces missions installent durablement la Marine dans la gestion des crises levantines de la fin de la Guerre froide.",
+      "description": "À partir de l'invasion israélienne du Liban et du siège de Beyrouth, la Marine nationale conduit une série de missions Olifant au large du Liban. Elle évacue des ressortissants, soutient la force multinationale, maintient une présence navale de surveillance en Méditerranée orientale et fournit ponctuellement un appui aérien depuis ses porte-avions, notamment après les attentats de Beyrouth de 1983. Coutau-Bégarie souligne que la granularité d'Olifant est délicate : le dispositif peut être compté comme une présence continue ou comme une succession de phases. Epaulard couvre l'évacuation des combattants palestiniens en 1982, Anabase l'évacuation de forces palestiniennes à Tripoli en décembre 1983, et Capselle la présence française au large du Liban pendant la crise de 1989. Ces missions installent durablement la Marine dans la gestion des crises levantines de la fin de la Guerre froide.",
       "image_url": null,
       "themes": [
         "interventions extérieures",
         "opérations militaires",
         "crise libanaise",
-        "histoire navale"
+        "histoire navale",
+        "diplomatie navale",
+        "évacuation"
       ],
       "actors": [
         "France",
@@ -11188,6 +11422,33 @@
       "category": "Capacité militaire"
     },
     {
+      "id": "operation_sugar_super_etendard_irak_1983",
+      "title": "Opération Sugar et convoyage des Super-Étendard vers l'Irak",
+      "date_start": "1983",
+      "date_end": null,
+      "type": "event",
+      "description": "L'opération Sugar est le convoyage, tenu secret jusqu'à sa révélation ultérieure, des cinq Super-Étendard prêtés à l'Irak en octobre 1983, au moment où l'on redoute un effondrement irakien face à l'Iran. Une escale étrangère étant impossible, les porte-avions Foch et Clemenceau, tous deux disponibles, servent de relais aux appareils.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "politique française",
+        "guerre Iran-Irak",
+        "diplomatie navale"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Irak",
+        "Iran"
+      ],
+      "geo": [
+        "Méditerranée",
+        "Golfe Persique"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
       "id": "adoption_tcp_ip_1983",
       "title": "Adoption du protocole TCP/IP",
       "date_start": "1983-01-01",
@@ -11451,6 +11712,35 @@
       ],
       "category": "Mandat",
       "enriched": false
+    },
+    {
+      "id": "operation_mirmillon_libye_1984_09",
+      "title": "Opération Mirmillon",
+      "date_start": "1984-09",
+      "date_end": null,
+      "type": "event",
+      "description": "À l'automne 1984, pendant le retrait de l'opération Manta du Tchad, Mirmillon déploie un dispositif naval français dans le golfe de Syrte pour prévenir une réaction libyenne et préparer d'éventuelles représailles contre Tripoli ou Benghazi. Elle illustre l'usage de la Marine nationale comme outil de pression, de dissuasion et de diplomatie navale dans les crises méditerranéennes de la fin de la guerre froide.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "histoire navale",
+        "politique française",
+        "Afrique",
+        "diplomatie navale"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Libye",
+        "Kadhafi"
+      ],
+      "geo": [
+        "golfe de Syrte",
+        "Libye",
+        "Méditerranée"
+      ],
+      "category": "Crise",
+      "enriched": true
     },
     {
       "id": "retablissement_relations_us_irak_1984",
@@ -11736,6 +12026,33 @@
       "category": "Doctrine / Discours"
     },
     {
+      "id": "operation_aden_yemen_sud_1986",
+      "title": "Opération Aden au Yémen du Sud",
+      "date_start": "1986",
+      "date_end": null,
+      "type": "event",
+      "description": "En janvier 1986, la guerre civile au Yémen du Sud impose une évacuation multinationale à Aden. La France engage la frégate De Grasse, les avisos-escorteurs Amiral Charner et Doudart de Lagrée, ainsi que le navire-atelier Jules Verne avec trois hélicoptères de l'armée de terre. L'opération se déroule dans un port rendu impraticable par les destructions et les combats, avec embarquements depuis la plage et négociations délicates entre factions.",
+      "image_url": null,
+      "themes": [
+        "interventions extérieures",
+        "histoire navale",
+        "évacuation de ressortissants"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Yémen du Sud"
+      ],
+      "geo": [
+        "Yémen",
+        "Aden",
+        "Mer Rouge",
+        "Océan Indien"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
       "id": "operation_epervier_tchad_1986",
       "title": "Opération Épervier au Tchad",
       "date_start": "1986-02-13",
@@ -11957,25 +12274,52 @@
     },
     {
       "id": "operation_promethe_1987",
-      "title": "Op. \"Prométhée\"",
+      "title": "Opération Prométhée dans le Golfe",
       "date_start": "1987-07-30",
-      "date_end": null,
+      "date_end": "1988-09-16",
       "type": "event",
-      "description": "Début de l'intervention occidentale dans le cadre de la guerre Iran-Irak (opération Prométhée pour la France). Interview de Mitterrand sur le Clemenceau en décembre 1987",
+      "description": "Déclenchée dans le contexte de la guerre Iran-Irak, de la dégradation brutale des relations franco-iraniennes et de l'attaque du Ville d'Anvers le 13 juillet 1987, Prométhée déploie la Task Force 623 autour du porte-avions Clemenceau. L'opération vise à protéger les intérêts français, affirmer une présence en mer d'Arabie et dans le golfe Persique, et préparer une éventuelle action de rétorsion contre l'Iran. Selon Thibault Lavernhe, la TF 623 mobilise 33 bâtiments au total, jusqu'à 17 simultanément, en trois composantes : escorte, groupe aéronaval et guerre des mines. Le Clemenceau effectue 413 jours de déploiement, accompagne 70 bâtiments français sans incident, tandis que 11 mines sont neutralisées. Prométhée apparaît ainsi comme un sommet de la carrier diplomacy française, mais aussi comme une opération révélatrice des limites d'un cadre strictement national à la veille des opérations de coalition des années 1990.",
       "image_url": null,
       "themes": [
-        "interventions extérieures"
+        "interventions extérieures",
+        "guerre Iran-Irak",
+        "sécurité maritime",
+        "histoire navale",
+        "diplomatie navale",
+        "projection aéronavale",
+        "carrier diplomacy"
       ],
       "actors": [
         "France",
         "Mitterrand",
-        "Marine nationale"
+        "Marine nationale",
+        "Iran",
+        "Irak",
+        "Clemenceau",
+        "Task Force 623"
       ],
       "geo": [
-        "Golfe Persique"
+        "Golfe Persique",
+        "Mer d'Arabie",
+        "Océan Indien",
+        "Détroit d'Ormuz"
       ],
       "enriched": true,
-      "category": "Conflit armé"
+      "category": "Conflit armé",
+      "sources": [
+        {
+          "label": "Article",
+          "title": "Thibault Lavernhe, Trente ans après, un regard sur l'opération Prométhée",
+          "url": "RAG histoire/Articles/MDamettreenbase/lavernhe-2018-trente-ans-apres-un-regard-sur-loperation-promethee.md",
+          "supports": [
+            "date_start",
+            "date_end",
+            "description"
+          ],
+          "confidence": "high",
+          "checked_at": "2026-04-24"
+        }
+      ]
     },
     {
       "id": "irangate_1987",
@@ -12110,6 +12454,32 @@
       ],
       "enriched": true,
       "category": "Capacité militaire"
+    },
+    {
+      "id": "operation_nereides_golfe_1988_1989",
+      "title": "Opération Néréides dans le Golfe",
+      "date_start": "1988",
+      "date_end": "1989",
+      "type": "event",
+      "description": "Après Prométhée, l'opération Néréides assure la protection des navires de commerce et de la division anti-mines encore présente dans le Golfe. À la fin de 1988, sept bâtiments restent sur zone, puis sont progressivement rappelés jusqu'au retour à un format normal des Forces maritimes de l'océan Indien. Néréides prend fin le 15 août 1989 et cède la place à Ariane, réduite à un seul bâtiment d'escorte.",
+      "image_url": null,
+      "themes": [
+        "guerre Iran-Irak",
+        "histoire navale",
+        "interventions extérieures",
+        "sécurité maritime"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Iran",
+        "Irak"
+      ],
+      "geo": [
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "operation_praying_mantis_1988",
@@ -12541,6 +12911,32 @@
       "category": "Rupture politique"
     },
     {
+      "id": "operation_corymbe_golfe_guinee_1990",
+      "title": "Début du dispositif Corymbe dans le golfe de Guinée",
+      "date_start": "1990",
+      "date_end": null,
+      "type": "event",
+      "description": "Mis en place en 1990, le dispositif Corymbe vise à assurer la présence permanente d'au moins un bâtiment au large des côtes d'Afrique occidentale, de la frontière nord du Sénégal à la frontière de l'Angola. Coutau-Bégarie le décrit comme une montée en puissance régulière des croisières françaises dans le golfe de Guinée, souvent renforcée par les déstabilisations d'États de la région.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "Afrique",
+        "interventions extérieures",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "Golfe de Guinée",
+        "Afrique occidentale",
+        "Atlantique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "discours_de_la_baule_1990_06",
       "title": "Discours de La Baule",
       "date_start": "1990-06-20",
@@ -12577,13 +12973,16 @@
       "id": "debut_de_l_operation_artimon_1990_08",
       "title": "Début de l'opération Artimon",
       "date_start": "1990-08",
-      "date_end": null,
+      "date_end": "1994",
       "type": "event",
-      "description": "Artimon engage la Marine nationale dans le contrôle de l'embargo contre l'Irak après l'invasion du Koweït. L'opération montre que la France veut peser dans la coalition par la maîtrise maritime, même lorsque son outil aéronaval reste limité dans la phase offensive.",
+      "description": "Artimon engage la Marine nationale dans le contrôle de l'embargo contre l'Irak après l'invasion du Koweït, avec des patrouilles organisées dans trois zones maritimes. L'opération montre que la France veut peser dans la coalition par la maîtrise maritime et par le contrôle des flux, même lorsque son outil aéronaval reste limité dans la phase offensive.",
       "image_url": null,
       "themes": [
         "opérations militaires",
-        "politique française"
+        "politique française",
+        "embargo",
+        "sécurité maritime",
+        "coalition"
       ],
       "actors": [
         "France",
@@ -12602,15 +13001,18 @@
       "date_start": "1990-08",
       "date_end": null,
       "type": "event",
-      "description": "Salamandre organise le déploiement français vers le Golfe, notamment par projection maritime. Elle révèle à la fois la capacité française à participer à une coalition majeure et les limites d'un outil encore pensé pour des opérations plus autonomes et moins intégrées.",
+      "description": "Salamandre organise le renforcement naval français après l'invasion du Koweït, notamment par projection maritime. Le Clemenceau est gréé en porte-hélicoptères pour transporter des moyens de l'armée de terre vers le Golfe. L'opération révèle à la fois la capacité française à participer à une coalition majeure et les limites d'un outil encore pensé pour des opérations plus autonomes et moins intégrées.",
       "image_url": null,
       "themes": [
         "opérations militaires",
-        "politique française"
+        "politique française",
+        "projection de forces",
+        "guerre du Golfe"
       ],
       "actors": [
         "France",
-        "Marine nationale"
+        "Marine nationale",
+        "Clemenceau"
       ],
       "geo": [
         "Irak",
@@ -12653,14 +13055,18 @@
       "date_start": "1990-09",
       "date_end": null,
       "type": "event",
-      "description": "Daguet marque l'engagement terrestre français dans la coalition contre l'Irak. Politiquement, la France rejoint pleinement le nouvel ordre international de l'après-Guerre froide ; militairement, elle découvre l'exigence d'interopérabilité avec la puissance américaine.",
+      "description": "Daguet marque l'engagement français dans la coalition contre l'Irak. Politiquement, la France rejoint pleinement le nouvel ordre international de l'après-Guerre froide ; militairement, elle découvre l'exigence d'interopérabilité avec la puissance américaine. La Marine nationale y contribue par le déploiement et le soutien maritime des forces françaises engagées pour la libération du Koweït, sans que Daguet soit pour autant une opération navale autonome.",
       "image_url": null,
       "themes": [
         "opérations militaires",
-        "politique française"
+        "politique française",
+        "projection de forces",
+        "guerre du Golfe",
+        "coalition"
       ],
       "actors": [
-        "France"
+        "France",
+        "Marine nationale"
       ],
       "geo": [
         "Irak",
@@ -12851,20 +13257,27 @@
       "date_start": "1991",
       "date_end": null,
       "type": "event",
-      "description": "Le déminage après la guerre du Golfe rappelle que la victoire ne s'arrête pas à la fin des combats. Rendre les ports et chenaux praticables conditionne la reprise économique, la sécurité des forces et le retour à un ordre maritime normal.",
+      "description": "Le déminage après la guerre du Golfe rappelle que la victoire ne s'arrête pas à la fin des combats. Mermin engage les démineurs du commando Hubert dans le déminage des plages du Koweït, tandis que Southern Breeze conduit le déminage au large du Koweït sous l'égide de l'UEO. Rendre les ports, plages et chenaux praticables conditionne la reprise économique, la sécurité des forces et le retour à un ordre maritime normal.",
       "image_url": null,
       "themes": [
         "opérations militaires",
-        "histoire navale"
+        "histoire navale",
+        "déminage",
+        "guerre des mines"
       ],
       "actors": [
         "Iran",
         "Irak",
         "États-Unis",
-        "US Navy"
+        "US Navy",
+        "France",
+        "Marine nationale",
+        "Commando Hubert",
+        "UEO"
       ],
       "geo": [
-        "Golfe Persique"
+        "Golfe Persique",
+        "Koweït"
       ],
       "category": "Conflit armé",
       "enriched": true
@@ -13330,6 +13743,63 @@
       "enriched": true
     },
     {
+      "id": "operation_achernar_embargo_libye_1992",
+      "title": "Opération Achernar au large de la Libye",
+      "date_start": "1992",
+      "date_end": null,
+      "type": "event",
+      "description": "En avril 1992, dans le cadre de la résolution 748 instaurant un embargo contre la Libye, la France monte l'opération Achernar de surveillance des côtes libyennes. Coutau-Bégarie indique qu'elle met en œuvre des avions Atlantic de patrouille maritime, le bâtiment d'expérimentations Ile d'Oléron, le bâtiment de soutien santé Rance et deux sous-marins, le SNA Saphir et La Praya, pour une mission d'un mois et demi dont le détail reste peu connu.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "ONU",
+        "Méditerranée",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "ONU",
+        "Libye",
+        "Kadhafi"
+      ],
+      "geo": [
+        "Libye",
+        "Méditerranée"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
+      "id": "operation_oryx_somalie_1992",
+      "title": "Opération Oryx en Somalie",
+      "date_start": "1992",
+      "date_end": null,
+      "type": "event",
+      "description": "L'opération Oryx désigne la participation française à l'intervention multinationale décidée après la résolution 794 du Conseil de sécurité sur la Somalie. Le TCD Foudre appareille de Toulon le 13 décembre 1992 avec un détachement de l'ALAT, rallie le 21 décembre à Djibouti les Forces maritimes de l'océan Indien autour du Var et de la frégate Dupleix, tandis qu'un roulier affrété apporte du matériel.",
+      "image_url": null,
+      "themes": [
+        "interventions extérieures",
+        "humanitaire",
+        "ONU",
+        "histoire navale"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "ONU",
+        "Somalie",
+        "États-Unis"
+      ],
+      "geo": [
+        "Somalie",
+        "Corne de l'Afrique",
+        "Océan Indien"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "traite_maastricht_1992",
       "title": "Traité de Maastricht",
       "date_start": "1992-02-07",
@@ -13502,16 +13972,19 @@
       "date_start": "1992-12-09",
       "date_end": null,
       "type": "event",
-      "description": "intervention Restore Hope sous commandement US en Somalie, pays déchiré depuis le départ du général Syaad Barré en 1991. Les US seront remplacés par l'ONUSOM en 1993, qui quittera le pays en 1995 sur un échec.",
+      "description": "Restore Hope est une intervention sous commandement américain en Somalie, pays déchiré depuis le départ du général Syad Barré en 1991. Les États-Unis seront remplacés par l'ONUSOM en 1993, qui quittera le pays en 1995 sur un échec. La participation française et son volet naval prennent notamment la forme de l'opération Oryx, traitée comme un jalon spécifique de la présence maritime française dans la crise somalienne.",
       "image_url": null,
       "themes": [
         "interventions extérieures",
-        "humanitaire"
+        "humanitaire",
+        "histoire navale"
       ],
       "actors": [
         "États-Unis",
         "ONU",
-        "Somalie"
+        "Somalie",
+        "France",
+        "Marine nationale"
       ],
       "geo": [
         "Somalie"
@@ -13753,13 +14226,17 @@
       "date_start": "1993-03-28",
       "date_end": "1995-03-02",
       "type": "period",
-      "description": "ONUSOM II symbolise les limites de l'intervention humanitaire militarisée lorsque les objectifs politiques deviennent flous. L'échec somalien refroidit durablement les ambitions occidentales et onusiennes, avec des conséquences directes sur l'inaction au Rwanda.",
+      "description": "ONUSOM II symbolise les limites de l'intervention humanitaire militarisée lorsque les objectifs politiques deviennent flous. L'échec somalien refroidit durablement les ambitions occidentales et onusiennes, avec des conséquences directes sur l'inaction au Rwanda. Le retrait final du dispositif donne lieu à United Shield, opération où les bâtiments français assurent d'abord seuls le soutien naval des forces à terre avant l'arrivée d'une flotte multinationale.",
       "image_url": null,
       "themes": [
-        "ONU"
+        "ONU",
+        "histoire navale",
+        "humanitaire"
       ],
       "actors": [
-        "ONU"
+        "ONU",
+        "France",
+        "Marine nationale"
       ],
       "geo": [
         "Somalie"
@@ -13836,13 +14313,16 @@
       "date_start": "1993-06-15",
       "date_end": "1996-10-02",
       "type": "period",
-      "description": "Sharp Guard impose l'embargo maritime contre l'ex-Yougoslavie en Adriatique sous mandat international. Elle illustre le rôle des marines dans la coercition limitée : contrôler les flux, faire respecter le droit et maintenir une pression sans bataille navale classique.",
+      "description": "Sharp Guard impose le blocus et l'embargo maritime contre l'ex-Yougoslavie en Adriatique sous mandat international, dans un cadre OTAN-UEO. Elle illustre le rôle des marines dans la coercition limitée : contrôler les flux, faire respecter le droit et maintenir une pression sans bataille navale classique.",
       "image_url": null,
       "themes": [
-        "opérations militaires"
+        "opérations militaires",
+        "embargo",
+        "crise yougoslave"
       ],
       "actors": [
-        "OTAN"
+        "OTAN",
+        "UEO"
       ],
       "geo": [
         "Adriatique"
@@ -14026,6 +14506,34 @@
       ],
       "enriched": true,
       "category": "Institution"
+    },
+    {
+      "id": "operation_united_shield_somalie_1995",
+      "title": "Opération United Shield en Somalie",
+      "date_start": "1995",
+      "date_end": null,
+      "type": "event",
+      "description": "United Shield est mise sur pied pour assurer le repli sur Mogadiscio puis l'évacuation du dispositif de l'ONU en Somalie. Pendant un mois, les bâtiments français assurent seuls le soutien naval des forces à terre : l'aviso d'Estienne d'Orves mouille devant Mogadiscio le 5 janvier 1995, rejoint le 18 par le Commandant Bory avec un détachement commando, avant l'arrivée d'une flotte multinationale de 17 bâtiments de six nations. Les dernières forces de couverture embarquent le 3 mars.",
+      "image_url": null,
+      "themes": [
+        "ONU",
+        "interventions extérieures",
+        "humanitaire",
+        "histoire navale"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "ONU",
+        "Somalie",
+        "États-Unis"
+      ],
+      "geo": [
+        "Somalie",
+        "Océan Indien"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "chirac_president",
@@ -14346,6 +14854,34 @@
       "enriched": true
     },
     {
+      "id": "operation_condor_iles_hanish_1996_2001",
+      "title": "Opération Condor autour des îles Hanish",
+      "date_start": "1996",
+      "date_end": "2001",
+      "type": "event",
+      "description": "Dans le litige entre le Yémen et l'Érythrée sur les îles Hanish, la France offre sa médiation et la Marine assure la surveillance de ces îles habituellement inhabitées afin d'éviter un coup de force pendant l'arbitrage. L'opération Condor mobilise de juin 1996 à mars 2001 un avion Atlantique et un navire basé à Djibouti ; Coutau-Bégarie relève 502 vols et 213 patrouilles maritimes en près de cinq ans.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "sécurité maritime",
+        "interventions extérieures"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Yémen",
+        "Érythrée"
+      ],
+      "geo": [
+        "Îles Hanish",
+        "Mer Rouge",
+        "Yémen",
+        "Érythrée"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
       "id": "operation_raisins_colere_qana_1996",
       "title": "Opération « Raisins de la colère » et bombardement de Qana",
       "date_start": "1996-04-11",
@@ -14625,6 +15161,35 @@
       "enriched": true
     },
     {
+      "id": "operation_khor_angar_djibouti_1999_2001",
+      "title": "Opération Khor Angar à Djibouti",
+      "date_start": "1999",
+      "date_end": "2001",
+      "type": "event",
+      "description": "En janvier 1999, face à l'aggravation de la guerre entre l'Éthiopie et l'Érythrée et aux risques pour Djibouti, la France lance Khor Angar, que Coutau-Bégarie qualifie de présence ostentatoire de bâtiments en posture de réaction immédiate, à moins d'une heure. Les frégates Cassard, Jean Bart et Montcalm se relaient entre mer et quai pour surveiller l'espace maritime et aérien djiboutien jusqu'après l'accord de paix du 12 décembre 2000 ; l'opération est levée le 28 février 2001.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "Afrique",
+        "interventions extérieures",
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "Djibouti",
+        "Éthiopie",
+        "Érythrée"
+      ],
+      "geo": [
+        "Djibouti",
+        "Corne de l'Afrique",
+        "Mer Rouge"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
       "id": "guerre_kosovo_1999",
       "title": "Guerre du Kosovo",
       "date_start": "1999-03",
@@ -14898,6 +15463,30 @@
       "category": "Rupture politique"
     },
     {
+      "id": "creation_service_soutien_flotte_2000",
+      "title": "Création du Service de soutien de la flotte",
+      "date_start": "2000",
+      "date_end": null,
+      "type": "event",
+      "description": "La création du Service de soutien de la flotte centralise la maintenance et le soutien technique des bâtiments de la Marine nationale afin d'améliorer leur disponibilité opérationnelle. Cette réforme accompagne l'adaptation de la flotte française aux contraintes de professionnalisation, d'interarmisation et de projection lointaine de l'après-guerre froide.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "capacité militaire",
+        "politique française",
+        "interventions extérieures"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "integration_cyberdefense_doctrine_us_2001",
       "title": "Intégration de la cyberdéfense dans la doctrine stratégique américaine",
       "date_start": "2001",
@@ -14952,15 +15541,18 @@
       "date_start": "2001",
       "date_end": null,
       "type": "event",
-      "description": "Héraclès engage le Charles-de-Gaulle dans les opérations post-11 Septembre vers l'Afghanistan. Pour la Marine nationale, c'est la démonstration d'une projection aéronavale lointaine, intégrée aux alliés, au cœur du nouvel âge stratégique ouvert par la lutte contre le terrorisme.",
+      "description": "Héraclès engage le groupe aéronaval Charles-de-Gaulle dans les opérations post-11 Septembre vers l'Afghanistan. Pour la Marine nationale, c'est la démonstration d'une projection aéronavale lointaine, intégrée aux alliés, au cœur du nouvel âge stratégique ouvert par la lutte contre le terrorisme. L'opération articule présence en océan Indien, projection de puissance depuis la mer et participation française à la campagne d'Afghanistan.",
       "image_url": null,
       "themes": [
         "opérations militaires",
-        "politique française"
+        "politique française",
+        "lutte contre le terrorisme",
+        "projection aéronavale"
       ],
       "actors": [
         "France",
-        "Marine nationale"
+        "Marine nationale",
+        "Charles de Gaulle"
       ],
       "geo": [
         "Océan Indien",
@@ -14992,6 +15584,32 @@
         "France"
       ],
       "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "operation_active_endeavour_mediterranee_2001",
+      "title": "Opération Active Endeavour en Méditerranée",
+      "date_start": "2001",
+      "date_end": null,
+      "type": "event",
+      "description": "Active Endeavour commence officiellement le 6 octobre 2001 en Méditerranée orientale, lorsque l'OTAN déploie ses forces navales permanentes pour prévenir une attaque terroriste contre le trafic maritime. Coutau-Bégarie souligne la réticence française : l'aviso Second-maître Le Bihan ne s'intègre pas au dispositif en 2002, et la seule participation française directe mentionnée est celle de la frégate Jean de Vienne en mars 2006, pour une semaine seulement, malgré des échanges d'informations avec le quartier général de Naples.",
+      "image_url": null,
+      "themes": [
+        "OTAN",
+        "lutte contre le terrorisme",
+        "histoire navale",
+        "Méditerranée"
+      ],
+      "actors": [
+        "OTAN",
+        "États-Unis",
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "Méditerranée"
+      ],
+      "category": "Conflit armé",
       "enriched": true
     },
     {

@@ -1022,281 +1022,6 @@
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: #c0bdb8; }
-
-    /* ── Base rules for mobile-only elements ─────────────── */
-    #mobileFilterBtn     { display: none; }
-    #mobileFilterValidate { display: none; }
-    /* On desktop the wrapper is transparent to the flex layout */
-    .filters-scroll-area { display: contents; }
-
-    /* ── Mobile: max-width 768px ─────────────────────────── */
-    @media (max-width: 768px) {
-
-      /* Body: allow full-page scroll */
-      body {
-        height: auto;
-        min-height: 100vh;
-        overflow-y: auto;
-        overflow-x: hidden;
-        width: 100%;
-      }
-
-      /* App container: no inner scroll */
-      .app {
-        display: block;
-        overflow: visible;
-        width: 100%;
-        max-width: 100vw;
-      }
-
-      /* Header: sticky + wraps on small screens */
-      header {
-        position: sticky;
-        top: 0;
-        height: auto;
-        flex-wrap: wrap;
-        padding: 0.55rem 0.75rem;
-        gap: 0.4rem 0.5rem;
-        z-index: 200;
-      }
-
-      .brand {
-        width: 100%;
-        order: -1;
-      }
-
-      header h1 {
-        font-size: 0.85rem;
-        white-space: normal;
-      }
-
-      .brand-logo { width: 22px; height: 22px; }
-
-      header h1 span { font-size: 0.72rem; }
-
-      #eventCount { font-size: 0.7rem; flex: 1; }
-
-      #mobileFilterBtn {
-        display: flex !important;
-        align-items: center;
-        min-height: 44px;
-      }
-
-      .header-btn { min-height: 44px; padding: 0 0.85rem; }
-
-      /* ── Filter sidebar: fullscreen overlay ── */
-      .filters {
-        position: fixed;
-        inset: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: 400;
-        border: none;
-        display: none;
-        flex-direction: column;
-        overflow: hidden;
-        padding: 0;
-        gap: 0;
-      }
-
-      .filters.mobile-open { display: flex; }
-
-      /* Scrollable content area inside the overlay */
-      .filters-scroll-area {
-        display: flex;
-        flex-direction: column;
-        gap: 1.25rem;
-        flex: 1;
-        overflow-y: auto;
-        padding: 1rem;
-        -webkit-overflow-scrolling: touch;
-      }
-
-      /* Valider button pinned at bottom of overlay */
-      #mobileFilterValidate {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-        width: 100%;
-        min-height: 52px;
-        padding: 0;
-        background: #1a2b3c;
-        color: white;
-        border: none;
-        border-top: 2px solid var(--border);
-        font-size: 1rem;
-        font-family: 'Helvetica Neue', Arial, sans-serif;
-        font-weight: bold;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        transition: background 0.18s;
-      }
-
-      #mobileFilterValidate:active { background: #253d52; }
-
-      /* Filter items: larger touch targets */
-      .theme-item {
-        min-height: 38px;
-        padding: 0.25rem 0;
-        align-items: center;
-      }
-
-      .theme-item input[type="checkbox"] {
-        width: 18px;
-        height: 18px;
-        flex-shrink: 0;
-      }
-
-      .type-btn { min-height: 44px; font-size: 0.82rem; }
-
-      #resetBtn {
-        min-height: 44px;
-        font-size: 0.82rem;
-        padding: 0.5rem;
-      }
-
-      /* Expand filter lists fully in overlay */
-      .filter-list,
-      .filter-list.compact { max-height: none; }
-
-      input[type="range"] { height: 6px; }
-      input[type="range"]::-webkit-slider-thumb { width: 22px; height: 22px; }
-
-      /* ── Detail panel: fullscreen on mobile ── */
-      .detail-panel.open {
-        position: fixed;
-        inset: 0;
-        width: 100vw !important;
-        height: 100vh;
-        z-index: 300;
-        border: none;
-        overflow: hidden;
-      }
-
-      .detail-inner { width: 100% !important; }
-
-      /* ── Timeline main: full-page scroll ── */
-      .timeline-main {
-        overflow-y: visible;
-        padding: 0.6rem 0.65rem 3rem;
-        width: 100%;
-        max-width: 100vw;
-        min-width: 0;
-      }
-
-      .timeline-inner {
-        width: 100%;
-        max-width: 100%;
-        min-width: 0;
-        margin: 0;
-        overflow: hidden;
-      }
-
-      /* Year label: remove desktop negative-offset positioning */
-      .year-sep {
-        width: 100%;
-        min-width: 0;
-      }
-
-      .year-label {
-        left: 0;
-        margin-right: 0;
-        font-size: 0.6rem;
-      }
-
-      /* Hide column headers */
-      .tl-col-headers { display: none !important; }
-
-      /* ── Single-column layout ── */
-      .tl-row,
-      .tl-row.no-mandats {
-        display: flex !important;
-        flex-direction: column;
-        gap: 0.3rem;
-        padding: 0.15rem 0 0.35rem;
-        width: 100%;
-        min-width: 0;
-      }
-
-      .tl-col-left,
-      .tl-col-center,
-      .tl-col-right {
-        border: none !important;
-        padding: 0 !important;
-        width: 100%;
-        min-width: 0;
-      }
-
-      /* Hide year-row empty placeholders */
-      .tl-col-empty { display: none; }
-
-      /* Hide absolute-positioned overlay bars (only work in multi-column layout) */
-      .bar-overlay { display: none !important; }
-
-      /* Hide mandate lanes that have no start card (continuation / empty) */
-      .tl-band-lane:not(:has(.tl-band.mandate-card)) { display: none; }
-
-      /* Mandate start cards: full width */
-      .tl-band.mandate-card {
-        width: 100%;
-        max-width: 100%;
-        min-width: 0;
-      }
-
-      /* ── Event cards: ~85% of desktop sizes ── */
-      .event-card {
-        width: 100%;
-        max-width: 100%;
-        min-width: 0;
-        padding: 0.5rem 0.6rem;
-        margin-bottom: 0.3rem;
-      }
-
-      .card-top,
-      .card-title,
-      .card-date,
-      .card-desc,
-      .card-tags {
-        max-width: 100%;
-        min-width: 0;
-      }
-
-      .card-title {
-        font-size: 0.79rem;
-        overflow-wrap: anywhere;
-      }
-      .card-date  { font-size: 0.65rem; }
-      .card-desc  {
-        font-size: 0.68rem;
-        overflow-wrap: anywhere;
-      }
-      .card-badge { font-size: 0.53rem; padding: 0.08rem 0.3rem; }
-      .tag {
-        max-width: 100%;
-        font-size: 0.58rem;
-        white-space: normal;
-        overflow-wrap: anywhere;
-      }
-
-      .band-leader { font-size: 0.57rem; }
-      .band-date   { font-size: 0.51rem; }
-    }
-
-    /* ── Tablet: 769px – 1024px ──────────────────────────── */
-    @media (min-width: 769px) and (max-width: 1024px) {
-      :root {
-        --filter-w: 220px;
-        --detail-w: 340px;
-      }
-
-      .tl-row                      { grid-template-columns: 150px 1fr 240px; }
-      .tl-col-headers              { grid-template-columns: 150px 1fr 240px; }
-      .tl-row.no-mandats           { grid-template-columns: 1fr 240px; }
-      .tl-col-headers.no-mandats   { grid-template-columns: 1fr 240px; }
-
-      .timeline-main { padding: 1rem 1.25rem 2rem; }
-    }
   </style>
 </head>
 <body>
@@ -1304,19 +1029,17 @@
 <header>
   <div class="brand">
     <img class="brand-logo" src="./favicon/favicon_48.png" alt="" aria-hidden="true">
-    <h1>Frise chronologique <span>— École de guerre · 1939-2001</span></h1>
+    <h1>Frise chronologique <span>— École de guerre · Guerre froide 1943–1975</span></h1>
   </div>
   <span id="eventCount"></span>
   <span id="saveStatus"></span>
   <button id="exportJsonBtn" class="header-btn" onclick="exportJSON()">Exporter JSON</button>
-  <button id="mobileFilterBtn" class="header-btn" onclick="openMobileFilters()">☰ Filtres</button>
 </header>
 
 <div class="app">
 
   <!-- ── Filters ── -->
   <aside class="filters">
-  <div class="filters-scroll-area">
 
     <div class="filter-block">
       <h3>Recherche</h3>
@@ -1411,9 +1134,6 @@
     </div>
 
     <button id="resetBtn" onclick="resetFilters()">Réinitialiser les filtres</button>
-
-  </div><!-- /.filters-scroll-area -->
-  <button id="mobileFilterValidate" onclick="closeMobileFilters()">Valider</button>
 
   </aside>
 
@@ -1615,7 +1335,7 @@ async function init() {
   applyPublicMode();
 
   try {
-    const res = await fetch(`./ecole_de_guerre_timeline_v4.json?v=${Date.now()}`, { cache: 'no-store' });
+    const res = await fetch('./ecole_de_guerre_timeline_v4.json');
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
     allEvents = data.events || [];
@@ -1631,6 +1351,7 @@ async function init() {
         Lancez <code style="background:#eee;padding:0.1rem 0.3rem;border-radius:2px">python3 server.py</code>
         dans le dossier <code style="background:#eee;padding:0.1rem 0.3rem;border-radius:2px">Timeline/</code>
         puis ouvrez <strong>http://localhost:8080/timeline.html</strong>
+        <br><small>Le port est défini dans <code>../local_ports.json</code>.</small>
       </div>`;
   }
 }
@@ -1999,7 +1720,6 @@ function renderTimeline(events) {
 //  Barres overlay (mandats + périodes)
 // ══════════════════════════════════════════════════════════
 function drawBars() {
-  if (window.innerWidth <= 768) return; // bars are hidden on mobile; skip computation
   const container = document.getElementById('timelineInner');
   if (!container) return;
   container.style.position = 'relative';
@@ -2328,6 +2048,8 @@ function cancelEdit() {
 
 function renderDetailEdit(ev) {
   const d = editingData;
+  const categoryOptions = [...ALL_CATEGORIES];
+  if (d.category && !categoryOptions.includes(d.category)) categoryOptions.push(d.category);
 
   document.getElementById('detailBody').innerHTML = `
     <div class="detail-field">
@@ -2345,16 +2067,16 @@ function renderDetailEdit(ev) {
       <div class="detail-lbl">Catégorie</div>
       <select id="ei_category">
         <option value="">— Non classé —</option>
-        ${ALL_CATEGORIES.map(c => `<option value="${escAttr(c)}"${d.category===c?' selected':''}>${escHtml(c)}</option>`).join('')}
+        ${categoryOptions.map(c => `<option value="${escAttr(c)}"${d.category===c?' selected':''}>${escHtml(c)}</option>`).join('')}
       </select>
     </div>
     <div class="detail-field">
       <div class="detail-lbl">Date de début *</div>
-      <input type="date" id="ei_date_start" value="${escAttr(d.date_start || '')}">
+      <input type="text" id="ei_date_start" value="${escAttr(d.date_start || '')}" placeholder="AAAA, AAAA-MM ou AAAA-MM-JJ" inputmode="numeric" pattern="\\d{4}(-\\d{2})?(-\\d{2})?">
     </div>
     <div class="detail-field">
       <div class="detail-lbl">Date de fin</div>
-      <input type="date" id="ei_date_end" value="${escAttr(d.date_end || '')}">
+      <input type="text" id="ei_date_end" value="${escAttr(d.date_end || '')}" placeholder="AAAA, AAAA-MM ou AAAA-MM-JJ" inputmode="numeric" pattern="\\d{4}(-\\d{2})?(-\\d{2})?">
     </div>
     <div class="detail-field">
       <div class="detail-lbl">Description</div>
@@ -2387,19 +2109,35 @@ function renderDetailEdit(ev) {
 }
 
 // ── Tag editor ──────────────────────────────────────────
+function tagSuggestions(field) {
+  const values = new Set();
+  allEvents.forEach(ev => (ev[field] || []).forEach(value => {
+    if (value) values.add(value);
+  }));
+  (editingData?.[field] || []).forEach(value => {
+    if (value) values.add(value);
+  });
+  return [...values].sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
+}
+
 function buildTagEditor(field, tags) {
+  const listId = `tl_${field}`;
   const chips = tags.map((tag, i) =>
     `<span class="tag-chip">
       ${escHtml(tag)}
       <button class="tag-chip-del" onclick="removeTag('${field}',${i})" title="Supprimer">×</button>
     </span>`
   ).join('');
+  const options = tagSuggestions(field)
+    .map(value => `<option value="${escAttr(value)}"></option>`)
+    .join('');
   return `
     <div class="tag-editor" id="te_${field}" onclick="document.getElementById('ti_${field}').focus()">
       ${chips}
-      <input class="tag-input" id="ti_${field}" type="text" placeholder="Ajouter, valider avec Entrée…">
+      <input class="tag-input" id="ti_${field}" type="text" list="${listId}" placeholder="Ajouter, valider avec Entrée…" autocomplete="off">
+      <datalist id="${listId}">${options}</datalist>
     </div>
-    <div class="edit-hint">Appuyez sur Entrée ou virgule pour ajouter.</div>
+    <div class="edit-hint">Appuyez sur Entrée ou virgule pour ajouter. Les suggestions viennent du JSON.</div>
   `;
 }
 
@@ -2421,6 +2159,7 @@ function bindTagInput(field) {
 
 function addTag(field, value) {
   if (!editingData[field]) editingData[field] = [];
+  if (editingData[field].some(tag => tag.toLowerCase() === value.toLowerCase())) return;
   editingData[field].push(value);
   refreshTagEditor(field);
 }
@@ -2460,6 +2199,14 @@ function saveEdit() {
 
   if (!editingData.title) { alert('Le titre est obligatoire.'); return; }
   if (!editingData.date_start) { alert('La date de début est obligatoire.'); return; }
+  if (!isTimelineDate(editingData.date_start)) {
+    alert('La date de début doit être au format AAAA, AAAA-MM ou AAAA-MM-JJ.');
+    return;
+  }
+  if (editingData.date_end && !isTimelineDate(editingData.date_end)) {
+    alert('La date de fin doit être au format AAAA, AAAA-MM ou AAAA-MM-JJ.');
+    return;
+  }
 
   const idx = allEvents.findIndex(e => e.id === activeEventId);
   if (idx !== -1) allEvents[idx] = editingData;
@@ -2478,6 +2225,10 @@ function saveEdit() {
 
   renderDetail(saved, false);
   autoSave();
+}
+
+function isTimelineDate(value) {
+  return /^\d{4}(-\d{2})?(-\d{2})?$/.test(value);
 }
 
 // ══════════════════════════════════════════════════════════
@@ -2576,19 +2327,6 @@ function escHtml(s) {
 function escAttr(s) {
   if (!s) return '';
   return String(s).replace(/"/g,'&quot;').replace(/'/g,'&#39;');
-}
-
-// ══════════════════════════════════════════════════════════
-//  Mobile filter overlay
-// ══════════════════════════════════════════════════════════
-function openMobileFilters() {
-  document.querySelector('.filters').classList.add('mobile-open');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeMobileFilters() {
-  document.querySelector('.filters').classList.remove('mobile-open');
-  document.body.style.overflow = '';
 }
 
 // ── Boot ────────────────────────────────────────────────
