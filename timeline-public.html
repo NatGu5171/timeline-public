@@ -1335,7 +1335,7 @@ async function init() {
   applyPublicMode();
 
   try {
-    const res = await fetch('./ecole_de_guerre_timeline_v4.json');
+    const res = await fetch('./ecole_de_guerre_timeline_v4.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(res.status);
     const data = await res.json();
     allEvents = data.events || [];
