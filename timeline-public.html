@@ -1029,7 +1029,7 @@
 <header>
   <div class="brand">
     <img class="brand-logo" src="./favicon/favicon_48.png" alt="" aria-hidden="true">
-    <h1>Frise chronologique <span>— École de guerre · Guerre froide 1943–1975</span></h1>
+    <h1>Frise chronologique <span>— École de guerre · Relations internationales 1936–2023</span></h1>
   </div>
   <span id="eventCount"></span>
   <span id="saveStatus"></span>
@@ -1080,14 +1080,14 @@
 
     <div class="filter-block">
       <h3>Période</h3>
-      <div class="year-display" id="yearDisplay">1943 – 1975</div>
+      <div class="year-display" id="yearDisplay">1936 – 2023</div>
       <div class="range-row">
         <label>De</label>
-        <input type="range" id="rangeMin" min="1943" max="1975" value="1943" oninput="handleRangeMin(event)">
+        <input type="range" id="rangeMin" min="1936" max="2023" value="1936" oninput="handleRangeMin(event)">
       </div>
       <div class="range-row">
         <label>À</label>
-        <input type="range" id="rangeMax" min="1943" max="1975" value="1975" oninput="handleRangeMax(event)">
+        <input type="range" id="rangeMax" min="1936" max="2023" value="2023" oninput="handleRangeMax(event)">
       </div>
     </div>
 
@@ -1170,8 +1170,8 @@ let editMode = false;
 let editingData = null;
 let visibleDetailIds = [];
 
-let filterYearMin = 1943;
-let filterYearMax = 1975;
+let filterYearMin = 1936;
+let filterYearMax = 2023;
 
 // ══════════════════════════════════════════════════════════
 //  Category system
@@ -2279,11 +2279,11 @@ function exportJSON() {
   if (PUBLIC_MODE) return;
   const out = {
     metadata: {
-      title: "École de guerre – Frise chronologique Guerre froide",
-      description: "Base de données des événements clés de la Guerre froide et du contexte international (1943–1975)",
+      title: "École de guerre – Frise chronologique Relations internationales",
+      description: "Base de données des événements clés des relations internationales, des conflits, des doctrines, des institutions, des capacités militaires et des innovations technologiques (1936–2023)",
       source: "https://www.timetoast.com/timelines/3038054",
       total_events: allEvents.length,
-      date_range: { start: "1943", end: "1975" }
+      date_range: { start: "1936", end: "2023" }
     },
     events: allEvents
   };

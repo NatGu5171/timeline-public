@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "title": "Frise chronologique fusionnée — Relations internationales 1939–2011",
-    "description": "Chronologie fusionnée intégrant la frise École de guerre (v2), les chronologies Chine, URSS, France-OTAN, conflit israélo-arabe / question palestinienne, question allemande durant la Guerre froide, et les événements opérationnels mentionnés dans les plans d'histoire.",
+    "title": "Frise chronologique — École de guerre · Relations internationales 1936–2023",
+    "description": "Chronologie École de guerre couvrant les relations internationales, conflits, doctrines, institutions, capacités militaires, innovations technologiques et recompositions géopolitiques de 1936 à 2023.",
     "source_url": null,
-    "total_events": 654,
+    "total_events": 657,
     "date_range": {
       "start": "1936",
       "end": "2023"
@@ -42,8 +42,8 @@
       "id": "radar_chain_home_bataille_angleterre_1939_1940",
       "title": "Radar Chain Home et défense aérienne intégrée britannique",
       "date_start": "1939",
-      "date_end": "1940",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "category": "Capacité militaire",
       "description": "Le réseau radar Chain Home, combiné à un système de commandement, d'alerte et d'interception, donne au Royaume-Uni une défense aérienne intégrée au moment de la bataille d'Angleterre. L'innovation ne réside pas seulement dans le capteur, mais dans son intégration à une organisation de combat capable de transformer l'information en décision rapide.",
       "themes": [
@@ -139,8 +139,8 @@
       "id": "decryptage_enigma_bombe_bletchley_1940_1945",
       "title": "Décryptage d'Enigma et guerre de l'information",
       "date_start": "1940",
-      "date_end": "1945",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "category": "Innovation technologique",
       "description": "Les travaux de Bletchley Park contre Enigma donnent aux Alliés un avantage décisif dans la guerre du renseignement, notamment dans la bataille de l'Atlantique. Leur portée dépasse le seul cadre militaire : ils annoncent l'importance stratégique du calcul automatisé, de la cryptanalyse et du traitement massif de l'information dans les sociétés contemporaines.",
       "themes": [
@@ -1069,8 +1069,8 @@
       "id": "bataille_de_la_mer_de_corail_1942_05_04",
       "title": "Bataille de la mer de Corail",
       "date_start": "1942-05-04",
-      "date_end": "1942-05-08",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "La mer de Corail est la première bataille navale où les flottes s'affrontent sans se voir, par porte-avions interposés. Tactiquement indécise, elle bloque l'avance japonaise vers Port Moresby et confirme que le porte-avions est devenu le capital ship du Pacifique.",
       "image_url": null,
       "themes": [
@@ -1455,8 +1455,8 @@
       "id": "production_industrielle_penicilline_1943_1945",
       "title": "Production industrielle de la pénicilline",
       "date_start": "1943",
-      "date_end": "1945",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "category": "Innovation technologique",
       "description": "La production industrielle de la pénicilline pendant la Seconde Guerre mondiale transforme les capacités médicales modernes. Initialement accélérée par l'effort de guerre allié, elle inaugure l'âge des antibiotiques de masse et modifie durablement la santé publique, la médecine militaire et la prise en charge des blessures infectées.",
       "themes": [
@@ -2414,42 +2414,6 @@
       "category": "Mandat"
     },
     {
-      "id": "conference_de_san_francisco_et_adoption_de_la_charte_de_l_onu_avril_juin_1945",
-      "title": "Conférence de San Francisco et adoption de la Charte de l'ONU",
-      "date_start": "1945-04-25",
-      "date_end": "1945-06-26",
-      "type": "period",
-      "description": "San Francisco fonde l'ONU sur l'espoir d'une sécurité collective durable, mais aussi sur le réalisme du Conseil de sécurité et du veto des grandes puissances. L'organisation naît donc entre idéal juridique universel et hiérarchie effective de la puissance.",
-      "image_url": null,
-      "themes": [
-        "Seconde Guerre mondiale",
-        "ONU",
-        "diplomatie"
-      ],
-      "actors": [
-        "ONU"
-      ],
-      "geo": [
-        "San Francisco",
-        "États-Unis"
-      ],
-      "category": "Conférence",
-      "enriched": true,
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "title": "Conférence de San Francisco",
-          "url": "https://fr.wikipedia.org/wiki/Conf%C3%A9rence_de_San_Francisco",
-          "supports": [
-            "date_start",
-            "date_end"
-          ],
-          "confidence": "high",
-          "checked_at": "2026-04-16"
-        }
-      ]
-    },
-    {
       "id": "massacres_de_setif_guelma_et_kherrata_1945_05",
       "title": "Massacres de Sétif, Guelma et Kherrata",
       "date_start": "1945-05-08",
@@ -2475,6 +2439,42 @@
           "url": "https://fr.wikipedia.org/wiki/Massacres_de_S%C3%A9tif%2C_Guelma_et_Kherrata",
           "supports": [
             "date_start"
+          ],
+          "confidence": "high",
+          "checked_at": "2026-04-16"
+        }
+      ]
+    },
+    {
+      "id": "conference_de_san_francisco_et_adoption_de_la_charte_de_l_onu_avril_juin_1945",
+      "title": "Conférence de San Francisco et adoption de la Charte de l'ONU",
+      "date_start": "1945-06-26",
+      "date_end": null,
+      "type": "event",
+      "description": "San Francisco fonde l'ONU sur l'espoir d'une sécurité collective durable, mais aussi sur le réalisme du Conseil de sécurité et du veto des grandes puissances. L'organisation naît donc entre idéal juridique universel et hiérarchie effective de la puissance.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "ONU",
+        "diplomatie"
+      ],
+      "actors": [
+        "ONU"
+      ],
+      "geo": [
+        "San Francisco",
+        "États-Unis"
+      ],
+      "category": "Conférence",
+      "enriched": true,
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "title": "Conférence de San Francisco",
+          "url": "https://fr.wikipedia.org/wiki/Conf%C3%A9rence_de_San_Francisco",
+          "supports": [
+            "date_start",
+            "date_end"
           ],
           "confidence": "high",
           "checked_at": "2026-04-16"
@@ -2532,8 +2532,8 @@
       "id": "monopole_nucleaire_americain_1945_1949",
       "title": "Monopole nucléaire américain",
       "date_start": "1945-08",
-      "date_end": "1949-08-29",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "category": "Doctrine / Discours",
       "description": "Après Hiroshima et Nagasaki, les États-Unis sont la seule puissance nucléaire. L'arme atomique devient un instrument central de supériorité stratégique et de coercition potentielle face à l'URSS. Les premiers plans de guerre américains, comme Pincher, envisagent l'emploi de frappes atomiques contre des objectifs soviétiques, même si les moyens disponibles restent encore limités. Cette phase prend fin avec le premier essai nucléaire soviétique d'août 1949.",
       "themes": [
@@ -2848,8 +2848,8 @@
       "id": "dinassauts_indochine_1947_1954",
       "title": "DINASSAUTS — divisions navales d'assaut fluviales en Indochine",
       "date_start": "1947-01",
-      "date_end": "1954-07",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "La Marine nationale crée en Indochine les DINASSAUTS (divisions navales d'assaut), formations mixtes d'engins fluviaux improvisés — LCM, LCA, vedettes blindées — chargées de pénétrer les deltas et les rizières inaccessibles aux unités terrestres classiques. Leur emploi dans les opérations de contrôle fluvial et de guerre de décolonisation attire l'attention des alliés : le modèle influencera la Mobile Riverine Force américaine pendant la guerre du Vietnam. Cette innovation doctrinale constitue l'une des contributions durables de la Marine nationale à l'art de la guerre fluviale du XXe siècle.",
       "image_url": null,
       "themes": [
@@ -3982,8 +3982,8 @@
       "id": "statut_naval_1952",
       "title": "Statut Naval de 1952 — plan directeur de reconstruction de la Marine",
       "date_start": "1952-01",
-      "date_end": "1960-01",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "L'amiral Nomy, chef d'état-major de la Marine depuis juin 1951, rédige le Statut Naval de 1952, document de planification qui couvre la période 1952-1960. Articulée autour de cinq porte-avions, la flotte projetée doit honorer les engagements de Lisbonne (400 000 tonnes au profit de l'OTAN) tout en reconstituant une marine hauturière autonome. Le Statut, jamais soumis au Parlement, sert de guide assumé pour la préparation des budgets annuels et oriente la commande des T-47, des E-50 et des deux PA de classe Clemenceau. Il sera actualisé par le Plan Bleu de 1955.",
       "image_url": null,
       "themes": [
@@ -4144,8 +4144,8 @@
       "id": "creation_comite_mixte_marine_cea_1953_1954",
       "title": "Création du comité mixte Marine-CEA",
       "date_start": "1953",
-      "date_end": "1954",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "La Marine et le Commissariat à l'énergie atomique créent un comité mixte d'études et de programmes. Ce dispositif marque l'entrée de la Marine dans une réflexion plus concrète sur l'arme atomique, après une première phase surtout consacrée à l'observation et à la protection contre ses effets. Il accompagne la reprise de la construction nationale de sous-marins et précède les choix décisifs de la dissuasion navale française.",
       "image_url": null,
       "themes": [
@@ -4395,8 +4395,8 @@
       "id": "doctrine_represailles_massives",
       "title": "Doctrine des représailles massives",
       "date_start": "1954",
-      "date_end": "1962",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "La doctrine des « représailles massives » est la doctrine nucléaire américaine de 1954 à 1962. Adoptée officiellement par l'OTAN en décembre 1954, soutenue par l'amiral Radford et portée par Dulles, elle s'inscrit dans le New Look d'Eisenhower : limiter le coût des forces conventionnelles tout en compensant par la menace d'une riposte nucléaire massive contre toute agression soviétique majeure. Cette doctrine donne une réponse simple et intimidante, mais très rigide : elle laisse peu d'options entre l'inaction et l'escalade nucléaire générale. La crise de Suez de 1956 montre notamment qu'elle est difficilement applicable aux crises régionales et aux conflits périphériques.",
       "image_url": null,
       "themes": [
@@ -4424,8 +4424,8 @@
       "id": "traite_defense_mutuelle_usa_taiwan_1954",
       "title": "Traité de défense mutuelle États-Unis – Taïwan",
       "date_start": "1954",
-      "date_end": "1979",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Signé en décembre 1954 dans le contexte de la première crise du détroit, ce traité engage les États-Unis à défendre Taïwan contre toute attaque armée. Il constitue le socle juridique de la présence militaire américaine dans le détroit pendant 25 ans, jusqu'à sa dénonciation par l'administration Carter lors de la normalisation avec Pékin.",
       "image_url": null,
       "themes": [
@@ -4773,8 +4773,8 @@
       "id": "plan_bleu_marine_nationale_1955",
       "title": "Plan Bleu de 1955 — actualisation du Statut Naval",
       "date_start": "1955-01",
-      "date_end": "1963-01",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Le Plan Bleu de 1955 actualise le Statut Naval de 1952 en fixant à l'horizon 1963 un objectif de flotte intégralement composée de constructions françaises d'après-guerre. Il traduit la volonté de rompre avec la dépendance aux transferts de bâtiments alliés (ex-britanniques, ex-américains) et de constituer une marine hauturière autonome, articulée autour de porte-avions modernes, de croiseurs anti-aériens et d'unités d'escorte ASM. Le Plan Bleu se traduit dans les budgets de 1956 et 1957, mais le coup d'arrêt survient en 1958 avec le tarissement de l'aide alliée et l'amorce du virage nucléaire, qui recompose les priorités d'investissement au détriment des forces de surface.",
       "image_url": null,
       "themes": [
@@ -5094,8 +5094,8 @@
       "id": "mise_en_service_sosus_atlantique_pacifique_1956_1958",
       "title": "Mise en service opérationnelle du réseau SOSUS",
       "date_start": "1956",
-      "date_end": "1958",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Face au risque d'une nouvelle bataille de l'Atlantique contre des sous-marins soviétiques inspirés des Elektroboot allemands, les États-Unis déploient un réseau d'hydrophones fixes dans l'Atlantique puis dans le Pacifique. SOSUS permet de suivre les mouvements sous-marins adverses à grande distance et devient un outil majeur de la lutte anti-sous-marine occidentale. Sa valeur est illustrée pendant la crise de Cuba, lorsque les sous-marins soviétiques envoyés vers l'île sont détectés.",
       "image_url": null,
       "themes": [
@@ -5313,8 +5313,8 @@
       "id": "assaut_franco_britannique_sur_port_said_et_port_fouad_1956_11_05",
       "title": "Assaut franco-britannique sur Port-Saïd et Port-Fouad",
       "date_start": "1956-11-05",
-      "date_end": "1956-11-06",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "L'assaut sur Port-Saïd et Port-Fouad est un succès tactique amphibie et aéroporté, mais un échec stratégique complet. Suez enseigne qu'à l'âge bipolaire, la performance militaire ne suffit pas si les États-Unis, l'URSS et l'opinion internationale imposent l'arrêt politique de l'opération.",
       "image_url": null,
       "themes": [
@@ -5418,36 +5418,6 @@
       ],
       "geo": [
         "URSS"
-      ],
-      "category": "Innovation technologique",
-      "enriched": true
-    },
-    {
-      "id": "echec_programme_q244_1957_1959",
-      "title": "Échec du programme Q.244",
-      "date_start": "1957",
-      "date_end": "1959",
-      "type": "period",
-      "description": "Le premier projet français de sous-marin d'attaque à propulsion nucléaire, le Q.244, échoue pour des raisons technologiques et techniques liées au choix d'un réacteur à uranium naturel et eau lourde, ainsi qu'à des difficultés de métallurgie. L'absence d'assistance anglo-américaine, notamment de la part de l'amiral Rickover, aggrave ces limites. L'échec oblige la Marine à repenser la voie vers le nucléaire naval tout en conservant l'objectif d'une dissuasion autonome. La coque du Q-244 est ensuite réorientée vers le futur sous-marin d'essais Gymnote, qui servira à qualifier les missiles balistiques mer-sol français.",
-      "image_url": null,
-      "themes": [
-        "Guerre froide",
-        "nucléaire français",
-        "nucléaire naval",
-        "technologie militaire",
-        "course technologique",
-        "capacité militaire",
-        "histoire navale"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale",
-        "CEA",
-        "États-Unis",
-        "US Navy"
-      ],
-      "geo": [
-        "France"
       ],
       "category": "Innovation technologique",
       "enriched": true
@@ -5657,31 +5627,6 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
-    },
-    {
-      "id": "abandon_pa_58_verdun_1958_1961",
-      "title": "Abandon du porte-avions PA 58 Verdun",
-      "date_start": "1958",
-      "date_end": "1961",
-      "type": "period",
-      "description": "La construction du troisième porte-avions français, le PA 58 Verdun, est différée à la fin des années 1950 puis abandonnée au début de la décennie suivante. Le projet est victime de l'aggravation de la guerre d'Algérie, de la crise budgétaire des constructions navales et du basculement progressif vers les priorités nucléaires. Son abandon signale les limites de la renaissance aéronavale conventionnelle engagée après 1945 et annonce le resserrement du format naval français autour de quelques capacités majeures.",
-      "image_url": null,
-      "themes": [
-        "porte-avions",
-        "programme naval",
-        "guerre d'Algérie",
-        "politique française",
-        "histoire navale"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "France"
-      ],
-      "category": "Capacité militaire",
-      "enriched": true
     },
     {
       "id": "premiere_conference_de_geneve_sur_le_droit_de_la_mer_1958",
@@ -5897,6 +5842,36 @@
       ],
       "enriched": true,
       "category": "Crise"
+    },
+    {
+      "id": "echec_programme_q244_1957_1959",
+      "title": "Échec du programme Q.244",
+      "date_start": "1959",
+      "date_end": null,
+      "type": "event",
+      "description": "Le premier projet français de sous-marin d'attaque à propulsion nucléaire, le Q.244, échoue pour des raisons technologiques et techniques liées au choix d'un réacteur à uranium naturel et eau lourde, ainsi qu'à des difficultés de métallurgie. L'absence d'assistance anglo-américaine, notamment de la part de l'amiral Rickover, aggrave ces limites. L'échec oblige la Marine à repenser la voie vers le nucléaire naval tout en conservant l'objectif d'une dissuasion autonome. La coque du Q-244 est ensuite réorientée vers le futur sous-marin d'essais Gymnote, qui servira à qualifier les missiles balistiques mer-sol français.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "nucléaire français",
+        "nucléaire naval",
+        "technologie militaire",
+        "course technologique",
+        "capacité militaire",
+        "histoire navale"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "CEA",
+        "États-Unis",
+        "US Navy"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Innovation technologique",
+      "enriched": true
     },
     {
       "id": "vedettes_komar_1959",
@@ -6149,8 +6124,8 @@
       "id": "revolution_verte_agriculture_mondiale_1960_1970",
       "title": "Révolution verte et transformation agricole mondiale",
       "date_start": "1960",
-      "date_end": "1970",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "category": "Innovation technologique",
       "description": "La diffusion de variétés céréalières à haut rendement, d'engrais, d'irrigation et de techniques agricoles intensives transforme la production alimentaire dans plusieurs régions du monde. La révolution verte réduit certains risques de famine mais accroît aussi la dépendance aux intrants, à l'eau et aux modèles agro-industriels.",
       "themes": [
@@ -6173,8 +6148,8 @@
       "id": "lpm_1960_1964",
       "title": "LPM 1960–1964 — premier programme pluriannuel de défense",
       "date_start": "1960-01",
-      "date_end": "1964-12",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Première loi de programmation militaire française, la LPM 1960-1964 rompt avec les exercices budgétaires annuels et engage la France dans un effort de défense soutenu au début de la Ve République. Elle matérialise le choix gaullien d'une dissuasion indépendante et engage des crédits massifs pour la force de frappe nucléaire, au détriment relatif des forces conventionnelles. Pour la Marine, elle ouvre la voie du SNLE en finançant le développement des réacteurs à uranium enrichi et des infrastructures de la future Force océanique stratégique. Elle prépare la LPM 1965-1970, qui commande trois SNLE et le missile MSBS M1.",
       "image_url": null,
       "themes": [
@@ -6441,6 +6416,31 @@
         "New York"
       ],
       "category": "Décolonisation",
+      "enriched": true
+    },
+    {
+      "id": "abandon_pa_58_verdun_1958_1961",
+      "title": "Abandon du porte-avions PA 58 Verdun",
+      "date_start": "1961",
+      "date_end": null,
+      "type": "event",
+      "description": "La construction du troisième porte-avions français, le PA 58 Verdun, est différée à la fin des années 1950 puis abandonnée au début de la décennie suivante. Le projet est victime de l'aggravation de la guerre d'Algérie, de la crise budgétaire des constructions navales et du basculement progressif vers les priorités nucléaires. Son abandon signale les limites de la renaissance aéronavale conventionnelle engagée après 1945 et annonce le resserrement du format naval français autour de quelques capacités majeures.",
+      "image_url": null,
+      "themes": [
+        "porte-avions",
+        "programme naval",
+        "guerre d'Algérie",
+        "politique française",
+        "histoire navale"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
       "enriched": true
     },
     {
@@ -6921,8 +6921,8 @@
       "id": "evacuation_suppletifs_civils_algerie_marine_1962",
       "title": "Évacuation par la Marine de supplétifs et civils d'Algérie",
       "date_start": "1962-06",
-      "date_end": "1962-07",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Au moment de l'indépendance de l'Algérie, la Marine assure l'évacuation de milliers de supplétifs et d'une partie de la population européenne, alors que les menaces de l'OAS contre les compagnies maritimes privées provoquent des grèves parmi les dockers. Le fichier source évoque environ 15 000 personnes évacuées. Cet épisode referme le dernier chapitre de la vocation impériale de la Marine française.",
       "image_url": null,
       "themes": [
@@ -7976,8 +7976,8 @@
       "id": "evacuation_mers_el_kebir_1967_1968",
       "title": "Évacuation de Mers el-Kébir",
       "date_start": "1967-05-16",
-      "date_end": "1968",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "La France décide l'évacuation de la base de Mers el-Kébir le 16 mai 1967, quelques mois après le premier tir réussi au CEP et le lancement du Redoutable. La fermeture effective intervient en 1968. Le retrait symbolise l'abandon progressif du réseau de grandes bases outre-mer au profit d'une puissance navale fondée sur la dissuasion nucléaire, la mobilité logistique et des points d'appui plus limités.",
       "image_url": null,
       "themes": [
@@ -8323,8 +8323,8 @@
       "id": "deploiement_russe_moyen_orient",
       "title": "Déploiement russe au Moyen-Orient",
       "date_start": "1968",
-      "date_end": "1971",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "La Russie se déploie au Moyen Orient :\n- Irak : le parti Baas prend le pouvoir en 1968.\n- Syrie : Hafez el-Assad prend le pouvoir en 1970.\n- Égypte : le traité de 1971 permet les escales de navires russes à Alexandrie.",
       "image_url": null,
       "themes": [
@@ -8347,8 +8347,8 @@
       "id": "implantation_urss_moyen_orient_1968",
       "title": "Implantation croissante de l'URSS au Moyen-Orient",
       "date_start": "1968",
-      "date_end": "1971",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Entre 1968 et 1971, l'URSS consolide sa présence au Moyen-Orient : soutien au parti Baas irakien, rapprochement avec la Syrie de Hafez el-Assad et signature en 1971 d'un traité avec l'Égypte accordant des escales navales. Cette période reflète l'activisme soviétique sur la scène internationale.",
       "image_url": null,
       "themes": [
@@ -8426,35 +8426,26 @@
       "category": "Conflit armé"
     },
     {
-      "id": "montee_puissance_cema_operations_1968_1982",
-      "title": "Montée en puissance du CEMA dans la direction des opérations",
+      "id": "autorite_cema_chefs_etat_major_1968_04_26",
+      "title": "Première autorité du CEMA sur les chefs d'état-major d'armée",
       "date_start": "1968-04-26",
-      "date_end": "1982-02-09",
-      "type": "period",
-      "description": "Plusieurs décrets élargissent progressivement les pouvoirs du chef d'état-major des armées : première autorité sur les chefs d'état-major en 1968, direction explicite des opérations maritimes en haute mer en 1971, renforcement de la coordination budgétaire et opérationnelle en 1975, puis synthèse par le décret du 9 février 1982. Celui-ci consacre un ministère de la Défense unique organisé autour de trois grands subordonnés, le CEMA, la DGA et le SGA. Il renforce le rôle opérationnel du CEMA et favorise une administration plus transversale ainsi qu'un regroupement progressif des budgets des armées, tout en maintenant une autonomie des chefs d'état-major d'armée qui relèvent encore directement du ministre. Le chef d'état-major de la Marine devient alors essentiellement chef organique, tandis que l'emploi des forces relève plus directement de l'échelon interarmées.",
-      "image_url": null,
+      "date_end": null,
+      "type": "event",
+      "category": "Institution",
+      "description": "Le décret du 26 avril 1968 renforce la position du chef d'état-major des armées en en faisant la première autorité militaire sur les chefs d'état-major d'armée. Ce jalon marque une étape importante de l'interarmisation du commandement, même si les armées conservent encore une autonomie organique forte.",
       "themes": [
-        "Ve République",
         "institution",
-        "doctrine",
-        "capacité militaire",
         "politique française",
-        "réforme militaire",
-        "interarmisation"
+        "capacité militaire"
       ],
       "actors": [
         "France",
-        "Marine nationale",
         "CEMA",
-        "DGA",
-        "SGA",
-        "ministère de la Défense"
+        "chefs d'état-major d'armée"
       ],
       "geo": [
         "France"
-      ],
-      "category": "Institution",
-      "enriched": true
+      ]
     },
     {
       "id": "tnp_1968",
@@ -8566,32 +8557,6 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
-    },
-    {
-      "id": "sommet_detente_1969_1973",
-      "title": "Sommet de la détente",
-      "date_start": "1969",
-      "date_end": "1973",
-      "type": "period",
-      "description": "Période Nixon + Kissinger, phase la plus féconde de la détente : accords SALT 1, Export administration act (les exportations occidentales vers l'URSS sont multipliées par 4 de 70 à 75. L'URSS achète du blé, puis des usines clé en main. Cette ouverture concerne également les républiques sœurs comme la Pologne).",
-      "image_url": null,
-      "themes": [
-        "Détente",
-        "limitation et réduction des armements nucléaires",
-        "économie",
-        "Guerre froide"
-      ],
-      "actors": [
-        "Nixon",
-        "Kissinger",
-        "Brejnev"
-      ],
-      "geo": [
-        "États-Unis",
-        "URSS"
-      ],
-      "enriched": true,
-      "category": "Conférence"
     },
     {
       "id": "presidence_nixon_us",
@@ -8907,8 +8872,8 @@
       "id": "exode_olp_liban_1970_1971",
       "title": "Exode de l'OLP vers le Liban",
       "date_start": "1970-09",
-      "date_end": "1971",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Après la répression de Septembre noir en Jordanie, l'OLP quitte progressivement ses bases jordaniennes et se replie vers le Liban, notamment à Beyrouth. Cette implantation transforme le Liban en base arrière de la lutte palestinienne et contribue aux tensions qui précèdent la guerre civile libanaise.  L'installation est particulièrement importante au Sud-Liban, autour de Tyr et de Saïda.",
       "image_url": null,
       "themes": [
@@ -9013,6 +8978,29 @@
       ],
       "category": "Capacité militaire",
       "enriched": true
+    },
+    {
+      "id": "direction_operations_maritimes_cema_1971",
+      "title": "Direction des opérations maritimes en haute mer par le CEMA",
+      "date_start": "1971",
+      "date_end": null,
+      "type": "event",
+      "category": "Institution",
+      "description": "En 1971, le rôle du CEMA est renforcé dans la direction des opérations, notamment pour les opérations maritimes en haute mer. Cette évolution réduit le rôle opérationnel direct des chefs d'état-major d'armée et inscrit davantage l'emploi des forces dans une logique interarmées.",
+      "themes": [
+        "institution",
+        "histoire navale",
+        "politique française",
+        "capacité militaire"
+      ],
+      "actors": [
+        "France",
+        "CEMA",
+        "Marine nationale"
+      ],
+      "geo": [
+        "France"
+      ]
     },
     {
       "id": "independance_bangladesh_1971",
@@ -9218,6 +9206,32 @@
       ],
       "enriched": true,
       "category": "Institution"
+    },
+    {
+      "id": "sommet_detente_1969_1973",
+      "title": "Sommet de la détente",
+      "date_start": "1972",
+      "date_end": null,
+      "type": "event",
+      "description": "Période Nixon + Kissinger, phase la plus féconde de la détente : accords SALT 1, Export administration act (les exportations occidentales vers l'URSS sont multipliées par 4 de 70 à 75. L'URSS achète du blé, puis des usines clé en main. Cette ouverture concerne également les républiques sœurs comme la Pologne).",
+      "image_url": null,
+      "themes": [
+        "Détente",
+        "limitation et réduction des armements nucléaires",
+        "économie",
+        "Guerre froide"
+      ],
+      "actors": [
+        "Nixon",
+        "Kissinger",
+        "Brejnev"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS"
+      ],
+      "enriched": true,
+      "category": "Conférence"
     },
     {
       "id": "creation_du_pnue_1972",
@@ -9899,6 +9913,57 @@
       "enriched": true
     },
     {
+      "id": "deminage_du_canal_de_suez_1974",
+      "title": "Déminage du canal de Suez",
+      "date_start": "1974",
+      "date_end": null,
+      "type": "event",
+      "description": "Le déminage du canal de Suez permet sa réouverture après les guerres israélo-arabes et restaure une artère majeure du commerce mondial. Les opérations françaises DECAN I, DECAN II et DECAN III correspondent aux phases de déminage, de reconnaissance des obstructions et d'intervention autour du canal, notamment à Port-Saïd pour DECAN III. L'ensemble rappelle que la maîtrise maritime inclut aussi les opérations lentes et techniques de sécurisation des passages.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "déminage",
+        "sécurité maritime"
+      ],
+      "actors": [
+        "Égypte",
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "doctrine_options_nucleaires_limitees_1974_1980",
+      "title": "Doctrine des options nucléaires limitées et logique counterforce",
+      "date_start": "1974",
+      "date_end": null,
+      "type": "event",
+      "category": "Doctrine / Discours",
+      "description": "Dans un contexte de parité nucléaire avec l'URSS, les États-Unis cherchent à dépasser l'alternative entre inaction et destruction massive. La doctrine évolue vers des options nucléaires limitées et des frappes counterforce visant les forces militaires adverses plutôt que les populations. Cette logique, amorcée sous Nixon et prolongée sous Carter, accompagne l'introduction des MIRV et la volonté de conserver une capacité de négociation et de contrôle après une frappe initiale.",
+      "themes": [
+        "doctrine stratégique",
+        "nucléaire",
+        "dissuasion",
+        "Détente",
+        "course aux armements"
+      ],
+      "actors": [
+        "États-Unis",
+        "URSS",
+        "Nixon",
+        "Carter"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS"
+      ]
+    },
+    {
       "id": "operations_saphir_djibouti_1974_1977",
       "title": "Opérations Saphir autour de Djibouti",
       "date_start": "1974",
@@ -9924,57 +9989,6 @@
       ],
       "category": "Décolonisation",
       "enriched": true
-    },
-    {
-      "id": "deminage_du_canal_de_suez_1974",
-      "title": "Déminage du canal de Suez",
-      "date_start": "1974",
-      "date_end": "1978",
-      "type": "period",
-      "description": "Le déminage du canal de Suez permet sa réouverture après les guerres israélo-arabes et restaure une artère majeure du commerce mondial. Les opérations françaises DECAN I, DECAN II et DECAN III correspondent aux phases de déminage, de reconnaissance des obstructions et d'intervention autour du canal, notamment à Port-Saïd pour DECAN III. L'ensemble rappelle que la maîtrise maritime inclut aussi les opérations lentes et techniques de sécurisation des passages.",
-      "image_url": null,
-      "themes": [
-        "histoire navale",
-        "déminage",
-        "sécurité maritime"
-      ],
-      "actors": [
-        "Égypte",
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "Égypte",
-        "Canal de Suez"
-      ],
-      "category": "Rupture politique",
-      "enriched": true
-    },
-    {
-      "id": "doctrine_options_nucleaires_limitees_1974_1980",
-      "title": "Doctrine des options nucléaires limitées et logique counterforce",
-      "date_start": "1974",
-      "date_end": "1980",
-      "type": "period",
-      "category": "Doctrine / Discours",
-      "description": "Dans un contexte de parité nucléaire avec l'URSS, les États-Unis cherchent à dépasser l'alternative entre inaction et destruction massive. La doctrine évolue vers des options nucléaires limitées et des frappes counterforce visant les forces militaires adverses plutôt que les populations. Cette logique, amorcée sous Nixon et prolongée sous Carter, accompagne l'introduction des MIRV et la volonté de conserver une capacité de négociation et de contrôle après une frappe initiale.",
-      "themes": [
-        "doctrine stratégique",
-        "nucléaire",
-        "dissuasion",
-        "Détente",
-        "course aux armements"
-      ],
-      "actors": [
-        "États-Unis",
-        "URSS",
-        "Nixon",
-        "Carter"
-      ],
-      "geo": [
-        "États-Unis",
-        "URSS"
-      ]
     },
     {
       "id": "invasion_paracels_1974",
@@ -10244,6 +10258,27 @@
       ],
       "category": "Innovation technologique",
       "enriched": true
+    },
+    {
+      "id": "coordination_budgetaire_operationnelle_cema_1975",
+      "title": "Renforcement de la coordination budgétaire et opérationnelle du CEMA",
+      "date_start": "1975",
+      "date_end": null,
+      "type": "event",
+      "category": "Institution",
+      "description": "En 1975, les attributions du CEMA sont renforcées en matière de coordination opérationnelle et budgétaire. Le mouvement prépare une administration de défense plus transversale et annonce le regroupement progressif des arbitrages capacitaires au niveau interarmées.",
+      "themes": [
+        "institution",
+        "politique française",
+        "capacité militaire"
+      ],
+      "actors": [
+        "France",
+        "CEMA"
+      ],
+      "geo": [
+        "France"
+      ]
     },
     {
       "id": "phase_fraicheur_euromissiles_1975_1985",
@@ -10539,8 +10574,8 @@
       "id": "transition_post_mao_1976",
       "title": "Transition post-maoïste (1976–1978)",
       "date_start": "1976",
-      "date_end": "1978",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Entre 1976 et 1978, la Chine passe d'un régime maoïste idéologique et centralisé à un pouvoir plus pragmatique et réformateur, incarné par Deng Xiaoping, grâce à une transition en trois phases : succession de Hua Guofeng → réhabilitation de Deng → triomphe de la ligne réformatrice.",
       "image_url": null,
       "themes": [
@@ -11841,6 +11876,33 @@
       "enriched": true
     },
     {
+      "id": "liu_huaqing_cemm_defense_active_1982",
+      "title": "Liu Huaqing CEMM — doctrine de « défense active au large »",
+      "date_start": "1982",
+      "date_end": null,
+      "type": "event",
+      "description": "De 1982 à 1988, l'amiral Liu Huaqing occupe le poste de Chef d'état-major de la marine et développe le concept de « défense active au large », structurant la montée en puissance navale en phases successives de maîtrise des espaces maritimes jusqu'au Pacifique occidental. Liu sera ensuite vice-président de la Commission militaire centrale de 1990 à 1998.",
+      "image_url": null,
+      "themes": [
+        "stratégie maritime",
+        "marine militaire"
+      ],
+      "actors": [
+        "Liu Huaqing",
+        "Armée populaire de libération — marine",
+        "République populaire de Chine",
+        "PLAN",
+        "marine chinoise"
+      ],
+      "geo": [
+        "Chine",
+        "Pacifique occidental",
+        "mers de Chine"
+      ],
+      "enriched": true,
+      "category": "Doctrine / Discours"
+    },
+    {
       "id": "assistance_navale_boat_people_1982_1988",
       "title": "Assistance navale française aux boat people",
       "date_start": "1982",
@@ -11867,33 +11929,6 @@
       ],
       "category": "Crise",
       "enriched": true
-    },
-    {
-      "id": "liu_huaqing_cemm_defense_active_1982",
-      "title": "Liu Huaqing CEMM — doctrine de « défense active au large »",
-      "date_start": "1982",
-      "date_end": "1988",
-      "type": "period",
-      "description": "De 1982 à 1988, l'amiral Liu Huaqing occupe le poste de Chef d'état-major de la marine et développe le concept de « défense active au large », structurant la montée en puissance navale en phases successives de maîtrise des espaces maritimes jusqu'au Pacifique occidental. Liu sera ensuite vice-président de la Commission militaire centrale de 1990 à 1998.",
-      "image_url": null,
-      "themes": [
-        "stratégie maritime",
-        "marine militaire"
-      ],
-      "actors": [
-        "Liu Huaqing",
-        "Armée populaire de libération — marine",
-        "République populaire de Chine",
-        "PLAN",
-        "marine chinoise"
-      ],
-      "geo": [
-        "Chine",
-        "Pacifique occidental",
-        "mers de Chine"
-      ],
-      "enriched": true,
-      "category": "Doctrine / Discours"
     },
     {
       "id": "missions_olifant_liban_1982_1989",
@@ -11926,6 +11961,30 @@
       ],
       "category": "Conflit armé",
       "enriched": true
+    },
+    {
+      "id": "decret_1982_ministere_defense_unique_cema_dga_sga",
+      "title": "Décret de 1982 : CEMA, DGA et SGA comme grands subordonnés du ministre",
+      "date_start": "1982-02-09",
+      "date_end": null,
+      "type": "event",
+      "category": "Institution",
+      "description": "Le décret du 9 février 1982 consacre un ministère de la Défense unique structuré autour de trois grands subordonnés du ministre : le CEMA, la DGA et le SGA. Il renforce le rôle opérationnel du CEMA et favorise une administration plus transversale ainsi qu'un regroupement progressif des budgets des armées, tout en maintenant les chefs d'état-major d'armée directement rattachés au ministre.",
+      "themes": [
+        "institution",
+        "politique française",
+        "capacité militaire"
+      ],
+      "actors": [
+        "France",
+        "CEMA",
+        "DGA",
+        "SGA",
+        "chefs d'état-major d'armée"
+      ],
+      "geo": [
+        "France"
+      ]
     },
     {
       "id": "guerre_malouines_1982",
@@ -12233,7 +12292,7 @@
       "title": "Mort de Brejnev — instabilité politique soviétique",
       "date_start": "1982-11-10",
       "date_end": null,
-      "type": "period",
+      "type": "event",
       "description": "Brejnev décède en novembre 1982, ouvrant une période d'instabilité à la tête de l'URSS. Deux secrétaires généraux successifs, Andropov (1982-1984) et Tchernenko (1984-1985), meurent rapidement en exercice, révélant la sclérose du système politique soviétique.",
       "image_url": null,
       "themes": [
@@ -13151,6 +13210,31 @@
       ]
     },
     {
+      "id": "ascension_milosevic_1987_1989",
+      "title": "Ascension de Slobodan Milosevic en Serbie",
+      "date_start": "1987",
+      "date_end": null,
+      "type": "event",
+      "description": "Entre 1987 et 1989, Slobodan Milosevic prend le contrôle du Parti communiste serbe et s'appuie sur le nationalisme serbe. En 1989, l'autonomie du Kosovo et de la Voïvodine est abolie, ce qui accélère la crise de la fédération yougoslave.",
+      "image_url": null,
+      "themes": [
+        "Balkans",
+        "nationalisme",
+        "crise yougoslave"
+      ],
+      "actors": [
+        "Milosevic",
+        "Serbie"
+      ],
+      "geo": [
+        "Serbie",
+        "Kosovo",
+        "Yougoslavie"
+      ],
+      "enriched": true,
+      "category": "Rupture politique"
+    },
+    {
       "id": "tanker_war_earnest_will_1987_1988",
       "title": "Tanker War et opération Earnest Will",
       "date_start": "1987",
@@ -13178,31 +13262,6 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
-    },
-    {
-      "id": "ascension_milosevic_1987_1989",
-      "title": "Ascension de Slobodan Milosevic en Serbie",
-      "date_start": "1987",
-      "date_end": "1989",
-      "type": "period",
-      "description": "Entre 1987 et 1989, Slobodan Milosevic prend le contrôle du Parti communiste serbe et s'appuie sur le nationalisme serbe. En 1989, l'autonomie du Kosovo et de la Voïvodine est abolie, ce qui accélère la crise de la fédération yougoslave.",
-      "image_url": null,
-      "themes": [
-        "Balkans",
-        "nationalisme",
-        "crise yougoslave"
-      ],
-      "actors": [
-        "Milosevic",
-        "Serbie"
-      ],
-      "geo": [
-        "Serbie",
-        "Kosovo",
-        "Yougoslavie"
-      ],
-      "enriched": true,
-      "category": "Rupture politique"
     },
     {
       "id": "incident_de_l_uss_stark_1987_05",
@@ -13678,8 +13737,8 @@
       "id": "world_wide_web_1989_1991",
       "title": "Invention du World Wide Web",
       "date_start": "1989",
-      "date_end": "1991",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "category": "Innovation technologique",
       "description": "Au CERN, Tim Berners-Lee conçoit le World Wide Web, puis met en ligne le premier site web en 1991. En combinant hypertexte, URL, HTTP et navigateur, le Web rend Internet accessible à grande échelle et transforme la circulation de l'information, l'économie, la politique et les pratiques sociales.",
       "themes": [
@@ -14410,8 +14469,8 @@
       "id": "guerre_dix_jours_slovenie_1991",
       "title": "Guerre des Dix Jours en Slovénie",
       "date_start": "1991-06-27",
-      "date_end": "1991-07-07",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "De juin à juillet 1991, la Slovénie affronte l'armée fédérale yougoslave, la JNA, lors d'une guerre éclair de dix jours. La victoire slovène et l'accord de Brioni, obtenu avec une médiation européenne, actent la sortie slovène de la fédération.",
       "image_url": null,
       "themes": [
@@ -14772,8 +14831,8 @@
       "id": "reformes_interarmees_drm_cos_cid_1992_1993",
       "title": "Création de la DRM, du COS et du Collège interarmées de défense",
       "date_start": "1992",
-      "date_end": "1993",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Au début des années 1990, la France tire les conséquences de la fin de la guerre froide et de la guerre du Golfe. Le Centre d'exploitation du renseignement militaire est remplacé par la Direction du renseignement militaire, le Commandement des opérations spéciales est créé et la fusion des écoles de guerre se concrétise avec le Collège interarmées de défense. Ces réformes renforcent les moyens du CEMA et accélèrent l'interarmisation de la défense française.",
       "image_url": null,
       "themes": [
@@ -14996,8 +15055,8 @@
       "id": "mission_onu_au_mozambique_1992",
       "title": "Mission ONU au Mozambique",
       "date_start": "1992-12-16",
-      "date_end": "1994-12-09",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "La mission de l'ONU au Mozambique illustre les réussites possibles du maintien de la paix après la Guerre froide. Désarmement, élections et transition politique y montrent que l'ONU peut accompagner une sortie de guerre civile lorsque les acteurs locaux acceptent le cadre négocié.",
       "image_url": null,
       "themes": [
@@ -15152,8 +15211,8 @@
       "id": "operation_balbuzard_en_adriatique_1993",
       "title": "Opération Balbuzard en Adriatique",
       "date_start": "1993",
-      "date_end": "1995",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Balbuzard engage le groupe aéronaval français dans la crise bosniaque et familiarise la Marine avec les opérations de coalition en Adriatique. C'est une étape d'apprentissage vers une intégration plus poussée aux standards OTAN.",
       "image_url": null,
       "themes": [
@@ -15220,8 +15279,8 @@
       "id": "deploiement_gan_balbuzard_adriatique_1993_1995",
       "title": "Déploiement du groupe aéronaval Balbuzard en Adriatique",
       "date_start": "1993-01-27",
-      "date_end": "1995-12-22",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Le groupe aéronaval français appareille pour l'Adriatique dans le cadre de la crise bosniaque. Le Clemenceau puis le Foch assurent la mission Balbuzard pendant près de deux ans, d'abord pour dissuader les belligérants et protéger les casques bleus, puis pour participer à la zone d'exclusion aérienne au-dessus de la Bosnie et au dispositif d'embargo maritime. Ce déploiement annonce l'emploi plus offensif du groupe aéronaval au Kosovo.",
       "image_url": null,
       "themes": [
@@ -15250,8 +15309,8 @@
       "id": "onusom_ii_en_somalie_1993",
       "title": "ONUSOM II en Somalie",
       "date_start": "1993-03-28",
-      "date_end": "1995-03-02",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "ONUSOM II symbolise les limites de l'intervention humanitaire militarisée lorsque les objectifs politiques deviennent flous. L'échec somalien refroidit durablement les ambitions occidentales et onusiennes, avec des conséquences directes sur l'inaction au Rwanda. Le retrait final du dispositif donne lieu à United Shield, opération où les bâtiments français assurent d'abord seuls le soutien naval des forces à terre avant l'arrivée d'une flotte multinationale.",
       "image_url": null,
       "themes": [
@@ -15778,34 +15837,6 @@
       ]
     },
     {
-      "id": "accords_dayton_1995",
-      "title": "Accords de Dayton",
-      "date_start": "1995-11-01",
-      "date_end": "1995-12-14",
-      "type": "period",
-      "description": "Les accords de Dayton, négociés aux États-Unis en novembre 1995 et signés en décembre, mettent fin à la guerre de Bosnie. La Bosnie-Herzégovine reste un État unique composé de deux entités, la Fédération de Bosnie-Herzégovine et la République serbe de Bosnie, chacune dotée de ses institutions propres.",
-      "image_url": null,
-      "themes": [
-        "Balkans",
-        "paix",
-        "diplomatie",
-        "crise yougoslave"
-      ],
-      "actors": [
-        "Bosnie-Herzégovine",
-        "Serbie",
-        "Croatie",
-        "États-Unis",
-        "OTAN"
-      ],
-      "geo": [
-        "États-Unis",
-        "Bosnie-Herzégovine"
-      ],
-      "enriched": true,
-      "category": "Traité / Accord"
-    },
-    {
       "id": "assassinat_rabin_1995",
       "title": "Assassinat de Yitzhak Rabin",
       "date_start": "1995-11-04",
@@ -15830,6 +15861,34 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "accords_dayton_1995",
+      "title": "Accords de Dayton",
+      "date_start": "1995-12-14",
+      "date_end": null,
+      "type": "event",
+      "description": "Les accords de Dayton, négociés aux États-Unis en novembre 1995 et signés en décembre, mettent fin à la guerre de Bosnie. La Bosnie-Herzégovine reste un État unique composé de deux entités, la Fédération de Bosnie-Herzégovine et la République serbe de Bosnie, chacune dotée de ses institutions propres.",
+      "image_url": null,
+      "themes": [
+        "Balkans",
+        "paix",
+        "diplomatie",
+        "crise yougoslave"
+      ],
+      "actors": [
+        "Bosnie-Herzégovine",
+        "Serbie",
+        "Croatie",
+        "États-Unis",
+        "OTAN"
+      ],
+      "geo": [
+        "États-Unis",
+        "Bosnie-Herzégovine"
+      ],
+      "enriched": true,
+      "category": "Traité / Accord"
     },
     {
       "id": "ifor_sfor_bosnie_1995_2004",
@@ -15932,8 +15991,8 @@
       "id": "tensions_kosovo_1996_1998",
       "title": "Montée des tensions au Kosovo",
       "date_start": "1996",
-      "date_end": "1998",
-      "type": "period",
+      "date_end": null,
+      "type": "event",
       "description": "Entre 1996 et 1998, les tensions s'aggravent au Kosovo, province de Serbie majoritairement peuplée d'Albanais musulmans. La guérilla de l'UCK affronte les forces serbes, préparant la dernière guerre de la crise yougoslave.",
       "image_url": null,
       "themes": [
