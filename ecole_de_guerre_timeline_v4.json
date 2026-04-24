@@ -3,7 +3,7 @@
     "title": "Frise chronologique fusionnée — Relations internationales 1939–2011",
     "description": "Chronologie fusionnée intégrant la frise École de guerre (v2), les chronologies Chine, URSS, France-OTAN, conflit israélo-arabe / question palestinienne, question allemande durant la Guerre froide, et les événements opérationnels mentionnés dans les plans d'histoire.",
     "source_url": null,
-    "total_events": 630,
+    "total_events": 654,
     "date_range": {
       "start": "1936",
       "end": "2023"
@@ -37,6 +37,30 @@
       ],
       "category": "Conflit armé",
       "enriched": true
+    },
+    {
+      "id": "radar_chain_home_bataille_angleterre_1939_1940",
+      "title": "Radar Chain Home et défense aérienne intégrée britannique",
+      "date_start": "1939",
+      "date_end": "1940",
+      "type": "period",
+      "category": "Capacité militaire",
+      "description": "Le réseau radar Chain Home, combiné à un système de commandement, d'alerte et d'interception, donne au Royaume-Uni une défense aérienne intégrée au moment de la bataille d'Angleterre. L'innovation ne réside pas seulement dans le capteur, mais dans son intégration à une organisation de combat capable de transformer l'information en décision rapide.",
+      "themes": [
+        "Seconde Guerre mondiale",
+        "technologie militaire",
+        "course technologique",
+        "capacité militaire",
+        "innovation technologique"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Royal Air Force",
+        "Allemagne"
+      ],
+      "geo": [
+        "Royaume-Uni"
+      ]
     },
     {
       "id": "torpillage_du_hms_courageous_1939_09",
@@ -110,6 +134,30 @@
       ],
       "category": "Conflit armé",
       "enriched": true
+    },
+    {
+      "id": "decryptage_enigma_bombe_bletchley_1940_1945",
+      "title": "Décryptage d'Enigma et guerre de l'information",
+      "date_start": "1940",
+      "date_end": "1945",
+      "type": "period",
+      "category": "Innovation technologique",
+      "description": "Les travaux de Bletchley Park contre Enigma donnent aux Alliés un avantage décisif dans la guerre du renseignement, notamment dans la bataille de l'Atlantique. Leur portée dépasse le seul cadre militaire : ils annoncent l'importance stratégique du calcul automatisé, de la cryptanalyse et du traitement massif de l'information dans les sociétés contemporaines.",
+      "themes": [
+        "Seconde Guerre mondiale",
+        "renseignement",
+        "technologie",
+        "révolution numérique",
+        "innovation technologique"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Allemagne"
+      ],
+      "geo": [
+        "Royaume-Uni",
+        "Atlantique"
+      ]
     },
     {
       "id": "invasion_allemande_de_la_norvege_1940_04",
@@ -595,6 +643,30 @@
           "confidence": "high",
           "checked_at": "2026-04-16"
         }
+      ]
+    },
+    {
+      "id": "premier_emploi_operationnel_radar_naval_matapan_1941",
+      "title": "Premier emploi opérationnel décisif du radar naval à Matapan",
+      "date_start": "1941-03-28",
+      "date_end": "1941-03-29",
+      "type": "event",
+      "category": "Capacité militaire",
+      "description": "Lors de la bataille du cap Matapan, la Royal Navy emploie le radar naval en combat de nuit pour détecter et engager la flotte italienne. L'épisode constitue l'une des premières démonstrations opérationnelles décisives du radar embarqué dans un combat de surface : la détection électromagnétique permet de combattre hors de la visibilité optique et transforme les conditions du combat naval nocturne.",
+      "themes": [
+        "Seconde Guerre mondiale",
+        "histoire navale",
+        "technologie militaire",
+        "guerre navale",
+        "innovation technologique"
+      ],
+      "actors": [
+        "Royal Navy",
+        "Royaume-Uni",
+        "Italie"
+      ],
+      "geo": [
+        "Méditerranée"
       ]
     },
     {
@@ -1380,6 +1452,29 @@
       "enriched": true
     },
     {
+      "id": "production_industrielle_penicilline_1943_1945",
+      "title": "Production industrielle de la pénicilline",
+      "date_start": "1943",
+      "date_end": "1945",
+      "type": "period",
+      "category": "Innovation technologique",
+      "description": "La production industrielle de la pénicilline pendant la Seconde Guerre mondiale transforme les capacités médicales modernes. Initialement accélérée par l'effort de guerre allié, elle inaugure l'âge des antibiotiques de masse et modifie durablement la santé publique, la médecine militaire et la prise en charge des blessures infectées.",
+      "themes": [
+        "Seconde Guerre mondiale",
+        "technologie",
+        "économie",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "États-Unis",
+        "Royaume-Uni"
+      ]
+    },
+    {
       "id": "presidence_roosevelt_us",
       "title": "US - Présidence Roosevelt",
       "date_start": "1943-01-01",
@@ -2018,6 +2113,28 @@
       ],
       "category": "Innovation technologique",
       "enriched": true
+    },
+    {
+      "id": "eniac_premier_ordinateur_electronique_1945_1946",
+      "title": "ENIAC et naissance du calcul électronique",
+      "date_start": "1945",
+      "date_end": "1946",
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "Mis au point aux États-Unis, ENIAC fait entrer le calcul électronique dans une nouvelle échelle de vitesse et de complexité. Issu de besoins militaires, il ouvre surtout la voie à l'informatique moderne, aux simulations scientifiques, au calcul industriel et aux architectures numériques de l'après-guerre.",
+      "themes": [
+        "révolution numérique",
+        "informatique",
+        "technologie",
+        "course technologique",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ]
     },
     {
       "id": "insurrection_juive_palestine_mandataire_1945_1947",
@@ -2954,6 +3071,29 @@
       ],
       "category": "Rupture politique",
       "enriched": true
+    },
+    {
+      "id": "premier_transistor_bell_labs_1947",
+      "title": "Invention du transistor",
+      "date_start": "1947-12",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "L'invention du transistor aux Bell Labs ouvre l'âge de l'électronique miniaturisée. Ses effets sont systémiques : radios, ordinateurs, télécommunications, capteurs, industrie spatiale et systèmes embarqués deviennent progressivement plus compacts, plus fiables et moins énergivores.",
+      "themes": [
+        "course technologique",
+        "révolution numérique",
+        "technologie",
+        "informatique",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "Bell Labs"
+      ],
+      "geo": [
+        "États-Unis"
+      ]
     },
     {
       "id": "coree_nord_creation_1948",
@@ -4354,6 +4494,28 @@
       "category": "Conflit armé"
     },
     {
+      "id": "premiere_centrale_nucleaire_obninsk_1954",
+      "title": "Première centrale nucléaire connectée au réseau à Obninsk",
+      "date_start": "1954-06-27",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "La centrale soviétique d'Obninsk est généralement présentée comme la première centrale nucléaire connectée à un réseau électrique. Elle symbolise le passage de l'atome du seul registre militaire à celui de la production d'énergie, dans un contexte où le nucléaire civil devient un marqueur de modernité et de puissance industrielle.",
+      "themes": [
+        "nucléaire",
+        "énergie",
+        "technologie",
+        "Guerre froide",
+        "innovation technologique"
+      ],
+      "actors": [
+        "URSS"
+      ],
+      "geo": [
+        "URSS"
+      ]
+    },
+    {
       "id": "accords_geneve_1954",
       "title": "Accords de Genève",
       "date_start": "1954-07-21",
@@ -5367,7 +5529,7 @@
       "date_start": "1957-10-04",
       "date_end": null,
       "type": "event",
-      "description": "Le 4 octobre 1957, l'URSS place le premier satellite artificiel en orbite terrestre. Cet exploit technologique et symbolique provoque un choc aux États-Unis (« choc Spoutnik »), marque l'apogée apparent de la supériorité soviétique dans la course spatiale et nourrit le mythe du « Missile Gap ».",
+      "description": "Le 4 octobre 1957, l'URSS place le premier satellite artificiel en orbite terrestre. Cet exploit technologique et symbolique provoque un choc aux États-Unis (« choc Spoutnik »), marque l'apogée apparente de la supériorité soviétique dans la course spatiale et nourrit le mythe du « Missile Gap ». L'événement ouvre aussi l'âge spatial : les satellites deviennent progressivement des infrastructures de communication, d'observation, de météorologie, de navigation et de renseignement, au croisement des usages civils, scientifiques et militaires.",
       "image_url": null,
       "themes": [
         "course à l'espace",
@@ -5375,7 +5537,8 @@
         "Guerre froide",
         "Coexistence pacifique et crises",
         "course technologique",
-        "course aux armements"
+        "course aux armements",
+        "innovation technologique"
       ],
       "actors": [
         "URSS",
@@ -5979,8 +6142,32 @@
         "États-Unis",
         "URSS"
       ],
-      "category": "Doctrine stratégique",
+      "category": "Capacité militaire",
       "enriched": true
+    },
+    {
+      "id": "revolution_verte_agriculture_mondiale_1960_1970",
+      "title": "Révolution verte et transformation agricole mondiale",
+      "date_start": "1960",
+      "date_end": "1970",
+      "type": "period",
+      "category": "Innovation technologique",
+      "description": "La diffusion de variétés céréalières à haut rendement, d'engrais, d'irrigation et de techniques agricoles intensives transforme la production alimentaire dans plusieurs régions du monde. La révolution verte réduit certains risques de famine mais accroît aussi la dépendance aux intrants, à l'eau et aux modèles agro-industriels.",
+      "themes": [
+        "économie",
+        "relations Nord-Sud",
+        "technologie",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "Inde",
+        "Mexique"
+      ],
+      "geo": [
+        "Asie",
+        "Amérique"
+      ]
     },
     {
       "id": "lpm_1960_1964",
@@ -6128,6 +6315,31 @@
       ],
       "category": "Capacité militaire",
       "enriched": true
+    },
+    {
+      "id": "premier_satellite_reconnaissance_corona_1960",
+      "title": "Premier succès du satellite de reconnaissance Corona",
+      "date_start": "1960-08",
+      "date_end": null,
+      "type": "event",
+      "category": "Capacité militaire",
+      "description": "Le programme américain Corona fournit les premières images satellitaires de reconnaissance récupérées avec succès. L'observation depuis l'espace transforme le renseignement stratégique, réduit l'incertitude sur les capacités adverses et devient un pilier du contrôle des armements comme de la planification militaire.",
+      "themes": [
+        "Guerre froide",
+        "renseignement",
+        "course technologique",
+        "course à l'espace",
+        "technologie militaire",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "URSS"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS"
+      ]
     },
     {
       "id": "creation_opep_1960",
@@ -6732,6 +6944,31 @@
       ],
       "category": "Décolonisation",
       "enriched": true
+    },
+    {
+      "id": "satellite_telstar_communications_1962",
+      "title": "Telstar et premières communications satellitaires transatlantiques",
+      "date_start": "1962-07-10",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "Le satellite Telstar permet les premières retransmissions télévisées transatlantiques en direct. Il annonce la mondialisation des communications par satellite, qui transforme l'information, la diplomatie publique, les médias et les infrastructures de communication à longue distance.",
+      "themes": [
+        "course à l'espace",
+        "technologie",
+        "révolution numérique",
+        "relations internationales",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "France",
+        "Royaume-Uni"
+      ],
+      "geo": [
+        "États-Unis",
+        "Europe"
+      ]
     },
     {
       "id": "creation_poste_cema_1962",
@@ -7434,6 +7671,30 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
+    },
+    {
+      "id": "conteneurisation_mondialisation_transport_1966",
+      "title": "Diffusion de la conteneurisation maritime",
+      "date_start": "1966",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "La généralisation progressive du conteneur standardisé transforme le transport maritime mondial. En réduisant les coûts, les ruptures de charge et les temps portuaires, la conteneurisation restructure les chaînes logistiques, les ports, le commerce international et la géographie industrielle de la mondialisation.",
+      "themes": [
+        "commerce international",
+        "économie mondiale",
+        "routes maritimes",
+        "technologie",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "commerce maritime"
+      ],
+      "geo": [
+        "États-Unis",
+        "monde"
+      ]
     },
     {
       "id": "revolution_culturelle_1966",
@@ -8750,7 +9011,7 @@
         "Syrie",
         "Méditerranée"
       ],
-      "category": "Diplomatie",
+      "category": "Capacité militaire",
       "enriched": true
     },
     {
@@ -9826,6 +10087,28 @@
       "category": "Doctrine / Discours"
     },
     {
+      "id": "code_barres_commerce_moderne_1974",
+      "title": "Premier scan commercial d'un code-barres",
+      "date_start": "1974-06-26",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "Le premier scan commercial d'un code-barres UPC aux États-Unis marque une rupture discrète mais majeure dans la gestion des stocks, la distribution et la logistique. Le code-barres rend les flux commerciaux plus traçables, automatisés et mesurables, préparant l'économie contemporaine des chaînes d'approvisionnement.",
+      "themes": [
+        "économie",
+        "commerce international",
+        "révolution numérique",
+        "technologie",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ]
+    },
+    {
       "id": "invasion_chypre_1974",
       "title": "Invasion de Chypre",
       "date_start": "1974-07-20",
@@ -10411,6 +10694,29 @@
       ],
       "category": "Capacité militaire",
       "enriched": true
+    },
+    {
+      "id": "premier_awacs_e3_sentry_1977",
+      "title": "Mise en service de l'E-3 Sentry AWACS",
+      "date_start": "1977",
+      "date_end": null,
+      "type": "event",
+      "category": "Capacité militaire",
+      "description": "L'entrée en service de l'E-3 Sentry donne aux forces américaines une capacité aéroportée de détection, de commandement et de contrôle. L'AWACS transforme la conduite des opérations aériennes en offrant une vision d'ensemble du champ de bataille et une coordination en temps réel des interceptions et des frappes.",
+      "themes": [
+        "technologie militaire",
+        "capacité militaire",
+        "OTAN",
+        "course technologique",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "OTAN"
+      ],
+      "geo": [
+        "États-Unis"
+      ]
     },
     {
       "id": "missions_sargasse_okoume_golfe_guinee_1977_1985",
@@ -11078,6 +11384,29 @@
       "category": "Traité / Accord"
     },
     {
+      "id": "walkman_sony_electronique_mobile_1979",
+      "title": "Sony Walkman et diffusion de l'électronique mobile",
+      "date_start": "1979-07",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "Le lancement du Walkman par Sony popularise l'écoute individuelle et mobile. Au-delà de l'objet culturel, il annonce la miniaturisation de l'électronique grand public, la mobilité des usages numériques et l'individualisation des pratiques médiatiques.",
+      "themes": [
+        "technologie",
+        "révolution numérique",
+        "économie mondiale",
+        "innovation technologique"
+      ],
+      "actors": [
+        "Japon",
+        "Sony"
+      ],
+      "geo": [
+        "Japon",
+        "monde"
+      ]
+    },
+    {
       "id": "mission_italienne_boat_people_vietnam_1979",
       "title": "Mission italienne de secours aux boat people vietnamiens",
       "date_start": "1979-07",
@@ -11101,7 +11430,7 @@
         "Vietnam",
         "Italie"
       ],
-      "category": "Mandat",
+      "category": "Crise",
       "enriched": true
     },
     {
@@ -11367,6 +11696,28 @@
       "category": "Crise"
     },
     {
+      "id": "premier_vol_f117_furtivite_1981",
+      "title": "Premier vol du F-117 et émergence de la furtivité",
+      "date_start": "1981",
+      "date_end": null,
+      "type": "event",
+      "category": "Capacité militaire",
+      "description": "Le premier vol du F-117 marque l'entrée de la furtivité dans l'aviation de combat opérationnelle. En réduisant la signature radar, cette technologie modifie le rapport entre défense aérienne, pénétration en profondeur et frappe de précision, avant sa démonstration publique lors de la guerre du Golfe.",
+      "themes": [
+        "Guerre froide",
+        "technologie militaire",
+        "course technologique",
+        "capacité militaire",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ]
+    },
+    {
       "id": "presidence_reagan_us",
       "title": "US - Présidence Reagan",
       "date_start": "1981-01-20",
@@ -11486,7 +11837,7 @@
         "Pacifique Nord",
         "Arctique"
       ],
-      "category": "Doctrine stratégique",
+      "category": "Doctrine / Discours",
       "enriched": true
     },
     {
@@ -13324,6 +13675,30 @@
       "category": "Rupture politique"
     },
     {
+      "id": "world_wide_web_1989_1991",
+      "title": "Invention du World Wide Web",
+      "date_start": "1989",
+      "date_end": "1991",
+      "type": "period",
+      "category": "Innovation technologique",
+      "description": "Au CERN, Tim Berners-Lee conçoit le World Wide Web, puis met en ligne le premier site web en 1991. En combinant hypertexte, URL, HTTP et navigateur, le Web rend Internet accessible à grande échelle et transforme la circulation de l'information, l'économie, la politique et les pratiques sociales.",
+      "themes": [
+        "révolution numérique",
+        "informatique",
+        "technologie",
+        "économie mondiale",
+        "innovation technologique"
+      ],
+      "actors": [
+        "CERN",
+        "Tim Berners-Lee"
+      ],
+      "geo": [
+        "Europe",
+        "monde"
+      ]
+    },
+    {
       "id": "presidence_bush_sr_us",
       "title": "US - Présidence Bush Sr",
       "date_start": "1989-01-20",
@@ -14751,6 +15126,29 @@
       "enriched": true
     },
     {
+      "id": "gps_capacite_operationnelle_initiale_1993",
+      "title": "Capacité opérationnelle initiale du GPS",
+      "date_start": "1993",
+      "date_end": null,
+      "type": "event",
+      "category": "Capacité militaire",
+      "description": "Le GPS atteint sa capacité opérationnelle initiale après avoir montré son intérêt pendant la guerre du Golfe. En 1993, il reste d'abord une infrastructure stratégique américaine et une capacité militaire majeure : navigation, synchronisation, guidage, cartographie et coordination des forces. Ses effets civils deviendront ensuite massifs avec la diffusion des récepteurs commerciaux et des usages de localisation.",
+      "themes": [
+        "technologie militaire",
+        "capacité militaire",
+        "révolution numérique",
+        "course technologique",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis",
+        "monde"
+      ]
+    },
+    {
       "id": "operation_balbuzard_en_adriatique_1993",
       "title": "Opération Balbuzard en Adriatique",
       "date_start": "1993",
@@ -15162,6 +15560,29 @@
       ],
       "category": "Conflit armé",
       "enriched": true
+    },
+    {
+      "id": "predator_balkans_drone_mae_1995",
+      "title": "Emploi opérationnel du drone Predator dans les Balkans",
+      "date_start": "1995",
+      "date_end": null,
+      "type": "event",
+      "category": "Capacité militaire",
+      "description": "L'emploi du drone Predator au-dessus des Balkans marque une étape dans l'installation des drones MALE comme outils de renseignement, surveillance et reconnaissance. Il annonce la centralité des plateformes persistantes, capables d'observer longtemps une zone sans exposer directement un équipage.",
+      "themes": [
+        "technologie militaire",
+        "révolution numérique",
+        "renseignement",
+        "Balkans",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "OTAN"
+      ],
+      "geo": [
+        "Balkans"
+      ]
     },
     {
       "id": "quatrieme_elargissement_ue_1995",
@@ -16033,7 +16454,7 @@
         "France",
         "Atlantique"
       ],
-      "category": "Accident",
+      "category": "Crise",
       "enriched": true
     },
     {
@@ -16161,7 +16582,7 @@
         "Arctique",
         "Russie"
       ],
-      "category": "Accident",
+      "category": "Crise",
       "enriched": true
     },
     {
@@ -16342,6 +16763,29 @@
       ],
       "category": "Conflit armé",
       "enriched": true
+    },
+    {
+      "id": "premier_usage_arme_predator_2001",
+      "title": "Passage du drone Predator à l'emploi armé",
+      "date_start": "2001",
+      "date_end": null,
+      "type": "event",
+      "category": "Capacité militaire",
+      "description": "Au début de la guerre contre le terrorisme, le Predator armé de missiles Hellfire fait entrer le drone dans une nouvelle phase : il n'est plus seulement capteur persistant, mais aussi plateforme de frappe. Cette évolution transforme le ciblage, la surveillance armée et les opérations à distance.",
+      "themes": [
+        "technologie militaire",
+        "révolution numérique",
+        "terrorisme",
+        "interventions extérieures",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis"
+      ],
+      "geo": [
+        "Afghanistan",
+        "États-Unis"
+      ]
     },
     {
       "id": "presidence_bush_jr_us",
@@ -16630,6 +17074,30 @@
       "enriched": true
     },
     {
+      "id": "smartphone_iphone_usages_mobiles_2007",
+      "title": "iPhone et bascule vers le smartphone de masse",
+      "date_start": "2007-01-09",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "La présentation de l'iPhone marque une étape dans la convergence entre téléphone, ordinateur personnel, Internet mobile, appareil photo et plateforme d'applications. Le smartphone devient ensuite une infrastructure sociale et économique centrale, transformant les communications, l'information, les services et la captation de données.",
+      "themes": [
+        "révolution numérique",
+        "technologie",
+        "économie mondiale",
+        "informatique",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "Apple"
+      ],
+      "geo": [
+        "États-Unis",
+        "monde"
+      ]
+    },
+    {
       "id": "sarkozy_president",
       "title": "FR - Sarkozy Président",
       "date_start": "2007-05-16",
@@ -16771,6 +17239,30 @@
       "enriched": true
     },
     {
+      "id": "stuxnet_cyberarme_industrielle_2010",
+      "title": "Stuxnet et vulnérabilité des infrastructures industrielles",
+      "date_start": "2010",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "La découverte de Stuxnet révèle qu'un code informatique peut produire des effets physiques ciblés contre des infrastructures industrielles. L'événement marque un seuil dans la cyberconflictualité, mais aussi dans la compréhension de la vulnérabilité des systèmes de contrôle, des réseaux industriels et des installations critiques.",
+      "themes": [
+        "révolution numérique",
+        "cyberdéfense",
+        "technologie",
+        "non-prolifération",
+        "innovation technologique"
+      ],
+      "actors": [
+        "Iran",
+        "États-Unis",
+        "Israël"
+      ],
+      "geo": [
+        "Iran"
+      ]
+    },
+    {
       "id": "asa_terrible_m51_2010",
       "title": "Admission au service actif du Terrible et entrée du M51",
       "date_start": "2010-09-20",
@@ -16830,6 +17322,54 @@
       "category": "Conflit armé"
     },
     {
+      "id": "crispr_cas9_edition_genome_2012",
+      "title": "CRISPR-Cas9 et démocratisation de l'édition du génome",
+      "date_start": "2012",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "La mise au point de CRISPR-Cas9 comme outil d'édition du génome rend la modification ciblée de l'ADN plus simple, plus rapide et moins coûteuse. Cette rupture ouvre des perspectives majeures en médecine, agriculture et biotechnologies, tout en soulevant des enjeux éthiques, économiques et stratégiques.",
+      "themes": [
+        "technologie",
+        "économie mondiale",
+        "relations internationales",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "France"
+      ],
+      "geo": [
+        "États-Unis",
+        "Europe"
+      ]
+    },
+    {
+      "id": "deep_learning_imagenet_2012",
+      "title": "Percée du deep learning avec ImageNet",
+      "date_start": "2012",
+      "date_end": null,
+      "type": "event",
+      "category": "Innovation technologique",
+      "description": "La victoire d'un réseau de neurones profond au concours ImageNet 2012 marque une rupture dans l'intelligence artificielle contemporaine. Le deep learning accélère ensuite les progrès en vision par ordinateur, traitement du langage, reconnaissance vocale, robotique et exploitation massive des données.",
+      "themes": [
+        "révolution numérique",
+        "informatique",
+        "technologie",
+        "économie mondiale",
+        "innovation technologique"
+      ],
+      "actors": [
+        "États-Unis",
+        "Canada"
+      ],
+      "geo": [
+        "États-Unis",
+        "Canada",
+        "monde"
+      ]
+    },
+    {
       "id": "adhesion_croatie_ue_2013",
       "title": "Adhésion de la Croatie à l'Union européenne",
       "date_start": "2013-07-01",
@@ -16854,6 +17394,31 @@
       ],
       "category": "Institution",
       "enriched": true
+    },
+    {
+      "id": "emploi_massif_drones_daech_2014_2017",
+      "title": "Diffusion des drones légers dans les conflits irréguliers",
+      "date_start": "2014",
+      "date_end": "2017",
+      "type": "period",
+      "category": "Capacité militaire",
+      "description": "Les conflits en Irak et en Syrie montrent l'usage croissant de drones commerciaux ou artisanaux pour l'observation, la propagande, le réglage des tirs et parfois l'attaque. La technologie aérienne téléopérée cesse d'être réservée aux grandes puissances et devient un outil tactique accessible à des acteurs irréguliers.",
+      "themes": [
+        "technologie militaire",
+        "révolution numérique",
+        "terrorisme",
+        "Moyen-Orient",
+        "innovation technologique"
+      ],
+      "actors": [
+        "Daech",
+        "Irak",
+        "Syrie"
+      ],
+      "geo": [
+        "Irak",
+        "Syrie"
+      ]
     },
     {
       "id": "missile_m51_2_2016",
