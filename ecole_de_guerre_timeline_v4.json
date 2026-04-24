@@ -3,16 +3,41 @@
     "title": "Frise chronologique fusionnée — Relations internationales 1939–2011",
     "description": "Chronologie fusionnée intégrant la frise École de guerre (v2), les chronologies Chine, URSS, France-OTAN, conflit israélo-arabe / question palestinienne, question allemande durant la Guerre froide, et les événements opérationnels mentionnés dans les plans d'histoire.",
     "source_url": null,
-    "total_events": 593,
+    "total_events": 630,
     "date_range": {
-      "start": "1939",
-      "end": "2011"
+      "start": "1936",
+      "end": "2023"
     },
     "schema": {
       "note": "Champs 'themes', 'actors', 'geo' enrichis. Descriptions absentes rédigées factuellement. date_start et date_end au format YYYY-MM-DD, YYYY-MM ou YYYY selon la précision disponible dans les sources."
     }
   },
   "events": [
+    {
+      "id": "grande_revolte_arabe_palestine_1936_1939",
+      "title": "Grande révolte arabe en Palestine mandataire",
+      "date_start": "1936",
+      "date_end": "1939",
+      "type": "event",
+      "description": "À partir de 1936, les populations arabes de Palestine se soulèvent contre l'autorité britannique et contre l'immigration juive encouragée par le mandat. La répression britannique affaiblit durablement les organisations arabes palestiniennes, tandis que Londres infléchit progressivement sa politique à l'approche de la Seconde Guerre mondiale. Cette séquence prépare les impasses de la fin du mandat britannique.",
+      "image_url": null,
+      "themes": [
+        "conflit israélo-arabe",
+        "question palestinienne",
+        "mandat britannique",
+        "décolonisation"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Palestiniens",
+        "Yichouv"
+      ],
+      "geo": [
+        "Palestine mandataire"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
     {
       "id": "torpillage_du_hms_courageous_1939_09",
       "title": "Torpillage du HMS Courageous",
@@ -151,6 +176,30 @@
       "enriched": true
     },
     {
+      "id": "ralliement_de_la_polynesie_des_nouvelles_hebrides_et_de_la_nouvelle_caledonie_a",
+      "title": "Ralliement de la Polynésie, des Nouvelles-Hébrides et de la Nouvelle-Calédonie à la France libre",
+      "date_start": "1940-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Le ralliement précoce de territoires du Pacifique donne à la France libre une profondeur impériale et une légitimité politique hors métropole. Pour de Gaulle, l'Empire n'est pas seulement un réservoir de forces : il devient la preuve que la souveraineté française survit à la défaite de 1940.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "décolonisation",
+        "politique française"
+      ],
+      "actors": [
+        "France"
+      ],
+      "geo": [
+        "Pacifique",
+        "Vanuatu",
+        "Nouvelle-Calédonie"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
+    },
+    {
       "id": "campagne_sous_marine_fnfl_rubis_1940_1944",
       "title": "Campagne des sous-marins FNFL — Le Rubis en Atlantique Nord",
       "date_start": "1940-07",
@@ -175,30 +224,6 @@
         "Norvège"
       ],
       "category": "Conflit armé",
-      "enriched": true
-    },
-    {
-      "id": "ralliement_de_la_polynesie_des_nouvelles_hebrides_et_de_la_nouvelle_caledonie_a",
-      "title": "Ralliement de la Polynésie, des Nouvelles-Hébrides et de la Nouvelle-Calédonie à la France libre",
-      "date_start": "1940-07",
-      "date_end": null,
-      "type": "event",
-      "description": "Le ralliement précoce de territoires du Pacifique donne à la France libre une profondeur impériale et une légitimité politique hors métropole. Pour de Gaulle, l'Empire n'est pas seulement un réservoir de forces : il devient la preuve que la souveraineté française survit à la défaite de 1940.",
-      "image_url": null,
-      "themes": [
-        "Seconde Guerre mondiale",
-        "décolonisation",
-        "politique française"
-      ],
-      "actors": [
-        "France"
-      ],
-      "geo": [
-        "Pacifique",
-        "Vanuatu",
-        "Nouvelle-Calédonie"
-      ],
-      "category": "Décolonisation",
       "enriched": true
     },
     {
@@ -658,6 +683,35 @@
       "enriched": true
     },
     {
+      "id": "operation_halberd_1941_09",
+      "title": "Operation HALBERD",
+      "date_start": "1941-09",
+      "date_end": null,
+      "type": "event",
+      "description": "À l'automne 1941, l'opération HALBERD permet à un important convoi allié de ravitailler Malte depuis Gibraltar malgré la pression des forces de l'Axe. Son succès temporaire confirme la valeur stratégique de l'île pour le contrôle des communications en Méditerranée et prépare les affrontements logistiques de 1942 autour de sa survie.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "opérations militaires",
+        "histoire navale"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Royal Navy",
+        "Italie",
+        "Regia Marina",
+        "Allemagne",
+        "Kriegsmarine"
+      ],
+      "geo": [
+        "Malte",
+        "Méditerranée",
+        "Méditerranée centrale"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
       "id": "offensive_japonaise_initiale_en_asie_pacifique_1941_12",
       "title": "Offensive japonaise initiale en Asie-Pacifique",
       "date_start": "1941-12",
@@ -1001,12 +1055,12 @@
       ]
     },
     {
-      "id": "operation_halberd_1941_09",
-      "title": "Operation HALBERD",
-      "date_start": "1941-09",
+      "id": "operation_harpoon_malte_1942_06",
+      "title": "Operation HARPOON",
+      "date_start": "1942-06",
       "date_end": null,
       "type": "event",
-      "description": "À l'automne 1941, l'opération HALBERD permet à un important convoi allié de ravitailler Malte depuis Gibraltar malgré la pression des forces de l'Axe. Son succès temporaire confirme la valeur stratégique de l'île pour le contrôle des communications en Méditerranée et prépare les affrontements logistiques de 1942 autour de sa survie.",
+      "description": "Lancée à la mi-juin 1942, l'opération HARPOON tente de ravitailler Malte depuis Gibraltar dans un contexte de pression italo-allemande maximale sur l'île. Les pertes subies par le convoi illustrent la vulnérabilité des lignes logistiques alliées en Méditerranée centrale et annoncent la nécessité d'une opération de plus grande ampleur quelques semaines plus tard.",
       "image_url": null,
       "themes": [
         "Seconde Guerre mondiale",
@@ -1065,35 +1119,6 @@
           "checked_at": "2026-04-16"
         }
       ]
-    },
-    {
-      "id": "operation_harpoon_malte_1942_06",
-      "title": "Operation HARPOON",
-      "date_start": "1942-06",
-      "date_end": null,
-      "type": "event",
-      "description": "Lancée à la mi-juin 1942, l'opération HARPOON tente de ravitailler Malte depuis Gibraltar dans un contexte de pression italo-allemande maximale sur l'île. Les pertes subies par le convoi illustrent la vulnérabilité des lignes logistiques alliées en Méditerranée centrale et annoncent la nécessité d'une opération de plus grande ampleur quelques semaines plus tard.",
-      "image_url": null,
-      "themes": [
-        "Seconde Guerre mondiale",
-        "opérations militaires",
-        "histoire navale"
-      ],
-      "actors": [
-        "Royaume-Uni",
-        "Royal Navy",
-        "Italie",
-        "Regia Marina",
-        "Allemagne",
-        "Kriegsmarine"
-      ],
-      "geo": [
-        "Malte",
-        "Méditerranée",
-        "Méditerranée centrale"
-      ],
-      "category": "Conflit armé",
-      "enriched": true
     },
     {
       "id": "destruction_du_convoi_pq_17_1942_07",
@@ -1355,6 +1380,27 @@
       "enriched": true
     },
     {
+      "id": "presidence_roosevelt_us",
+      "title": "US - Présidence Roosevelt",
+      "date_start": "1943-01-01",
+      "date_end": "1945-04-12",
+      "type": "period",
+      "description": "Franklin D. Roosevelt, 32e président des États-Unis, est au pouvoir depuis 1933. Commandant en chef lors de la Seconde Guerre mondiale, il participe aux conférences de Téhéran et Yalta. Il meurt en fonction le 12 avril 1945, à la veille de la victoire alliée.",
+      "image_url": null,
+      "themes": [
+        "politique américaine",
+        "WWII"
+      ],
+      "actors": [
+        "Roosevelt"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Mandat",
+      "enriched": false
+    },
+    {
       "id": "staline_ps_pcus",
       "title": "PCUS - Staline PS",
       "date_start": "1943-01-01",
@@ -1372,27 +1418,6 @@
       ],
       "geo": [
         "URSS"
-      ],
-      "category": "Mandat",
-      "enriched": false
-    },
-    {
-      "id": "presidence_roosevelt_us",
-      "title": "US - Présidence Roosevelt",
-      "date_start": "1943-01-01",
-      "date_end": "1945-04-12",
-      "type": "period",
-      "description": "Franklin D. Roosevelt, 32e président des États-Unis, est au pouvoir depuis 1933. Commandant en chef lors de la Seconde Guerre mondiale, il participe aux conférences de Téhéran et Yalta. Il meurt en fonction le 12 avril 1945, à la veille de la victoire alliée.",
-      "image_url": null,
-      "themes": [
-        "politique américaine",
-        "WWII"
-      ],
-      "actors": [
-        "Roosevelt"
-      ],
-      "geo": [
-        "États-Unis"
       ],
       "category": "Mandat",
       "enriched": false
@@ -1584,44 +1609,6 @@
       "enriched": true
     },
     {
-      "id": "liberation_de_la_corse_1943_09",
-      "title": "Libération de la Corse",
-      "date_start": "1943-09-09",
-      "date_end": "1943-10-04",
-      "type": "event",
-      "description": "La libération de la Corse donne à la France combattante un succès militaire et politique sur le territoire national avant 1944. L'île devient aussi un point d'appui allié en Méditerranée, utile pour la suite des opérations vers l'Italie et la Provence.",
-      "image_url": null,
-      "themes": [
-        "Seconde Guerre mondiale",
-        "relations internationales"
-      ],
-      "actors": [
-        "France libre",
-        "Résistance corse",
-        "Italie",
-        "Allemagne",
-        "FNFL"
-      ],
-      "geo": [
-        "Corse"
-      ],
-      "category": "Conflit armé",
-      "enriched": true,
-      "sources": [
-        {
-          "label": "Wikipedia",
-          "title": "Libération de la Corse",
-          "url": "https://fr.wikipedia.org/wiki/Lib%C3%A9ration_de_la_Corse",
-          "supports": [
-            "date_start",
-            "date_end"
-          ],
-          "confidence": "high",
-          "checked_at": "2026-04-16"
-        }
-      ]
-    },
-    {
       "id": "operation_avalanche_en_italie_1943_09",
       "title": "Opération Avalanche en Italie",
       "date_start": "1943-09-09",
@@ -1651,6 +1638,44 @@
           "label": "Wikipedia",
           "title": "Opération Avalanche",
           "url": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Avalanche",
+          "supports": [
+            "date_start",
+            "date_end"
+          ],
+          "confidence": "high",
+          "checked_at": "2026-04-16"
+        }
+      ]
+    },
+    {
+      "id": "liberation_de_la_corse_1943_09",
+      "title": "Libération de la Corse",
+      "date_start": "1943-09-09",
+      "date_end": "1943-10-04",
+      "type": "event",
+      "description": "La libération de la Corse donne à la France combattante un succès militaire et politique sur le territoire national avant 1944. L'île devient aussi un point d'appui allié en Méditerranée, utile pour la suite des opérations vers l'Italie et la Provence.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "relations internationales"
+      ],
+      "actors": [
+        "France libre",
+        "Résistance corse",
+        "Italie",
+        "Allemagne",
+        "FNFL"
+      ],
+      "geo": [
+        "Corse"
+      ],
+      "category": "Conflit armé",
+      "enriched": true,
+      "sources": [
+        {
+          "label": "Wikipedia",
+          "title": "Libération de la Corse",
+          "url": "https://fr.wikipedia.org/wiki/Lib%C3%A9ration_de_la_Corse",
           "supports": [
             "date_start",
             "date_end"
@@ -1771,6 +1796,29 @@
       ],
       "enriched": true,
       "category": "Conférence"
+    },
+    {
+      "id": "missiles_v2_wwii_1944",
+      "title": "Emploi des missiles V-2 pendant la Seconde Guerre mondiale",
+      "date_start": "1944",
+      "date_end": "1945",
+      "type": "event",
+      "description": "L'Allemagne nazie emploie les missiles V-2 contre des villes alliées à la fin de la Seconde Guerre mondiale. Première arme balistique opérationnelle, le V-2 annonce la combinaison future entre fusée, longue portée et charge nucléaire qui structurera la dissuasion de la Guerre froide.",
+      "image_url": null,
+      "themes": [
+        "Seconde Guerre mondiale",
+        "technologie militaire",
+        "course technologique"
+      ],
+      "actors": [
+        "Allemagne",
+        "Wernher von Braun"
+      ],
+      "geo": [
+        "Europe"
+      ],
+      "category": "Innovation technologique",
+      "enriched": true
     },
     {
       "id": "operation_neptune_et_debarquement_de_normandie_1944_06",
@@ -1944,6 +1992,59 @@
           "checked_at": "2026-04-16"
         }
       ]
+    },
+    {
+      "id": "operation_paperclip_von_braun_1945",
+      "title": "Recrutement de Wernher von Braun par les États-Unis",
+      "date_start": "1945",
+      "date_end": null,
+      "type": "event",
+      "description": "À la fin de la Seconde Guerre mondiale, les États-Unis récupèrent une partie des ingénieurs allemands du programme V-2, dont Wernher von Braun. Ce transfert de compétences nourrit le développement américain des missiles balistiques puis du programme spatial, brouillant dès l'origine les frontières entre fusées militaires et conquête spatiale.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "technologie militaire",
+        "course technologique",
+        "course à l'espace"
+      ],
+      "actors": [
+        "États-Unis",
+        "Wernher von Braun",
+        "Allemagne"
+      ],
+      "geo": [
+        "États-Unis",
+        "Allemagne"
+      ],
+      "category": "Innovation technologique",
+      "enriched": true
+    },
+    {
+      "id": "insurrection_juive_palestine_mandataire_1945_1947",
+      "title": "Insurrection juive en Palestine mandataire",
+      "date_start": "1945",
+      "date_end": "1947",
+      "type": "event",
+      "description": "Après la Seconde Guerre mondiale, des organisations sionistes armées intensifient leurs actions contre les forces britanniques en Palestine mandataire. Cette insurrection, nourrie par la question des rescapés de la Shoah et par le blocage de l'immigration juive, rend le mandat de plus en plus difficile à tenir pour Londres et accélère le transfert du dossier palestinien vers l'ONU.",
+      "image_url": null,
+      "themes": [
+        "conflit israélo-arabe",
+        "question palestinienne",
+        "sionisme",
+        "mandat britannique"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Yichouv",
+        "Haganah",
+        "Irgoun",
+        "Lehi"
+      ],
+      "geo": [
+        "Palestine mandataire"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
     },
     {
       "id": "deblaiement_ports_deminage_littoral_francais_1945_1948",
@@ -2269,11 +2370,13 @@
       "date_start": "1945-08",
       "date_end": null,
       "type": "event",
-      "description": "Hiroshima et Nagasaki provoquent la capitulation japonaise et font entrer le monde dans l'âge nucléaire. Pour le concours, l'enjeu est double : fin accélérée de la Seconde Guerre mondiale et naissance d'une grammaire stratégique nouvelle fondée sur la dissuasion.",
+      "description": "Hiroshima et Nagasaki provoquent la capitulation japonaise et font entrer le monde dans l'âge nucléaire. Pour le concours, l'enjeu est double : fin accélérée de la Seconde Guerre mondiale et naissance d'une grammaire stratégique nouvelle fondée sur la dissuasion. Les bombardements ouvrent aussi une période de monopole nucléaire américain, qui dure jusqu'au premier essai soviétique d'août 1949 : l'arme atomique est alors pensée comme un instrument de coercition stratégique autant que comme une arme de guerre.",
       "image_url": null,
       "themes": [
         "Seconde Guerre mondiale",
-        "nucléaire"
+        "nucléaire",
+        "dissuasion",
+        "doctrine stratégique"
       ],
       "actors": [
         "États-Unis",
@@ -2307,6 +2410,31 @@
       ],
       "category": "Conflit armé",
       "enriched": true
+    },
+    {
+      "id": "monopole_nucleaire_americain_1945_1949",
+      "title": "Monopole nucléaire américain",
+      "date_start": "1945-08",
+      "date_end": "1949-08-29",
+      "type": "period",
+      "category": "Doctrine / Discours",
+      "description": "Après Hiroshima et Nagasaki, les États-Unis sont la seule puissance nucléaire. L'arme atomique devient un instrument central de supériorité stratégique et de coercition potentielle face à l'URSS. Les premiers plans de guerre américains, comme Pincher, envisagent l'emploi de frappes atomiques contre des objectifs soviétiques, même si les moyens disponibles restent encore limités. Cette phase prend fin avec le premier essai nucléaire soviétique d'août 1949.",
+      "themes": [
+        "nucléaire",
+        "dissuasion",
+        "doctrine stratégique",
+        "Début des tensions et bipolarisation",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "URSS",
+        "Truman"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS"
+      ]
     },
     {
       "id": "conference_potsdam_1945",
@@ -2549,6 +2677,28 @@
       "category": "Institution"
     },
     {
+      "id": "rattachement_de_chandernagor_a_l_inde_1947",
+      "title": "Rattachement de Chandernagor à l'Inde",
+      "date_start": "1947",
+      "date_end": null,
+      "type": "event",
+      "description": "Le rattachement de Chandernagor annonce l'effacement progressif des comptoirs français en Inde. Il symbolise une décolonisation périphérique mais révélatrice : les enclaves européennes deviennent intenables face aux nouveaux États souverains.",
+      "image_url": null,
+      "themes": [
+        "décolonisation",
+        "Empire colonial français"
+      ],
+      "actors": [
+        "France",
+        "Inde"
+      ],
+      "geo": [
+        "Inde"
+      ],
+      "category": "Décolonisation",
+      "enriched": true
+    },
+    {
       "id": "phase_bipolarisation_guerre_froide_1947_1953",
       "title": "Début des tensions et bipolarisation",
       "date_start": "1947",
@@ -2576,28 +2726,6 @@
       ],
       "enriched": true,
       "category": "Période historique"
-    },
-    {
-      "id": "rattachement_de_chandernagor_a_l_inde_1947",
-      "title": "Rattachement de Chandernagor à l'Inde",
-      "date_start": "1947",
-      "date_end": null,
-      "type": "event",
-      "description": "Le rattachement de Chandernagor annonce l'effacement progressif des comptoirs français en Inde. Il symbolise une décolonisation périphérique mais révélatrice : les enclaves européennes deviennent intenables face aux nouveaux États souverains.",
-      "image_url": null,
-      "themes": [
-        "décolonisation",
-        "Empire colonial français"
-      ],
-      "actors": [
-        "France",
-        "Inde"
-      ],
-      "geo": [
-        "Inde"
-      ],
-      "category": "Décolonisation",
-      "enriched": true
     },
     {
       "id": "dinassauts_indochine_1947_1954",
@@ -2699,6 +2827,33 @@
       "enriched": true
     },
     {
+      "id": "affaire_exodus_1947",
+      "title": "Affaire de l'Exodus",
+      "date_start": "1947-07",
+      "date_end": null,
+      "type": "event",
+      "description": "En 1947, le navire Exodus transporte vers la Palestine des rescapés juifs de la Shoah. Les autorités britanniques refusent leur entrée et les contraignent à retourner vers l'Europe, notamment vers des camps de réfugiés en Allemagne. L'affaire devient un symbole international de la nécessité d'un État juif et affaiblit encore la légitimité britannique en Palestine.",
+      "image_url": null,
+      "themes": [
+        "conflit israélo-arabe",
+        "question palestinienne",
+        "sionisme",
+        "réfugiés"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Yichouv",
+        "rescapés de la Shoah"
+      ],
+      "geo": [
+        "Palestine mandataire",
+        "Méditerranée",
+        "Allemagne"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
       "id": "independance_inde_1947",
       "title": "Indépendance de l'Inde",
       "date_start": "1947-08-15",
@@ -2749,25 +2904,56 @@
       "date_start": "1947-11-29",
       "date_end": null,
       "type": "event",
-      "description": "À l'ONU, le Liban vote contre le plan de partage de la Palestine. Ce positionnement inscrit le jeune État libanais dans l'opposition arabe au partage et dans les tensions régionales qui débouchent sur la guerre israélo-arabe de 1948.",
+      "description": "À l'ONU, le Liban vote contre le plan de partage de la Palestine. Ce positionnement inscrit le jeune État libanais dans l'opposition arabe au partage et dans les tensions régionales qui débouchent sur la guerre israélo-arabe de 1948. Ce vote est la déclinaison libanaise du rejet arabe du plan de partage adopté par l'Assemblée générale de l'ONU le 29 novembre 1947.",
       "image_url": null,
       "themes": [
         "Moyen-Orient",
         "conflit israélo-arabe",
         "question palestinienne",
-        "crise libanaise"
+        "crise libanaise",
+        "ONU"
       ],
       "actors": [
         "Liban",
         "ONU",
-        "États arabes"
+        "États arabes",
+        "Palestiniens"
       ],
       "geo": [
         "Liban",
-        "Palestine"
+        "Palestine",
+        "Palestine mandataire"
       ],
       "enriched": true,
       "category": "Institution"
+    },
+    {
+      "id": "plan_partage_palestine_onu_1947",
+      "title": "Plan de partage de la Palestine par l'ONU",
+      "date_start": "1947-11-29",
+      "date_end": null,
+      "type": "event",
+      "description": "Le 29 novembre 1947, l'Assemblée générale de l'ONU adopte le plan de partage de la Palestine mandataire. Il prévoit la création d'un État juif, d'un État arabe et un statut international pour Jérusalem. Accepté par les dirigeants sionistes mais rejeté par les États arabes et les représentants arabes palestiniens, le plan ouvre la séquence qui conduit à la guerre de 1948.",
+      "image_url": null,
+      "themes": [
+        "conflit israélo-arabe",
+        "question palestinienne",
+        "ONU",
+        "décolonisation"
+      ],
+      "actors": [
+        "ONU",
+        "Royaume-Uni",
+        "Yichouv",
+        "Palestiniens",
+        "États arabes"
+      ],
+      "geo": [
+        "Palestine mandataire",
+        "Jérusalem"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
     },
     {
       "id": "coree_nord_creation_1948",
@@ -2880,7 +3066,7 @@
       "date_start": "1948-05-14",
       "date_end": null,
       "type": "event",
-      "description": "Le 14 mai 1948, David Ben Gourion proclame la création de l'État d'Israël à la fin du mandat britannique sur la Palestine. La proclamation est immédiatement suivie de l'intervention des armées arabes voisines, ouvrant la guerre israélo-arabe de 1948-1949 et la séquence de la Nakba pour les Palestiniens.  Les États-Unis reconnaissent l'État d'Israël dès mai 1948, ce qui renforce le lien stratégique américano-israélien tout en suscitant la méfiance d'une partie du monde arabe.",
+      "description": "Le 14 mai 1948, David Ben Gourion proclame la création de l'État d'Israël à la fin du mandat britannique sur la Palestine. La proclamation est immédiatement suivie de l'intervention des armées arabes voisines, ouvrant la guerre israélo-arabe de 1948-1949 et la séquence de la Nakba pour les Palestiniens.  Les États-Unis reconnaissent l'État d'Israël dès mai 1948, ce qui renforce le lien stratégique américano-israélien tout en suscitant la méfiance d'une partie du monde arabe. La proclamation intervient le jour du retrait des dernières troupes britanniques et de la fin effective du mandat sur la Palestine.",
       "image_url": null,
       "themes": [
         "Moyen-Orient",
@@ -2894,12 +3080,14 @@
         "États arabes",
         "Palestiniens",
         "États-Unis",
-        "Truman"
+        "Truman",
+        "Royaume-Uni"
       ],
       "geo": [
         "Israël",
         "Palestine",
-        "Moyen-Orient"
+        "Moyen-Orient",
+        "Palestine mandataire"
       ],
       "enriched": true,
       "category": "Rupture politique"
@@ -2910,7 +3098,7 @@
       "date_start": "1948-05-15",
       "date_end": "1949-03-10",
       "type": "period",
-      "description": "Guerre d'Indépendance pour Israël ou al-Nakba (la Catastrophe) pour les Palestiniens, a éclaté après que l'ONU ait voté en faveur du partage de la Palestine mandataire en deux États, l'un juif et l'autre arabe. Les forces armées des pays arabes voisins ont attaqué le nouvel État d'Israël peu après sa déclaration d'indépendance le 14 mai 1948. La guerre s'est terminée par des accords d'armistice. Le conflit a entraîné des déplacements massifs de population palestinienne. Le territoire réservé aux Palestiniens par le plan de partage de l'ONU de 1947 disparaît entièrement : Gaza tombe sous administration égyptienne, la Cisjordanie sous contrôle jordanien, le reste sous contrôle israélien. La Nakba provoque le déplacement de 700 000 à 900 000 Palestiniens.  Le conflit provoque aussi un afflux de réfugiés palestiniens au Liban, facteur durable de fragilisation de l'équilibre communautaire libanais.",
+      "description": "Guerre d'Indépendance pour Israël ou al-Nakba (la Catastrophe) pour les Palestiniens, a éclaté après que l'ONU ait voté en faveur du partage de la Palestine mandataire en deux États, l'un juif et l'autre arabe. Les forces armées des pays arabes voisins ont attaqué le nouvel État d'Israël peu après sa déclaration d'indépendance le 14 mai 1948. La guerre s'est terminée par des accords d'armistice. Le conflit a entraîné des déplacements massifs de population palestinienne. Le territoire réservé aux Palestiniens par le plan de partage de l'ONU de 1947 disparaît entièrement : Gaza tombe sous administration égyptienne, la Cisjordanie sous contrôle jordanien, le reste sous contrôle israélien. La Nakba provoque le déplacement de 700 000 à 900 000 Palestiniens.  Le conflit provoque aussi un afflux de réfugiés palestiniens au Liban, facteur durable de fragilisation de l'équilibre communautaire libanais. Le territoire prévu pour l'État arabe palestinien disparaît de fait entre contrôle israélien, jordanien et égyptien.",
       "image_url": null,
       "themes": [
         "Moyen-Orient",
@@ -2926,13 +3114,16 @@
         "Syrie",
         "Irak",
         "ONU",
-        "Liban"
+        "Liban",
+        "Palestiniens"
       ],
       "geo": [
         "Palestine",
         "Israël",
         "Moyen-Orient",
-        "Liban"
+        "Liban",
+        "Cisjordanie",
+        "Gaza"
       ],
       "enriched": true,
       "category": "Conflit armé"
@@ -3144,13 +3335,15 @@
       "date_start": "1949-08-29",
       "date_end": null,
       "type": "event",
-      "description": "En août 1949, l'URSS procède à son premier essai nucléaire, brisant le monopole atomique américain. Accéléré par l'espionnage (réseau Rosenberg, Klaus Fuchs), cet essai marque le début de la course aux armements nucléaires bipolaire.",
+      "description": "En août 1949, l'URSS procède à son premier essai nucléaire, brisant le monopole atomique américain. Accéléré par l'espionnage (réseau Rosenberg, Klaus Fuchs), cet essai marque le début de la course aux armements nucléaires bipolaire. Il met fin au monopole nucléaire américain et transforme la question atomique en compétition bipolaire durable, où la dissuasion devient progressivement le cadre central de la rivalité stratégique.",
       "image_url": null,
       "themes": [
         "nucléaire",
         "course aux armements",
         "Guerre froide",
-        "Début des tensions et bipolarisation"
+        "Début des tensions et bipolarisation",
+        "dissuasion",
+        "doctrine stratégique"
       ],
       "actors": [
         "URSS",
@@ -3190,33 +3383,6 @@
       "category": "Rupture politique"
     },
     {
-      "id": "accords_de_petersberg_1949_11",
-      "title": "Accords de Petersberg",
-      "date_start": "1949-11",
-      "date_end": null,
-      "type": "event",
-      "description": "Conclus entre la RFA et les puissances occidentales, les accords de Petersberg allègent le statut d'occupation, autorisent le retour de Bonn dans plusieurs organisations internationales et amorcent une normalisation politique de l'Allemagne de l'Ouest. Ils constituent une étape importante du réajustement occidental de la question allemande au début de la guerre froide.",
-      "image_url": null,
-      "themes": [
-        "Guerre froide",
-        "Question allemande durant la Guerre froide",
-        "Début des tensions et bipolarisation"
-      ],
-      "actors": [
-        "RFA",
-        "France",
-        "États-Unis",
-        "Royaume-Uni",
-        "Adenauer"
-      ],
-      "geo": [
-        "Bonn",
-        "Allemagne"
-      ],
-      "category": "Traité / Accord",
-      "enriched": true
-    },
-    {
       "id": "mutual_defence_assistance_act_mdap_1949",
       "title": "Mutual Defence Assistance Act — naissance du MDAP",
       "date_start": "1949-10-06",
@@ -3245,33 +3411,30 @@
       "enriched": true
     },
     {
-      "id": "aide_navale_americaine_marine_nationale_indochine_1950_1954",
-      "title": "Aide navale américaine à la Marine nationale en Indochine",
-      "date_start": "1950",
-      "date_end": "1954",
-      "type": "period",
-      "description": "Dans le sillage de la guerre de Corée, les États-Unis accroissent fortement leur aide aux forces françaises en Indochine et transfèrent à la Marine nationale plusieurs centaines de bâtiments, principalement de petites unités et des moyens amphibies. Washington souhaite orienter la marine française vers l'escorte, la protection des ports et la guerre littorale contre le Viet Minh, tandis que les planificateurs français cherchent à préserver une ambition de projection hauturière avec porte-avions et sous-marins modernes.",
+      "id": "accords_de_petersberg_1949_11",
+      "title": "Accords de Petersberg",
+      "date_start": "1949-11",
+      "date_end": null,
+      "type": "event",
+      "description": "Conclus entre la RFA et les puissances occidentales, les accords de Petersberg allègent le statut d'occupation, autorisent le retour de Bonn dans plusieurs organisations internationales et amorcent une normalisation politique de l'Allemagne de l'Ouest. Ils constituent une étape importante du réajustement occidental de la question allemande au début de la guerre froide.",
       "image_url": null,
       "themes": [
         "Guerre froide",
-        "Indochine",
-        "décolonisation",
-        "histoire navale",
-        "coopération militaire navale",
-        "capacité militaire"
+        "Question allemande durant la Guerre froide",
+        "Début des tensions et bipolarisation"
       ],
       "actors": [
-        "États-Unis",
-        "US Navy",
+        "RFA",
         "France",
-        "Marine nationale",
-        "Viet Minh"
+        "États-Unis",
+        "Royaume-Uni",
+        "Adenauer"
       ],
       "geo": [
-        "Indochine",
-        "Vietnam"
+        "Bonn",
+        "Allemagne"
       ],
-      "category": "Capacité militaire",
+      "category": "Traité / Accord",
       "enriched": true
     },
     {
@@ -3328,6 +3491,36 @@
       "geo": [
         "Inde",
         "Océan Indien"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "aide_navale_americaine_marine_nationale_indochine_1950_1954",
+      "title": "Aide navale américaine à la Marine nationale en Indochine",
+      "date_start": "1950",
+      "date_end": "1954",
+      "type": "period",
+      "description": "Dans le sillage de la guerre de Corée, les États-Unis accroissent fortement leur aide aux forces françaises en Indochine et transfèrent à la Marine nationale plusieurs centaines de bâtiments, principalement de petites unités et des moyens amphibies. Washington souhaite orienter la marine française vers l'escorte, la protection des ports et la guerre littorale contre le Viet Minh, tandis que les planificateurs français cherchent à préserver une ambition de projection hauturière avec porte-avions et sous-marins modernes.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "Indochine",
+        "décolonisation",
+        "histoire navale",
+        "coopération militaire navale",
+        "capacité militaire"
+      ],
+      "actors": [
+        "États-Unis",
+        "US Navy",
+        "France",
+        "Marine nationale",
+        "Viet Minh"
+      ],
+      "geo": [
+        "Indochine",
+        "Vietnam"
       ],
       "category": "Capacité militaire",
       "enriched": true
@@ -3550,7 +3743,7 @@
       "date_start": "1951-04-18",
       "date_end": null,
       "type": "event",
-      "description": "France, Italie, RFA, BENELUX Le traité instituant la CECA est officiellement paraphé par les six délégations le 18 avril 1951. Après quelques mois lors desquels les négociations se poursuivent, il entre finalement en vigueur le 23 juillet 1952 entre six Etats, avec une durée de vie limitée à 50 ans.",
+      "description": "Le traité de Paris, signé le 18 avril 1951, fonde la Communauté européenne du charbon et de l'acier entre les Six : France, Italie, RFA, Belgique, Pays-Bas et Luxembourg. Après quelques mois de négociations et de ratifications, il entre en vigueur le 23 juillet 1952 pour une durée de cinquante ans. La CECA place deux secteurs stratégiques au cœur d'une autorité commune et constitue l'un des premiers actes structurants de l'intégration européenne.",
       "image_url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/21969072/image/medium-c0ed28ccf9717882ed0a720ef7ef4464.webp",
       "themes": [
         "construction européenne",
@@ -3763,37 +3956,6 @@
       ]
     },
     {
-      "id": "phase_coexistence_pacifique_crises_1953_1962",
-      "title": "Coexistence pacifique et crises",
-      "date_start": "1953",
-      "date_end": "1962",
-      "type": "period",
-      "description": "Phase de relative ouverture après la mort de Staline, portée par la coexistence pacifique, mais ponctuée de crises majeures comme la construction du mur de Berlin et la crise des missiles de Cuba.",
-      "image_url": null,
-      "themes": [
-        "coexistence pacifique",
-        "Guerre froide",
-        "crise nucléaire",
-        "Question allemande durant la Guerre froide"
-      ],
-      "actors": [
-        "URSS",
-        "États-Unis",
-        "Khrouchtchev",
-        "Kennedy",
-        "RDA",
-        "Cuba"
-      ],
-      "geo": [
-        "URSS",
-        "États-Unis",
-        "Berlin",
-        "Cuba"
-      ],
-      "enriched": true,
-      "category": "Période historique"
-    },
-    {
       "id": "independance_du_cambodge_et_du_laos_1953",
       "title": "Indépendance du Cambodge et du Laos",
       "date_start": "1953",
@@ -3863,6 +4025,37 @@
       ],
       "category": "Institution",
       "enriched": true
+    },
+    {
+      "id": "phase_coexistence_pacifique_crises_1953_1962",
+      "title": "Coexistence pacifique et crises",
+      "date_start": "1953",
+      "date_end": "1962",
+      "type": "period",
+      "description": "Phase de relative ouverture après la mort de Staline, portée par la coexistence pacifique, mais ponctuée de crises majeures comme la construction du mur de Berlin et la crise des missiles de Cuba.",
+      "image_url": null,
+      "themes": [
+        "coexistence pacifique",
+        "Guerre froide",
+        "crise nucléaire",
+        "Question allemande durant la Guerre froide"
+      ],
+      "actors": [
+        "URSS",
+        "États-Unis",
+        "Khrouchtchev",
+        "Kennedy",
+        "RDA",
+        "Cuba"
+      ],
+      "geo": [
+        "URSS",
+        "États-Unis",
+        "Berlin",
+        "Cuba"
+      ],
+      "enriched": true,
+      "category": "Période historique"
     },
     {
       "id": "presidence_eisenhower_us",
@@ -4039,32 +4232,6 @@
       "enriched": true
     },
     {
-      "id": "doctrine_represailles_massives",
-      "title": "Doctrine des représailles massives",
-      "date_start": "1954",
-      "date_end": "1962",
-      "type": "period",
-      "description": "La doctrine des «représailles massives», fut la doctrine nucléaire des États-Unis de 1954 à 1962. Elle est adoptée officiellement par l'OTAN en décembre 1954. Soutenue par l'amiral Radford, CJCS (1953-57). Cette doctrine nucléaire extrêmement rigide avait un principe simple : toute attaque contre un pays membre de l'OTAN par l'URSS l'exposerait à des représailles nucléaires massives, sans préavis et sans retenue. Il s'agit d'une composante primordiale du roll back d'Eisenhower.",
-      "image_url": null,
-      "themes": [
-        "nucléaire",
-        "doctrine stratégique",
-        "Coexistence pacifique et crises"
-      ],
-      "actors": [
-        "Eisenhower",
-        "Dulles",
-        "amiral Radford",
-        "OTAN",
-        "États-Unis"
-      ],
-      "geo": [
-        "États-Unis"
-      ],
-      "enriched": true,
-      "category": "Doctrine / Discours"
-    },
-    {
       "id": "integration_des_comptoirs_francais_a_l_inde_1954",
       "title": "Intégration des comptoirs français à l'Inde",
       "date_start": "1954",
@@ -4083,6 +4250,35 @@
       ],
       "category": "Rupture politique",
       "enriched": true
+    },
+    {
+      "id": "doctrine_represailles_massives",
+      "title": "Doctrine des représailles massives",
+      "date_start": "1954",
+      "date_end": "1962",
+      "type": "period",
+      "description": "La doctrine des « représailles massives » est la doctrine nucléaire américaine de 1954 à 1962. Adoptée officiellement par l'OTAN en décembre 1954, soutenue par l'amiral Radford et portée par Dulles, elle s'inscrit dans le New Look d'Eisenhower : limiter le coût des forces conventionnelles tout en compensant par la menace d'une riposte nucléaire massive contre toute agression soviétique majeure. Cette doctrine donne une réponse simple et intimidante, mais très rigide : elle laisse peu d'options entre l'inaction et l'escalade nucléaire générale. La crise de Suez de 1956 montre notamment qu'elle est difficilement applicable aux crises régionales et aux conflits périphériques.",
+      "image_url": null,
+      "themes": [
+        "nucléaire",
+        "doctrine stratégique",
+        "Coexistence pacifique et crises",
+        "dissuasion",
+        "course aux armements",
+        "politique américaine"
+      ],
+      "actors": [
+        "Eisenhower",
+        "Dulles",
+        "amiral Radford",
+        "OTAN",
+        "États-Unis"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "enriched": true,
+      "category": "Doctrine / Discours"
     },
     {
       "id": "traite_defense_mutuelle_usa_taiwan_1954",
@@ -4366,23 +4562,50 @@
       "date_start": "1955",
       "date_end": null,
       "type": "event",
-      "description": "Première navigation d'un SNA.\n\"Underway on nuclear power\". L'USS Nautilus, premier sous-marin à propulsion nucléaire, révolutionne la permanence et la mobilité sous-marine en donnant aux forces navales une endurance inédite.",
+      "description": "Première navigation d'un SNA.\n\"Underway on nuclear power\". L'USS Nautilus, premier sous-marin à propulsion nucléaire, révolutionne la permanence et la mobilité sous-marine en donnant aux forces navales une endurance inédite. La formule envoyée lors de sa première navigation, « Underway on nuclear power », symbolise la rupture stratégique introduite par la propulsion nucléaire : endurance, discrétion prolongée et liberté d'action sous-marine.",
       "image_url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/21968195/image/medium-a849ed57734042ad1bcb3483ea551ffe.webp",
       "themes": [
         "marine américaine",
         "nucléaire naval",
         "sous-marin nucléaire",
         "course technologique",
-        "Guerre froide"
+        "Guerre froide",
+        "technologie militaire",
+        "histoire navale"
       ],
       "actors": [
-        "US Navy"
+        "US Navy",
+        "États-Unis"
       ],
       "geo": [
         "États-Unis"
       ],
       "enriched": true,
       "category": "Capacité militaire"
+    },
+    {
+      "id": "premier_tir_slbm_sovietique_r11fm_1955",
+      "title": "Premier tir soviétique d'un missile balistique depuis un sous-marin",
+      "date_start": "1955",
+      "date_end": null,
+      "type": "event",
+      "description": "L'URSS réalise un premier tir de missile balistique R-11FM, dérivé du Scud, depuis un sous-marin conventionnel en surface. Cette étape reste techniquement limitée, car le bâtiment doit faire surface, mais elle ouvre la voie à la dissuasion balistique embarquée.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "dissuasion",
+        "course aux armements",
+        "technologie militaire"
+      ],
+      "actors": [
+        "URSS",
+        "marine soviétique"
+      ],
+      "geo": [
+        "URSS"
+      ],
+      "category": "Innovation technologique",
+      "enriched": true
     },
     {
       "id": "plan_bleu_marine_nationale_1955",
@@ -4887,7 +5110,8 @@
       "description": "Kadesh lance l'offensive israélienne dans le Sinaï et fournit le prétexte prévu à l'intervention franco-britannique. L'opération montre comment une manœuvre militaire peut être conçue comme instrument diplomatique, mais aussi combien ce montage devient vulnérable lorsqu'il est dévoilé.",
       "image_url": null,
       "themes": [
-        "opérations militaires"
+        "opérations militaires",
+        "conflit israélo-arabe"
       ],
       "actors": [
         "Israël"
@@ -4959,7 +5183,8 @@
         "histoire navale",
         "Moyen-Orient",
         "guerre d'Algérie",
-        "détroits et canaux"
+        "détroits et canaux",
+        "conflit israélo-arabe"
       ],
       "actors": [
         "France",
@@ -5013,12 +5238,35 @@
       ]
     },
     {
+      "id": "premier_icbm_sovietique_r7_1957",
+      "title": "Premier missile balistique intercontinental soviétique R-7",
+      "date_start": "1957",
+      "date_end": null,
+      "type": "event",
+      "description": "L'URSS met au point le R-7, premier missile balistique intercontinental opérationnel, capable d'atteindre des cibles à plus de 5 500 km. Le même lanceur sert aussi à placer Spoutnik en orbite, montrant la continuité entre missiles stratégiques et course spatiale.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "dissuasion",
+        "course aux armements",
+        "course à l'espace"
+      ],
+      "actors": [
+        "URSS"
+      ],
+      "geo": [
+        "URSS"
+      ],
+      "category": "Innovation technologique",
+      "enriched": true
+    },
+    {
       "id": "echec_programme_q244_1957_1959",
       "title": "Échec du programme Q.244",
       "date_start": "1957",
       "date_end": "1959",
       "type": "period",
-      "description": "Le premier projet français de sous-marin d'attaque à propulsion nucléaire, le Q.244, échoue pour des raisons technologiques et techniques liées au choix d'un réacteur à uranium naturel et eau lourde, ainsi qu'à des difficultés de métallurgie. L'absence d'assistance anglo-américaine, notamment de la part de l'amiral Rickover, aggrave ces limites. L'échec oblige la Marine à repenser la voie vers le nucléaire naval tout en conservant l'objectif d'une dissuasion autonome.",
+      "description": "Le premier projet français de sous-marin d'attaque à propulsion nucléaire, le Q.244, échoue pour des raisons technologiques et techniques liées au choix d'un réacteur à uranium naturel et eau lourde, ainsi qu'à des difficultés de métallurgie. L'absence d'assistance anglo-américaine, notamment de la part de l'amiral Rickover, aggrave ces limites. L'échec oblige la Marine à repenser la voie vers le nucléaire naval tout en conservant l'objectif d'une dissuasion autonome. La coque du Q-244 est ensuite réorientée vers le futur sous-marin d'essais Gymnote, qui servira à qualifier les missiles balistiques mer-sol français.",
       "image_url": null,
       "themes": [
         "Guerre froide",
@@ -5026,7 +5274,8 @@
         "nucléaire naval",
         "technologie militaire",
         "course technologique",
-        "capacité militaire"
+        "capacité militaire",
+        "histoire navale"
       ],
       "actors": [
         "France",
@@ -5085,12 +5334,14 @@
       "date_start": "1957-03-25",
       "date_end": null,
       "type": "event",
-      "description": "Naissance CEE et EURATOM. Traité de Rome qui donne naissance au Marché commun (CEE) et à la communauté européenne de l'énergie atomique (EURATOM). Le phénomène prend une ampleur telle que GB ouvre des négociations en 1961 pour y entrer. Le traité de Rome avait été préparé dès 1955 par la réunion des ministres des Affaires étrangères des Six à Messine, qui avaient annoncé leur volonté de « franchir une nouvelle étape ».",
+      "description": "Signé le 25 mars 1957 par les Six — France, Italie, RFA, Belgique, Pays-Bas et Luxembourg — le traité de Rome crée la Communauté économique européenne et EURATOM. Il donne naissance au Marché commun et inscrit l'intégration européenne dans une logique économique plus large que la CECA. Le traité avait été préparé dès 1955 par la réunion de Messine, où les ministres des Affaires étrangères des Six avaient annoncé leur volonté de franchir une nouvelle étape.",
       "image_url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/21969290/image/medium-b9e59b61ad8f4c086d28286f3ffbfb1d.webp",
       "themes": [
         "construction européenne",
         "intégration européenne",
-        "économie"
+        "économie",
+        "CEE",
+        "EURATOM"
       ],
       "actors": [
         "France",
@@ -5098,11 +5349,14 @@
         "Italie",
         "Belgique",
         "Pays-Bas",
-        "Luxembourg"
+        "Luxembourg",
+        "CEE",
+        "EURATOM"
       ],
       "geo": [
         "Italie",
-        "Europe"
+        "Europe",
+        "Rome"
       ],
       "enriched": true,
       "category": "Traité / Accord"
@@ -5167,53 +5421,6 @@
       "enriched": true
     },
     {
-      "id": "abandon_pa_58_verdun_1958_1961",
-      "title": "Abandon du porte-avions PA 58 Verdun",
-      "date_start": "1958",
-      "date_end": "1961",
-      "type": "period",
-      "description": "La construction du troisième porte-avions français, le PA 58 Verdun, est différée à la fin des années 1950 puis abandonnée au début de la décennie suivante. Le projet est victime de l'aggravation de la guerre d'Algérie, de la crise budgétaire des constructions navales et du basculement progressif vers les priorités nucléaires. Son abandon signale les limites de la renaissance aéronavale conventionnelle engagée après 1945 et annonce le resserrement du format naval français autour de quelques capacités majeures.",
-      "image_url": null,
-      "themes": [
-        "porte-avions",
-        "programme naval",
-        "guerre d'Algérie",
-        "politique française",
-        "histoire navale"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "France"
-      ],
-      "category": "Capacité militaire",
-      "enriched": true
-    },
-    {
-      "id": "grand_bond_en_avant_1958",
-      "title": "Grand Bond en avant",
-      "date_start": "1958",
-      "date_end": "1960",
-      "type": "period",
-      "description": "Campagne de collectivisation forcée et d'industrialisation accélérée lancée par Mao en 1958, visant à rattraper les puissances occidentales en une génération. L'échec économique et les réquisitions alimentaires provoquent une famine estimée entre 15 et 45 millions de morts.",
-      "image_url": null,
-      "themes": [
-        "économie",
-        "maoïsme"
-      ],
-      "actors": [
-        "Mao Zedong",
-        "Parti communiste chinois"
-      ],
-      "geo": [
-        "Chine"
-      ],
-      "enriched": true,
-      "category": "Rupture politique"
-    },
-    {
       "id": "programme_snle_chine_1958",
       "title": "Lancement du programme de SNLE chinois",
       "date_start": "1958",
@@ -5262,6 +5469,53 @@
       "geo": [
         "Italie",
         "Méditerranée"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "grand_bond_en_avant_1958",
+      "title": "Grand Bond en avant",
+      "date_start": "1958",
+      "date_end": "1960",
+      "type": "period",
+      "description": "Campagne de collectivisation forcée et d'industrialisation accélérée lancée par Mao en 1958, visant à rattraper les puissances occidentales en une génération. L'échec économique et les réquisitions alimentaires provoquent une famine estimée entre 15 et 45 millions de morts.",
+      "image_url": null,
+      "themes": [
+        "économie",
+        "maoïsme"
+      ],
+      "actors": [
+        "Mao Zedong",
+        "Parti communiste chinois"
+      ],
+      "geo": [
+        "Chine"
+      ],
+      "enriched": true,
+      "category": "Rupture politique"
+    },
+    {
+      "id": "abandon_pa_58_verdun_1958_1961",
+      "title": "Abandon du porte-avions PA 58 Verdun",
+      "date_start": "1958",
+      "date_end": "1961",
+      "type": "period",
+      "description": "La construction du troisième porte-avions français, le PA 58 Verdun, est différée à la fin des années 1950 puis abandonnée au début de la décennie suivante. Le projet est victime de l'aggravation de la guerre d'Algérie, de la crise budgétaire des constructions navales et du basculement progressif vers les priorités nucléaires. Son abandon signale les limites de la renaissance aéronavale conventionnelle engagée après 1945 et annonce le resserrement du format naval français autour de quelques capacités majeures.",
+      "image_url": null,
+      "themes": [
+        "porte-avions",
+        "programme naval",
+        "guerre d'Algérie",
+        "politique française",
+        "histoire navale"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "France"
       ],
       "category": "Capacité militaire",
       "enriched": true
@@ -5537,6 +5791,30 @@
       "category": "Rupture politique"
     },
     {
+      "id": "premier_icbm_americain_atlas_1959",
+      "title": "Premier missile balistique intercontinental américain Atlas",
+      "date_start": "1959",
+      "date_end": null,
+      "type": "event",
+      "description": "Les États-Unis disposent avec Atlas de leur premier missile balistique intercontinental. L'entrée en service des missiles intercontinentaux américains complète la course stratégique ouverte par le R-7 soviétique et installe la logique de vulnérabilité réciproque du territoire national.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "dissuasion",
+        "course aux armements",
+        "capacité militaire"
+      ],
+      "actors": [
+        "États-Unis",
+        "US Air Force"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "degaulle_president_5e",
       "title": "FR - De Gaulle Président Ve République",
       "date_start": "1959-01-08",
@@ -5680,6 +5958,31 @@
       "category": "Décolonisation"
     },
     {
+      "id": "naissance_frappe_second_1960",
+      "title": "Naissance d'une capacité crédible de frappe en second",
+      "date_start": "1960",
+      "date_end": null,
+      "type": "event",
+      "description": "Au tournant de 1960, la combinaison des missiles terrestres en silos et des missiles balistiques lancés depuis sous-marins donne aux grandes puissances une capacité crédible de frappe en second. La dissuasion ne repose plus seulement sur la puissance destructrice, mais sur la survivabilité des vecteurs après une première frappe.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "dissuasion",
+        "doctrine stratégique",
+        "course aux armements"
+      ],
+      "actors": [
+        "États-Unis",
+        "URSS"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS"
+      ],
+      "category": "Doctrine stratégique",
+      "enriched": true
+    },
+    {
       "id": "lpm_1960_1964",
       "title": "LPM 1960–1964 — premier programme pluriannuel de défense",
       "date_start": "1960-01",
@@ -5777,7 +6080,7 @@
       "date_start": "1960-07-20",
       "date_end": null,
       "type": "event",
-      "description": "USS George Washington.\nPremier tir d'un missile Polaris en immersion :\n\"Polaris from out of the deep to target. Perfect.\" Le programme Polaris fait entrer la dissuasion américaine dans l'ère du missile balistique tiré en plongée, combinant mobilité sous-marine et capacité de seconde frappe.",
+      "description": "USS George Washington.\nPremier tir d'un missile Polaris en immersion :\n\"Polaris from out of the deep to target. Perfect.\" Le programme Polaris fait entrer la dissuasion américaine dans l'ère du missile balistique tiré en plongée, combinant mobilité sous-marine et capacité de seconde frappe. Lancé en 1959, l'USS George Washington devient le premier SNLE américain et associe la survivabilité du sous-marin nucléaire à la portée du missile Polaris.",
       "image_url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/21968201/image/medium-b8f4b9e3081308f08613fe719108974b.webp",
       "themes": [
         "nucléaire naval",
@@ -5788,7 +6091,9 @@
         "course aux armements"
       ],
       "actors": [
-        "US Navy"
+        "US Navy",
+        "États-Unis",
+        "Eisenhower"
       ],
       "geo": [
         "États-Unis",
@@ -5803,15 +6108,19 @@
       "date_start": "1960-07-20",
       "date_end": null,
       "type": "event",
-      "description": "Le tir Polaris en plongée fait entrer la dissuasion dans l'âge de la seconde frappe océanique. Le SNLE devient l'arme de la survivabilité : invisible, mobile, capable de garantir la riposte même après une attaque nucléaire.",
+      "description": "Le tir Polaris en plongée fait entrer la dissuasion dans l'âge de la seconde frappe océanique. Le SNLE devient l'arme de la survivabilité : invisible, mobile, capable de garantir la riposte même après une attaque nucléaire. Le message transmis au président Eisenhower, « POLARIS – FROM OUT OF THE DEEP TO TARGET. PERFECT. », résume l'entrée de la dissuasion américaine dans l'âge de la riposte océanique crédible.",
       "image_url": null,
       "themes": [
         "capacité militaire",
-        "histoire navale"
+        "histoire navale",
+        "SNLE",
+        "dissuasion",
+        "course aux armements"
       ],
       "actors": [
         "États-Unis",
-        "US Navy"
+        "US Navy",
+        "Eisenhower"
       ],
       "geo": [
         "Atlantique",
@@ -6003,19 +6312,21 @@
       "date_start": "1961-04-05",
       "date_end": null,
       "type": "event",
-      "description": "Les décrets du 5 avril 1961 consacrent l'organisation d'un ministère militaire unique et mettent fin à la personnalité ministérielle de la Marine. Les délégués ministériels d'armée disparaissent, les chefs d'état-major perdent le qualificatif de « général » et plusieurs fonctions jusque-là propres aux armées passent sous l'autorité directe du ministre. Pour la Marine, cette réforme clôt près de trois siècles d'existence comme département ministériel autonome et transforme durablement sa place dans l'appareil de défense.",
+      "description": "Les décrets du 5 avril 1961 consacrent l'organisation d'un ministère militaire unique et mettent fin à la personnalité ministérielle de la Marine. Les délégués ministériels d'armée disparaissent, les chefs d'état-major perdent le qualificatif de « général » et plusieurs fonctions jusque-là propres aux armées passent sous l'autorité directe du ministre. La réforme clôt le système où les armées disposaient d'une autonomie ministérielle forte et prépare l'interarmisation du commandement. Pour la Marine, elle met fin à près de trois siècles d'existence comme département ministériel autonome et transforme durablement sa place dans l'appareil de défense.",
       "image_url": null,
       "themes": [
         "Ve République",
         "institution",
         "politique française",
         "histoire navale",
-        "capacité militaire"
+        "capacité militaire",
+        "interarmisation"
       ],
       "actors": [
         "France",
         "Marine nationale",
-        "De Gaulle"
+        "De Gaulle",
+        "ministère des Armées"
       ],
       "geo": [
         "France"
@@ -6192,15 +6503,18 @@
     },
     {
       "id": "doctrine_mcnamara_1962",
-      "title": "Doctrine McNamara",
+      "title": "Doctrine McNamara et riposte graduée",
       "date_start": "1962",
       "date_end": null,
       "type": "event",
-      "description": "La doctrine McNamara ou doctrine de la riposte graduée est la doctrine nucléaire des USA à partir de 1962. Elle définit que l'arme nucléaire américaine pourra être utilisée de manière graduée suivant le niveau de menace présent. Cette doctrine permet donc de faire comprendre à l'URSS la détermination des États-Unis à utiliser cette arme si nécessaire, tout en soulignant que son utilisation, graduée, n'engendrerait pas automatiquement une destruction massive des deux superpuissances.",
+      "description": "La doctrine McNamara, ou doctrine de la riposte graduée, devient la doctrine nucléaire américaine à partir de 1962. Elle rompt avec la rigidité des représailles massives en offrant une gamme d'options militaires adaptées au niveau de menace : forces conventionnelles, nucléaire tactique et nucléaire stratégique. Elle vise à signaler la détermination américaine sans déclencher automatiquement une destruction massive réciproque. Sa crédibilité repose aussi sur la capacité de seconde frappe, renforcée par les ICBM et les SNLE, qui permet de maintenir la dissuasion même après une attaque initiale.",
       "image_url": "https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/21969583/image/medium-cc9211c5d3b5ff7465233717ea28530d.webp",
       "themes": [
         "doctrine stratégique",
-        "nucléaire"
+        "nucléaire",
+        "dissuasion",
+        "capacité militaire",
+        "Guerre froide"
       ],
       "actors": [
         "McNamara",
@@ -6237,36 +6551,6 @@
       ],
       "category": "Institution",
       "enriched": true
-    },
-    {
-      "id": "phase_detente_1962_1975",
-      "title": "Détente",
-      "date_start": "1962",
-      "date_end": "1975",
-      "type": "period",
-      "description": "Phase de recul relatif des tensions entre les deux blocs, caractérisée par le dialogue Est-Ouest et les accords de limitation des armements, malgré la poursuite de conflits périphériques comme la guerre du Vietnam.",
-      "image_url": null,
-      "themes": [
-        "Détente",
-        "limitation et réduction des armements nucléaires",
-        "désarmement",
-        "Guerre froide"
-      ],
-      "actors": [
-        "États-Unis",
-        "URSS",
-        "Nixon",
-        "Kissinger",
-        "Brejnev"
-      ],
-      "geo": [
-        "États-Unis",
-        "URSS",
-        "Vietnam",
-        "Europe"
-      ],
-      "enriched": true,
-      "category": "Période historique"
     },
     {
       "id": "succes_du_prototype_francais_de_reacteur_a_uranium_enrichi_1962",
@@ -6341,6 +6625,63 @@
       "enriched": true
     },
     {
+      "id": "debut_pac_1962",
+      "title": "Début de la Politique agricole commune",
+      "date_start": "1962",
+      "date_end": null,
+      "type": "event",
+      "description": "La Politique agricole commune entre en place au début des années 1960 comme l'une des premières grandes politiques communes de la CEE. Elle organise un marché agricole européen, soutient les revenus agricoles et devient rapidement un pilier budgétaire et politique de la construction européenne.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "politique agricole",
+        "CEE"
+      ],
+      "actors": [
+        "CEE",
+        "France",
+        "RFA",
+        "Italie",
+        "BENELUX"
+      ],
+      "geo": [
+        "Europe"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "phase_detente_1962_1975",
+      "title": "Détente",
+      "date_start": "1962",
+      "date_end": "1975",
+      "type": "period",
+      "description": "Phase de recul relatif des tensions entre les deux blocs, caractérisée par le dialogue Est-Ouest et les accords de limitation des armements, malgré la poursuite de conflits périphériques comme la guerre du Vietnam.",
+      "image_url": null,
+      "themes": [
+        "Détente",
+        "limitation et réduction des armements nucléaires",
+        "désarmement",
+        "Guerre froide"
+      ],
+      "actors": [
+        "États-Unis",
+        "URSS",
+        "Nixon",
+        "Kissinger",
+        "Brejnev"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS",
+        "Vietnam",
+        "Europe"
+      ],
+      "enriched": true,
+      "category": "Période historique"
+    },
+    {
       "id": "accords_evian_1962",
       "title": "Accords d'Évian",
       "date_start": "1962-03-18",
@@ -6398,19 +6739,23 @@
       "date_start": "1962-07-18",
       "date_end": null,
       "type": "event",
-      "description": "Deux décrets du 18 juillet 1962 parachèvent la réorganisation du ministère des Armées en créant un poste unique de chef d'état-major des armées. À l'origine, le CEMA ne dispose pas encore d'une autorité pleine sur les chefs d'état-major d'armée, et le chef d'état-major de la Marine conserve une autonomie opérationnelle importante. Ce jalon ouvre toutefois le long processus d'interarmisation qui réduit progressivement le rôle opérationnel direct des chefs d'armée.",
+      "description": "Deux décrets du 18 juillet 1962 parachèvent la réorganisation du ministère des Armées en créant un poste unique de chef d'état-major des armées. Dans la continuité de la réforme de 1961, le CEMA devient l'échelon interarmées de référence, mais il ne dispose pas encore d'une autorité complète sur les chefs d'état-major d'armée ; le chef d'état-major de la Marine conserve notamment une autonomie opérationnelle importante. Ce jalon ouvre le long processus d'interarmisation qui réduit progressivement le rôle opérationnel direct des chefs d'armée.",
       "image_url": null,
       "themes": [
         "Ve République",
         "institution",
         "politique française",
         "doctrine",
-        "capacité militaire"
+        "capacité militaire",
+        "interarmisation",
+        "réforme militaire"
       ],
       "actors": [
         "France",
         "Marine nationale",
-        "De Gaulle"
+        "De Gaulle",
+        "CEMA",
+        "ministère des Armées"
       ],
       "geo": [
         "France"
@@ -6424,13 +6769,14 @@
       "date_start": "1962-10-16",
       "date_end": "1962-10-28",
       "type": "event",
-      "description": "En octobre 1962, la découverte de missiles nucléaires soviétiques à Cuba déclenche treize jours de crise entre Washington et Moscou. L'URSS avait profité du rapprochement avec Castro pour déployer ces missiles en réponse aux missiles américains en Italie et Turquie. La crise se résout par un accord secret : retrait soviétique de Cuba contre retrait américain de Turquie.",
+      "description": "En octobre 1962, la découverte de missiles nucléaires soviétiques à Cuba déclenche treize jours de crise entre Washington et Moscou. L'URSS avait profité du rapprochement avec Castro pour déployer ces missiles en réponse aux missiles américains en Italie et Turquie. La crise se résout par un accord secret : retrait soviétique de Cuba contre retrait américain de Turquie. Elle illustre la nécessité d'une dissuasion crédible mais contrôlable : la pression militaire, la négociation secrète et la maîtrise de l'escalade comptent autant que la menace nucléaire elle-même.",
       "image_url": null,
       "themes": [
         "crise nucléaire",
         "Guerre froide",
         "dissuasion",
-        "Coexistence pacifique et crises"
+        "Coexistence pacifique et crises",
+        "doctrine stratégique"
       ],
       "actors": [
         "URSS",
@@ -6811,7 +7157,8 @@
       "themes": [
         "conflit israélo-arabe",
         "question palestinienne",
-        "Moyen-Orient"
+        "Moyen-Orient",
+        "mouvement national palestinien"
       ],
       "actors": [
         "OLP",
@@ -7168,12 +7515,15 @@
       "date_start": "1966-10-17",
       "date_end": null,
       "type": "event",
-      "description": "Le Gymnote, sous-marin d'essais sans armement opérationnel, entre en service en 1966 après sa mise à l'eau en 1964. Il est conçu spécifiquement pour qualifier les missiles balistiques mer-sol (MSBS M1 puis M20) destinés aux SNLE. Il permet d'accumuler l'expérience du tir en plongée dans des conditions réelles, de valider les systèmes de navigation inertielle et de tester les procédures d'emploi avant que le Redoutable ne soit opérationnel. Sans le Gymnote, la France n'aurait pu garantir la fiabilité de sa composante sous-marine de dissuasion dès les premières patrouilles.",
+      "description": "Le Gymnote, sous-marin d'essais sans armement opérationnel, entre en service en 1966 après sa mise à l'eau en 1964. Il est conçu spécifiquement pour qualifier les missiles balistiques mer-sol (MSBS M1 puis M20) destinés aux SNLE. Il permet d'accumuler l'expérience du tir en plongée dans des conditions réelles, de valider les systèmes de navigation inertielle et de tester les procédures d'emploi avant que le Redoutable ne soit opérationnel. Sans le Gymnote, la France n'aurait pu garantir la fiabilité de sa composante sous-marine de dissuasion dès les premières patrouilles. Le bâtiment réutilise l'héritage matériel du Q-244 et transforme un échec de propulsion nucléaire en outil décisif de qualification de la composante balistique navale française.",
       "image_url": null,
       "themes": [
         "Guerre froide",
         "histoire navale",
-        "dissuasion nucléaire"
+        "dissuasion nucléaire",
+        "nucléaire naval",
+        "nucléaire français",
+        "SNLE"
       ],
       "actors": [
         "France",
@@ -7337,13 +7687,16 @@
       "date_start": "1967-03-29",
       "date_end": null,
       "type": "event",
-      "description": "Le Redoutable est mis à l'eau à Cherbourg le 29 mars 1967, vingt-sept ans après la quasi-disparition de la marine française. Il est le premier sous-marin nucléaire lanceur d'engins français, aboutissement d'un programme entièrement national après l'abandon du projet Q-244 en 1958 et la réussite du prototype à uranium enrichi en 1962. Armé de seize missiles MSBS M1 d'une portée de 2 500 km, il dote la France de la composante océanique de sa triade nucléaire, annoncée par de Gaulle en janvier 1963. Sa mise en service opérationnel en 1971 et sa première patrouille en 1972 concluent le cycle de reconstruction navale amorcé en 1940.",
+      "description": "Le Redoutable est mis à l'eau à Cherbourg le 29 mars 1967, vingt-sept ans après la quasi-disparition de la marine française. Il est le premier sous-marin nucléaire lanceur d'engins français, aboutissement d'un programme entièrement national après l'abandon du projet Q-244 en 1958 et la réussite du prototype à uranium enrichi en 1962. Armé de seize missiles MSBS M1 d'une portée de 2 500 km, il dote la France de la composante océanique de sa triade nucléaire, annoncée par de Gaulle en janvier 1963. Sa mise en service opérationnel en 1971 et sa première patrouille en 1972 concluent le cycle de reconstruction navale amorcé en 1940. Le système d'armes initial repose sur le MSBS M1, à une tête et d'une portée d'environ 2 500 km, avec seize missiles embarqués par SNLE.",
       "image_url": null,
       "themes": [
         "Guerre froide",
         "histoire navale",
         "dissuasion nucléaire",
-        "politique française"
+        "politique française",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
       ],
       "actors": [
         "France",
@@ -7392,7 +7745,7 @@
       "date_start": "1967-06-05",
       "date_end": "1967-06-10",
       "type": "event",
-      "description": "En juin 1967, Israël écrase les armées arabes en six jours. L'URSS ne combat pas directement mais a armé et encouragé les régimes arabes en amont, et une alerte erronée transmise à Nasser a contribué au déclenchement du conflit. Après la défaite, Moscou reconstruit massivement les armées égyptienne et syrienne, préparant la revanche de 1973. Israël multiplie son territoire par cinq en s'emparant de Jérusalem-Est, Gaza, la Cisjordanie, le Golan et le Sinaï. La résolution 242 de l'ONU appelle au retrait des territoires occupés (principe « terres contre paix »), ignorée par Israël. Le Fatah d'Arafat prend le contrôle de l'OLP à la suite de la guerre et installe ses bases en Jordanie, où il fait figure d'État dans l'État. Débute alors la colonisation des territoires occupés par des colons juifs.  Pour Washington, la guerre confirme l'importance du soutien politique à Israël et renforce progressivement le lien stratégique américano-israélien.",
+      "description": "En juin 1967, Israël écrase les armées arabes en six jours. L'URSS ne combat pas directement mais a armé et encouragé les régimes arabes en amont, et une alerte erronée transmise à Nasser a contribué au déclenchement du conflit. Après la défaite, Moscou reconstruit massivement les armées égyptienne et syrienne, préparant la revanche de 1973. Israël multiplie son territoire par cinq en s'emparant de Jérusalem-Est, Gaza, la Cisjordanie, le Golan et le Sinaï. La résolution 242 de l'ONU appelle au retrait des territoires occupés (principe « terres contre paix »), ignorée par Israël. Le Fatah d'Arafat prend le contrôle de l'OLP à la suite de la guerre et installe ses bases en Jordanie, où il fait figure d'État dans l'État. Débute alors la colonisation des territoires occupés par des colons juifs.  Pour Washington, la guerre confirme l'importance du soutien politique à Israël et renforce progressivement le lien stratégique américano-israélien. L'occupation durable de ces territoires ouvre un problème politique majeur : Israël ne parvient pas à intégrer les populations palestiniennes des territoires occupés, tandis que l'émigration, la résistance palestinienne et la colonisation juive transforment le conflit en question territoriale permanente.",
       "image_url": null,
       "themes": [
         "Moyen-Orient",
@@ -7400,7 +7753,9 @@
         "proxy war",
         "conflit israélo-arabe",
         "question palestinienne",
-        "interventions et politique américaines au Moyen-Orient"
+        "interventions et politique américaines au Moyen-Orient",
+        "colonisation",
+        "territoires occupés"
       ],
       "actors": [
         "URSS",
@@ -7416,7 +7771,10 @@
         "Égypte",
         "Syrie",
         "Sinaï",
-        "Golan"
+        "Golan",
+        "Cisjordanie",
+        "Gaza",
+        "Jérusalem-Est"
       ],
       "enriched": true,
       "category": "Conflit armé"
@@ -7681,6 +8039,26 @@
       "enriched": true
     },
     {
+      "id": "deploiement_sovietique_en_ocean_indien_1968",
+      "title": "Déploiement soviétique en océan Indien",
+      "date_start": "1968",
+      "date_end": null,
+      "type": "event",
+      "description": "L'arrivée soviétique en océan Indien donne une dimension maritime mondiale à la Guerre froide. Moscou cherche des points d'appui et menace indirectement les routes énergétiques occidentales, tandis que les marines occidentales redécouvrent l'importance de la présence lointaine.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide"
+      ],
+      "actors": [
+        "URSS"
+      ],
+      "geo": [
+        "Océan Indien"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
       "id": "deploiement_russe_moyen_orient",
       "title": "Déploiement russe au Moyen-Orient",
       "date_start": "1968",
@@ -7703,26 +8081,6 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
-    },
-    {
-      "id": "deploiement_sovietique_en_ocean_indien_1968",
-      "title": "Déploiement soviétique en océan Indien",
-      "date_start": "1968",
-      "date_end": null,
-      "type": "event",
-      "description": "L'arrivée soviétique en océan Indien donne une dimension maritime mondiale à la Guerre froide. Moscou cherche des points d'appui et menace indirectement les routes énergétiques occidentales, tandis que les marines occidentales redécouvrent l'importance de la présence lointaine.",
-      "image_url": null,
-      "themes": [
-        "Guerre froide"
-      ],
-      "actors": [
-        "URSS"
-      ],
-      "geo": [
-        "Océan Indien"
-      ],
-      "category": "Rupture politique",
-      "enriched": true
     },
     {
       "id": "implantation_urss_moyen_orient_1968",
@@ -7812,18 +8170,24 @@
       "date_start": "1968-04-26",
       "date_end": "1982-02-09",
       "type": "period",
-      "description": "Plusieurs décrets élargissent progressivement les pouvoirs du chef d'état-major des armées : première autorité sur les chefs d'état-major en 1968, direction explicite des opérations maritimes en haute mer en 1971, renforcement de la coordination budgétaire et opérationnelle en 1975, puis synthèse par le décret du 9 février 1982. Le chef d'état-major de la Marine devient alors essentiellement chef organique, et l'emploi des forces relève plus directement de l'échelon interarmées.",
+      "description": "Plusieurs décrets élargissent progressivement les pouvoirs du chef d'état-major des armées : première autorité sur les chefs d'état-major en 1968, direction explicite des opérations maritimes en haute mer en 1971, renforcement de la coordination budgétaire et opérationnelle en 1975, puis synthèse par le décret du 9 février 1982. Celui-ci consacre un ministère de la Défense unique organisé autour de trois grands subordonnés, le CEMA, la DGA et le SGA. Il renforce le rôle opérationnel du CEMA et favorise une administration plus transversale ainsi qu'un regroupement progressif des budgets des armées, tout en maintenant une autonomie des chefs d'état-major d'armée qui relèvent encore directement du ministre. Le chef d'état-major de la Marine devient alors essentiellement chef organique, tandis que l'emploi des forces relève plus directement de l'échelon interarmées.",
       "image_url": null,
       "themes": [
         "Ve République",
         "institution",
         "doctrine",
         "capacité militaire",
-        "politique française"
+        "politique française",
+        "réforme militaire",
+        "interarmisation"
       ],
       "actors": [
         "France",
-        "Marine nationale"
+        "Marine nationale",
+        "CEMA",
+        "DGA",
+        "SGA",
+        "ministère de la Défense"
       ],
       "geo": [
         "France"
@@ -8203,6 +8567,30 @@
         "Golfe Persique"
       ],
       "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "mirv_minuteman_iii_1970",
+      "title": "Première capacité à têtes multiples américaine sur Minuteman III",
+      "date_start": "1970",
+      "date_end": null,
+      "type": "event",
+      "description": "Les États-Unis déploient la première capacité MIRV terrestre avec le Minuteman III. Plusieurs têtes nucléaires indépendamment guidées peuvent être emportées par un même missile, ce qui accroît fortement la capacité de frappe et complique les équilibres de maîtrise des armements.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "dissuasion",
+        "course aux armements",
+        "technologie militaire"
+      ],
+      "actors": [
+        "États-Unis",
+        "US Air Force"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Innovation technologique",
       "enriched": true
     },
     {
@@ -8662,18 +9050,23 @@
       "id": "premier_elargissement_cee_1972",
       "title": "Premier élargissement de la CEE",
       "date_start": "1972-01-22",
-      "date_end": null,
+      "date_end": "1973-01-01",
       "type": "event",
-      "description": "Le traité de Bruxelles ou traité d'adhésion de 1972, signé le 22 janvier 1972 et entré en vigueur le 1er janvier 1973 , concernant l'adhésion du Danemark, de l'Irlande, de la Norvège et du Royaume-Uni lors du premier élargissement de la Communauté économique européenne. → L'Europe des 6 devient l'Europe des 9.\nLa GB avait demandé son adhésion en 1961 et 1963 mais refus par de Gaulle.",
+      "description": "Le traité de Bruxelles, ou traité d'adhésion de 1972, est signé le 22 janvier 1972. Il permet l'entrée effective du Danemark, de l'Irlande et du Royaume-Uni dans la CEE le 1er janvier 1973, portant la Communauté de six à neuf membres. La Norvège, également prévue par le traité, rejette finalement l'adhésion par référendum. Le départ de De Gaulle en 1969 avait rouvert les négociations avec Londres, qui aboutissent sous la présidence Pompidou.",
       "image_url": null,
       "themes": [
         "construction européenne",
-        "intégration européenne"
+        "intégration européenne",
+        "élargissement"
       ],
       "actors": [
         "Danemark",
         "Irlande",
-        "Royaume-Uni"
+        "Royaume-Uni",
+        "CEE",
+        "Norvège",
+        "Pompidou",
+        "De Gaulle"
       ],
       "geo": [
         "Bruxelles",
@@ -8688,15 +9081,20 @@
       "date_start": "1972-01-27",
       "date_end": null,
       "type": "event",
-      "description": "Le 27 janvier 1972, le Redoutable appareillait de l'Ile-Longue, près de Brest, pour la première patrouille d'un sous-marin nucléaire français.",
+      "description": "Le 27 janvier 1972, le Redoutable appareillait de l'Ile-Longue, près de Brest, pour la première patrouille d'un sous-marin nucléaire français. Cette première patrouille donne une réalité opérationnelle à la frappe en second française : un SNLE à la mer devient le garant de la survivabilité de la dissuasion nationale.",
       "image_url": null,
       "themes": [
         "nucléaire naval",
         "SNLE",
-        "dissuasion"
+        "dissuasion",
+        "dissuasion nucléaire",
+        "nucléaire français"
       ],
       "actors": [
-        "Marine nationale"
+        "Marine nationale",
+        "France",
+        "FOST",
+        "Le Redoutable"
       ],
       "geo": [
         "France"
@@ -8766,7 +9164,7 @@
       "date_start": "1972-03-01",
       "date_end": null,
       "type": "event",
-      "description": "La Force océanique stratégique est officiellement créée le 1er mars 1972, alors que Le Redoutable effectue sa première patrouille opérationnelle. La Marine devient le pilier maritime de la dissuasion nucléaire française et inaugure un cycle permanent de patrouilles qui ne s'interrompt plus. Ce jalon transforme la place de la Marine dans la défense nationale.",
+      "description": "La Force océanique stratégique est officiellement créée le 1er mars 1972, alors que Le Redoutable effectue sa première patrouille opérationnelle. La Marine devient le pilier maritime de la dissuasion nucléaire française et inaugure un cycle permanent de patrouilles qui ne s'interrompt plus. Ce jalon transforme la place de la Marine dans la défense nationale. La permanence à la mer transforme la composante océanique en socle de la frappe en second française, moins vulnérable qu'une force strictement terrestre ou aérienne.",
       "image_url": null,
       "themes": [
         "Guerre froide",
@@ -8774,12 +9172,14 @@
         "dissuasion",
         "nucléaire naval",
         "SNLE",
-        "capacité militaire"
+        "capacité militaire",
+        "dissuasion nucléaire"
       ],
       "actors": [
         "France",
         "Marine nationale",
-        "Pompidou"
+        "Pompidou",
+        "FOST"
       ],
       "geo": [
         "France",
@@ -8871,7 +9271,8 @@
         "conflit israélo-arabe",
         "question palestinienne",
         "terrorisme",
-        "Moyen-Orient"
+        "Moyen-Orient",
+        "Septembre noir"
       ],
       "actors": [
         "Septembre noir",
@@ -8880,7 +9281,8 @@
         "Allemagne"
       ],
       "geo": [
-        "Allemagne"
+        "Allemagne",
+        "Israël"
       ],
       "enriched": true,
       "category": "Crise"
@@ -9087,7 +9489,9 @@
         "Syrie",
         "Israël",
         "États-Unis",
-        "Brejnev"
+        "Brejnev",
+        "Golda Meir",
+        "Sadate"
       ],
       "geo": [
         "Égypte",
@@ -9189,31 +9593,6 @@
       "enriched": true
     },
     {
-      "id": "deminage_du_canal_de_suez_1974",
-      "title": "Déminage du canal de Suez",
-      "date_start": "1974",
-      "date_end": "1978",
-      "type": "period",
-      "description": "Le déminage du canal de Suez permet sa réouverture après les guerres israélo-arabes et restaure une artère majeure du commerce mondial. Les opérations françaises DECAN I, DECAN II et DECAN III correspondent aux phases de déminage, de reconnaissance des obstructions et d'intervention autour du canal, notamment à Port-Saïd pour DECAN III. L'ensemble rappelle que la maîtrise maritime inclut aussi les opérations lentes et techniques de sécurisation des passages.",
-      "image_url": null,
-      "themes": [
-        "histoire navale",
-        "déminage",
-        "sécurité maritime"
-      ],
-      "actors": [
-        "Égypte",
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "Égypte",
-        "Canal de Suez"
-      ],
-      "category": "Rupture politique",
-      "enriched": true
-    },
-    {
       "id": "retour_pa_francais_toulon_1974",
       "title": "Retour des PA français à Toulon",
       "date_start": "1974",
@@ -9232,6 +9611,31 @@
       ],
       "enriched": true,
       "category": "Capacité militaire"
+    },
+    {
+      "id": "missile_m2_snle_francais_1974",
+      "title": "Mise en service du missile M2 sur les SNLE français",
+      "date_start": "1974",
+      "date_end": null,
+      "type": "event",
+      "description": "Le missile MSBS M2 succède au M1 sur les premiers SNLE français. Cette évolution améliore la portée et la crédibilité de la composante océanique française, alors que la Force océanique stratégique installe progressivement la permanence de la dissuasion à la mer.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     },
     {
       "id": "operations_saphir_djibouti_1974_1977",
@@ -9259,6 +9663,57 @@
       ],
       "category": "Décolonisation",
       "enriched": true
+    },
+    {
+      "id": "deminage_du_canal_de_suez_1974",
+      "title": "Déminage du canal de Suez",
+      "date_start": "1974",
+      "date_end": "1978",
+      "type": "period",
+      "description": "Le déminage du canal de Suez permet sa réouverture après les guerres israélo-arabes et restaure une artère majeure du commerce mondial. Les opérations françaises DECAN I, DECAN II et DECAN III correspondent aux phases de déminage, de reconnaissance des obstructions et d'intervention autour du canal, notamment à Port-Saïd pour DECAN III. L'ensemble rappelle que la maîtrise maritime inclut aussi les opérations lentes et techniques de sécurisation des passages.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "déminage",
+        "sécurité maritime"
+      ],
+      "actors": [
+        "Égypte",
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "Égypte",
+        "Canal de Suez"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "doctrine_options_nucleaires_limitees_1974_1980",
+      "title": "Doctrine des options nucléaires limitées et logique counterforce",
+      "date_start": "1974",
+      "date_end": "1980",
+      "type": "period",
+      "category": "Doctrine / Discours",
+      "description": "Dans un contexte de parité nucléaire avec l'URSS, les États-Unis cherchent à dépasser l'alternative entre inaction et destruction massive. La doctrine évolue vers des options nucléaires limitées et des frappes counterforce visant les forces militaires adverses plutôt que les populations. Cette logique, amorcée sous Nixon et prolongée sous Carter, accompagne l'introduction des MIRV et la volonté de conserver une capacité de négociation et de contrôle après une frappe initiale.",
+      "themes": [
+        "doctrine stratégique",
+        "nucléaire",
+        "dissuasion",
+        "Détente",
+        "course aux armements"
+      ],
+      "actors": [
+        "États-Unis",
+        "URSS",
+        "Nixon",
+        "Carter"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS"
+      ]
     },
     {
       "id": "invasion_paracels_1974",
@@ -9463,6 +9918,51 @@
       "category": "Mandat"
     },
     {
+      "id": "perte_de_diego_suarez_comme_point_d_appui_francais_1975",
+      "title": "Perte de Diego-Suarez comme point d'appui français",
+      "date_start": "1975",
+      "date_end": null,
+      "type": "event",
+      "description": "La perte de Diego-Suarez réduit l'ancien réseau français de bases dans l'océan Indien. Elle oblige Paris à repenser sa présence maritime autour de points d'appui plus rares, notamment Djibouti, et de moyens logistiques embarqués.",
+      "image_url": null,
+      "themes": [
+        "politique française"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "Madagascar",
+        "Océan Indien"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "mirv_sovietique_icbm_1975",
+      "title": "Première capacité soviétique à têtes multiples",
+      "date_start": "1975",
+      "date_end": null,
+      "type": "event",
+      "description": "L'URSS acquiert à son tour une capacité MIRV sur missiles balistiques intercontinentaux terrestres. Cette évolution accentue la densité des arsenaux stratégiques et alimente les négociations de limitation des armements, car chaque missile peut désormais menacer plusieurs objectifs.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "dissuasion",
+        "course aux armements",
+        "technologie militaire"
+      ],
+      "actors": [
+        "URSS"
+      ],
+      "geo": [
+        "URSS"
+      ],
+      "category": "Innovation technologique",
+      "enriched": true
+    },
+    {
       "id": "phase_fraicheur_euromissiles_1975_1985",
       "title": "Fraîcheur et crise des euromissiles",
       "date_start": "1975",
@@ -9494,28 +9994,6 @@
       "category": "Période historique"
     },
     {
-      "id": "perte_de_diego_suarez_comme_point_d_appui_francais_1975",
-      "title": "Perte de Diego-Suarez comme point d'appui français",
-      "date_start": "1975",
-      "date_end": null,
-      "type": "event",
-      "description": "La perte de Diego-Suarez réduit l'ancien réseau français de bases dans l'océan Indien. Elle oblige Paris à repenser sa présence maritime autour de points d'appui plus rares, notamment Djibouti, et de moyens logistiques embarqués.",
-      "image_url": null,
-      "themes": [
-        "politique française"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "Madagascar",
-        "Océan Indien"
-      ],
-      "category": "Rupture politique",
-      "enriched": true
-    },
-    {
       "id": "loi_navale_italienne_1975",
       "title": "Loi navale italienne de 1975",
       "date_start": "1975-03-22",
@@ -9542,6 +10020,33 @@
       ],
       "category": "Capacité militaire",
       "enriched": true
+    },
+    {
+      "id": "massacre_bus_beyrouth_1975",
+      "title": "Massacre du bus de Beyrouth",
+      "date_start": "1975-04-13",
+      "date_end": null,
+      "type": "event",
+      "description": "Le Massacre du bus de Beyrouth est le nom donné à une série d'affrontements impliquant des Phalangistes et des Palestiniens dans les rues du centre de Beyrouth, au Liban, communément présentée comme l'étincelle qui a déclenché la guerre civile libanaise au milieu des années 1970.\nLes vestiges du bus, surnommé bus de malheur, sont aujourd'hui abandonnés dans un jardin du Sud-Liban. Cet attentat, perpétré contre un bus transportant des chrétiens, est généralement considéré comme l'acte déclencheur de la guerre civile libanaise. Il s'inscrit dans les tensions entre la communauté chrétienne libanaise et les factions palestiniennes (OLP) qui opèrent depuis le Liban après leur expulsion de Jordanie en 1970.  La séquence commence par une attaque contre un baptême chrétien, suivie le même jour du massacre d'un bus par des phalangistes, point de bascule vers la guerre civile.",
+      "image_url": null,
+      "themes": [
+        "guerre civile",
+        "Moyen-Orient",
+        "conflit israélo-arabe",
+        "question palestinienne",
+        "crise libanaise"
+      ],
+      "actors": [
+        "Phalangistes",
+        "Palestiniens",
+        "Liban"
+      ],
+      "geo": [
+        "Beyrouth",
+        "Liban"
+      ],
+      "enriched": true,
+      "category": "Conflit armé"
     },
     {
       "id": "guerre_civile_liban",
@@ -9573,33 +10078,6 @@
       "geo": [
         "Liban",
         "Beyrouth"
-      ],
-      "enriched": true,
-      "category": "Conflit armé"
-    },
-    {
-      "id": "massacre_bus_beyrouth_1975",
-      "title": "Massacre du bus de Beyrouth",
-      "date_start": "1975-04-13",
-      "date_end": null,
-      "type": "event",
-      "description": "Le Massacre du bus de Beyrouth est le nom donné à une série d'affrontements impliquant des Phalangistes et des Palestiniens dans les rues du centre de Beyrouth, au Liban, communément présentée comme l'étincelle qui a déclenché la guerre civile libanaise au milieu des années 1970.\nLes vestiges du bus, surnommé bus de malheur, sont aujourd'hui abandonnés dans un jardin du Sud-Liban. Cet attentat, perpétré contre un bus transportant des chrétiens, est généralement considéré comme l'acte déclencheur de la guerre civile libanaise. Il s'inscrit dans les tensions entre la communauté chrétienne libanaise et les factions palestiniennes (OLP) qui opèrent depuis le Liban après leur expulsion de Jordanie en 1970.  La séquence commence par une attaque contre un baptême chrétien, suivie le même jour du massacre d'un bus par des phalangistes, point de bascule vers la guerre civile.",
-      "image_url": null,
-      "themes": [
-        "guerre civile",
-        "Moyen-Orient",
-        "conflit israélo-arabe",
-        "question palestinienne",
-        "crise libanaise"
-      ],
-      "actors": [
-        "Phalangistes",
-        "Palestiniens",
-        "Liban"
-      ],
-      "geo": [
-        "Beyrouth",
-        "Liban"
       ],
       "enriched": true,
       "category": "Conflit armé"
@@ -9775,30 +10253,6 @@
       "category": "Rupture politique"
     },
     {
-      "id": "intervention_syrienne_liban_1976",
-      "title": "Intervention militaire syrienne au Liban",
-      "date_start": "1976",
-      "date_end": "2005-04-26",
-      "type": "period",
-      "description": "En 1976, la Syrie intervient militairement au Liban sous prétexte de pacification de la guerre civile. Sa présence se transforme en tutelle durable sur la vie politique libanaise et se prolonge jusqu'au retrait syrien de 2005.",
-      "image_url": null,
-      "themes": [
-        "Moyen-Orient",
-        "intervention extérieure",
-        "crise libanaise"
-      ],
-      "actors": [
-        "Syrie",
-        "Liban"
-      ],
-      "geo": [
-        "Liban",
-        "Syrie"
-      ],
-      "enriched": true,
-      "category": "Conflit armé"
-    },
-    {
       "id": "transition_post_mao_1976",
       "title": "Transition post-maoïste (1976–1978)",
       "date_start": "1976",
@@ -9821,6 +10275,30 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
+    },
+    {
+      "id": "intervention_syrienne_liban_1976",
+      "title": "Intervention militaire syrienne au Liban",
+      "date_start": "1976",
+      "date_end": "2005-04-26",
+      "type": "period",
+      "description": "En 1976, la Syrie intervient militairement au Liban sous prétexte de pacification de la guerre civile. Sa présence se transforme en tutelle durable sur la vie politique libanaise et se prolonge jusqu'au retrait syrien de 2005.",
+      "image_url": null,
+      "themes": [
+        "Moyen-Orient",
+        "intervention extérieure",
+        "crise libanaise"
+      ],
+      "actors": [
+        "Syrie",
+        "Liban"
+      ],
+      "geo": [
+        "Liban",
+        "Syrie"
+      ],
+      "enriched": true,
+      "category": "Conflit armé"
     },
     {
       "id": "porte_aeronefs_kiev_1976",
@@ -9878,38 +10356,6 @@
       "category": "Rupture politique"
     },
     {
-      "id": "crise_euromissiles_1977",
-      "title": "Début de la crise des Euromissiles",
-      "date_start": "1977",
-      "date_end": "1987-12",
-      "type": "period",
-      "description": "À partir de 1977, le déploiement soviétique de missiles SS-20 en Europe déclenche la crise des Euromissiles. L'OTAN répond par la « double décision » de 1979 : négocier tout en déployant des Pershing II et des missiles de croisière si aucun accord n'est trouvé. La crise se résout par le traité FNI de décembre 1987. La France, bien que non intégrée dans le commandement militaire de l'OTAN, soutient politiquement la double décision et le « double zéro » sans participer directement au déploiement des Pershing II sur son sol, illustrant sa posture d'allié solidaire mais autonome.",
-      "image_url": null,
-      "themes": [
-        "Euromissiles",
-        "course aux armements",
-        "Guerre froide",
-        "Relations France-OTAN",
-        "Fraîcheur et crise des euromissiles",
-        "défense de l'Europe"
-      ],
-      "actors": [
-        "URSS",
-        "OTAN",
-        "États-Unis",
-        "RFA",
-        "Brejnev",
-        "Reagan",
-        "France"
-      ],
-      "geo": [
-        "Europe",
-        "URSS"
-      ],
-      "enriched": true,
-      "category": "Crise"
-    },
-    {
       "id": "urss_ethiopie_1977",
       "title": "Intervention soviéto-cubaine en Éthiopie",
       "date_start": "1977",
@@ -9942,6 +10388,31 @@
       "category": "Conflit armé"
     },
     {
+      "id": "missile_m20_snle_francais_1977",
+      "title": "Mise en service du missile M20 sur les SNLE français",
+      "date_start": "1977",
+      "date_end": null,
+      "type": "event",
+      "description": "Le missile MSBS M20 équipe les SNLE français avec une tête thermonucléaire TN60 puis TN61 et une portée accrue. Il marque une étape de maturité de la dissuasion océanique française avant le saut capacitaire du M4 à têtes multiples.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "missions_sargasse_okoume_golfe_guinee_1977_1985",
       "title": "Missions Sargasse et Okoumé dans l'Atlantique Sud et le golfe de Guinée",
       "date_start": "1977",
@@ -9966,6 +10437,38 @@
       ],
       "category": "Capacité militaire",
       "enriched": true
+    },
+    {
+      "id": "crise_euromissiles_1977",
+      "title": "Début de la crise des Euromissiles",
+      "date_start": "1977",
+      "date_end": "1987-12",
+      "type": "period",
+      "description": "À partir de 1977, le déploiement soviétique de missiles SS-20 en Europe déclenche la crise des Euromissiles. L'OTAN répond par la « double décision » de 1979 : négocier tout en déployant des Pershing II et des missiles de croisière si aucun accord n'est trouvé. La crise se résout par le traité FNI de décembre 1987. La France, bien que non intégrée dans le commandement militaire de l'OTAN, soutient politiquement la double décision et le « double zéro » sans participer directement au déploiement des Pershing II sur son sol, illustrant sa posture d'allié solidaire mais autonome.",
+      "image_url": null,
+      "themes": [
+        "Euromissiles",
+        "course aux armements",
+        "Guerre froide",
+        "Relations France-OTAN",
+        "Fraîcheur et crise des euromissiles",
+        "défense de l'Europe"
+      ],
+      "actors": [
+        "URSS",
+        "OTAN",
+        "États-Unis",
+        "RFA",
+        "Brejnev",
+        "Reagan",
+        "France"
+      ],
+      "geo": [
+        "Europe",
+        "URSS"
+      ],
+      "enriched": true,
+      "category": "Crise"
     },
     {
       "id": "presidence_carter_us",
@@ -10331,36 +10834,6 @@
       "category": "Conflit armé"
     },
     {
-      "id": "invasion_afghanistan_1979",
-      "title": "Invasion soviétique de l'Afghanistan",
-      "date_start": "1979",
-      "date_end": "1988",
-      "type": "period",
-      "description": "En décembre 1979, l'URSS intervient militairement en Afghanistan pour soutenir le régime communiste fragilisé. L'enlisement face aux moudjahidines soutenus par les États-Unis, le Pakistan et l'Arabie saoudite dure neuf ans et contribue à épuiser économiquement et militairement l'URSS.  À Washington, l'intervention soviétique relance la logique du containment et contribue à la doctrine Carter sur la protection du Golfe Persique.",
-      "image_url": null,
-      "themes": [
-        "Guerre froide",
-        "interventionnisme",
-        "Fraîcheur et crise des euromissiles",
-        "interventions et politique américaines au Moyen-Orient",
-        "endiguement"
-      ],
-      "actors": [
-        "URSS",
-        "Brejnev",
-        "États-Unis",
-        "moudjahidines",
-        "Pakistan",
-        "Afghanistan"
-      ],
-      "geo": [
-        "Afghanistan",
-        "URSS"
-      ],
-      "enriched": true,
-      "category": "Conflit armé"
-    },
-    {
       "id": "construction_europeenne_1979",
       "title": "Poursuite de la construction européenne",
       "date_start": "1979",
@@ -10437,6 +10910,60 @@
       ],
       "category": "Crise",
       "enriched": true
+    },
+    {
+      "id": "trident_i_mirv_snle_1979",
+      "title": "Capacité à têtes multiples américaine depuis SNLE avec Trident I",
+      "date_start": "1979",
+      "date_end": null,
+      "type": "event",
+      "description": "Le missile Trident I donne aux SNLE américains une capacité MIRV. La composante océanique gagne en portée, en survivabilité et en puissance de frappe, renforçant le rôle central des sous-marins nucléaires lanceurs d'engins dans la dissuasion américaine.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "dissuasion",
+        "SNLE",
+        "course aux armements"
+      ],
+      "actors": [
+        "États-Unis",
+        "US Navy"
+      ],
+      "geo": [
+        "États-Unis"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "invasion_afghanistan_1979",
+      "title": "Invasion soviétique de l'Afghanistan",
+      "date_start": "1979",
+      "date_end": "1988",
+      "type": "period",
+      "description": "En décembre 1979, l'URSS intervient militairement en Afghanistan pour soutenir le régime communiste fragilisé. L'enlisement face aux moudjahidines soutenus par les États-Unis, le Pakistan et l'Arabie saoudite dure neuf ans et contribue à épuiser économiquement et militairement l'URSS.  À Washington, l'intervention soviétique relance la logique du containment et contribue à la doctrine Carter sur la protection du Golfe Persique.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "interventionnisme",
+        "Fraîcheur et crise des euromissiles",
+        "interventions et politique américaines au Moyen-Orient",
+        "endiguement"
+      ],
+      "actors": [
+        "URSS",
+        "Brejnev",
+        "États-Unis",
+        "moudjahidines",
+        "Pakistan",
+        "Afghanistan"
+      ],
+      "geo": [
+        "Afghanistan",
+        "URSS"
+      ],
+      "enriched": true,
+      "category": "Conflit armé"
     },
     {
       "id": "retablissement_relations_usa_chine_1979",
@@ -10908,6 +11435,61 @@
       "category": "Rupture politique"
     },
     {
+      "id": "nsdd13_doctrine_nucleaire_reagan_1981",
+      "title": "NSDD-13 et doctrine nucléaire de Reagan",
+      "date_start": "1981-10-19",
+      "date_end": null,
+      "type": "event",
+      "category": "Doctrine / Discours",
+      "description": "La directive NSDD-13 fixe la politique d'emploi nucléaire de l'administration Reagan. Elle prolonge la logique des options nucléaires limitées tout en durcissant la posture américaine : la dissuasion doit convaincre l'URSS qu'aucun niveau de conflit nucléaire ne peut lui permettre d'atteindre ses objectifs. La doctrine insiste sur la capacité à conduire une guerre nucléaire de manière contrôlée, sur la survivabilité du commandement et sur la modernisation des forces stratégiques.",
+      "themes": [
+        "doctrine stratégique",
+        "nucléaire",
+        "Guerre froide",
+        "course aux armements",
+        "Fraîcheur et crise des euromissiles"
+      ],
+      "actors": [
+        "États-Unis",
+        "URSS",
+        "Reagan"
+      ],
+      "geo": [
+        "États-Unis",
+        "URSS"
+      ]
+    },
+    {
+      "id": "maritime_strategy_reagan_600_ships_1982",
+      "title": "Maritime Strategy américaine et programme des 600 navires",
+      "date_start": "1982",
+      "date_end": null,
+      "type": "event",
+      "description": "En 1982, sous l'impulsion du secrétaire à la Marine John Lehman et avec le soutien de Reagan, la US Navy publie sa Maritime Strategy et lance le programme des 600 navires. Face à la VMF soviétique à son apogée (1 700 bâtiments, 250 sous-marins, déploiements mondiaux), Washington choisit l'offensive maritime : attaque des bastions de SNLE soviétiques en Arctique, neutralisation des flottes du Nord et du Pacifique dès le début d'un conflit, pression sur plusieurs façades simultanément. C'est la plus grande expansion navale américaine depuis la Seconde Guerre mondiale et la réponse directe à la doctrine Gorshkov.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "histoire navale",
+        "doctrine stratégique",
+        "course aux armements"
+      ],
+      "actors": [
+        "États-Unis",
+        "US Navy",
+        "Reagan",
+        "OTAN",
+        "URSS"
+      ],
+      "geo": [
+        "États-Unis",
+        "Atlantique Nord",
+        "Pacifique Nord",
+        "Arctique"
+      ],
+      "category": "Doctrine stratégique",
+      "enriched": true
+    },
+    {
       "id": "assistance_navale_boat_people_1982_1988",
       "title": "Assistance navale française aux boat people",
       "date_start": "1982",
@@ -10961,36 +11543,6 @@
       ],
       "enriched": true,
       "category": "Doctrine / Discours"
-    },
-    {
-      "id": "maritime_strategy_reagan_600_ships_1982",
-      "title": "Maritime Strategy américaine et programme des 600 navires",
-      "date_start": "1982",
-      "date_end": null,
-      "type": "event",
-      "description": "En 1982, sous l'impulsion du secrétaire à la Marine John Lehman et avec le soutien de Reagan, la US Navy publie sa Maritime Strategy et lance le programme des 600 navires. Face à la VMF soviétique à son apogée (1 700 bâtiments, 250 sous-marins, déploiements mondiaux), Washington choisit l'offensive maritime : attaque des bastions de SNLE soviétiques en Arctique, neutralisation des flottes du Nord et du Pacifique dès le début d'un conflit, pression sur plusieurs façades simultanément. C'est la plus grande expansion navale américaine depuis la Seconde Guerre mondiale et la réponse directe à la doctrine Gorshkov.",
-      "image_url": null,
-      "themes": [
-        "Guerre froide",
-        "histoire navale",
-        "doctrine stratégique",
-        "course aux armements"
-      ],
-      "actors": [
-        "États-Unis",
-        "US Navy",
-        "Reagan",
-        "OTAN",
-        "URSS"
-      ],
-      "geo": [
-        "États-Unis",
-        "Atlantique Nord",
-        "Pacifique Nord",
-        "Arctique"
-      ],
-      "category": "Doctrine stratégique",
-      "enriched": true
     },
     {
       "id": "missions_olifant_liban_1982_1989",
@@ -11548,7 +12100,7 @@
       "date_start": "1983-03-23",
       "date_end": null,
       "type": "event",
-      "description": "En 1983, Reagan annonce l'Initiative de Défense Stratégique (IDS, « guerre des étoiles »), programme de bouclier antimissile que l'URSS, empêtrée dans ses difficultés économiques, ne peut technologiquement ni financièrement égaler. Le projet porte la militarisation potentielle de l'espace au cœur de la course technologique. Parallèlement, l'URSS ayant refusé l'« option zéro » proposée par Reagan, les États-Unis déploient leurs missiles Pershing II en Europe. La France soutient publiquement la position de l'OTAN (discours de Mitterrand au Bundestag, janvier 1983), tout en maintenant sa posture d'autonomie stratégique et en refusant d'accueillir des missiles alliés sur son territoire.",
+      "description": "En 1983, Reagan annonce l'Initiative de Défense Stratégique (IDS, « guerre des étoiles »), programme de bouclier antimissile que l'URSS, empêtrée dans ses difficultés économiques, ne peut technologiquement ni financièrement égaler. Le projet porte la militarisation potentielle de l'espace au cœur de la course technologique. Parallèlement, l'URSS ayant refusé l'« option zéro » proposée par Reagan, les États-Unis déploient leurs missiles Pershing II en Europe. La France soutient publiquement la position de l'OTAN (discours de Mitterrand au Bundestag, janvier 1983), tout en maintenant sa posture d'autonomie stratégique et en refusant d'accueillir des missiles alliés sur son territoire. L'IDS s'inscrit ainsi dans une posture reaganienne plus large : modernisation des forces stratégiques, durcissement face à l'URSS et recherche d'une capacité à contrôler l'escalade nucléaire plutôt qu'à subir une logique de destruction automatique.",
       "image_url": null,
       "themes": [
         "course aux armements",
@@ -11556,7 +12108,9 @@
         "Guerre froide",
         "Relations France-OTAN",
         "Fraîcheur et crise des euromissiles",
-        "course technologique"
+        "course technologique",
+        "doctrine stratégique",
+        "nucléaire"
       ],
       "actors": [
         "Reagan",
@@ -11824,6 +12378,61 @@
       "category": "Doctrine / Discours"
     },
     {
+      "id": "mise_en_service_missile_m4_snle_francais_1985",
+      "title": "Mise en service du missile M4 sur les SNLE français",
+      "date_start": "1985",
+      "date_end": null,
+      "type": "event",
+      "description": "Les SNLE français commencent à recevoir le missile M4, missile thermonucléaire à têtes multiples durcies, qui remplace progressivement le M20. Cette modernisation accroît fortement la portée, la puissance et la crédibilité de la composante océanique de la dissuasion française. Elle accompagne la montée en puissance de la FOST, capable d'envoyer jusqu'à trois SNLE simultanément en patrouille à partir de 1984. Avec six têtes nucléaires, le M4 introduit la capacité à têtes multiples dans la composante océanique française et rompt avec la logique des missiles M1, M2 et M20 à tête unique.",
+      "image_url": null,
+      "themes": [
+        "Guerre froide",
+        "nucléaire français",
+        "dissuasion",
+        "nucléaire naval",
+        "SNLE",
+        "course aux armements",
+        "dissuasion nucléaire"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST"
+      ],
+      "geo": [
+        "France",
+        "Atlantique"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "asa_inflexible_snle_1985",
+      "title": "Admission au service actif de L'Inflexible",
+      "date_start": "1985",
+      "date_end": null,
+      "type": "event",
+      "description": "L'Inflexible, sixième et dernier SNLE de première génération de la classe Le Redoutable, est admis au service actif. Directement conçu pour le missile M4, il marque l'aboutissement de la première génération de la FOST et la transition vers une dissuasion océanique à têtes multiples.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST",
+        "L'Inflexible"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "phase_fin_guerre_froide_1985_1991",
       "title": "Fin de la Guerre froide",
       "date_start": "1985",
@@ -11884,33 +12493,6 @@
       "category": "Conflit armé"
     },
     {
-      "id": "mise_en_service_missile_m4_snle_francais_1985",
-      "title": "Mise en service du missile M4 sur les SNLE français",
-      "date_start": "1985",
-      "date_end": null,
-      "type": "event",
-      "description": "Les SNLE français commencent à recevoir le missile M4, missile thermonucléaire à têtes multiples durcies, qui remplace progressivement le M20. Cette modernisation accroît fortement la portée, la puissance et la crédibilité de la composante océanique de la dissuasion française. Elle accompagne la montée en puissance de la FOST, capable d'envoyer jusqu'à trois SNLE simultanément en patrouille à partir de 1984.",
-      "image_url": null,
-      "themes": [
-        "Guerre froide",
-        "nucléaire français",
-        "dissuasion",
-        "nucléaire naval",
-        "SNLE",
-        "course aux armements"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "France",
-        "Atlantique"
-      ],
-      "category": "Capacité militaire",
-      "enriched": true
-    },
-    {
       "id": "gorbatchev_reformes_1985",
       "title": "Gorbatchev — Glasnost et Perestroïka",
       "date_start": "1985-03-11",
@@ -11956,6 +12538,34 @@
       ],
       "category": "Mandat",
       "enriched": false
+    },
+    {
+      "id": "accords_schengen_1985",
+      "title": "Accords de Schengen",
+      "date_start": "1985-06-14",
+      "date_end": null,
+      "type": "event",
+      "description": "Les accords de Schengen sont signés par cinq États européens hors du cadre communautaire initial afin d'organiser la suppression progressive des contrôles aux frontières intérieures. Ils prévoient des mesures concrètes pour permettre et accompagner la libre circulation des personnes. Le dispositif entre en vigueur en 1995 puis est intégré au cadre de l'Union européenne par le traité d'Amsterdam.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "libre circulation",
+        "Schengen"
+      ],
+      "actors": [
+        "France",
+        "RFA",
+        "Belgique",
+        "Pays-Bas",
+        "Luxembourg"
+      ],
+      "geo": [
+        "Europe",
+        "Schengen"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
     },
     {
       "id": "rainbow_warrior_1985",
@@ -12084,17 +12694,23 @@
       "date_start": "1986-02-17",
       "date_end": null,
       "type": "event",
-      "description": "L'Europe des 9 devient l'Europe des 12 : Grèce (1981), Portugal et Espagne (1985). Elles sont permises par la chute du régime des colonels en Grèce (1974), la révolution des Œillets au Portugal (1974) et la mort de Franco (1975).\nL'Acte Unique institutionnalise le Conseil européen, créé en 1974, et accroît les pouvoirs du Parlement. Il fixe l'objectif de la mise en place d'un grand marché commun unifié à l'horizon 1993 (décision la plus importante depuis le Traité de Rome de 1957).",
+      "description": "L'Europe communautaire se stabilise autour de nouvelles démocraties : la Grèce devient le dixième membre en 1981 après la chute du régime des colonels ; le Portugal et l'Espagne rejoignent la CEE le 1er janvier 1986 après les dictatures salazariste et franquiste. Signé en février 1986, l'Acte unique européen fixe l'objectif d'un grand marché intérieur à l'horizon 1993 et organise les quatre libertés de circulation : biens, services, capitaux et personnes. Il institutionnalise aussi le Conseil européen et accroît les pouvoirs du Parlement.",
       "image_url": null,
       "themes": [
         "construction européenne",
-        "intégration européenne"
+        "intégration européenne",
+        "élargissement",
+        "marché intérieur",
+        "Acte unique européen",
+        "libre circulation"
       ],
       "actors": [
         "CEE",
         "Grèce",
         "Portugal",
-        "Espagne"
+        "Espagne",
+        "Conseil européen",
+        "Parlement européen"
       ],
       "geo": [
         "Europe"
@@ -12184,31 +12800,6 @@
       ]
     },
     {
-      "id": "ascension_milosevic_1987_1989",
-      "title": "Ascension de Slobodan Milosevic en Serbie",
-      "date_start": "1987",
-      "date_end": "1989",
-      "type": "period",
-      "description": "Entre 1987 et 1989, Slobodan Milosevic prend le contrôle du Parti communiste serbe et s'appuie sur le nationalisme serbe. En 1989, l'autonomie du Kosovo et de la Voïvodine est abolie, ce qui accélère la crise de la fédération yougoslave.",
-      "image_url": null,
-      "themes": [
-        "Balkans",
-        "nationalisme",
-        "crise yougoslave"
-      ],
-      "actors": [
-        "Milosevic",
-        "Serbie"
-      ],
-      "geo": [
-        "Serbie",
-        "Kosovo",
-        "Yougoslavie"
-      ],
-      "enriched": true,
-      "category": "Rupture politique"
-    },
-    {
       "id": "tanker_war_earnest_will_1987_1988",
       "title": "Tanker War et opération Earnest Will",
       "date_start": "1987",
@@ -12236,6 +12827,31 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "ascension_milosevic_1987_1989",
+      "title": "Ascension de Slobodan Milosevic en Serbie",
+      "date_start": "1987",
+      "date_end": "1989",
+      "type": "period",
+      "description": "Entre 1987 et 1989, Slobodan Milosevic prend le contrôle du Parti communiste serbe et s'appuie sur le nationalisme serbe. En 1989, l'autonomie du Kosovo et de la Voïvodine est abolie, ce qui accélère la crise de la fédération yougoslave.",
+      "image_url": null,
+      "themes": [
+        "Balkans",
+        "nationalisme",
+        "crise yougoslave"
+      ],
+      "actors": [
+        "Milosevic",
+        "Serbie"
+      ],
+      "geo": [
+        "Serbie",
+        "Kosovo",
+        "Yougoslavie"
+      ],
+      "enriched": true,
+      "category": "Rupture politique"
     },
     {
       "id": "incident_de_l_uss_stark_1987_05",
@@ -12970,32 +13586,6 @@
       ]
     },
     {
-      "id": "debut_de_l_operation_artimon_1990_08",
-      "title": "Début de l'opération Artimon",
-      "date_start": "1990-08",
-      "date_end": "1994",
-      "type": "event",
-      "description": "Artimon engage la Marine nationale dans le contrôle de l'embargo contre l'Irak après l'invasion du Koweït, avec des patrouilles organisées dans trois zones maritimes. L'opération montre que la France veut peser dans la coalition par la maîtrise maritime et par le contrôle des flux, même lorsque son outil aéronaval reste limité dans la phase offensive.",
-      "image_url": null,
-      "themes": [
-        "opérations militaires",
-        "politique française",
-        "embargo",
-        "sécurité maritime",
-        "coalition"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "Irak",
-        "Golfe Persique"
-      ],
-      "category": "Conflit armé",
-      "enriched": true
-    },
-    {
       "id": "debut_de_l_operation_salamandre_1990_08",
       "title": "Début de l'opération Salamandre",
       "date_start": "1990-08",
@@ -13013,6 +13603,32 @@
         "France",
         "Marine nationale",
         "Clemenceau"
+      ],
+      "geo": [
+        "Irak",
+        "Golfe Persique"
+      ],
+      "category": "Conflit armé",
+      "enriched": true
+    },
+    {
+      "id": "debut_de_l_operation_artimon_1990_08",
+      "title": "Début de l'opération Artimon",
+      "date_start": "1990-08",
+      "date_end": "1994",
+      "type": "event",
+      "description": "Artimon engage la Marine nationale dans le contrôle de l'embargo contre l'Irak après l'invasion du Koweït, avec des patrouilles organisées dans trois zones maritimes. L'opération montre que la France veut peser dans la coalition par la maîtrise maritime et par le contrôle des flux, même lorsque son outil aéronaval reste limité dans la phase offensive.",
+      "image_url": null,
+      "themes": [
+        "opérations militaires",
+        "politique française",
+        "embargo",
+        "sécurité maritime",
+        "coalition"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
       ],
       "geo": [
         "Irak",
@@ -13199,33 +13815,6 @@
       "enriched": true
     },
     {
-      "id": "containment_irak_1991_2003",
-      "title": "Containment de l'Irak",
-      "date_start": "1991",
-      "date_end": "2003",
-      "type": "period",
-      "description": "De 1991 à 2003, les États-Unis et leurs alliés contiennent l'Irak par des embargos, des inspections de l'ONU et des zones d'exclusion aérienne au nord et au sud du pays, notamment les opérations Northern Watch et Southern Watch.",
-      "image_url": null,
-      "themes": [
-        "Moyen-Orient",
-        "endiguement",
-        "guerre du Golfe",
-        "interventions et politique américaines au Moyen-Orient"
-      ],
-      "actors": [
-        "États-Unis",
-        "Irak",
-        "ONU",
-        "Saddam Hussein"
-      ],
-      "geo": [
-        "Irak",
-        "Moyen-Orient"
-      ],
-      "enriched": true,
-      "category": "Crise"
-    },
-    {
       "id": "doctrine_bush_new_world_order_1991",
       "title": "Doctrine Bush du New World Order",
       "date_start": "1991",
@@ -13306,6 +13895,33 @@
       ],
       "category": "Institution",
       "enriched": true
+    },
+    {
+      "id": "containment_irak_1991_2003",
+      "title": "Containment de l'Irak",
+      "date_start": "1991",
+      "date_end": "2003",
+      "type": "period",
+      "description": "De 1991 à 2003, les États-Unis et leurs alliés contiennent l'Irak par des embargos, des inspections de l'ONU et des zones d'exclusion aérienne au nord et au sud du pays, notamment les opérations Northern Watch et Southern Watch.",
+      "image_url": null,
+      "themes": [
+        "Moyen-Orient",
+        "endiguement",
+        "guerre du Golfe",
+        "interventions et politique américaines au Moyen-Orient"
+      ],
+      "actors": [
+        "États-Unis",
+        "Irak",
+        "ONU",
+        "Saddam Hussein"
+      ],
+      "geo": [
+        "Irak",
+        "Moyen-Orient"
+      ],
+      "enriched": true,
+      "category": "Crise"
     },
     {
       "id": "operation_desert_storm_1991",
@@ -13462,11 +14078,14 @@
       "date_start": "1991-07-31",
       "date_end": null,
       "type": "event",
-      "description": "Signé en juillet 1991 par Bush et Gorbatchev, le traité START 1 impose pour la première fois des réductions effectives des arsenaux nucléaires stratégiques des deux superpuissances (plafond de 6 000 ogives chacune). Il représente une étape majeure du désarmement bilatéral.",
+      "description": "Signé en juillet 1991 par Bush et Gorbatchev, le traité START 1 impose pour la première fois des réductions effectives des arsenaux nucléaires stratégiques des deux superpuissances (plafond de 6 000 ogives chacune). Il représente une étape majeure du désarmement bilatéral. Il participe à la reconfiguration post-Guerre froide de la posture nucléaire américaine : réduire les arsenaux stratégiques hérités de la confrontation bipolaire tout en conservant une force de dissuasion crédible.",
       "image_url": null,
       "themes": [
         "limitation et réduction des armements nucléaires",
-        "Fin de la Guerre froide"
+        "Fin de la Guerre froide",
+        "désarmement",
+        "nucléaire",
+        "doctrine stratégique"
       ],
       "actors": [
         "URSS",
@@ -13718,31 +14337,6 @@
       "category": "Doctrine / Discours"
     },
     {
-      "id": "reformes_interarmees_drm_cos_cid_1992_1993",
-      "title": "Création de la DRM, du COS et du Collège interarmées de défense",
-      "date_start": "1992",
-      "date_end": "1993",
-      "type": "period",
-      "description": "Au début des années 1990, la France tire les conséquences de la fin de la guerre froide et de la guerre du Golfe. Le Centre d'exploitation du renseignement militaire est remplacé par la Direction du renseignement militaire, le Commandement des opérations spéciales est créé et la fusion des écoles de guerre se concrétise avec le Collège interarmées de défense. Ces réformes renforcent les moyens du CEMA et accélèrent l'interarmisation de la défense française.",
-      "image_url": null,
-      "themes": [
-        "Fin de la Guerre froide",
-        "institution",
-        "interventions extérieures",
-        "révolution numérique",
-        "capacité militaire"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "France"
-      ],
-      "category": "Institution",
-      "enriched": true
-    },
-    {
       "id": "operation_achernar_embargo_libye_1992",
       "title": "Opération Achernar au large de la Libye",
       "date_start": "1992",
@@ -13800,19 +14394,50 @@
       "enriched": true
     },
     {
+      "id": "reformes_interarmees_drm_cos_cid_1992_1993",
+      "title": "Création de la DRM, du COS et du Collège interarmées de défense",
+      "date_start": "1992",
+      "date_end": "1993",
+      "type": "period",
+      "description": "Au début des années 1990, la France tire les conséquences de la fin de la guerre froide et de la guerre du Golfe. Le Centre d'exploitation du renseignement militaire est remplacé par la Direction du renseignement militaire, le Commandement des opérations spéciales est créé et la fusion des écoles de guerre se concrétise avec le Collège interarmées de défense. Ces réformes renforcent les moyens du CEMA et accélèrent l'interarmisation de la défense française.",
+      "image_url": null,
+      "themes": [
+        "Fin de la Guerre froide",
+        "institution",
+        "interventions extérieures",
+        "révolution numérique",
+        "capacité militaire"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "traite_maastricht_1992",
       "title": "Traité de Maastricht",
       "date_start": "1992-02-07",
       "date_end": null,
       "type": "event",
-      "description": "Le traité de Maastricht instituent l'Union européenne (qui remplace la CEE) et la PESC (politique extérieure et de sécurité commune).",
+      "description": "Le traité de Maastricht institue l'Union européenne, qui succède à la CEE, et structure l'Union autour de nouveaux piliers. Il crée la citoyenneté européenne, prépare l'Union économique et monétaire et l'euro, et introduit la PESC, politique étrangère et de sécurité commune. Maastricht marque ainsi le passage d'une communauté essentiellement économique à une Union à ambition politique plus large.",
       "image_url": null,
       "themes": [
         "construction européenne",
-        "PESC"
+        "PESC",
+        "intégration européenne",
+        "Union économique et monétaire",
+        "citoyenneté européenne",
+        "euro"
       ],
       "actors": [
-        "Union européenne"
+        "Union européenne",
+        "CEE",
+        "États membres de l’Union européenne"
       ],
       "geo": [
         "Europe",
@@ -14152,11 +14777,14 @@
       "date_start": "1993-01-03",
       "date_end": null,
       "type": "event",
-      "description": "Signé en janvier 1993 par Bush et Eltsine, START 2 prévoit de réduire les arsenaux stratégiques à 3 000-3 500 ogives chacun et interdit les MIRV sur les missiles balistiques intercontinentaux terrestres. Le traité n'entrera jamais en vigueur, supplanté par le traité de Moscou de 2002.",
+      "description": "Signé en janvier 1993 par Bush et Eltsine, START 2 prévoit de réduire les arsenaux stratégiques à 3 000-3 500 ogives chacun et interdit les MIRV sur les missiles balistiques intercontinentaux terrestres. Le traité n'entrera jamais en vigueur, supplanté par le traité de Moscou de 2002. Il prolonge la reconfiguration post-Guerre froide de la posture nucléaire américaine : limiter les systèmes les plus déstabilisants, réduire les arsenaux stratégiques et maintenir une dissuasion adaptée au nouvel environnement international.",
       "image_url": null,
       "themes": [
         "limitation et réduction des armements nucléaires",
-        "post-guerre froide"
+        "post-guerre froide",
+        "désarmement",
+        "nucléaire",
+        "doctrine stratégique"
       ],
       "actors": [
         "Russie",
@@ -14536,6 +15164,33 @@
       "enriched": true
     },
     {
+      "id": "quatrieme_elargissement_ue_1995",
+      "title": "Quatrième élargissement de l'Union européenne",
+      "date_start": "1995-01-01",
+      "date_end": null,
+      "type": "event",
+      "description": "L'Autriche, la Finlande et la Suède rejoignent l'Union européenne, portant le nombre d'États membres à quinze. Cet élargissement vers le Nord et les anciens neutres intervient après la fin de la Guerre froide et marque l'attractivité nouvelle de l'Union européenne dans l'Europe recomposée des années 1990.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "élargissement",
+        "après-Guerre froide"
+      ],
+      "actors": [
+        "Union européenne",
+        "Autriche",
+        "Finlande",
+        "Suède"
+      ],
+      "geo": [
+        "Europe",
+        "Europe du Nord"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "chirac_president",
       "title": "FR - Chirac Président",
       "date_start": "1995-05-17",
@@ -14784,32 +15439,6 @@
       "category": "Institution"
     },
     {
-      "id": "tensions_kosovo_1996_1998",
-      "title": "Montée des tensions au Kosovo",
-      "date_start": "1996",
-      "date_end": "1998",
-      "type": "period",
-      "description": "Entre 1996 et 1998, les tensions s'aggravent au Kosovo, province de Serbie majoritairement peuplée d'Albanais musulmans. La guérilla de l'UCK affronte les forces serbes, préparant la dernière guerre de la crise yougoslave.",
-      "image_url": null,
-      "themes": [
-        "Balkans",
-        "nationalisme",
-        "crise yougoslave"
-      ],
-      "actors": [
-        "UCK",
-        "Albanais du Kosovo",
-        "Serbie"
-      ],
-      "geo": [
-        "Kosovo",
-        "Serbie",
-        "Yougoslavie"
-      ],
-      "enriched": true,
-      "category": "Crise"
-    },
-    {
       "id": "operation_salamandre_en_adriatique_1996",
       "title": "Opération Salamandre en Adriatique",
       "date_start": "1996",
@@ -14852,6 +15481,57 @@
       ],
       "category": "Traité / Accord",
       "enriched": true
+    },
+    {
+      "id": "missile_m45_snle_francais_1996",
+      "title": "Mise en service du missile M45",
+      "date_start": "1996",
+      "date_end": null,
+      "type": "event",
+      "description": "Le missile M45 prolonge la modernisation de la dissuasion océanique française avec des têtes TN75 et une portée accrue. Il équipe la transition entre les derniers SNLE de première génération modernisés et les SNLE de classe Le Triomphant.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "tensions_kosovo_1996_1998",
+      "title": "Montée des tensions au Kosovo",
+      "date_start": "1996",
+      "date_end": "1998",
+      "type": "period",
+      "description": "Entre 1996 et 1998, les tensions s'aggravent au Kosovo, province de Serbie majoritairement peuplée d'Albanais musulmans. La guérilla de l'UCK affronte les forces serbes, préparant la dernière guerre de la crise yougoslave.",
+      "image_url": null,
+      "themes": [
+        "Balkans",
+        "nationalisme",
+        "crise yougoslave"
+      ],
+      "actors": [
+        "UCK",
+        "Albanais du Kosovo",
+        "Serbie"
+      ],
+      "geo": [
+        "Kosovo",
+        "Serbie",
+        "Yougoslavie"
+      ],
+      "enriched": true,
+      "category": "Crise"
     },
     {
       "id": "operation_condor_iles_hanish_1996_2001",
@@ -14983,6 +15663,32 @@
       "actors": [
         "Marine nationale",
         "France"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "asa_triomphant_snle_1997",
+      "title": "Admission au service actif du Triomphant",
+      "date_start": "1997",
+      "date_end": null,
+      "type": "event",
+      "description": "Le Triomphant, premier SNLE de deuxième génération français, est admis au service actif. Plus discret, plus moderne et doté de seize missiles, il renouvelle la composante océanique de la dissuasion française après la génération du Redoutable.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST",
+        "Le Triomphant"
       ],
       "geo": [
         "France"
@@ -15190,6 +15896,31 @@
       "enriched": true
     },
     {
+      "id": "euro_monnaie_unique_1999",
+      "title": "L'euro devient la monnaie unique",
+      "date_start": "1999-01-01",
+      "date_end": null,
+      "type": "event",
+      "description": "L'euro devient la monnaie unique de onze États membres de l'Union européenne. D'abord monnaie scripturale avant la mise en circulation des billets et pièces en 2002, il concrétise l'Union économique et monétaire prévue par Maastricht et approfondit l'intégration européenne autour d'un instrument monétaire commun.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "euro",
+        "Union économique et monétaire"
+      ],
+      "actors": [
+        "Union européenne",
+        "Banque centrale européenne",
+        "zone euro"
+      ],
+      "geo": [
+        "Europe"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "guerre_kosovo_1999",
       "title": "Guerre du Kosovo",
       "date_start": "1999-03",
@@ -15303,6 +16034,30 @@
         "Atlantique"
       ],
       "category": "Accident",
+      "enriched": true
+    },
+    {
+      "id": "creation_service_soutien_flotte_2000",
+      "title": "Création du Service de soutien de la flotte",
+      "date_start": "2000",
+      "date_end": null,
+      "type": "event",
+      "description": "La création du Service de soutien de la flotte centralise la maintenance et le soutien technique des bâtiments de la Marine nationale afin d'améliorer leur disponibilité opérationnelle. Cette réforme accompagne l'adaptation de la flotte française aux contraintes de professionnalisation, d'interarmisation et de projection lointaine de l'après-guerre froide.",
+      "image_url": null,
+      "themes": [
+        "histoire navale",
+        "capacité militaire",
+        "politique française",
+        "interventions extérieures"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Institution",
       "enriched": true
     },
     {
@@ -15461,30 +16216,6 @@
       ],
       "enriched": true,
       "category": "Rupture politique"
-    },
-    {
-      "id": "creation_service_soutien_flotte_2000",
-      "title": "Création du Service de soutien de la flotte",
-      "date_start": "2000",
-      "date_end": null,
-      "type": "event",
-      "description": "La création du Service de soutien de la flotte centralise la maintenance et le soutien technique des bâtiments de la Marine nationale afin d'améliorer leur disponibilité opérationnelle. Cette réforme accompagne l'adaptation de la flotte française aux contraintes de professionnalisation, d'interarmisation et de projection lointaine de l'après-guerre froide.",
-      "image_url": null,
-      "themes": [
-        "histoire navale",
-        "capacité militaire",
-        "politique française",
-        "interventions extérieures"
-      ],
-      "actors": [
-        "France",
-        "Marine nationale"
-      ],
-      "geo": [
-        "France"
-      ],
-      "category": "Institution",
-      "enriched": true
     },
     {
       "id": "integration_cyberdefense_doctrine_us_2001",
@@ -15729,6 +16460,31 @@
       "category": "Institution"
     },
     {
+      "id": "nuclear_posture_review_new_triad_2001",
+      "title": "Nuclear Posture Review et New Triad",
+      "date_start": "2001-12-31",
+      "date_end": null,
+      "type": "event",
+      "category": "Doctrine / Discours",
+      "description": "La Nuclear Posture Review de l'administration George W. Bush propose de sortir d'une planification centrée sur la menace soviétique pour adopter une approche fondée sur les capacités. Elle définit une « New Triad » combinant moyens offensifs nucléaires et conventionnels, défenses antimissiles et infrastructure de défense réactive, reliés par le commandement, le contrôle et le renseignement. La doctrine vise une dissuasion plus adaptable face aux États proliférants et aux menaces incertaines de l'après-Guerre froide.",
+      "themes": [
+        "doctrine stratégique",
+        "nucléaire",
+        "post-guerre froide",
+        "politique américaine",
+        "non-prolifération"
+      ],
+      "actors": [
+        "États-Unis",
+        "George W. Bush",
+        "Iran",
+        "Corée du Nord"
+      ],
+      "geo": [
+        "États-Unis"
+      ]
+    },
+    {
       "id": "france_opposition_guerre_irak_2003",
       "title": "Opposition de la France à la guerre en Irak",
       "date_start": "2003-02-14",
@@ -15760,6 +16516,120 @@
       "category": "Doctrine / Discours"
     },
     {
+      "id": "cinquieme_elargissement_ue_2004",
+      "title": "Cinquième élargissement de l'Union européenne",
+      "date_start": "2004-05-01",
+      "date_end": null,
+      "type": "event",
+      "description": "Dix États rejoignent l'Union européenne : Estonie, Lettonie, Lituanie, Pologne, République tchèque, Slovaquie, Hongrie, Slovénie, Chypre et Malte. Cet élargissement vers l'Est met fin institutionnellement à une partie de la division européenne héritée de la Guerre froide et constitue le plus vaste élargissement de l'histoire de l'Union.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "élargissement",
+        "après-Guerre froide"
+      ],
+      "actors": [
+        "Union européenne",
+        "Estonie",
+        "Lettonie",
+        "Lituanie",
+        "Pologne",
+        "République tchèque",
+        "Slovaquie",
+        "Hongrie",
+        "Slovénie",
+        "Chypre",
+        "Malte"
+      ],
+      "geo": [
+        "Europe",
+        "Europe centrale",
+        "Europe orientale",
+        "Baltique"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "traite_constitution_europeenne_2004_2005",
+      "title": "Échec du traité établissant une Constitution pour l'Europe",
+      "date_start": "2004-10",
+      "date_end": "2005-06",
+      "type": "event",
+      "description": "Le traité établissant une Constitution pour l'Europe est signé en octobre 2004, mais il échoue politiquement après les référendums négatifs en France et aux Pays-Bas en 2005. Cet échec ouvre une crise institutionnelle de l'Union européenne et prépare la recherche d'un compromis plus limité qui aboutira au traité de Lisbonne.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "institution",
+        "crise politique"
+      ],
+      "actors": [
+        "Union européenne",
+        "France",
+        "Pays-Bas"
+      ],
+      "geo": [
+        "Europe"
+      ],
+      "category": "Crise",
+      "enriched": true
+    },
+    {
+      "id": "subordination_chem_cema_2005_05",
+      "title": "Subordination des chefs d'état-major d'armée au CEMA",
+      "date_start": "2005-05",
+      "date_end": null,
+      "type": "event",
+      "description": "Le décret de mai 2005 renforce l'autorité du chef d'état-major des armées en subordonnant les chefs d'état-major d'armée au CEMA. Il étend aussi ses responsabilités en matière de programmes d'armement, ce qui accentue l'interarmisation du commandement militaire français.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "défense française",
+        "interarmisation",
+        "réforme militaire"
+      ],
+      "actors": [
+        "France",
+        "CEMA",
+        "chefs d'état-major d'armée",
+        "ministère de la Défense"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "sixieme_elargissement_ue_2007",
+      "title": "Adhésion de la Roumanie et de la Bulgarie à l'Union européenne",
+      "date_start": "2007-01-01",
+      "date_end": null,
+      "type": "event",
+      "description": "La Roumanie et la Bulgarie rejoignent l'Union européenne, portant le nombre d'États membres à vingt-sept. Cette adhésion prolonge l'élargissement vers l'Est engagé en 2004 et poursuit la réunification institutionnelle de l'Europe post-Guerre froide.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "élargissement",
+        "après-Guerre froide"
+      ],
+      "actors": [
+        "Union européenne",
+        "Roumanie",
+        "Bulgarie"
+      ],
+      "geo": [
+        "Europe",
+        "Europe orientale",
+        "Balkans"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
       "id": "sarkozy_president",
       "title": "FR - Sarkozy Président",
       "date_start": "2007-05-16",
@@ -15779,6 +16649,32 @@
       ],
       "category": "Mandat",
       "enriched": false
+    },
+    {
+      "id": "traite_lisbonne_2007",
+      "title": "Traité de Lisbonne",
+      "date_start": "2007-12-13",
+      "date_end": "2009-12-01",
+      "type": "event",
+      "description": "Le traité de Lisbonne est signé le 13 décembre 2007 après l'échec du projet de Constitution européenne. Entré en vigueur le 1er décembre 2009, il réforme les institutions de l'Union européenne, renforce le rôle du Parlement européen, crée une présidence stable du Conseil européen et institue un Haut représentant de l'Union pour les affaires étrangères et la politique de sécurité.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "institution",
+        "PESC"
+      ],
+      "actors": [
+        "Union européenne",
+        "Parlement européen",
+        "Conseil européen"
+      ],
+      "geo": [
+        "Europe",
+        "Lisbonne"
+      ],
+      "category": "Traité / Accord",
+      "enriched": true
     },
     {
       "id": "medvedev_president_russie",
@@ -15848,6 +16744,60 @@
       "category": "Institution"
     },
     {
+      "id": "renforcement_prerogatives_cema_2009_07",
+      "title": "Renforcement des prérogatives du CEMA",
+      "date_start": "2009-07",
+      "date_end": null,
+      "type": "event",
+      "description": "Le décret de juillet 2009 renforce les prérogatives du chef d'état-major des armées, notamment en matière d'organisation, d'emploi des forces, de renseignement et de politique des ressources humaines. Il concentre davantage les pouvoirs au niveau du CEMA et lui confie la responsabilité de l'ensemble des domaines opérationnels et organiques via l'état-major des armées.",
+      "image_url": null,
+      "themes": [
+        "institution",
+        "défense française",
+        "interarmisation",
+        "réforme militaire",
+        "renseignement"
+      ],
+      "actors": [
+        "France",
+        "CEMA",
+        "EMA",
+        "ministère de la Défense"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "asa_terrible_m51_2010",
+      "title": "Admission au service actif du Terrible et entrée du M51",
+      "date_start": "2010-09-20",
+      "date_end": null,
+      "type": "event",
+      "description": "Le Terrible, quatrième et dernier SNLE de deuxième génération de classe Le Triomphant, est admis au service actif avec le missile M51. Cette entrée en service fait passer la FOST dans une nouvelle génération de missiles mer-sol balistiques stratégiques à capacité intercontinentale.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST",
+        "Le Terrible",
+        "DGA"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
       "id": "operation_unified_protector_libye_2011",
       "title": "Opération Unified Protector — Libye",
       "date_start": "2011-03-31",
@@ -15878,6 +16828,111 @@
       ],
       "enriched": true,
       "category": "Conflit armé"
+    },
+    {
+      "id": "adhesion_croatie_ue_2013",
+      "title": "Adhésion de la Croatie à l'Union européenne",
+      "date_start": "2013-07-01",
+      "date_end": null,
+      "type": "event",
+      "description": "La Croatie rejoint l'Union européenne et devient le vingt-huitième État membre. Cette adhésion consolide l'ancrage européen des Balkans occidentaux après les guerres yougoslaves et marque une étape de stabilisation régionale par l'intégration européenne.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "élargissement",
+        "Balkans"
+      ],
+      "actors": [
+        "Union européenne",
+        "Croatie"
+      ],
+      "geo": [
+        "Europe",
+        "Croatie",
+        "Balkans"
+      ],
+      "category": "Institution",
+      "enriched": true
+    },
+    {
+      "id": "missile_m51_2_2016",
+      "title": "Mise en service du missile M51.2",
+      "date_start": "2016",
+      "date_end": null,
+      "type": "event",
+      "description": "Le missile M51.2 modernise le M51 avec la tête nucléaire océanique TNO. Cette évolution incrémentale maintient la crédibilité de la composante océanique française face à l'évolution des défenses adverses et prolonge la logique de modernisation continue de la FOST.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "Marine nationale",
+        "FOST",
+        "DGA"
+      ],
+      "geo": [
+        "France"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
+    },
+    {
+      "id": "brexit_sortie_royaume_uni_ue_2020",
+      "title": "Brexit — sortie du Royaume-Uni de l'Union européenne",
+      "date_start": "2020-01-31",
+      "date_end": null,
+      "type": "event",
+      "description": "Le Royaume-Uni quitte officiellement l'Union européenne, qui passe de vingt-huit à vingt-sept États membres. Le Brexit constitue la première sortie d'un État membre et marque une rupture majeure dans l'histoire de l'intégration européenne, entre affirmation souverainiste britannique et recomposition de l'équilibre politique de l'Union.",
+      "image_url": null,
+      "themes": [
+        "construction européenne",
+        "intégration européenne",
+        "Brexit",
+        "souveraineté"
+      ],
+      "actors": [
+        "Royaume-Uni",
+        "Union européenne"
+      ],
+      "geo": [
+        "Europe",
+        "Royaume-Uni"
+      ],
+      "category": "Rupture politique",
+      "enriched": true
+    },
+    {
+      "id": "tir_qualification_m51_3_2023",
+      "title": "Tir de qualification du missile M51.3",
+      "date_start": "2023-11-18",
+      "date_end": null,
+      "type": "event",
+      "description": "La DGA réussit le tir de qualification d'un missile balistique stratégique M51.3 sans charge nucléaire depuis le site des Landes. Ce tir valide une évolution importante du missile M51 et vise à pérenniser la crédibilité de la dissuasion océanique française pour les décennies suivantes.",
+      "image_url": null,
+      "themes": [
+        "dissuasion nucléaire",
+        "nucléaire français",
+        "nucléaire naval",
+        "SNLE"
+      ],
+      "actors": [
+        "France",
+        "DGA",
+        "Marine nationale",
+        "FOST",
+        "CEA"
+      ],
+      "geo": [
+        "France",
+        "Atlantique Nord"
+      ],
+      "category": "Capacité militaire",
+      "enriched": true
     }
   ]
 }
